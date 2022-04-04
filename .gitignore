@@ -130,3 +130,16 @@ dmypy.json
 
 # Pycharm
 .idea/
+
+# Thesis code
+/src/EC_OnlyMembers_V8
+
+# GAMS Jupyter examples
+/jupyter_examples
+
+# Loose files
+_gams_py_gcp0.g00
+_gams_py_gdb0.gdx
+gamsJupyter1_reset.gms
+gamsJupyter1_reset.log
+gamsJupyter1_reset.lst
