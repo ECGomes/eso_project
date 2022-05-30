@@ -1324,1060 +1324,1132 @@ c_u_MaxExpEq(24)_:
 +1 pExp(24)
 <= 50
 
-c_u_genActMaxEq1(2_1)_:
-+1 genActPower(2_1)
-<= 30
-
-c_u_genActMaxEq1(2_2)_:
-+1 genActPower(2_2)
-<= 30
-
-c_u_genActMaxEq1(2_3)_:
-+1 genActPower(2_3)
-<= 30
-
-c_u_genActMaxEq1(2_4)_:
-+1 genActPower(2_4)
-<= 30
-
-c_u_genActMaxEq1(2_5)_:
-+1 genActPower(2_5)
-<= 30
-
-c_u_genActMaxEq1(2_6)_:
-+1 genActPower(2_6)
-<= 30
-
-c_u_genActMaxEq1(2_7)_:
-+1 genActPower(2_7)
-<= 30
-
-c_u_genActMaxEq1(2_8)_:
-+1 genActPower(2_8)
-<= 30
-
-c_u_genActMaxEq1(2_9)_:
-+1 genActPower(2_9)
-<= 30
-
-c_u_genActMaxEq1(2_10)_:
-+1 genActPower(2_10)
-<= 30
-
-c_u_genActMaxEq1(2_11)_:
-+1 genActPower(2_11)
-<= 30
-
-c_u_genActMaxEq1(2_12)_:
-+1 genActPower(2_12)
-<= 30
-
-c_u_genActMaxEq1(2_13)_:
-+1 genActPower(2_13)
-<= 30
-
-c_u_genActMaxEq1(2_14)_:
-+1 genActPower(2_14)
-<= 30
-
-c_u_genActMaxEq1(2_15)_:
-+1 genActPower(2_15)
-<= 30
-
-c_u_genActMaxEq1(2_16)_:
-+1 genActPower(2_16)
-<= 30
-
-c_u_genActMaxEq1(2_17)_:
-+1 genActPower(2_17)
-<= 30
-
-c_u_genActMaxEq1(2_18)_:
-+1 genActPower(2_18)
-<= 30
-
-c_u_genActMaxEq1(2_19)_:
-+1 genActPower(2_19)
-<= 30
-
-c_u_genActMaxEq1(2_20)_:
-+1 genActPower(2_20)
-<= 30
-
-c_u_genActMaxEq1(2_21)_:
-+1 genActPower(2_21)
-<= 30
-
-c_u_genActMaxEq1(2_22)_:
-+1 genActPower(2_22)
-<= 30
-
-c_u_genActMaxEq1(2_23)_:
-+1 genActPower(2_23)
-<= 30
-
-c_u_genActMaxEq1(2_24)_:
-+1 genActPower(2_24)
-<= 30
-
-c_u_genActMaxEq1(4_1)_:
-+1 genActPower(4_1)
-<= 0
-
-c_u_genActMaxEq1(4_2)_:
-+1 genActPower(4_2)
-<= 0
-
-c_u_genActMaxEq1(4_3)_:
-+1 genActPower(4_3)
-<= 0
-
-c_u_genActMaxEq1(4_4)_:
-+1 genActPower(4_4)
-<= 0
-
-c_u_genActMaxEq1(4_5)_:
-+1 genActPower(4_5)
-<= 0
-
-c_u_genActMaxEq1(4_6)_:
-+1 genActPower(4_6)
-<= 0.25305669367165801
-
-c_u_genActMaxEq1(4_7)_:
-+1 genActPower(4_7)
-<= 0.72056215833333304
-
-c_u_genActMaxEq1(4_8)_:
-+1 genActPower(4_8)
-<= 1.6970309764033999
-
-c_u_genActMaxEq1(4_9)_:
-+1 genActPower(4_9)
-<= 2.8709850631079998
-
-c_u_genActMaxEq1(4_10)_:
-+1 genActPower(4_10)
-<= 3.78642403251588
-
-c_u_genActMaxEq1(4_11)_:
-+1 genActPower(4_11)
-<= 4.3803569239224398
-
-c_u_genActMaxEq1(4_12)_:
-+1 genActPower(4_12)
-<= 4.7077459632014298
-
-c_u_genActMaxEq1(4_13)_:
-+1 genActPower(4_13)
-<= 4.6872271022176397
-
-c_u_genActMaxEq1(4_14)_:
-+1 genActPower(4_14)
-<= 4.3104517919817598
-
-c_u_genActMaxEq1(4_15)_:
-+1 genActPower(4_15)
-<= 3.7226183462223998
-
-c_u_genActMaxEq1(4_16)_:
-+1 genActPower(4_16)
-<= 2.8144903286164502
-
-c_u_genActMaxEq1(4_17)_:
-+1 genActPower(4_17)
-<= 1.5829414352528901
-
-c_u_genActMaxEq1(4_18)_:
-+1 genActPower(4_18)
-<= 0.66336500430362899
-
-c_u_genActMaxEq1(4_19)_:
-+1 genActPower(4_19)
-<= 0.23382588789023201
-
-c_u_genActMaxEq1(4_20)_:
-+1 genActPower(4_20)
-<= 0
-
-c_u_genActMaxEq1(4_21)_:
-+1 genActPower(4_21)
-<= 0
-
-c_u_genActMaxEq1(4_22)_:
-+1 genActPower(4_22)
-<= 0
-
-c_u_genActMaxEq1(4_23)_:
-+1 genActPower(4_23)
-<= 0
-
-c_u_genActMaxEq1(4_24)_:
-+1 genActPower(4_24)
-<= 0
-
-c_u_genActMaxEq1(6_1)_:
-+1 genActPower(6_1)
-<= 0
-
-c_u_genActMaxEq1(6_2)_:
-+1 genActPower(6_2)
-<= 0
-
-c_u_genActMaxEq1(6_3)_:
-+1 genActPower(6_3)
-<= 0
-
-c_u_genActMaxEq1(6_4)_:
-+1 genActPower(6_4)
-<= 0
-
-c_u_genActMaxEq1(6_5)_:
-+1 genActPower(6_5)
-<= 0
-
-c_u_genActMaxEq1(6_6)_:
-+1 genActPower(6_6)
-<= 0.45550204860898402
-
-c_u_genActMaxEq1(6_7)_:
-+1 genActPower(6_7)
-<= 1.2970118850000001
-
-c_u_genActMaxEq1(6_8)_:
-+1 genActPower(6_8)
-<= 3.0546557575261102
-
-c_u_genActMaxEq1(6_9)_:
-+1 genActPower(6_9)
-<= 5.1677731135944098
-
-c_u_genActMaxEq1(6_10)_:
-+1 genActPower(6_10)
-<= 6.8155632585285701
-
-c_u_genActMaxEq1(6_11)_:
-+1 genActPower(6_11)
-<= 7.8846424630603904
-
-c_u_genActMaxEq1(6_12)_:
-+1 genActPower(6_12)
-<= 8.4739427337625699
-
-c_u_genActMaxEq1(6_13)_:
-+1 genActPower(6_13)
-<= 8.4370087839917502
-
-c_u_genActMaxEq1(6_14)_:
-+1 genActPower(6_14)
-<= 7.7588132255671702
-
-c_u_genActMaxEq1(6_15)_:
-+1 genActPower(6_15)
-<= 6.7007130232003096
-
-c_u_genActMaxEq1(6_16)_:
-+1 genActPower(6_16)
-<= 5.0660825915096002
-
-c_u_genActMaxEq1(6_17)_:
-+1 genActPower(6_17)
-<= 2.8492945834552001
-
-c_u_genActMaxEq1(6_18)_:
-+1 genActPower(6_18)
-<= 1.19405700774653
-
-c_u_genActMaxEq1(6_19)_:
-+1 genActPower(6_19)
-<= 0.42088659820241697
-
-c_u_genActMaxEq1(6_20)_:
-+1 genActPower(6_20)
-<= 0
-
-c_u_genActMaxEq1(6_21)_:
-+1 genActPower(6_21)
-<= 0
-
-c_u_genActMaxEq1(6_22)_:
-+1 genActPower(6_22)
-<= 0
-
-c_u_genActMaxEq1(6_23)_:
-+1 genActPower(6_23)
-<= 0
-
-c_u_genActMaxEq1(6_24)_:
-+1 genActPower(6_24)
-<= 0
-
-c_l_genActMinEq(2_1)_:
-+1 genActPower(2_1)
->= 0
-
-c_l_genActMinEq(2_2)_:
-+1 genActPower(2_2)
->= 0
-
-c_l_genActMinEq(2_3)_:
-+1 genActPower(2_3)
->= 0
-
-c_l_genActMinEq(2_4)_:
-+1 genActPower(2_4)
->= 0
-
-c_l_genActMinEq(2_5)_:
-+1 genActPower(2_5)
->= 0
-
-c_l_genActMinEq(2_6)_:
-+1 genActPower(2_6)
->= 0
-
-c_l_genActMinEq(2_7)_:
-+1 genActPower(2_7)
->= 0
-
-c_l_genActMinEq(2_8)_:
-+1 genActPower(2_8)
->= 0
-
-c_l_genActMinEq(2_9)_:
-+1 genActPower(2_9)
->= 0
-
-c_l_genActMinEq(2_10)_:
-+1 genActPower(2_10)
->= 0
-
-c_l_genActMinEq(2_11)_:
-+1 genActPower(2_11)
->= 0
-
-c_l_genActMinEq(2_12)_:
-+1 genActPower(2_12)
->= 0
-
-c_l_genActMinEq(2_13)_:
-+1 genActPower(2_13)
->= 0
-
-c_l_genActMinEq(2_14)_:
-+1 genActPower(2_14)
->= 0
-
-c_l_genActMinEq(2_15)_:
-+1 genActPower(2_15)
->= 0
-
-c_l_genActMinEq(2_16)_:
-+1 genActPower(2_16)
->= 0
-
-c_l_genActMinEq(2_17)_:
-+1 genActPower(2_17)
->= 0
-
-c_l_genActMinEq(2_18)_:
-+1 genActPower(2_18)
->= 0
-
-c_l_genActMinEq(2_19)_:
-+1 genActPower(2_19)
->= 0
-
-c_l_genActMinEq(2_20)_:
-+1 genActPower(2_20)
->= 0
-
-c_l_genActMinEq(2_21)_:
-+1 genActPower(2_21)
->= 0
-
-c_l_genActMinEq(2_22)_:
-+1 genActPower(2_22)
->= 0
-
-c_l_genActMinEq(2_23)_:
-+1 genActPower(2_23)
->= 0
-
-c_l_genActMinEq(2_24)_:
-+1 genActPower(2_24)
->= 0
-
-c_l_genActMinEq(4_1)_:
-+1 genActPower(4_1)
->= 0
-
-c_l_genActMinEq(4_2)_:
-+1 genActPower(4_2)
->= 0
-
-c_l_genActMinEq(4_3)_:
-+1 genActPower(4_3)
->= 0
-
-c_l_genActMinEq(4_4)_:
-+1 genActPower(4_4)
->= 0
-
-c_l_genActMinEq(4_5)_:
-+1 genActPower(4_5)
->= 0
-
-c_l_genActMinEq(4_6)_:
-+1 genActPower(4_6)
->= 0
-
-c_l_genActMinEq(4_7)_:
-+1 genActPower(4_7)
->= 0
-
-c_l_genActMinEq(4_8)_:
-+1 genActPower(4_8)
->= 0
-
-c_l_genActMinEq(4_9)_:
-+1 genActPower(4_9)
->= 0
-
-c_l_genActMinEq(4_10)_:
-+1 genActPower(4_10)
->= 0
-
-c_l_genActMinEq(4_11)_:
-+1 genActPower(4_11)
->= 0
-
-c_l_genActMinEq(4_12)_:
-+1 genActPower(4_12)
->= 0
-
-c_l_genActMinEq(4_13)_:
-+1 genActPower(4_13)
->= 0
-
-c_l_genActMinEq(4_14)_:
-+1 genActPower(4_14)
->= 0
-
-c_l_genActMinEq(4_15)_:
-+1 genActPower(4_15)
->= 0
-
-c_l_genActMinEq(4_16)_:
-+1 genActPower(4_16)
->= 0
-
-c_l_genActMinEq(4_17)_:
-+1 genActPower(4_17)
->= 0
-
-c_l_genActMinEq(4_18)_:
-+1 genActPower(4_18)
->= 0
-
-c_l_genActMinEq(4_19)_:
-+1 genActPower(4_19)
->= 0
-
-c_l_genActMinEq(4_20)_:
-+1 genActPower(4_20)
->= 0
-
-c_l_genActMinEq(4_21)_:
-+1 genActPower(4_21)
->= 0
-
-c_l_genActMinEq(4_22)_:
-+1 genActPower(4_22)
->= 0
-
-c_l_genActMinEq(4_23)_:
-+1 genActPower(4_23)
->= 0
-
-c_l_genActMinEq(4_24)_:
-+1 genActPower(4_24)
->= 0
-
-c_l_genActMinEq(6_1)_:
-+1 genActPower(6_1)
->= 0
-
-c_l_genActMinEq(6_2)_:
-+1 genActPower(6_2)
->= 0
-
-c_l_genActMinEq(6_3)_:
-+1 genActPower(6_3)
->= 0
-
-c_l_genActMinEq(6_4)_:
-+1 genActPower(6_4)
->= 0
-
-c_l_genActMinEq(6_5)_:
-+1 genActPower(6_5)
->= 0
-
-c_l_genActMinEq(6_6)_:
-+1 genActPower(6_6)
->= 0
-
-c_l_genActMinEq(6_7)_:
-+1 genActPower(6_7)
->= 0
-
-c_l_genActMinEq(6_8)_:
-+1 genActPower(6_8)
->= 0
-
-c_l_genActMinEq(6_9)_:
-+1 genActPower(6_9)
->= 0
-
-c_l_genActMinEq(6_10)_:
-+1 genActPower(6_10)
->= 0
-
-c_l_genActMinEq(6_11)_:
-+1 genActPower(6_11)
->= 0
-
-c_l_genActMinEq(6_12)_:
-+1 genActPower(6_12)
->= 0
-
-c_l_genActMinEq(6_13)_:
-+1 genActPower(6_13)
->= 0
-
-c_l_genActMinEq(6_14)_:
-+1 genActPower(6_14)
->= 0
-
-c_l_genActMinEq(6_15)_:
-+1 genActPower(6_15)
->= 0
-
-c_l_genActMinEq(6_16)_:
-+1 genActPower(6_16)
->= 0
-
-c_l_genActMinEq(6_17)_:
-+1 genActPower(6_17)
->= 0
-
-c_l_genActMinEq(6_18)_:
-+1 genActPower(6_18)
->= 0
-
-c_l_genActMinEq(6_19)_:
-+1 genActPower(6_19)
->= 0
-
-c_l_genActMinEq(6_20)_:
-+1 genActPower(6_20)
->= 0
-
-c_l_genActMinEq(6_21)_:
-+1 genActPower(6_21)
->= 0
-
-c_l_genActMinEq(6_22)_:
-+1 genActPower(6_22)
->= 0
-
-c_l_genActMinEq(6_23)_:
-+1 genActPower(6_23)
->= 0
-
-c_l_genActMinEq(6_24)_:
-+1 genActPower(6_24)
->= 0
-
-c_e_genActMaxEq2(1_1)_:
+c_u_genActMaxEq1(1_1)_:
 +1 genActPower(1_1)
-+1 genExcActPower(1_1)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_2)_:
+c_u_genActMaxEq1(1_2)_:
 +1 genActPower(1_2)
-+1 genExcActPower(1_2)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_3)_:
+c_u_genActMaxEq1(1_3)_:
 +1 genActPower(1_3)
-+1 genExcActPower(1_3)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_4)_:
+c_u_genActMaxEq1(1_4)_:
 +1 genActPower(1_4)
-+1 genExcActPower(1_4)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_5)_:
+c_u_genActMaxEq1(1_5)_:
 +1 genActPower(1_5)
-+1 genExcActPower(1_5)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_6)_:
+c_u_genActMaxEq1(1_6)_:
 +1 genActPower(1_6)
-+1 genExcActPower(1_6)
-= 0.50611338734331601
+<= 0.50611338734331601
 
-c_e_genActMaxEq2(1_7)_:
+c_u_genActMaxEq1(1_7)_:
 +1 genActPower(1_7)
-+1 genExcActPower(1_7)
-= 1.4411243166666701
+<= 1.4411243166666701
 
-c_e_genActMaxEq2(1_8)_:
+c_u_genActMaxEq1(1_8)_:
 +1 genActPower(1_8)
-+1 genExcActPower(1_8)
-= 3.3940619528067901
+<= 3.3940619528067901
 
-c_e_genActMaxEq2(1_9)_:
+c_u_genActMaxEq1(1_9)_:
 +1 genActPower(1_9)
-+1 genExcActPower(1_9)
-= 5.7419701262160103
+<= 5.7419701262160103
 
-c_e_genActMaxEq2(1_10)_:
+c_u_genActMaxEq1(1_10)_:
 +1 genActPower(1_10)
-+1 genExcActPower(1_10)
-= 7.5728480650317502
+<= 7.5728480650317502
 
-c_e_genActMaxEq2(1_11)_:
+c_u_genActMaxEq1(1_11)_:
 +1 genActPower(1_11)
-+1 genExcActPower(1_11)
-= 8.7607138478448707
+<= 8.7607138478448707
 
-c_e_genActMaxEq2(1_12)_:
+c_u_genActMaxEq1(1_12)_:
 +1 genActPower(1_12)
-+1 genExcActPower(1_12)
-= 9.4154919264028596
+<= 9.4154919264028596
 
-c_e_genActMaxEq2(1_13)_:
+c_u_genActMaxEq1(1_13)_:
 +1 genActPower(1_13)
-+1 genExcActPower(1_13)
-= 9.3744542044352794
+<= 9.3744542044352794
 
-c_e_genActMaxEq2(1_14)_:
+c_u_genActMaxEq1(1_14)_:
 +1 genActPower(1_14)
-+1 genExcActPower(1_14)
-= 8.6209035839635195
+<= 8.6209035839635195
 
-c_e_genActMaxEq2(1_15)_:
+c_u_genActMaxEq1(1_15)_:
 +1 genActPower(1_15)
-+1 genExcActPower(1_15)
-= 7.4452366924447899
+<= 7.4452366924447899
 
-c_e_genActMaxEq2(1_16)_:
+c_u_genActMaxEq1(1_16)_:
 +1 genActPower(1_16)
-+1 genExcActPower(1_16)
-= 5.6289806572328898
+<= 5.6289806572328898
 
-c_e_genActMaxEq2(1_17)_:
+c_u_genActMaxEq1(1_17)_:
 +1 genActPower(1_17)
-+1 genExcActPower(1_17)
-= 3.1658828705057802
+<= 3.1658828705057802
 
-c_e_genActMaxEq2(1_18)_:
+c_u_genActMaxEq1(1_18)_:
 +1 genActPower(1_18)
-+1 genExcActPower(1_18)
-= 1.32673000860726
+<= 1.32673000860726
 
-c_e_genActMaxEq2(1_19)_:
+c_u_genActMaxEq1(1_19)_:
 +1 genActPower(1_19)
-+1 genExcActPower(1_19)
-= 0.46765177578046302
+<= 0.46765177578046302
 
-c_e_genActMaxEq2(1_20)_:
+c_u_genActMaxEq1(1_20)_:
 +1 genActPower(1_20)
-+1 genExcActPower(1_20)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_21)_:
+c_u_genActMaxEq1(1_21)_:
 +1 genActPower(1_21)
-+1 genExcActPower(1_21)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_22)_:
+c_u_genActMaxEq1(1_22)_:
 +1 genActPower(1_22)
-+1 genExcActPower(1_22)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_23)_:
+c_u_genActMaxEq1(1_23)_:
 +1 genActPower(1_23)
-+1 genExcActPower(1_23)
-= 0
+<= 0
 
-c_e_genActMaxEq2(1_24)_:
+c_u_genActMaxEq1(1_24)_:
 +1 genActPower(1_24)
-+1 genExcActPower(1_24)
-= 0
+<= 0
 
-c_e_genActMaxEq2(3_1)_:
+c_u_genActMaxEq1(3_1)_:
 +1 genActPower(3_1)
-+1 genExcActPower(3_1)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_2)_:
+c_u_genActMaxEq1(3_2)_:
 +1 genActPower(3_2)
-+1 genExcActPower(3_2)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_3)_:
+c_u_genActMaxEq1(3_3)_:
 +1 genActPower(3_3)
-+1 genExcActPower(3_3)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_4)_:
+c_u_genActMaxEq1(3_4)_:
 +1 genActPower(3_4)
-+1 genExcActPower(3_4)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_5)_:
+c_u_genActMaxEq1(3_5)_:
 +1 genActPower(3_5)
-+1 genExcActPower(3_5)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_6)_:
+c_u_genActMaxEq1(3_6)_:
 +1 genActPower(3_6)
-+1 genExcActPower(3_6)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_7)_:
+c_u_genActMaxEq1(3_7)_:
 +1 genActPower(3_7)
-+1 genExcActPower(3_7)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_8)_:
+c_u_genActMaxEq1(3_8)_:
 +1 genActPower(3_8)
-+1 genExcActPower(3_8)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_9)_:
+c_u_genActMaxEq1(3_9)_:
 +1 genActPower(3_9)
-+1 genExcActPower(3_9)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_10)_:
+c_u_genActMaxEq1(3_10)_:
 +1 genActPower(3_10)
-+1 genExcActPower(3_10)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_11)_:
+c_u_genActMaxEq1(3_11)_:
 +1 genActPower(3_11)
-+1 genExcActPower(3_11)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_12)_:
+c_u_genActMaxEq1(3_12)_:
 +1 genActPower(3_12)
-+1 genExcActPower(3_12)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_13)_:
+c_u_genActMaxEq1(3_13)_:
 +1 genActPower(3_13)
-+1 genExcActPower(3_13)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_14)_:
+c_u_genActMaxEq1(3_14)_:
 +1 genActPower(3_14)
-+1 genExcActPower(3_14)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_15)_:
+c_u_genActMaxEq1(3_15)_:
 +1 genActPower(3_15)
-+1 genExcActPower(3_15)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_16)_:
+c_u_genActMaxEq1(3_16)_:
 +1 genActPower(3_16)
-+1 genExcActPower(3_16)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_17)_:
+c_u_genActMaxEq1(3_17)_:
 +1 genActPower(3_17)
-+1 genExcActPower(3_17)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_18)_:
+c_u_genActMaxEq1(3_18)_:
 +1 genActPower(3_18)
-+1 genExcActPower(3_18)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_19)_:
+c_u_genActMaxEq1(3_19)_:
 +1 genActPower(3_19)
-+1 genExcActPower(3_19)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_20)_:
+c_u_genActMaxEq1(3_20)_:
 +1 genActPower(3_20)
-+1 genExcActPower(3_20)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_21)_:
+c_u_genActMaxEq1(3_21)_:
 +1 genActPower(3_21)
-+1 genExcActPower(3_21)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_22)_:
+c_u_genActMaxEq1(3_22)_:
 +1 genActPower(3_22)
-+1 genExcActPower(3_22)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_23)_:
+c_u_genActMaxEq1(3_23)_:
 +1 genActPower(3_23)
-+1 genExcActPower(3_23)
-= 10
+<= 10
 
-c_e_genActMaxEq2(3_24)_:
+c_u_genActMaxEq1(3_24)_:
 +1 genActPower(3_24)
-+1 genExcActPower(3_24)
-= 10
+<= 10
 
-c_e_genActMaxEq2(5_1)_:
+c_u_genActMaxEq1(5_1)_:
 +1 genActPower(5_1)
-+1 genExcActPower(5_1)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_2)_:
+c_u_genActMaxEq1(5_2)_:
 +1 genActPower(5_2)
-+1 genExcActPower(5_2)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_3)_:
+c_u_genActMaxEq1(5_3)_:
 +1 genActPower(5_3)
-+1 genExcActPower(5_3)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_4)_:
+c_u_genActMaxEq1(5_4)_:
 +1 genActPower(5_4)
-+1 genExcActPower(5_4)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_5)_:
+c_u_genActMaxEq1(5_5)_:
 +1 genActPower(5_5)
-+1 genExcActPower(5_5)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_6)_:
+c_u_genActMaxEq1(5_6)_:
 +1 genActPower(5_6)
-+1 genExcActPower(5_6)
-= 0.126528346835829
+<= 0.126528346835829
 
-c_e_genActMaxEq2(5_7)_:
+c_u_genActMaxEq1(5_7)_:
 +1 genActPower(5_7)
-+1 genExcActPower(5_7)
-= 0.36028107916666702
+<= 0.36028107916666702
 
-c_e_genActMaxEq2(5_8)_:
+c_u_genActMaxEq1(5_8)_:
 +1 genActPower(5_8)
-+1 genExcActPower(5_8)
-= 0.84851548820169798
+<= 0.84851548820169798
 
-c_e_genActMaxEq2(5_9)_:
+c_u_genActMaxEq1(5_9)_:
 +1 genActPower(5_9)
-+1 genExcActPower(5_9)
-= 1.4354925315539999
+<= 1.4354925315539999
 
-c_e_genActMaxEq2(5_10)_:
+c_u_genActMaxEq1(5_10)_:
 +1 genActPower(5_10)
-+1 genExcActPower(5_10)
-= 1.89321201625794
+<= 1.89321201625794
 
-c_e_genActMaxEq2(5_11)_:
+c_u_genActMaxEq1(5_11)_:
 +1 genActPower(5_11)
-+1 genExcActPower(5_11)
-= 2.1901784619612199
+<= 2.1901784619612199
 
-c_e_genActMaxEq2(5_12)_:
+c_u_genActMaxEq1(5_12)_:
 +1 genActPower(5_12)
-+1 genExcActPower(5_12)
-= 2.3538729816007198
+<= 2.3538729816007198
 
-c_e_genActMaxEq2(5_13)_:
+c_u_genActMaxEq1(5_13)_:
 +1 genActPower(5_13)
-+1 genExcActPower(5_13)
-= 2.3436135511088199
+<= 2.3436135511088199
 
-c_e_genActMaxEq2(5_14)_:
+c_u_genActMaxEq1(5_14)_:
 +1 genActPower(5_14)
-+1 genExcActPower(5_14)
-= 2.1552258959908799
+<= 2.1552258959908799
 
-c_e_genActMaxEq2(5_15)_:
+c_u_genActMaxEq1(5_15)_:
 +1 genActPower(5_15)
-+1 genExcActPower(5_15)
-= 1.8613091731111999
+<= 1.8613091731111999
 
-c_e_genActMaxEq2(5_16)_:
+c_u_genActMaxEq1(5_16)_:
 +1 genActPower(5_16)
-+1 genExcActPower(5_16)
-= 1.40724516430822
+<= 1.40724516430822
 
-c_e_genActMaxEq2(5_17)_:
+c_u_genActMaxEq1(5_17)_:
 +1 genActPower(5_17)
-+1 genExcActPower(5_17)
-= 0.79147071762644605
+<= 0.79147071762644605
 
-c_e_genActMaxEq2(5_18)_:
+c_u_genActMaxEq1(5_18)_:
 +1 genActPower(5_18)
-+1 genExcActPower(5_18)
-= 0.331682502151814
+<= 0.331682502151814
 
-c_e_genActMaxEq2(5_19)_:
+c_u_genActMaxEq1(5_19)_:
 +1 genActPower(5_19)
-+1 genExcActPower(5_19)
-= 0.116912943945116
+<= 0.116912943945116
 
-c_e_genActMaxEq2(5_20)_:
+c_u_genActMaxEq1(5_20)_:
 +1 genActPower(5_20)
-+1 genExcActPower(5_20)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_21)_:
+c_u_genActMaxEq1(5_21)_:
 +1 genActPower(5_21)
-+1 genExcActPower(5_21)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_22)_:
+c_u_genActMaxEq1(5_22)_:
 +1 genActPower(5_22)
-+1 genExcActPower(5_22)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_23)_:
+c_u_genActMaxEq1(5_23)_:
 +1 genActPower(5_23)
-+1 genExcActPower(5_23)
-= 0
+<= 0
 
-c_e_genActMaxEq2(5_24)_:
+c_u_genActMaxEq1(5_24)_:
 +1 genActPower(5_24)
-+1 genExcActPower(5_24)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_1)_:
+c_u_genActMaxEq1(7_1)_:
 +1 genActPower(7_1)
-+1 genExcActPower(7_1)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_2)_:
+c_u_genActMaxEq1(7_2)_:
 +1 genActPower(7_2)
-+1 genExcActPower(7_2)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_3)_:
+c_u_genActMaxEq1(7_3)_:
 +1 genActPower(7_3)
-+1 genExcActPower(7_3)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_4)_:
+c_u_genActMaxEq1(7_4)_:
 +1 genActPower(7_4)
-+1 genExcActPower(7_4)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_5)_:
+c_u_genActMaxEq1(7_5)_:
 +1 genActPower(7_5)
-+1 genExcActPower(7_5)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_6)_:
+c_u_genActMaxEq1(7_6)_:
 +1 genActPower(7_6)
-+1 genExcActPower(7_6)
-= 0.075917008101497402
+<= 0.075917008101497402
 
-c_e_genActMaxEq2(7_7)_:
+c_u_genActMaxEq1(7_7)_:
 +1 genActPower(7_7)
-+1 genExcActPower(7_7)
-= 0.21616864750000001
+<= 0.21616864750000001
 
-c_e_genActMaxEq2(7_8)_:
+c_u_genActMaxEq1(7_8)_:
 +1 genActPower(7_8)
-+1 genExcActPower(7_8)
-= 0.50910929292101903
+<= 0.50910929292101903
 
-c_e_genActMaxEq2(7_9)_:
+c_u_genActMaxEq1(7_9)_:
 +1 genActPower(7_9)
-+1 genExcActPower(7_9)
-= 0.86129551893240197
+<= 0.86129551893240197
 
-c_e_genActMaxEq2(7_10)_:
+c_u_genActMaxEq1(7_10)_:
 +1 genActPower(7_10)
-+1 genExcActPower(7_10)
-= 1.1359272097547599
+<= 1.1359272097547599
 
-c_e_genActMaxEq2(7_11)_:
+c_u_genActMaxEq1(7_11)_:
 +1 genActPower(7_11)
-+1 genExcActPower(7_11)
-= 1.31410707717673
+<= 1.31410707717673
 
-c_e_genActMaxEq2(7_12)_:
+c_u_genActMaxEq1(7_12)_:
 +1 genActPower(7_12)
-+1 genExcActPower(7_12)
-= 1.4123237889604301
+<= 1.4123237889604301
 
-c_e_genActMaxEq2(7_13)_:
+c_u_genActMaxEq1(7_13)_:
 +1 genActPower(7_13)
-+1 genExcActPower(7_13)
-= 1.40616813066529
+<= 1.40616813066529
 
-c_e_genActMaxEq2(7_14)_:
+c_u_genActMaxEq1(7_14)_:
 +1 genActPower(7_14)
-+1 genExcActPower(7_14)
-= 1.2931355375945299
+<= 1.2931355375945299
 
-c_e_genActMaxEq2(7_15)_:
+c_u_genActMaxEq1(7_15)_:
 +1 genActPower(7_15)
-+1 genExcActPower(7_15)
-= 1.11678550386672
+<= 1.11678550386672
 
-c_e_genActMaxEq2(7_16)_:
+c_u_genActMaxEq1(7_16)_:
 +1 genActPower(7_16)
-+1 genExcActPower(7_16)
-= 0.84434709858493395
+<= 0.84434709858493395
 
-c_e_genActMaxEq2(7_17)_:
+c_u_genActMaxEq1(7_17)_:
 +1 genActPower(7_17)
-+1 genExcActPower(7_17)
-= 0.47488243057586699
+<= 0.47488243057586699
 
-c_e_genActMaxEq2(7_18)_:
+c_u_genActMaxEq1(7_18)_:
 +1 genActPower(7_18)
-+1 genExcActPower(7_18)
-= 0.19900950129108899
+<= 0.19900950129108899
 
-c_e_genActMaxEq2(7_19)_:
+c_u_genActMaxEq1(7_19)_:
 +1 genActPower(7_19)
-+1 genExcActPower(7_19)
-= 0.0701477663670695
+<= 0.0701477663670695
 
-c_e_genActMaxEq2(7_20)_:
+c_u_genActMaxEq1(7_20)_:
 +1 genActPower(7_20)
-+1 genExcActPower(7_20)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_21)_:
+c_u_genActMaxEq1(7_21)_:
 +1 genActPower(7_21)
-+1 genExcActPower(7_21)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_22)_:
+c_u_genActMaxEq1(7_22)_:
 +1 genActPower(7_22)
-+1 genExcActPower(7_22)
-= 0
+<= 0
 
-c_e_genActMaxEq2(7_23)_:
+c_u_genActMaxEq1(7_23)_:
 +1 genActPower(7_23)
-+1 genExcActPower(7_23)
+<= 0
+
+c_u_genActMaxEq1(7_24)_:
++1 genActPower(7_24)
+<= 0
+
+c_l_genActMinEq(1_1)_:
++1 genActPower(1_1)
+>= 0
+
+c_l_genActMinEq(1_2)_:
++1 genActPower(1_2)
+>= 0
+
+c_l_genActMinEq(1_3)_:
++1 genActPower(1_3)
+>= 0
+
+c_l_genActMinEq(1_4)_:
++1 genActPower(1_4)
+>= 0
+
+c_l_genActMinEq(1_5)_:
++1 genActPower(1_5)
+>= 0
+
+c_l_genActMinEq(1_6)_:
++1 genActPower(1_6)
+>= 0
+
+c_l_genActMinEq(1_7)_:
++1 genActPower(1_7)
+>= 0
+
+c_l_genActMinEq(1_8)_:
++1 genActPower(1_8)
+>= 0
+
+c_l_genActMinEq(1_9)_:
++1 genActPower(1_9)
+>= 0
+
+c_l_genActMinEq(1_10)_:
++1 genActPower(1_10)
+>= 0
+
+c_l_genActMinEq(1_11)_:
++1 genActPower(1_11)
+>= 0
+
+c_l_genActMinEq(1_12)_:
++1 genActPower(1_12)
+>= 0
+
+c_l_genActMinEq(1_13)_:
++1 genActPower(1_13)
+>= 0
+
+c_l_genActMinEq(1_14)_:
++1 genActPower(1_14)
+>= 0
+
+c_l_genActMinEq(1_15)_:
++1 genActPower(1_15)
+>= 0
+
+c_l_genActMinEq(1_16)_:
++1 genActPower(1_16)
+>= 0
+
+c_l_genActMinEq(1_17)_:
++1 genActPower(1_17)
+>= 0
+
+c_l_genActMinEq(1_18)_:
++1 genActPower(1_18)
+>= 0
+
+c_l_genActMinEq(1_19)_:
++1 genActPower(1_19)
+>= 0
+
+c_l_genActMinEq(1_20)_:
++1 genActPower(1_20)
+>= 0
+
+c_l_genActMinEq(1_21)_:
++1 genActPower(1_21)
+>= 0
+
+c_l_genActMinEq(1_22)_:
++1 genActPower(1_22)
+>= 0
+
+c_l_genActMinEq(1_23)_:
++1 genActPower(1_23)
+>= 0
+
+c_l_genActMinEq(1_24)_:
++1 genActPower(1_24)
+>= 0
+
+c_l_genActMinEq(3_1)_:
++1 genActPower(3_1)
+>= 0
+
+c_l_genActMinEq(3_2)_:
++1 genActPower(3_2)
+>= 0
+
+c_l_genActMinEq(3_3)_:
++1 genActPower(3_3)
+>= 0
+
+c_l_genActMinEq(3_4)_:
++1 genActPower(3_4)
+>= 0
+
+c_l_genActMinEq(3_5)_:
++1 genActPower(3_5)
+>= 0
+
+c_l_genActMinEq(3_6)_:
++1 genActPower(3_6)
+>= 0
+
+c_l_genActMinEq(3_7)_:
++1 genActPower(3_7)
+>= 0
+
+c_l_genActMinEq(3_8)_:
++1 genActPower(3_8)
+>= 0
+
+c_l_genActMinEq(3_9)_:
++1 genActPower(3_9)
+>= 0
+
+c_l_genActMinEq(3_10)_:
++1 genActPower(3_10)
+>= 0
+
+c_l_genActMinEq(3_11)_:
++1 genActPower(3_11)
+>= 0
+
+c_l_genActMinEq(3_12)_:
++1 genActPower(3_12)
+>= 0
+
+c_l_genActMinEq(3_13)_:
++1 genActPower(3_13)
+>= 0
+
+c_l_genActMinEq(3_14)_:
++1 genActPower(3_14)
+>= 0
+
+c_l_genActMinEq(3_15)_:
++1 genActPower(3_15)
+>= 0
+
+c_l_genActMinEq(3_16)_:
++1 genActPower(3_16)
+>= 0
+
+c_l_genActMinEq(3_17)_:
++1 genActPower(3_17)
+>= 0
+
+c_l_genActMinEq(3_18)_:
++1 genActPower(3_18)
+>= 0
+
+c_l_genActMinEq(3_19)_:
++1 genActPower(3_19)
+>= 0
+
+c_l_genActMinEq(3_20)_:
++1 genActPower(3_20)
+>= 0
+
+c_l_genActMinEq(3_21)_:
++1 genActPower(3_21)
+>= 0
+
+c_l_genActMinEq(3_22)_:
++1 genActPower(3_22)
+>= 0
+
+c_l_genActMinEq(3_23)_:
++1 genActPower(3_23)
+>= 0
+
+c_l_genActMinEq(3_24)_:
++1 genActPower(3_24)
+>= 0
+
+c_l_genActMinEq(5_1)_:
++1 genActPower(5_1)
+>= 0
+
+c_l_genActMinEq(5_2)_:
++1 genActPower(5_2)
+>= 0
+
+c_l_genActMinEq(5_3)_:
++1 genActPower(5_3)
+>= 0
+
+c_l_genActMinEq(5_4)_:
++1 genActPower(5_4)
+>= 0
+
+c_l_genActMinEq(5_5)_:
++1 genActPower(5_5)
+>= 0
+
+c_l_genActMinEq(5_6)_:
++1 genActPower(5_6)
+>= 0
+
+c_l_genActMinEq(5_7)_:
++1 genActPower(5_7)
+>= 0
+
+c_l_genActMinEq(5_8)_:
++1 genActPower(5_8)
+>= 0
+
+c_l_genActMinEq(5_9)_:
++1 genActPower(5_9)
+>= 0
+
+c_l_genActMinEq(5_10)_:
++1 genActPower(5_10)
+>= 0
+
+c_l_genActMinEq(5_11)_:
++1 genActPower(5_11)
+>= 0
+
+c_l_genActMinEq(5_12)_:
++1 genActPower(5_12)
+>= 0
+
+c_l_genActMinEq(5_13)_:
++1 genActPower(5_13)
+>= 0
+
+c_l_genActMinEq(5_14)_:
++1 genActPower(5_14)
+>= 0
+
+c_l_genActMinEq(5_15)_:
++1 genActPower(5_15)
+>= 0
+
+c_l_genActMinEq(5_16)_:
++1 genActPower(5_16)
+>= 0
+
+c_l_genActMinEq(5_17)_:
++1 genActPower(5_17)
+>= 0
+
+c_l_genActMinEq(5_18)_:
++1 genActPower(5_18)
+>= 0
+
+c_l_genActMinEq(5_19)_:
++1 genActPower(5_19)
+>= 0
+
+c_l_genActMinEq(5_20)_:
++1 genActPower(5_20)
+>= 0
+
+c_l_genActMinEq(5_21)_:
++1 genActPower(5_21)
+>= 0
+
+c_l_genActMinEq(5_22)_:
++1 genActPower(5_22)
+>= 0
+
+c_l_genActMinEq(5_23)_:
++1 genActPower(5_23)
+>= 0
+
+c_l_genActMinEq(5_24)_:
++1 genActPower(5_24)
+>= 0
+
+c_l_genActMinEq(7_1)_:
++1 genActPower(7_1)
+>= 0
+
+c_l_genActMinEq(7_2)_:
++1 genActPower(7_2)
+>= 0
+
+c_l_genActMinEq(7_3)_:
++1 genActPower(7_3)
+>= 0
+
+c_l_genActMinEq(7_4)_:
++1 genActPower(7_4)
+>= 0
+
+c_l_genActMinEq(7_5)_:
++1 genActPower(7_5)
+>= 0
+
+c_l_genActMinEq(7_6)_:
++1 genActPower(7_6)
+>= 0
+
+c_l_genActMinEq(7_7)_:
++1 genActPower(7_7)
+>= 0
+
+c_l_genActMinEq(7_8)_:
++1 genActPower(7_8)
+>= 0
+
+c_l_genActMinEq(7_9)_:
++1 genActPower(7_9)
+>= 0
+
+c_l_genActMinEq(7_10)_:
++1 genActPower(7_10)
+>= 0
+
+c_l_genActMinEq(7_11)_:
++1 genActPower(7_11)
+>= 0
+
+c_l_genActMinEq(7_12)_:
++1 genActPower(7_12)
+>= 0
+
+c_l_genActMinEq(7_13)_:
++1 genActPower(7_13)
+>= 0
+
+c_l_genActMinEq(7_14)_:
++1 genActPower(7_14)
+>= 0
+
+c_l_genActMinEq(7_15)_:
++1 genActPower(7_15)
+>= 0
+
+c_l_genActMinEq(7_16)_:
++1 genActPower(7_16)
+>= 0
+
+c_l_genActMinEq(7_17)_:
++1 genActPower(7_17)
+>= 0
+
+c_l_genActMinEq(7_18)_:
++1 genActPower(7_18)
+>= 0
+
+c_l_genActMinEq(7_19)_:
++1 genActPower(7_19)
+>= 0
+
+c_l_genActMinEq(7_20)_:
++1 genActPower(7_20)
+>= 0
+
+c_l_genActMinEq(7_21)_:
++1 genActPower(7_21)
+>= 0
+
+c_l_genActMinEq(7_22)_:
++1 genActPower(7_22)
+>= 0
+
+c_l_genActMinEq(7_23)_:
++1 genActPower(7_23)
+>= 0
+
+c_l_genActMinEq(7_24)_:
++1 genActPower(7_24)
+>= 0
+
+c_e_genActMaxEq2(2_1)_:
++1 genActPower(2_1)
++1 genExcActPower(2_1)
+= 30
+
+c_e_genActMaxEq2(2_2)_:
++1 genActPower(2_2)
++1 genExcActPower(2_2)
+= 30
+
+c_e_genActMaxEq2(2_3)_:
++1 genActPower(2_3)
++1 genExcActPower(2_3)
+= 30
+
+c_e_genActMaxEq2(2_4)_:
++1 genActPower(2_4)
++1 genExcActPower(2_4)
+= 30
+
+c_e_genActMaxEq2(2_5)_:
++1 genActPower(2_5)
++1 genExcActPower(2_5)
+= 30
+
+c_e_genActMaxEq2(2_6)_:
++1 genActPower(2_6)
++1 genExcActPower(2_6)
+= 30
+
+c_e_genActMaxEq2(2_7)_:
++1 genActPower(2_7)
++1 genExcActPower(2_7)
+= 30
+
+c_e_genActMaxEq2(2_8)_:
++1 genActPower(2_8)
++1 genExcActPower(2_8)
+= 30
+
+c_e_genActMaxEq2(2_9)_:
++1 genActPower(2_9)
++1 genExcActPower(2_9)
+= 30
+
+c_e_genActMaxEq2(2_10)_:
++1 genActPower(2_10)
++1 genExcActPower(2_10)
+= 30
+
+c_e_genActMaxEq2(2_11)_:
++1 genActPower(2_11)
++1 genExcActPower(2_11)
+= 30
+
+c_e_genActMaxEq2(2_12)_:
++1 genActPower(2_12)
++1 genExcActPower(2_12)
+= 30
+
+c_e_genActMaxEq2(2_13)_:
++1 genActPower(2_13)
++1 genExcActPower(2_13)
+= 30
+
+c_e_genActMaxEq2(2_14)_:
++1 genActPower(2_14)
++1 genExcActPower(2_14)
+= 30
+
+c_e_genActMaxEq2(2_15)_:
++1 genActPower(2_15)
++1 genExcActPower(2_15)
+= 30
+
+c_e_genActMaxEq2(2_16)_:
++1 genActPower(2_16)
++1 genExcActPower(2_16)
+= 30
+
+c_e_genActMaxEq2(2_17)_:
++1 genActPower(2_17)
++1 genExcActPower(2_17)
+= 30
+
+c_e_genActMaxEq2(2_18)_:
++1 genActPower(2_18)
++1 genExcActPower(2_18)
+= 30
+
+c_e_genActMaxEq2(2_19)_:
++1 genActPower(2_19)
++1 genExcActPower(2_19)
+= 30
+
+c_e_genActMaxEq2(2_20)_:
++1 genActPower(2_20)
++1 genExcActPower(2_20)
+= 30
+
+c_e_genActMaxEq2(2_21)_:
++1 genActPower(2_21)
++1 genExcActPower(2_21)
+= 30
+
+c_e_genActMaxEq2(2_22)_:
++1 genActPower(2_22)
++1 genExcActPower(2_22)
+= 30
+
+c_e_genActMaxEq2(2_23)_:
++1 genActPower(2_23)
++1 genExcActPower(2_23)
+= 30
+
+c_e_genActMaxEq2(2_24)_:
++1 genActPower(2_24)
++1 genExcActPower(2_24)
+= 30
+
+c_e_genActMaxEq2(4_1)_:
++1 genActPower(4_1)
++1 genExcActPower(4_1)
 = 0
 
-c_e_genActMaxEq2(7_24)_:
-+1 genActPower(7_24)
-+1 genExcActPower(7_24)
+c_e_genActMaxEq2(4_2)_:
++1 genActPower(4_2)
++1 genExcActPower(4_2)
+= 0
+
+c_e_genActMaxEq2(4_3)_:
++1 genActPower(4_3)
++1 genExcActPower(4_3)
+= 0
+
+c_e_genActMaxEq2(4_4)_:
++1 genActPower(4_4)
++1 genExcActPower(4_4)
+= 0
+
+c_e_genActMaxEq2(4_5)_:
++1 genActPower(4_5)
++1 genExcActPower(4_5)
+= 0
+
+c_e_genActMaxEq2(4_6)_:
++1 genActPower(4_6)
++1 genExcActPower(4_6)
+= 0.25305669367165801
+
+c_e_genActMaxEq2(4_7)_:
++1 genActPower(4_7)
++1 genExcActPower(4_7)
+= 0.72056215833333304
+
+c_e_genActMaxEq2(4_8)_:
++1 genActPower(4_8)
++1 genExcActPower(4_8)
+= 1.6970309764033999
+
+c_e_genActMaxEq2(4_9)_:
++1 genActPower(4_9)
++1 genExcActPower(4_9)
+= 2.8709850631079998
+
+c_e_genActMaxEq2(4_10)_:
++1 genActPower(4_10)
++1 genExcActPower(4_10)
+= 3.78642403251588
+
+c_e_genActMaxEq2(4_11)_:
++1 genActPower(4_11)
++1 genExcActPower(4_11)
+= 4.3803569239224398
+
+c_e_genActMaxEq2(4_12)_:
++1 genActPower(4_12)
++1 genExcActPower(4_12)
+= 4.7077459632014298
+
+c_e_genActMaxEq2(4_13)_:
++1 genActPower(4_13)
++1 genExcActPower(4_13)
+= 4.6872271022176397
+
+c_e_genActMaxEq2(4_14)_:
++1 genActPower(4_14)
++1 genExcActPower(4_14)
+= 4.3104517919817598
+
+c_e_genActMaxEq2(4_15)_:
++1 genActPower(4_15)
++1 genExcActPower(4_15)
+= 3.7226183462223998
+
+c_e_genActMaxEq2(4_16)_:
++1 genActPower(4_16)
++1 genExcActPower(4_16)
+= 2.8144903286164502
+
+c_e_genActMaxEq2(4_17)_:
++1 genActPower(4_17)
++1 genExcActPower(4_17)
+= 1.5829414352528901
+
+c_e_genActMaxEq2(4_18)_:
++1 genActPower(4_18)
++1 genExcActPower(4_18)
+= 0.66336500430362899
+
+c_e_genActMaxEq2(4_19)_:
++1 genActPower(4_19)
++1 genExcActPower(4_19)
+= 0.23382588789023201
+
+c_e_genActMaxEq2(4_20)_:
++1 genActPower(4_20)
++1 genExcActPower(4_20)
+= 0
+
+c_e_genActMaxEq2(4_21)_:
++1 genActPower(4_21)
++1 genExcActPower(4_21)
+= 0
+
+c_e_genActMaxEq2(4_22)_:
++1 genActPower(4_22)
++1 genExcActPower(4_22)
+= 0
+
+c_e_genActMaxEq2(4_23)_:
++1 genActPower(4_23)
++1 genExcActPower(4_23)
+= 0
+
+c_e_genActMaxEq2(4_24)_:
++1 genActPower(4_24)
++1 genExcActPower(4_24)
+= 0
+
+c_e_genActMaxEq2(6_1)_:
++1 genActPower(6_1)
++1 genExcActPower(6_1)
+= 0
+
+c_e_genActMaxEq2(6_2)_:
++1 genActPower(6_2)
++1 genExcActPower(6_2)
+= 0
+
+c_e_genActMaxEq2(6_3)_:
++1 genActPower(6_3)
++1 genExcActPower(6_3)
+= 0
+
+c_e_genActMaxEq2(6_4)_:
++1 genActPower(6_4)
++1 genExcActPower(6_4)
+= 0
+
+c_e_genActMaxEq2(6_5)_:
++1 genActPower(6_5)
++1 genExcActPower(6_5)
+= 0
+
+c_e_genActMaxEq2(6_6)_:
++1 genActPower(6_6)
++1 genExcActPower(6_6)
+= 0.45550204860898402
+
+c_e_genActMaxEq2(6_7)_:
++1 genActPower(6_7)
++1 genExcActPower(6_7)
+= 1.2970118850000001
+
+c_e_genActMaxEq2(6_8)_:
++1 genActPower(6_8)
++1 genExcActPower(6_8)
+= 3.0546557575261102
+
+c_e_genActMaxEq2(6_9)_:
++1 genActPower(6_9)
++1 genExcActPower(6_9)
+= 5.1677731135944098
+
+c_e_genActMaxEq2(6_10)_:
++1 genActPower(6_10)
++1 genExcActPower(6_10)
+= 6.8155632585285701
+
+c_e_genActMaxEq2(6_11)_:
++1 genActPower(6_11)
++1 genExcActPower(6_11)
+= 7.8846424630603904
+
+c_e_genActMaxEq2(6_12)_:
++1 genActPower(6_12)
++1 genExcActPower(6_12)
+= 8.4739427337625699
+
+c_e_genActMaxEq2(6_13)_:
++1 genActPower(6_13)
++1 genExcActPower(6_13)
+= 8.4370087839917502
+
+c_e_genActMaxEq2(6_14)_:
++1 genActPower(6_14)
++1 genExcActPower(6_14)
+= 7.7588132255671702
+
+c_e_genActMaxEq2(6_15)_:
++1 genActPower(6_15)
++1 genExcActPower(6_15)
+= 6.7007130232003096
+
+c_e_genActMaxEq2(6_16)_:
++1 genActPower(6_16)
++1 genExcActPower(6_16)
+= 5.0660825915096002
+
+c_e_genActMaxEq2(6_17)_:
++1 genActPower(6_17)
++1 genExcActPower(6_17)
+= 2.8492945834552001
+
+c_e_genActMaxEq2(6_18)_:
++1 genActPower(6_18)
++1 genExcActPower(6_18)
+= 1.19405700774653
+
+c_e_genActMaxEq2(6_19)_:
++1 genActPower(6_19)
++1 genExcActPower(6_19)
+= 0.42088659820241697
+
+c_e_genActMaxEq2(6_20)_:
++1 genActPower(6_20)
++1 genExcActPower(6_20)
+= 0
+
+c_e_genActMaxEq2(6_21)_:
++1 genActPower(6_21)
++1 genExcActPower(6_21)
+= 0
+
+c_e_genActMaxEq2(6_22)_:
++1 genActPower(6_22)
++1 genExcActPower(6_22)
+= 0
+
+c_e_genActMaxEq2(6_23)_:
++1 genActPower(6_23)
++1 genExcActPower(6_23)
+= 0
+
+c_e_genActMaxEq2(6_24)_:
++1 genActPower(6_24)
++1 genExcActPower(6_24)
 = 0
 
 c_u_loadReactEq(1_1)_:
