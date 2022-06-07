@@ -5623,860 +5623,860 @@ c_u_storMaxEq(3_24)_:
 c_u_storRelaxEq(1_1)_:
 -1 EminRelaxStor(1_1)
 -1 storEnerState(1_1)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_2)_:
 -1 EminRelaxStor(1_2)
 -1 storEnerState(1_2)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_3)_:
 -1 EminRelaxStor(1_3)
 -1 storEnerState(1_3)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_4)_:
 -1 EminRelaxStor(1_4)
 -1 storEnerState(1_4)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_5)_:
 -1 EminRelaxStor(1_5)
 -1 storEnerState(1_5)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_6)_:
 -1 EminRelaxStor(1_6)
 -1 storEnerState(1_6)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_7)_:
 -1 EminRelaxStor(1_7)
 -1 storEnerState(1_7)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_8)_:
 -1 EminRelaxStor(1_8)
 -1 storEnerState(1_8)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_9)_:
 -1 EminRelaxStor(1_9)
 -1 storEnerState(1_9)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_10)_:
 -1 EminRelaxStor(1_10)
 -1 storEnerState(1_10)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_11)_:
 -1 EminRelaxStor(1_11)
 -1 storEnerState(1_11)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_12)_:
 -1 EminRelaxStor(1_12)
 -1 storEnerState(1_12)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_13)_:
 -1 EminRelaxStor(1_13)
 -1 storEnerState(1_13)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_14)_:
 -1 EminRelaxStor(1_14)
 -1 storEnerState(1_14)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_15)_:
 -1 EminRelaxStor(1_15)
 -1 storEnerState(1_15)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_16)_:
 -1 EminRelaxStor(1_16)
 -1 storEnerState(1_16)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_17)_:
 -1 EminRelaxStor(1_17)
 -1 storEnerState(1_17)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_18)_:
 -1 EminRelaxStor(1_18)
 -1 storEnerState(1_18)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_19)_:
 -1 EminRelaxStor(1_19)
 -1 storEnerState(1_19)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_20)_:
 -1 EminRelaxStor(1_20)
 -1 storEnerState(1_20)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_21)_:
 -1 EminRelaxStor(1_21)
 -1 storEnerState(1_21)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_22)_:
 -1 EminRelaxStor(1_22)
 -1 storEnerState(1_22)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_23)_:
 -1 EminRelaxStor(1_23)
 -1 storEnerState(1_23)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(1_24)_:
 -1 EminRelaxStor(1_24)
 -1 storEnerState(1_24)
-<= -2.3199999999999998
+<= -10
 
 c_u_storRelaxEq(2_1)_:
 -1 EminRelaxStor(2_1)
 -1 storEnerState(2_1)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_2)_:
 -1 EminRelaxStor(2_2)
 -1 storEnerState(2_2)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_3)_:
 -1 EminRelaxStor(2_3)
 -1 storEnerState(2_3)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_4)_:
 -1 EminRelaxStor(2_4)
 -1 storEnerState(2_4)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_5)_:
 -1 EminRelaxStor(2_5)
 -1 storEnerState(2_5)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_6)_:
 -1 EminRelaxStor(2_6)
 -1 storEnerState(2_6)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_7)_:
 -1 EminRelaxStor(2_7)
 -1 storEnerState(2_7)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_8)_:
 -1 EminRelaxStor(2_8)
 -1 storEnerState(2_8)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_9)_:
 -1 EminRelaxStor(2_9)
 -1 storEnerState(2_9)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_10)_:
 -1 EminRelaxStor(2_10)
 -1 storEnerState(2_10)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_11)_:
 -1 EminRelaxStor(2_11)
 -1 storEnerState(2_11)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_12)_:
 -1 EminRelaxStor(2_12)
 -1 storEnerState(2_12)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_13)_:
 -1 EminRelaxStor(2_13)
 -1 storEnerState(2_13)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_14)_:
 -1 EminRelaxStor(2_14)
 -1 storEnerState(2_14)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_15)_:
 -1 EminRelaxStor(2_15)
 -1 storEnerState(2_15)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_16)_:
 -1 EminRelaxStor(2_16)
 -1 storEnerState(2_16)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_17)_:
 -1 EminRelaxStor(2_17)
 -1 storEnerState(2_17)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_18)_:
 -1 EminRelaxStor(2_18)
 -1 storEnerState(2_18)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_19)_:
 -1 EminRelaxStor(2_19)
 -1 storEnerState(2_19)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_20)_:
 -1 EminRelaxStor(2_20)
 -1 storEnerState(2_20)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_21)_:
 -1 EminRelaxStor(2_21)
 -1 storEnerState(2_21)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_22)_:
 -1 EminRelaxStor(2_22)
 -1 storEnerState(2_22)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_23)_:
 -1 EminRelaxStor(2_23)
 -1 storEnerState(2_23)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(2_24)_:
 -1 EminRelaxStor(2_24)
 -1 storEnerState(2_24)
-<= -2.0800000000000001
+<= -20
 
 c_u_storRelaxEq(3_1)_:
 -1 EminRelaxStor(3_1)
 -1 storEnerState(3_1)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_2)_:
 -1 EminRelaxStor(3_2)
 -1 storEnerState(3_2)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_3)_:
 -1 EminRelaxStor(3_3)
 -1 storEnerState(3_3)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_4)_:
 -1 EminRelaxStor(3_4)
 -1 storEnerState(3_4)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_5)_:
 -1 EminRelaxStor(3_5)
 -1 storEnerState(3_5)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_6)_:
 -1 EminRelaxStor(3_6)
 -1 storEnerState(3_6)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_7)_:
 -1 EminRelaxStor(3_7)
 -1 storEnerState(3_7)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_8)_:
 -1 EminRelaxStor(3_8)
 -1 storEnerState(3_8)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_9)_:
 -1 EminRelaxStor(3_9)
 -1 storEnerState(3_9)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_10)_:
 -1 EminRelaxStor(3_10)
 -1 storEnerState(3_10)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_11)_:
 -1 EminRelaxStor(3_11)
 -1 storEnerState(3_11)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_12)_:
 -1 EminRelaxStor(3_12)
 -1 storEnerState(3_12)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_13)_:
 -1 EminRelaxStor(3_13)
 -1 storEnerState(3_13)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_14)_:
 -1 EminRelaxStor(3_14)
 -1 storEnerState(3_14)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_15)_:
 -1 EminRelaxStor(3_15)
 -1 storEnerState(3_15)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_16)_:
 -1 EminRelaxStor(3_16)
 -1 storEnerState(3_16)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_17)_:
 -1 EminRelaxStor(3_17)
 -1 storEnerState(3_17)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_18)_:
 -1 EminRelaxStor(3_18)
 -1 storEnerState(3_18)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_19)_:
 -1 EminRelaxStor(3_19)
 -1 storEnerState(3_19)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_20)_:
 -1 EminRelaxStor(3_20)
 -1 storEnerState(3_20)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_21)_:
 -1 EminRelaxStor(3_21)
 -1 storEnerState(3_21)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_22)_:
 -1 EminRelaxStor(3_22)
 -1 storEnerState(3_22)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_23)_:
 -1 EminRelaxStor(3_23)
 -1 storEnerState(3_23)
-<= -0.44
+<= -3
 
 c_u_storRelaxEq(3_24)_:
 -1 EminRelaxStor(3_24)
 -1 storEnerState(3_24)
-<= -0.44
+<= -3
 
 c_e_storBatBalance(1_1)_:
 -0.94999999999999996 storChActPower(1_1)
-+0.00010526315789473683 storDchActPower(1_1)
++1.0526315789473684 storDchActPower(1_1)
 +1 storEnerState(1_1)
-= 1.6000000000000001
+= 40
 
 c_e_storBatBalance(1_2)_:
 -0.94999999999999996 storChActPower(1_2)
-+0.00010526315789473683 storDchActPower(1_2)
++1.0526315789473684 storDchActPower(1_2)
 -1 storEnerState(1_1)
 +1 storEnerState(1_2)
 = 0
 
 c_e_storBatBalance(1_3)_:
 -0.94999999999999996 storChActPower(1_3)
-+0.00010526315789473683 storDchActPower(1_3)
++1.0526315789473684 storDchActPower(1_3)
 -1 storEnerState(1_2)
 +1 storEnerState(1_3)
 = 0
 
 c_e_storBatBalance(1_4)_:
 -0.94999999999999996 storChActPower(1_4)
-+0.00010526315789473683 storDchActPower(1_4)
++1.0526315789473684 storDchActPower(1_4)
 -1 storEnerState(1_3)
 +1 storEnerState(1_4)
 = 0
 
 c_e_storBatBalance(1_5)_:
 -0.94999999999999996 storChActPower(1_5)
-+0.00010526315789473683 storDchActPower(1_5)
++1.0526315789473684 storDchActPower(1_5)
 -1 storEnerState(1_4)
 +1 storEnerState(1_5)
 = 0
 
 c_e_storBatBalance(1_6)_:
 -0.94999999999999996 storChActPower(1_6)
-+0.00010526315789473683 storDchActPower(1_6)
++1.0526315789473684 storDchActPower(1_6)
 -1 storEnerState(1_5)
 +1 storEnerState(1_6)
 = 0
 
 c_e_storBatBalance(1_7)_:
 -0.94999999999999996 storChActPower(1_7)
-+0.00010526315789473683 storDchActPower(1_7)
++1.0526315789473684 storDchActPower(1_7)
 -1 storEnerState(1_6)
 +1 storEnerState(1_7)
 = 0
 
 c_e_storBatBalance(1_8)_:
 -0.94999999999999996 storChActPower(1_8)
-+0.00010526315789473683 storDchActPower(1_8)
++1.0526315789473684 storDchActPower(1_8)
 -1 storEnerState(1_7)
 +1 storEnerState(1_8)
 = 0
 
 c_e_storBatBalance(1_9)_:
 -0.94999999999999996 storChActPower(1_9)
-+0.00010526315789473683 storDchActPower(1_9)
++1.0526315789473684 storDchActPower(1_9)
 -1 storEnerState(1_8)
 +1 storEnerState(1_9)
 = 0
 
 c_e_storBatBalance(1_10)_:
 -0.94999999999999996 storChActPower(1_10)
-+0.00010526315789473683 storDchActPower(1_10)
++1.0526315789473684 storDchActPower(1_10)
 +1 storEnerState(1_10)
 -1 storEnerState(1_9)
 = 0
 
 c_e_storBatBalance(1_11)_:
 -0.94999999999999996 storChActPower(1_11)
-+0.00010526315789473683 storDchActPower(1_11)
++1.0526315789473684 storDchActPower(1_11)
 -1 storEnerState(1_10)
 +1 storEnerState(1_11)
 = 0
 
 c_e_storBatBalance(1_12)_:
 -0.94999999999999996 storChActPower(1_12)
-+0.00010526315789473683 storDchActPower(1_12)
++1.0526315789473684 storDchActPower(1_12)
 -1 storEnerState(1_11)
 +1 storEnerState(1_12)
 = 0
 
 c_e_storBatBalance(1_13)_:
 -0.94999999999999996 storChActPower(1_13)
-+0.00010526315789473683 storDchActPower(1_13)
++1.0526315789473684 storDchActPower(1_13)
 -1 storEnerState(1_12)
 +1 storEnerState(1_13)
 = 0
 
 c_e_storBatBalance(1_14)_:
 -0.94999999999999996 storChActPower(1_14)
-+0.00010526315789473683 storDchActPower(1_14)
++1.0526315789473684 storDchActPower(1_14)
 -1 storEnerState(1_13)
 +1 storEnerState(1_14)
 = 0
 
 c_e_storBatBalance(1_15)_:
 -0.94999999999999996 storChActPower(1_15)
-+0.00010526315789473683 storDchActPower(1_15)
++1.0526315789473684 storDchActPower(1_15)
 -1 storEnerState(1_14)
 +1 storEnerState(1_15)
 = 0
 
 c_e_storBatBalance(1_16)_:
 -0.94999999999999996 storChActPower(1_16)
-+0.00010526315789473683 storDchActPower(1_16)
++1.0526315789473684 storDchActPower(1_16)
 -1 storEnerState(1_15)
 +1 storEnerState(1_16)
 = 0
 
 c_e_storBatBalance(1_17)_:
 -0.94999999999999996 storChActPower(1_17)
-+0.00010526315789473683 storDchActPower(1_17)
++1.0526315789473684 storDchActPower(1_17)
 -1 storEnerState(1_16)
 +1 storEnerState(1_17)
 = 0
 
 c_e_storBatBalance(1_18)_:
 -0.94999999999999996 storChActPower(1_18)
-+0.00010526315789473683 storDchActPower(1_18)
++1.0526315789473684 storDchActPower(1_18)
 -1 storEnerState(1_17)
 +1 storEnerState(1_18)
 = 0
 
 c_e_storBatBalance(1_19)_:
 -0.94999999999999996 storChActPower(1_19)
-+0.00010526315789473683 storDchActPower(1_19)
++1.0526315789473684 storDchActPower(1_19)
 -1 storEnerState(1_18)
 +1 storEnerState(1_19)
 = 0
 
 c_e_storBatBalance(1_20)_:
 -0.94999999999999996 storChActPower(1_20)
-+0.00010526315789473683 storDchActPower(1_20)
++1.0526315789473684 storDchActPower(1_20)
 -1 storEnerState(1_19)
 +1 storEnerState(1_20)
 = 0
 
 c_e_storBatBalance(1_21)_:
 -0.94999999999999996 storChActPower(1_21)
-+0.00010526315789473683 storDchActPower(1_21)
++1.0526315789473684 storDchActPower(1_21)
 -1 storEnerState(1_20)
 +1 storEnerState(1_21)
 = 0
 
 c_e_storBatBalance(1_22)_:
 -0.94999999999999996 storChActPower(1_22)
-+0.00010526315789473683 storDchActPower(1_22)
++1.0526315789473684 storDchActPower(1_22)
 -1 storEnerState(1_21)
 +1 storEnerState(1_22)
 = 0
 
 c_e_storBatBalance(1_23)_:
 -0.94999999999999996 storChActPower(1_23)
-+0.00010526315789473683 storDchActPower(1_23)
++1.0526315789473684 storDchActPower(1_23)
 -1 storEnerState(1_22)
 +1 storEnerState(1_23)
 = 0
 
 c_e_storBatBalance(1_24)_:
 -0.94999999999999996 storChActPower(1_24)
-+0.00010526315789473683 storDchActPower(1_24)
++1.0526315789473684 storDchActPower(1_24)
 -1 storEnerState(1_23)
 +1 storEnerState(1_24)
 = 0
 
 c_e_storBatBalance(2_1)_:
 -0.95999999999999996 storChActPower(2_1)
-+0.00010416666666666666 storDchActPower(2_1)
++1.0416666666666667 storDchActPower(2_1)
 +1 storEnerState(2_1)
-= 0.64000000000000001
+= 80
 
 c_e_storBatBalance(2_2)_:
 -0.95999999999999996 storChActPower(2_2)
-+0.00010416666666666666 storDchActPower(2_2)
++1.0416666666666667 storDchActPower(2_2)
 -1 storEnerState(2_1)
 +1 storEnerState(2_2)
 = 0
 
 c_e_storBatBalance(2_3)_:
 -0.95999999999999996 storChActPower(2_3)
-+0.00010416666666666666 storDchActPower(2_3)
++1.0416666666666667 storDchActPower(2_3)
 -1 storEnerState(2_2)
 +1 storEnerState(2_3)
 = 0
 
 c_e_storBatBalance(2_4)_:
 -0.95999999999999996 storChActPower(2_4)
-+0.00010416666666666666 storDchActPower(2_4)
++1.0416666666666667 storDchActPower(2_4)
 -1 storEnerState(2_3)
 +1 storEnerState(2_4)
 = 0
 
 c_e_storBatBalance(2_5)_:
 -0.95999999999999996 storChActPower(2_5)
-+0.00010416666666666666 storDchActPower(2_5)
++1.0416666666666667 storDchActPower(2_5)
 -1 storEnerState(2_4)
 +1 storEnerState(2_5)
 = 0
 
 c_e_storBatBalance(2_6)_:
 -0.95999999999999996 storChActPower(2_6)
-+0.00010416666666666666 storDchActPower(2_6)
++1.0416666666666667 storDchActPower(2_6)
 -1 storEnerState(2_5)
 +1 storEnerState(2_6)
 = 0
 
 c_e_storBatBalance(2_7)_:
 -0.95999999999999996 storChActPower(2_7)
-+0.00010416666666666666 storDchActPower(2_7)
++1.0416666666666667 storDchActPower(2_7)
 -1 storEnerState(2_6)
 +1 storEnerState(2_7)
 = 0
 
 c_e_storBatBalance(2_8)_:
 -0.95999999999999996 storChActPower(2_8)
-+0.00010416666666666666 storDchActPower(2_8)
++1.0416666666666667 storDchActPower(2_8)
 -1 storEnerState(2_7)
 +1 storEnerState(2_8)
 = 0
 
 c_e_storBatBalance(2_9)_:
 -0.95999999999999996 storChActPower(2_9)
-+0.00010416666666666666 storDchActPower(2_9)
++1.0416666666666667 storDchActPower(2_9)
 -1 storEnerState(2_8)
 +1 storEnerState(2_9)
 = 0
 
 c_e_storBatBalance(2_10)_:
 -0.95999999999999996 storChActPower(2_10)
-+0.00010416666666666666 storDchActPower(2_10)
++1.0416666666666667 storDchActPower(2_10)
 +1 storEnerState(2_10)
 -1 storEnerState(2_9)
 = 0
 
 c_e_storBatBalance(2_11)_:
 -0.95999999999999996 storChActPower(2_11)
-+0.00010416666666666666 storDchActPower(2_11)
++1.0416666666666667 storDchActPower(2_11)
 -1 storEnerState(2_10)
 +1 storEnerState(2_11)
 = 0
 
 c_e_storBatBalance(2_12)_:
 -0.95999999999999996 storChActPower(2_12)
-+0.00010416666666666666 storDchActPower(2_12)
++1.0416666666666667 storDchActPower(2_12)
 -1 storEnerState(2_11)
 +1 storEnerState(2_12)
 = 0
 
 c_e_storBatBalance(2_13)_:
 -0.95999999999999996 storChActPower(2_13)
-+0.00010416666666666666 storDchActPower(2_13)
++1.0416666666666667 storDchActPower(2_13)
 -1 storEnerState(2_12)
 +1 storEnerState(2_13)
 = 0
 
 c_e_storBatBalance(2_14)_:
 -0.95999999999999996 storChActPower(2_14)
-+0.00010416666666666666 storDchActPower(2_14)
++1.0416666666666667 storDchActPower(2_14)
 -1 storEnerState(2_13)
 +1 storEnerState(2_14)
 = 0
 
 c_e_storBatBalance(2_15)_:
 -0.95999999999999996 storChActPower(2_15)
-+0.00010416666666666666 storDchActPower(2_15)
++1.0416666666666667 storDchActPower(2_15)
 -1 storEnerState(2_14)
 +1 storEnerState(2_15)
 = 0
 
 c_e_storBatBalance(2_16)_:
 -0.95999999999999996 storChActPower(2_16)
-+0.00010416666666666666 storDchActPower(2_16)
++1.0416666666666667 storDchActPower(2_16)
 -1 storEnerState(2_15)
 +1 storEnerState(2_16)
 = 0
 
 c_e_storBatBalance(2_17)_:
 -0.95999999999999996 storChActPower(2_17)
-+0.00010416666666666666 storDchActPower(2_17)
++1.0416666666666667 storDchActPower(2_17)
 -1 storEnerState(2_16)
 +1 storEnerState(2_17)
 = 0
 
 c_e_storBatBalance(2_18)_:
 -0.95999999999999996 storChActPower(2_18)
-+0.00010416666666666666 storDchActPower(2_18)
++1.0416666666666667 storDchActPower(2_18)
 -1 storEnerState(2_17)
 +1 storEnerState(2_18)
 = 0
 
 c_e_storBatBalance(2_19)_:
 -0.95999999999999996 storChActPower(2_19)
-+0.00010416666666666666 storDchActPower(2_19)
++1.0416666666666667 storDchActPower(2_19)
 -1 storEnerState(2_18)
 +1 storEnerState(2_19)
 = 0
 
 c_e_storBatBalance(2_20)_:
 -0.95999999999999996 storChActPower(2_20)
-+0.00010416666666666666 storDchActPower(2_20)
++1.0416666666666667 storDchActPower(2_20)
 -1 storEnerState(2_19)
 +1 storEnerState(2_20)
 = 0
 
 c_e_storBatBalance(2_21)_:
 -0.95999999999999996 storChActPower(2_21)
-+0.00010416666666666666 storDchActPower(2_21)
++1.0416666666666667 storDchActPower(2_21)
 -1 storEnerState(2_20)
 +1 storEnerState(2_21)
 = 0
 
 c_e_storBatBalance(2_22)_:
 -0.95999999999999996 storChActPower(2_22)
-+0.00010416666666666666 storDchActPower(2_22)
++1.0416666666666667 storDchActPower(2_22)
 -1 storEnerState(2_21)
 +1 storEnerState(2_22)
 = 0
 
 c_e_storBatBalance(2_23)_:
 -0.95999999999999996 storChActPower(2_23)
-+0.00010416666666666666 storDchActPower(2_23)
++1.0416666666666667 storDchActPower(2_23)
 -1 storEnerState(2_22)
 +1 storEnerState(2_23)
 = 0
 
 c_e_storBatBalance(2_24)_:
 -0.95999999999999996 storChActPower(2_24)
-+0.00010416666666666666 storDchActPower(2_24)
++1.0416666666666667 storDchActPower(2_24)
 -1 storEnerState(2_23)
 +1 storEnerState(2_24)
 = 0
 
 c_e_storBatBalance(3_1)_:
 -0.94999999999999996 storChActPower(3_1)
-+0.00010526315789473683 storDchActPower(3_1)
++1.0526315789473684 storDchActPower(3_1)
 +1 storEnerState(3_1)
-= 1.76
+= 12
 
 c_e_storBatBalance(3_2)_:
 -0.94999999999999996 storChActPower(3_2)
-+0.00010526315789473683 storDchActPower(3_2)
++1.0526315789473684 storDchActPower(3_2)
 -1 storEnerState(3_1)
 +1 storEnerState(3_2)
 = 0
 
 c_e_storBatBalance(3_3)_:
 -0.94999999999999996 storChActPower(3_3)
-+0.00010526315789473683 storDchActPower(3_3)
++1.0526315789473684 storDchActPower(3_3)
 -1 storEnerState(3_2)
 +1 storEnerState(3_3)
 = 0
 
 c_e_storBatBalance(3_4)_:
 -0.94999999999999996 storChActPower(3_4)
-+0.00010526315789473683 storDchActPower(3_4)
++1.0526315789473684 storDchActPower(3_4)
 -1 storEnerState(3_3)
 +1 storEnerState(3_4)
 = 0
 
 c_e_storBatBalance(3_5)_:
 -0.94999999999999996 storChActPower(3_5)
-+0.00010526315789473683 storDchActPower(3_5)
++1.0526315789473684 storDchActPower(3_5)
 -1 storEnerState(3_4)
 +1 storEnerState(3_5)
 = 0
 
 c_e_storBatBalance(3_6)_:
 -0.94999999999999996 storChActPower(3_6)
-+0.00010526315789473683 storDchActPower(3_6)
++1.0526315789473684 storDchActPower(3_6)
 -1 storEnerState(3_5)
 +1 storEnerState(3_6)
 = 0
 
 c_e_storBatBalance(3_7)_:
 -0.94999999999999996 storChActPower(3_7)
-+0.00010526315789473683 storDchActPower(3_7)
++1.0526315789473684 storDchActPower(3_7)
 -1 storEnerState(3_6)
 +1 storEnerState(3_7)
 = 0
 
 c_e_storBatBalance(3_8)_:
 -0.94999999999999996 storChActPower(3_8)
-+0.00010526315789473683 storDchActPower(3_8)
++1.0526315789473684 storDchActPower(3_8)
 -1 storEnerState(3_7)
 +1 storEnerState(3_8)
 = 0
 
 c_e_storBatBalance(3_9)_:
 -0.94999999999999996 storChActPower(3_9)
-+0.00010526315789473683 storDchActPower(3_9)
++1.0526315789473684 storDchActPower(3_9)
 -1 storEnerState(3_8)
 +1 storEnerState(3_9)
 = 0
 
 c_e_storBatBalance(3_10)_:
 -0.94999999999999996 storChActPower(3_10)
-+0.00010526315789473683 storDchActPower(3_10)
++1.0526315789473684 storDchActPower(3_10)
 +1 storEnerState(3_10)
 -1 storEnerState(3_9)
 = 0
 
 c_e_storBatBalance(3_11)_:
 -0.94999999999999996 storChActPower(3_11)
-+0.00010526315789473683 storDchActPower(3_11)
++1.0526315789473684 storDchActPower(3_11)
 -1 storEnerState(3_10)
 +1 storEnerState(3_11)
 = 0
 
 c_e_storBatBalance(3_12)_:
 -0.94999999999999996 storChActPower(3_12)
-+0.00010526315789473683 storDchActPower(3_12)
++1.0526315789473684 storDchActPower(3_12)
 -1 storEnerState(3_11)
 +1 storEnerState(3_12)
 = 0
 
 c_e_storBatBalance(3_13)_:
 -0.94999999999999996 storChActPower(3_13)
-+0.00010526315789473683 storDchActPower(3_13)
++1.0526315789473684 storDchActPower(3_13)
 -1 storEnerState(3_12)
 +1 storEnerState(3_13)
 = 0
 
 c_e_storBatBalance(3_14)_:
 -0.94999999999999996 storChActPower(3_14)
-+0.00010526315789473683 storDchActPower(3_14)
++1.0526315789473684 storDchActPower(3_14)
 -1 storEnerState(3_13)
 +1 storEnerState(3_14)
 = 0
 
 c_e_storBatBalance(3_15)_:
 -0.94999999999999996 storChActPower(3_15)
-+0.00010526315789473683 storDchActPower(3_15)
++1.0526315789473684 storDchActPower(3_15)
 -1 storEnerState(3_14)
 +1 storEnerState(3_15)
 = 0
 
 c_e_storBatBalance(3_16)_:
 -0.94999999999999996 storChActPower(3_16)
-+0.00010526315789473683 storDchActPower(3_16)
++1.0526315789473684 storDchActPower(3_16)
 -1 storEnerState(3_15)
 +1 storEnerState(3_16)
 = 0
 
 c_e_storBatBalance(3_17)_:
 -0.94999999999999996 storChActPower(3_17)
-+0.00010526315789473683 storDchActPower(3_17)
++1.0526315789473684 storDchActPower(3_17)
 -1 storEnerState(3_16)
 +1 storEnerState(3_17)
 = 0
 
 c_e_storBatBalance(3_18)_:
 -0.94999999999999996 storChActPower(3_18)
-+0.00010526315789473683 storDchActPower(3_18)
++1.0526315789473684 storDchActPower(3_18)
 -1 storEnerState(3_17)
 +1 storEnerState(3_18)
 = 0
 
 c_e_storBatBalance(3_19)_:
 -0.94999999999999996 storChActPower(3_19)
-+0.00010526315789473683 storDchActPower(3_19)
++1.0526315789473684 storDchActPower(3_19)
 -1 storEnerState(3_18)
 +1 storEnerState(3_19)
 = 0
 
 c_e_storBatBalance(3_20)_:
 -0.94999999999999996 storChActPower(3_20)
-+0.00010526315789473683 storDchActPower(3_20)
++1.0526315789473684 storDchActPower(3_20)
 -1 storEnerState(3_19)
 +1 storEnerState(3_20)
 = 0
 
 c_e_storBatBalance(3_21)_:
 -0.94999999999999996 storChActPower(3_21)
-+0.00010526315789473683 storDchActPower(3_21)
++1.0526315789473684 storDchActPower(3_21)
 -1 storEnerState(3_20)
 +1 storEnerState(3_21)
 = 0
 
 c_e_storBatBalance(3_22)_:
 -0.94999999999999996 storChActPower(3_22)
-+0.00010526315789473683 storDchActPower(3_22)
++1.0526315789473684 storDchActPower(3_22)
 -1 storEnerState(3_21)
 +1 storEnerState(3_22)
 = 0
 
 c_e_storBatBalance(3_23)_:
 -0.94999999999999996 storChActPower(3_23)
-+0.00010526315789473683 storDchActPower(3_23)
++1.0526315789473684 storDchActPower(3_23)
 -1 storEnerState(3_22)
 +1 storEnerState(3_23)
 = 0
 
 c_e_storBatBalance(3_24)_:
 -0.94999999999999996 storChActPower(3_24)
-+0.00010526315789473683 storDchActPower(3_24)
++1.0526315789473684 storDchActPower(3_24)
 -1 storEnerState(3_23)
 +1 storEnerState(3_24)
 = 0
