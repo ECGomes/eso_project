@@ -1082,6 +1082,36 @@ ObjFun:
 +0.080000000000000002 storDchActPower(3_7)
 +0.080000000000000002 storDchActPower(3_8)
 +0.080000000000000002 storDchActPower(3_9)
+-0.017999999999999999 storSegSoC(1_1_1)
++0.0089999999999999993 storSegSoC(1_1_2)
++0.0029999999999999992 storSegSoC(1_1_3)
++0.017999999999999999 storSegSoC(1_24_1)
+-0.0089999999999999993 storSegSoC(1_24_2)
+-0.0029999999999999992 storSegSoC(1_24_3)
+-0.0074999999999999997 storSegSoC(2_1_1)
++0.0037499999999999999 storSegSoC(2_1_2)
++0.00125 storSegSoC(2_1_3)
++0.0074999999999999997 storSegSoC(2_24_1)
+-0.0037499999999999999 storSegSoC(2_24_2)
+-0.00125 storSegSoC(2_24_3)
+-0.085714285714285715 storSegSoC(3_1_1)
++0.042857142857142858 storSegSoC(3_1_2)
++0.014285714285714285 storSegSoC(3_1_3)
++0.085714285714285715 storSegSoC(3_24_1)
+-0.042857142857142858 storSegSoC(3_24_2)
+-0.014285714285714285 storSegSoC(3_24_3)
+-0.29999999999999999 storSegXo(1_1_2)
+-0.14999999999999999 storSegXo(1_1_3)
++0.29999999999999999 storSegXo(1_24_2)
++0.14999999999999999 storSegXo(1_24_3)
+-0.25 storSegXo(2_1_2)
+-0.125 storSegXo(2_1_3)
++0.25 storSegXo(2_24_2)
++0.125 storSegXo(2_24_3)
+-0.42857142857142855 storSegXo(3_1_2)
+-0.21428571428571427 storSegXo(3_1_3)
++0.42857142857142855 storSegXo(3_24_2)
++0.21428571428571427 storSegXo(3_24_3)
 +0.050000000000000003 v2gDchActPower(1_10)
 +0.050000000000000003 v2gDchActPower(1_11)
 +0.050000000000000003 v2gDchActPower(1_12)
@@ -6840,6 +6870,3030 @@ c_u_storBin(3_24)_:
 +1 storChXo(3_24)
 +1 storDchXo(3_24)
 <= 1
+
+c_e_storSegCap(1_1)_:
++1 storSegXo(1_1_1)
++1 storSegXo(1_1_2)
++1 storSegXo(1_1_3)
+= 1
+
+c_e_storSegCap(1_2)_:
++1 storSegXo(1_2_1)
++1 storSegXo(1_2_2)
++1 storSegXo(1_2_3)
+= 1
+
+c_e_storSegCap(1_3)_:
++1 storSegXo(1_3_1)
++1 storSegXo(1_3_2)
++1 storSegXo(1_3_3)
+= 1
+
+c_e_storSegCap(1_4)_:
++1 storSegXo(1_4_1)
++1 storSegXo(1_4_2)
++1 storSegXo(1_4_3)
+= 1
+
+c_e_storSegCap(1_5)_:
++1 storSegXo(1_5_1)
++1 storSegXo(1_5_2)
++1 storSegXo(1_5_3)
+= 1
+
+c_e_storSegCap(1_6)_:
++1 storSegXo(1_6_1)
++1 storSegXo(1_6_2)
++1 storSegXo(1_6_3)
+= 1
+
+c_e_storSegCap(1_7)_:
++1 storSegXo(1_7_1)
++1 storSegXo(1_7_2)
++1 storSegXo(1_7_3)
+= 1
+
+c_e_storSegCap(1_8)_:
++1 storSegXo(1_8_1)
++1 storSegXo(1_8_2)
++1 storSegXo(1_8_3)
+= 1
+
+c_e_storSegCap(1_9)_:
++1 storSegXo(1_9_1)
++1 storSegXo(1_9_2)
++1 storSegXo(1_9_3)
+= 1
+
+c_e_storSegCap(1_10)_:
++1 storSegXo(1_10_1)
++1 storSegXo(1_10_2)
++1 storSegXo(1_10_3)
+= 1
+
+c_e_storSegCap(1_11)_:
++1 storSegXo(1_11_1)
++1 storSegXo(1_11_2)
++1 storSegXo(1_11_3)
+= 1
+
+c_e_storSegCap(1_12)_:
++1 storSegXo(1_12_1)
++1 storSegXo(1_12_2)
++1 storSegXo(1_12_3)
+= 1
+
+c_e_storSegCap(1_13)_:
++1 storSegXo(1_13_1)
++1 storSegXo(1_13_2)
++1 storSegXo(1_13_3)
+= 1
+
+c_e_storSegCap(1_14)_:
++1 storSegXo(1_14_1)
++1 storSegXo(1_14_2)
++1 storSegXo(1_14_3)
+= 1
+
+c_e_storSegCap(1_15)_:
++1 storSegXo(1_15_1)
++1 storSegXo(1_15_2)
++1 storSegXo(1_15_3)
+= 1
+
+c_e_storSegCap(1_16)_:
++1 storSegXo(1_16_1)
++1 storSegXo(1_16_2)
++1 storSegXo(1_16_3)
+= 1
+
+c_e_storSegCap(1_17)_:
++1 storSegXo(1_17_1)
++1 storSegXo(1_17_2)
++1 storSegXo(1_17_3)
+= 1
+
+c_e_storSegCap(1_18)_:
++1 storSegXo(1_18_1)
++1 storSegXo(1_18_2)
++1 storSegXo(1_18_3)
+= 1
+
+c_e_storSegCap(1_19)_:
++1 storSegXo(1_19_1)
++1 storSegXo(1_19_2)
++1 storSegXo(1_19_3)
+= 1
+
+c_e_storSegCap(1_20)_:
++1 storSegXo(1_20_1)
++1 storSegXo(1_20_2)
++1 storSegXo(1_20_3)
+= 1
+
+c_e_storSegCap(1_21)_:
++1 storSegXo(1_21_1)
++1 storSegXo(1_21_2)
++1 storSegXo(1_21_3)
+= 1
+
+c_e_storSegCap(1_22)_:
++1 storSegXo(1_22_1)
++1 storSegXo(1_22_2)
++1 storSegXo(1_22_3)
+= 1
+
+c_e_storSegCap(1_23)_:
++1 storSegXo(1_23_1)
++1 storSegXo(1_23_2)
++1 storSegXo(1_23_3)
+= 1
+
+c_e_storSegCap(1_24)_:
++1 storSegXo(1_24_1)
++1 storSegXo(1_24_2)
++1 storSegXo(1_24_3)
+= 1
+
+c_e_storSegCap(2_1)_:
++1 storSegXo(2_1_1)
++1 storSegXo(2_1_2)
++1 storSegXo(2_1_3)
+= 1
+
+c_e_storSegCap(2_2)_:
++1 storSegXo(2_2_1)
++1 storSegXo(2_2_2)
++1 storSegXo(2_2_3)
+= 1
+
+c_e_storSegCap(2_3)_:
++1 storSegXo(2_3_1)
++1 storSegXo(2_3_2)
++1 storSegXo(2_3_3)
+= 1
+
+c_e_storSegCap(2_4)_:
++1 storSegXo(2_4_1)
++1 storSegXo(2_4_2)
++1 storSegXo(2_4_3)
+= 1
+
+c_e_storSegCap(2_5)_:
++1 storSegXo(2_5_1)
++1 storSegXo(2_5_2)
++1 storSegXo(2_5_3)
+= 1
+
+c_e_storSegCap(2_6)_:
++1 storSegXo(2_6_1)
++1 storSegXo(2_6_2)
++1 storSegXo(2_6_3)
+= 1
+
+c_e_storSegCap(2_7)_:
++1 storSegXo(2_7_1)
++1 storSegXo(2_7_2)
++1 storSegXo(2_7_3)
+= 1
+
+c_e_storSegCap(2_8)_:
++1 storSegXo(2_8_1)
++1 storSegXo(2_8_2)
++1 storSegXo(2_8_3)
+= 1
+
+c_e_storSegCap(2_9)_:
++1 storSegXo(2_9_1)
++1 storSegXo(2_9_2)
++1 storSegXo(2_9_3)
+= 1
+
+c_e_storSegCap(2_10)_:
++1 storSegXo(2_10_1)
++1 storSegXo(2_10_2)
++1 storSegXo(2_10_3)
+= 1
+
+c_e_storSegCap(2_11)_:
++1 storSegXo(2_11_1)
++1 storSegXo(2_11_2)
++1 storSegXo(2_11_3)
+= 1
+
+c_e_storSegCap(2_12)_:
++1 storSegXo(2_12_1)
++1 storSegXo(2_12_2)
++1 storSegXo(2_12_3)
+= 1
+
+c_e_storSegCap(2_13)_:
++1 storSegXo(2_13_1)
++1 storSegXo(2_13_2)
++1 storSegXo(2_13_3)
+= 1
+
+c_e_storSegCap(2_14)_:
++1 storSegXo(2_14_1)
++1 storSegXo(2_14_2)
++1 storSegXo(2_14_3)
+= 1
+
+c_e_storSegCap(2_15)_:
++1 storSegXo(2_15_1)
++1 storSegXo(2_15_2)
++1 storSegXo(2_15_3)
+= 1
+
+c_e_storSegCap(2_16)_:
++1 storSegXo(2_16_1)
++1 storSegXo(2_16_2)
++1 storSegXo(2_16_3)
+= 1
+
+c_e_storSegCap(2_17)_:
++1 storSegXo(2_17_1)
++1 storSegXo(2_17_2)
++1 storSegXo(2_17_3)
+= 1
+
+c_e_storSegCap(2_18)_:
++1 storSegXo(2_18_1)
++1 storSegXo(2_18_2)
++1 storSegXo(2_18_3)
+= 1
+
+c_e_storSegCap(2_19)_:
++1 storSegXo(2_19_1)
++1 storSegXo(2_19_2)
++1 storSegXo(2_19_3)
+= 1
+
+c_e_storSegCap(2_20)_:
++1 storSegXo(2_20_1)
++1 storSegXo(2_20_2)
++1 storSegXo(2_20_3)
+= 1
+
+c_e_storSegCap(2_21)_:
++1 storSegXo(2_21_1)
++1 storSegXo(2_21_2)
++1 storSegXo(2_21_3)
+= 1
+
+c_e_storSegCap(2_22)_:
++1 storSegXo(2_22_1)
++1 storSegXo(2_22_2)
++1 storSegXo(2_22_3)
+= 1
+
+c_e_storSegCap(2_23)_:
++1 storSegXo(2_23_1)
++1 storSegXo(2_23_2)
++1 storSegXo(2_23_3)
+= 1
+
+c_e_storSegCap(2_24)_:
++1 storSegXo(2_24_1)
++1 storSegXo(2_24_2)
++1 storSegXo(2_24_3)
+= 1
+
+c_e_storSegCap(3_1)_:
++1 storSegXo(3_1_1)
++1 storSegXo(3_1_2)
++1 storSegXo(3_1_3)
+= 1
+
+c_e_storSegCap(3_2)_:
++1 storSegXo(3_2_1)
++1 storSegXo(3_2_2)
++1 storSegXo(3_2_3)
+= 1
+
+c_e_storSegCap(3_3)_:
++1 storSegXo(3_3_1)
++1 storSegXo(3_3_2)
++1 storSegXo(3_3_3)
+= 1
+
+c_e_storSegCap(3_4)_:
++1 storSegXo(3_4_1)
++1 storSegXo(3_4_2)
++1 storSegXo(3_4_3)
+= 1
+
+c_e_storSegCap(3_5)_:
++1 storSegXo(3_5_1)
++1 storSegXo(3_5_2)
++1 storSegXo(3_5_3)
+= 1
+
+c_e_storSegCap(3_6)_:
++1 storSegXo(3_6_1)
++1 storSegXo(3_6_2)
++1 storSegXo(3_6_3)
+= 1
+
+c_e_storSegCap(3_7)_:
++1 storSegXo(3_7_1)
++1 storSegXo(3_7_2)
++1 storSegXo(3_7_3)
+= 1
+
+c_e_storSegCap(3_8)_:
++1 storSegXo(3_8_1)
++1 storSegXo(3_8_2)
++1 storSegXo(3_8_3)
+= 1
+
+c_e_storSegCap(3_9)_:
++1 storSegXo(3_9_1)
++1 storSegXo(3_9_2)
++1 storSegXo(3_9_3)
+= 1
+
+c_e_storSegCap(3_10)_:
++1 storSegXo(3_10_1)
++1 storSegXo(3_10_2)
++1 storSegXo(3_10_3)
+= 1
+
+c_e_storSegCap(3_11)_:
++1 storSegXo(3_11_1)
++1 storSegXo(3_11_2)
++1 storSegXo(3_11_3)
+= 1
+
+c_e_storSegCap(3_12)_:
++1 storSegXo(3_12_1)
++1 storSegXo(3_12_2)
++1 storSegXo(3_12_3)
+= 1
+
+c_e_storSegCap(3_13)_:
++1 storSegXo(3_13_1)
++1 storSegXo(3_13_2)
++1 storSegXo(3_13_3)
+= 1
+
+c_e_storSegCap(3_14)_:
++1 storSegXo(3_14_1)
++1 storSegXo(3_14_2)
++1 storSegXo(3_14_3)
+= 1
+
+c_e_storSegCap(3_15)_:
++1 storSegXo(3_15_1)
++1 storSegXo(3_15_2)
++1 storSegXo(3_15_3)
+= 1
+
+c_e_storSegCap(3_16)_:
++1 storSegXo(3_16_1)
++1 storSegXo(3_16_2)
++1 storSegXo(3_16_3)
+= 1
+
+c_e_storSegCap(3_17)_:
++1 storSegXo(3_17_1)
++1 storSegXo(3_17_2)
++1 storSegXo(3_17_3)
+= 1
+
+c_e_storSegCap(3_18)_:
++1 storSegXo(3_18_1)
++1 storSegXo(3_18_2)
++1 storSegXo(3_18_3)
+= 1
+
+c_e_storSegCap(3_19)_:
++1 storSegXo(3_19_1)
++1 storSegXo(3_19_2)
++1 storSegXo(3_19_3)
+= 1
+
+c_e_storSegCap(3_20)_:
++1 storSegXo(3_20_1)
++1 storSegXo(3_20_2)
++1 storSegXo(3_20_3)
+= 1
+
+c_e_storSegCap(3_21)_:
++1 storSegXo(3_21_1)
++1 storSegXo(3_21_2)
++1 storSegXo(3_21_3)
+= 1
+
+c_e_storSegCap(3_22)_:
++1 storSegXo(3_22_1)
++1 storSegXo(3_22_2)
++1 storSegXo(3_22_3)
+= 1
+
+c_e_storSegCap(3_23)_:
++1 storSegXo(3_23_1)
++1 storSegXo(3_23_2)
++1 storSegXo(3_23_3)
+= 1
+
+c_e_storSegCap(3_24)_:
++1 storSegXo(3_24_1)
++1 storSegXo(3_24_2)
++1 storSegXo(3_24_3)
+= 1
+
+c_e_storSegSoCEq(1_1)_:
+-1 storEnerState(1_1)
++1 storSegSoC(1_1_1)
++1 storSegSoC(1_1_2)
++1 storSegSoC(1_1_3)
++16.666666666666668 storSegXo(1_1_2)
++33.333333333333336 storSegXo(1_1_3)
+= 0
+
+c_e_storSegSoCEq(1_2)_:
+-1 storEnerState(1_2)
++1 storSegSoC(1_2_1)
++1 storSegSoC(1_2_2)
++1 storSegSoC(1_2_3)
++16.666666666666668 storSegXo(1_2_2)
++33.333333333333336 storSegXo(1_2_3)
+= 0
+
+c_e_storSegSoCEq(1_3)_:
+-1 storEnerState(1_3)
++1 storSegSoC(1_3_1)
++1 storSegSoC(1_3_2)
++1 storSegSoC(1_3_3)
++16.666666666666668 storSegXo(1_3_2)
++33.333333333333336 storSegXo(1_3_3)
+= 0
+
+c_e_storSegSoCEq(1_4)_:
+-1 storEnerState(1_4)
++1 storSegSoC(1_4_1)
++1 storSegSoC(1_4_2)
++1 storSegSoC(1_4_3)
++16.666666666666668 storSegXo(1_4_2)
++33.333333333333336 storSegXo(1_4_3)
+= 0
+
+c_e_storSegSoCEq(1_5)_:
+-1 storEnerState(1_5)
++1 storSegSoC(1_5_1)
++1 storSegSoC(1_5_2)
++1 storSegSoC(1_5_3)
++16.666666666666668 storSegXo(1_5_2)
++33.333333333333336 storSegXo(1_5_3)
+= 0
+
+c_e_storSegSoCEq(1_6)_:
+-1 storEnerState(1_6)
++1 storSegSoC(1_6_1)
++1 storSegSoC(1_6_2)
++1 storSegSoC(1_6_3)
++16.666666666666668 storSegXo(1_6_2)
++33.333333333333336 storSegXo(1_6_3)
+= 0
+
+c_e_storSegSoCEq(1_7)_:
+-1 storEnerState(1_7)
++1 storSegSoC(1_7_1)
++1 storSegSoC(1_7_2)
++1 storSegSoC(1_7_3)
++16.666666666666668 storSegXo(1_7_2)
++33.333333333333336 storSegXo(1_7_3)
+= 0
+
+c_e_storSegSoCEq(1_8)_:
+-1 storEnerState(1_8)
++1 storSegSoC(1_8_1)
++1 storSegSoC(1_8_2)
++1 storSegSoC(1_8_3)
++16.666666666666668 storSegXo(1_8_2)
++33.333333333333336 storSegXo(1_8_3)
+= 0
+
+c_e_storSegSoCEq(1_9)_:
+-1 storEnerState(1_9)
++1 storSegSoC(1_9_1)
++1 storSegSoC(1_9_2)
++1 storSegSoC(1_9_3)
++16.666666666666668 storSegXo(1_9_2)
++33.333333333333336 storSegXo(1_9_3)
+= 0
+
+c_e_storSegSoCEq(1_10)_:
+-1 storEnerState(1_10)
++1 storSegSoC(1_10_1)
++1 storSegSoC(1_10_2)
++1 storSegSoC(1_10_3)
++16.666666666666668 storSegXo(1_10_2)
++33.333333333333336 storSegXo(1_10_3)
+= 0
+
+c_e_storSegSoCEq(1_11)_:
+-1 storEnerState(1_11)
++1 storSegSoC(1_11_1)
++1 storSegSoC(1_11_2)
++1 storSegSoC(1_11_3)
++16.666666666666668 storSegXo(1_11_2)
++33.333333333333336 storSegXo(1_11_3)
+= 0
+
+c_e_storSegSoCEq(1_12)_:
+-1 storEnerState(1_12)
++1 storSegSoC(1_12_1)
++1 storSegSoC(1_12_2)
++1 storSegSoC(1_12_3)
++16.666666666666668 storSegXo(1_12_2)
++33.333333333333336 storSegXo(1_12_3)
+= 0
+
+c_e_storSegSoCEq(1_13)_:
+-1 storEnerState(1_13)
++1 storSegSoC(1_13_1)
++1 storSegSoC(1_13_2)
++1 storSegSoC(1_13_3)
++16.666666666666668 storSegXo(1_13_2)
++33.333333333333336 storSegXo(1_13_3)
+= 0
+
+c_e_storSegSoCEq(1_14)_:
+-1 storEnerState(1_14)
++1 storSegSoC(1_14_1)
++1 storSegSoC(1_14_2)
++1 storSegSoC(1_14_3)
++16.666666666666668 storSegXo(1_14_2)
++33.333333333333336 storSegXo(1_14_3)
+= 0
+
+c_e_storSegSoCEq(1_15)_:
+-1 storEnerState(1_15)
++1 storSegSoC(1_15_1)
++1 storSegSoC(1_15_2)
++1 storSegSoC(1_15_3)
++16.666666666666668 storSegXo(1_15_2)
++33.333333333333336 storSegXo(1_15_3)
+= 0
+
+c_e_storSegSoCEq(1_16)_:
+-1 storEnerState(1_16)
++1 storSegSoC(1_16_1)
++1 storSegSoC(1_16_2)
++1 storSegSoC(1_16_3)
++16.666666666666668 storSegXo(1_16_2)
++33.333333333333336 storSegXo(1_16_3)
+= 0
+
+c_e_storSegSoCEq(1_17)_:
+-1 storEnerState(1_17)
++1 storSegSoC(1_17_1)
++1 storSegSoC(1_17_2)
++1 storSegSoC(1_17_3)
++16.666666666666668 storSegXo(1_17_2)
++33.333333333333336 storSegXo(1_17_3)
+= 0
+
+c_e_storSegSoCEq(1_18)_:
+-1 storEnerState(1_18)
++1 storSegSoC(1_18_1)
++1 storSegSoC(1_18_2)
++1 storSegSoC(1_18_3)
++16.666666666666668 storSegXo(1_18_2)
++33.333333333333336 storSegXo(1_18_3)
+= 0
+
+c_e_storSegSoCEq(1_19)_:
+-1 storEnerState(1_19)
++1 storSegSoC(1_19_1)
++1 storSegSoC(1_19_2)
++1 storSegSoC(1_19_3)
++16.666666666666668 storSegXo(1_19_2)
++33.333333333333336 storSegXo(1_19_3)
+= 0
+
+c_e_storSegSoCEq(1_20)_:
+-1 storEnerState(1_20)
++1 storSegSoC(1_20_1)
++1 storSegSoC(1_20_2)
++1 storSegSoC(1_20_3)
++16.666666666666668 storSegXo(1_20_2)
++33.333333333333336 storSegXo(1_20_3)
+= 0
+
+c_e_storSegSoCEq(1_21)_:
+-1 storEnerState(1_21)
++1 storSegSoC(1_21_1)
++1 storSegSoC(1_21_2)
++1 storSegSoC(1_21_3)
++16.666666666666668 storSegXo(1_21_2)
++33.333333333333336 storSegXo(1_21_3)
+= 0
+
+c_e_storSegSoCEq(1_22)_:
+-1 storEnerState(1_22)
++1 storSegSoC(1_22_1)
++1 storSegSoC(1_22_2)
++1 storSegSoC(1_22_3)
++16.666666666666668 storSegXo(1_22_2)
++33.333333333333336 storSegXo(1_22_3)
+= 0
+
+c_e_storSegSoCEq(1_23)_:
+-1 storEnerState(1_23)
++1 storSegSoC(1_23_1)
++1 storSegSoC(1_23_2)
++1 storSegSoC(1_23_3)
++16.666666666666668 storSegXo(1_23_2)
++33.333333333333336 storSegXo(1_23_3)
+= 0
+
+c_e_storSegSoCEq(1_24)_:
+-1 storEnerState(1_24)
++1 storSegSoC(1_24_1)
++1 storSegSoC(1_24_2)
++1 storSegSoC(1_24_3)
++16.666666666666668 storSegXo(1_24_2)
++33.333333333333336 storSegXo(1_24_3)
+= 0
+
+c_e_storSegSoCEq(2_1)_:
+-1 storEnerState(2_1)
++1 storSegSoC(2_1_1)
++1 storSegSoC(2_1_2)
++1 storSegSoC(2_1_3)
++33.333333333333336 storSegXo(2_1_2)
++66.666666666666671 storSegXo(2_1_3)
+= 0
+
+c_e_storSegSoCEq(2_2)_:
+-1 storEnerState(2_2)
++1 storSegSoC(2_2_1)
++1 storSegSoC(2_2_2)
++1 storSegSoC(2_2_3)
++33.333333333333336 storSegXo(2_2_2)
++66.666666666666671 storSegXo(2_2_3)
+= 0
+
+c_e_storSegSoCEq(2_3)_:
+-1 storEnerState(2_3)
++1 storSegSoC(2_3_1)
++1 storSegSoC(2_3_2)
++1 storSegSoC(2_3_3)
++33.333333333333336 storSegXo(2_3_2)
++66.666666666666671 storSegXo(2_3_3)
+= 0
+
+c_e_storSegSoCEq(2_4)_:
+-1 storEnerState(2_4)
++1 storSegSoC(2_4_1)
++1 storSegSoC(2_4_2)
++1 storSegSoC(2_4_3)
++33.333333333333336 storSegXo(2_4_2)
++66.666666666666671 storSegXo(2_4_3)
+= 0
+
+c_e_storSegSoCEq(2_5)_:
+-1 storEnerState(2_5)
++1 storSegSoC(2_5_1)
++1 storSegSoC(2_5_2)
++1 storSegSoC(2_5_3)
++33.333333333333336 storSegXo(2_5_2)
++66.666666666666671 storSegXo(2_5_3)
+= 0
+
+c_e_storSegSoCEq(2_6)_:
+-1 storEnerState(2_6)
++1 storSegSoC(2_6_1)
++1 storSegSoC(2_6_2)
++1 storSegSoC(2_6_3)
++33.333333333333336 storSegXo(2_6_2)
++66.666666666666671 storSegXo(2_6_3)
+= 0
+
+c_e_storSegSoCEq(2_7)_:
+-1 storEnerState(2_7)
++1 storSegSoC(2_7_1)
++1 storSegSoC(2_7_2)
++1 storSegSoC(2_7_3)
++33.333333333333336 storSegXo(2_7_2)
++66.666666666666671 storSegXo(2_7_3)
+= 0
+
+c_e_storSegSoCEq(2_8)_:
+-1 storEnerState(2_8)
++1 storSegSoC(2_8_1)
++1 storSegSoC(2_8_2)
++1 storSegSoC(2_8_3)
++33.333333333333336 storSegXo(2_8_2)
++66.666666666666671 storSegXo(2_8_3)
+= 0
+
+c_e_storSegSoCEq(2_9)_:
+-1 storEnerState(2_9)
++1 storSegSoC(2_9_1)
++1 storSegSoC(2_9_2)
++1 storSegSoC(2_9_3)
++33.333333333333336 storSegXo(2_9_2)
++66.666666666666671 storSegXo(2_9_3)
+= 0
+
+c_e_storSegSoCEq(2_10)_:
+-1 storEnerState(2_10)
++1 storSegSoC(2_10_1)
++1 storSegSoC(2_10_2)
++1 storSegSoC(2_10_3)
++33.333333333333336 storSegXo(2_10_2)
++66.666666666666671 storSegXo(2_10_3)
+= 0
+
+c_e_storSegSoCEq(2_11)_:
+-1 storEnerState(2_11)
++1 storSegSoC(2_11_1)
++1 storSegSoC(2_11_2)
++1 storSegSoC(2_11_3)
++33.333333333333336 storSegXo(2_11_2)
++66.666666666666671 storSegXo(2_11_3)
+= 0
+
+c_e_storSegSoCEq(2_12)_:
+-1 storEnerState(2_12)
++1 storSegSoC(2_12_1)
++1 storSegSoC(2_12_2)
++1 storSegSoC(2_12_3)
++33.333333333333336 storSegXo(2_12_2)
++66.666666666666671 storSegXo(2_12_3)
+= 0
+
+c_e_storSegSoCEq(2_13)_:
+-1 storEnerState(2_13)
++1 storSegSoC(2_13_1)
++1 storSegSoC(2_13_2)
++1 storSegSoC(2_13_3)
++33.333333333333336 storSegXo(2_13_2)
++66.666666666666671 storSegXo(2_13_3)
+= 0
+
+c_e_storSegSoCEq(2_14)_:
+-1 storEnerState(2_14)
++1 storSegSoC(2_14_1)
++1 storSegSoC(2_14_2)
++1 storSegSoC(2_14_3)
++33.333333333333336 storSegXo(2_14_2)
++66.666666666666671 storSegXo(2_14_3)
+= 0
+
+c_e_storSegSoCEq(2_15)_:
+-1 storEnerState(2_15)
++1 storSegSoC(2_15_1)
++1 storSegSoC(2_15_2)
++1 storSegSoC(2_15_3)
++33.333333333333336 storSegXo(2_15_2)
++66.666666666666671 storSegXo(2_15_3)
+= 0
+
+c_e_storSegSoCEq(2_16)_:
+-1 storEnerState(2_16)
++1 storSegSoC(2_16_1)
++1 storSegSoC(2_16_2)
++1 storSegSoC(2_16_3)
++33.333333333333336 storSegXo(2_16_2)
++66.666666666666671 storSegXo(2_16_3)
+= 0
+
+c_e_storSegSoCEq(2_17)_:
+-1 storEnerState(2_17)
++1 storSegSoC(2_17_1)
++1 storSegSoC(2_17_2)
++1 storSegSoC(2_17_3)
++33.333333333333336 storSegXo(2_17_2)
++66.666666666666671 storSegXo(2_17_3)
+= 0
+
+c_e_storSegSoCEq(2_18)_:
+-1 storEnerState(2_18)
++1 storSegSoC(2_18_1)
++1 storSegSoC(2_18_2)
++1 storSegSoC(2_18_3)
++33.333333333333336 storSegXo(2_18_2)
++66.666666666666671 storSegXo(2_18_3)
+= 0
+
+c_e_storSegSoCEq(2_19)_:
+-1 storEnerState(2_19)
++1 storSegSoC(2_19_1)
++1 storSegSoC(2_19_2)
++1 storSegSoC(2_19_3)
++33.333333333333336 storSegXo(2_19_2)
++66.666666666666671 storSegXo(2_19_3)
+= 0
+
+c_e_storSegSoCEq(2_20)_:
+-1 storEnerState(2_20)
++1 storSegSoC(2_20_1)
++1 storSegSoC(2_20_2)
++1 storSegSoC(2_20_3)
++33.333333333333336 storSegXo(2_20_2)
++66.666666666666671 storSegXo(2_20_3)
+= 0
+
+c_e_storSegSoCEq(2_21)_:
+-1 storEnerState(2_21)
++1 storSegSoC(2_21_1)
++1 storSegSoC(2_21_2)
++1 storSegSoC(2_21_3)
++33.333333333333336 storSegXo(2_21_2)
++66.666666666666671 storSegXo(2_21_3)
+= 0
+
+c_e_storSegSoCEq(2_22)_:
+-1 storEnerState(2_22)
++1 storSegSoC(2_22_1)
++1 storSegSoC(2_22_2)
++1 storSegSoC(2_22_3)
++33.333333333333336 storSegXo(2_22_2)
++66.666666666666671 storSegXo(2_22_3)
+= 0
+
+c_e_storSegSoCEq(2_23)_:
+-1 storEnerState(2_23)
++1 storSegSoC(2_23_1)
++1 storSegSoC(2_23_2)
++1 storSegSoC(2_23_3)
++33.333333333333336 storSegXo(2_23_2)
++66.666666666666671 storSegXo(2_23_3)
+= 0
+
+c_e_storSegSoCEq(2_24)_:
+-1 storEnerState(2_24)
++1 storSegSoC(2_24_1)
++1 storSegSoC(2_24_2)
++1 storSegSoC(2_24_3)
++33.333333333333336 storSegXo(2_24_2)
++66.666666666666671 storSegXo(2_24_3)
+= 0
+
+c_e_storSegSoCEq(3_1)_:
+-1 storEnerState(3_1)
++1 storSegSoC(3_1_1)
++1 storSegSoC(3_1_2)
++1 storSegSoC(3_1_3)
++5 storSegXo(3_1_2)
++10 storSegXo(3_1_3)
+= 0
+
+c_e_storSegSoCEq(3_2)_:
+-1 storEnerState(3_2)
++1 storSegSoC(3_2_1)
++1 storSegSoC(3_2_2)
++1 storSegSoC(3_2_3)
++5 storSegXo(3_2_2)
++10 storSegXo(3_2_3)
+= 0
+
+c_e_storSegSoCEq(3_3)_:
+-1 storEnerState(3_3)
++1 storSegSoC(3_3_1)
++1 storSegSoC(3_3_2)
++1 storSegSoC(3_3_3)
++5 storSegXo(3_3_2)
++10 storSegXo(3_3_3)
+= 0
+
+c_e_storSegSoCEq(3_4)_:
+-1 storEnerState(3_4)
++1 storSegSoC(3_4_1)
++1 storSegSoC(3_4_2)
++1 storSegSoC(3_4_3)
++5 storSegXo(3_4_2)
++10 storSegXo(3_4_3)
+= 0
+
+c_e_storSegSoCEq(3_5)_:
+-1 storEnerState(3_5)
++1 storSegSoC(3_5_1)
++1 storSegSoC(3_5_2)
++1 storSegSoC(3_5_3)
++5 storSegXo(3_5_2)
++10 storSegXo(3_5_3)
+= 0
+
+c_e_storSegSoCEq(3_6)_:
+-1 storEnerState(3_6)
++1 storSegSoC(3_6_1)
++1 storSegSoC(3_6_2)
++1 storSegSoC(3_6_3)
++5 storSegXo(3_6_2)
++10 storSegXo(3_6_3)
+= 0
+
+c_e_storSegSoCEq(3_7)_:
+-1 storEnerState(3_7)
++1 storSegSoC(3_7_1)
++1 storSegSoC(3_7_2)
++1 storSegSoC(3_7_3)
++5 storSegXo(3_7_2)
++10 storSegXo(3_7_3)
+= 0
+
+c_e_storSegSoCEq(3_8)_:
+-1 storEnerState(3_8)
++1 storSegSoC(3_8_1)
++1 storSegSoC(3_8_2)
++1 storSegSoC(3_8_3)
++5 storSegXo(3_8_2)
++10 storSegXo(3_8_3)
+= 0
+
+c_e_storSegSoCEq(3_9)_:
+-1 storEnerState(3_9)
++1 storSegSoC(3_9_1)
++1 storSegSoC(3_9_2)
++1 storSegSoC(3_9_3)
++5 storSegXo(3_9_2)
++10 storSegXo(3_9_3)
+= 0
+
+c_e_storSegSoCEq(3_10)_:
+-1 storEnerState(3_10)
++1 storSegSoC(3_10_1)
++1 storSegSoC(3_10_2)
++1 storSegSoC(3_10_3)
++5 storSegXo(3_10_2)
++10 storSegXo(3_10_3)
+= 0
+
+c_e_storSegSoCEq(3_11)_:
+-1 storEnerState(3_11)
++1 storSegSoC(3_11_1)
++1 storSegSoC(3_11_2)
++1 storSegSoC(3_11_3)
++5 storSegXo(3_11_2)
++10 storSegXo(3_11_3)
+= 0
+
+c_e_storSegSoCEq(3_12)_:
+-1 storEnerState(3_12)
++1 storSegSoC(3_12_1)
++1 storSegSoC(3_12_2)
++1 storSegSoC(3_12_3)
++5 storSegXo(3_12_2)
++10 storSegXo(3_12_3)
+= 0
+
+c_e_storSegSoCEq(3_13)_:
+-1 storEnerState(3_13)
++1 storSegSoC(3_13_1)
++1 storSegSoC(3_13_2)
++1 storSegSoC(3_13_3)
++5 storSegXo(3_13_2)
++10 storSegXo(3_13_3)
+= 0
+
+c_e_storSegSoCEq(3_14)_:
+-1 storEnerState(3_14)
++1 storSegSoC(3_14_1)
++1 storSegSoC(3_14_2)
++1 storSegSoC(3_14_3)
++5 storSegXo(3_14_2)
++10 storSegXo(3_14_3)
+= 0
+
+c_e_storSegSoCEq(3_15)_:
+-1 storEnerState(3_15)
++1 storSegSoC(3_15_1)
++1 storSegSoC(3_15_2)
++1 storSegSoC(3_15_3)
++5 storSegXo(3_15_2)
++10 storSegXo(3_15_3)
+= 0
+
+c_e_storSegSoCEq(3_16)_:
+-1 storEnerState(3_16)
++1 storSegSoC(3_16_1)
++1 storSegSoC(3_16_2)
++1 storSegSoC(3_16_3)
++5 storSegXo(3_16_2)
++10 storSegXo(3_16_3)
+= 0
+
+c_e_storSegSoCEq(3_17)_:
+-1 storEnerState(3_17)
++1 storSegSoC(3_17_1)
++1 storSegSoC(3_17_2)
++1 storSegSoC(3_17_3)
++5 storSegXo(3_17_2)
++10 storSegXo(3_17_3)
+= 0
+
+c_e_storSegSoCEq(3_18)_:
+-1 storEnerState(3_18)
++1 storSegSoC(3_18_1)
++1 storSegSoC(3_18_2)
++1 storSegSoC(3_18_3)
++5 storSegXo(3_18_2)
++10 storSegXo(3_18_3)
+= 0
+
+c_e_storSegSoCEq(3_19)_:
+-1 storEnerState(3_19)
++1 storSegSoC(3_19_1)
++1 storSegSoC(3_19_2)
++1 storSegSoC(3_19_3)
++5 storSegXo(3_19_2)
++10 storSegXo(3_19_3)
+= 0
+
+c_e_storSegSoCEq(3_20)_:
+-1 storEnerState(3_20)
++1 storSegSoC(3_20_1)
++1 storSegSoC(3_20_2)
++1 storSegSoC(3_20_3)
++5 storSegXo(3_20_2)
++10 storSegXo(3_20_3)
+= 0
+
+c_e_storSegSoCEq(3_21)_:
+-1 storEnerState(3_21)
++1 storSegSoC(3_21_1)
++1 storSegSoC(3_21_2)
++1 storSegSoC(3_21_3)
++5 storSegXo(3_21_2)
++10 storSegXo(3_21_3)
+= 0
+
+c_e_storSegSoCEq(3_22)_:
+-1 storEnerState(3_22)
++1 storSegSoC(3_22_1)
++1 storSegSoC(3_22_2)
++1 storSegSoC(3_22_3)
++5 storSegXo(3_22_2)
++10 storSegXo(3_22_3)
+= 0
+
+c_e_storSegSoCEq(3_23)_:
+-1 storEnerState(3_23)
++1 storSegSoC(3_23_1)
++1 storSegSoC(3_23_2)
++1 storSegSoC(3_23_3)
++5 storSegXo(3_23_2)
++10 storSegXo(3_23_3)
+= 0
+
+c_e_storSegSoCEq(3_24)_:
+-1 storEnerState(3_24)
++1 storSegSoC(3_24_1)
++1 storSegSoC(3_24_2)
++1 storSegSoC(3_24_3)
++5 storSegXo(3_24_2)
++10 storSegXo(3_24_3)
+= 0
+
+c_l_storSegSoCLower(1_1_1)_:
++1 storSegSoC(1_1_1)
+>= 0
+
+c_l_storSegSoCLower(1_1_2)_:
++1 storSegSoC(1_1_2)
+>= 0
+
+c_l_storSegSoCLower(1_1_3)_:
++1 storSegSoC(1_1_3)
+>= 0
+
+c_l_storSegSoCLower(1_2_1)_:
++1 storSegSoC(1_2_1)
+>= 0
+
+c_l_storSegSoCLower(1_2_2)_:
++1 storSegSoC(1_2_2)
+>= 0
+
+c_l_storSegSoCLower(1_2_3)_:
++1 storSegSoC(1_2_3)
+>= 0
+
+c_l_storSegSoCLower(1_3_1)_:
++1 storSegSoC(1_3_1)
+>= 0
+
+c_l_storSegSoCLower(1_3_2)_:
++1 storSegSoC(1_3_2)
+>= 0
+
+c_l_storSegSoCLower(1_3_3)_:
++1 storSegSoC(1_3_3)
+>= 0
+
+c_l_storSegSoCLower(1_4_1)_:
++1 storSegSoC(1_4_1)
+>= 0
+
+c_l_storSegSoCLower(1_4_2)_:
++1 storSegSoC(1_4_2)
+>= 0
+
+c_l_storSegSoCLower(1_4_3)_:
++1 storSegSoC(1_4_3)
+>= 0
+
+c_l_storSegSoCLower(1_5_1)_:
++1 storSegSoC(1_5_1)
+>= 0
+
+c_l_storSegSoCLower(1_5_2)_:
++1 storSegSoC(1_5_2)
+>= 0
+
+c_l_storSegSoCLower(1_5_3)_:
++1 storSegSoC(1_5_3)
+>= 0
+
+c_l_storSegSoCLower(1_6_1)_:
++1 storSegSoC(1_6_1)
+>= 0
+
+c_l_storSegSoCLower(1_6_2)_:
++1 storSegSoC(1_6_2)
+>= 0
+
+c_l_storSegSoCLower(1_6_3)_:
++1 storSegSoC(1_6_3)
+>= 0
+
+c_l_storSegSoCLower(1_7_1)_:
++1 storSegSoC(1_7_1)
+>= 0
+
+c_l_storSegSoCLower(1_7_2)_:
++1 storSegSoC(1_7_2)
+>= 0
+
+c_l_storSegSoCLower(1_7_3)_:
++1 storSegSoC(1_7_3)
+>= 0
+
+c_l_storSegSoCLower(1_8_1)_:
++1 storSegSoC(1_8_1)
+>= 0
+
+c_l_storSegSoCLower(1_8_2)_:
++1 storSegSoC(1_8_2)
+>= 0
+
+c_l_storSegSoCLower(1_8_3)_:
++1 storSegSoC(1_8_3)
+>= 0
+
+c_l_storSegSoCLower(1_9_1)_:
++1 storSegSoC(1_9_1)
+>= 0
+
+c_l_storSegSoCLower(1_9_2)_:
++1 storSegSoC(1_9_2)
+>= 0
+
+c_l_storSegSoCLower(1_9_3)_:
++1 storSegSoC(1_9_3)
+>= 0
+
+c_l_storSegSoCLower(1_10_1)_:
++1 storSegSoC(1_10_1)
+>= 0
+
+c_l_storSegSoCLower(1_10_2)_:
++1 storSegSoC(1_10_2)
+>= 0
+
+c_l_storSegSoCLower(1_10_3)_:
++1 storSegSoC(1_10_3)
+>= 0
+
+c_l_storSegSoCLower(1_11_1)_:
++1 storSegSoC(1_11_1)
+>= 0
+
+c_l_storSegSoCLower(1_11_2)_:
++1 storSegSoC(1_11_2)
+>= 0
+
+c_l_storSegSoCLower(1_11_3)_:
++1 storSegSoC(1_11_3)
+>= 0
+
+c_l_storSegSoCLower(1_12_1)_:
++1 storSegSoC(1_12_1)
+>= 0
+
+c_l_storSegSoCLower(1_12_2)_:
++1 storSegSoC(1_12_2)
+>= 0
+
+c_l_storSegSoCLower(1_12_3)_:
++1 storSegSoC(1_12_3)
+>= 0
+
+c_l_storSegSoCLower(1_13_1)_:
++1 storSegSoC(1_13_1)
+>= 0
+
+c_l_storSegSoCLower(1_13_2)_:
++1 storSegSoC(1_13_2)
+>= 0
+
+c_l_storSegSoCLower(1_13_3)_:
++1 storSegSoC(1_13_3)
+>= 0
+
+c_l_storSegSoCLower(1_14_1)_:
++1 storSegSoC(1_14_1)
+>= 0
+
+c_l_storSegSoCLower(1_14_2)_:
++1 storSegSoC(1_14_2)
+>= 0
+
+c_l_storSegSoCLower(1_14_3)_:
++1 storSegSoC(1_14_3)
+>= 0
+
+c_l_storSegSoCLower(1_15_1)_:
++1 storSegSoC(1_15_1)
+>= 0
+
+c_l_storSegSoCLower(1_15_2)_:
++1 storSegSoC(1_15_2)
+>= 0
+
+c_l_storSegSoCLower(1_15_3)_:
++1 storSegSoC(1_15_3)
+>= 0
+
+c_l_storSegSoCLower(1_16_1)_:
++1 storSegSoC(1_16_1)
+>= 0
+
+c_l_storSegSoCLower(1_16_2)_:
++1 storSegSoC(1_16_2)
+>= 0
+
+c_l_storSegSoCLower(1_16_3)_:
++1 storSegSoC(1_16_3)
+>= 0
+
+c_l_storSegSoCLower(1_17_1)_:
++1 storSegSoC(1_17_1)
+>= 0
+
+c_l_storSegSoCLower(1_17_2)_:
++1 storSegSoC(1_17_2)
+>= 0
+
+c_l_storSegSoCLower(1_17_3)_:
++1 storSegSoC(1_17_3)
+>= 0
+
+c_l_storSegSoCLower(1_18_1)_:
++1 storSegSoC(1_18_1)
+>= 0
+
+c_l_storSegSoCLower(1_18_2)_:
++1 storSegSoC(1_18_2)
+>= 0
+
+c_l_storSegSoCLower(1_18_3)_:
++1 storSegSoC(1_18_3)
+>= 0
+
+c_l_storSegSoCLower(1_19_1)_:
++1 storSegSoC(1_19_1)
+>= 0
+
+c_l_storSegSoCLower(1_19_2)_:
++1 storSegSoC(1_19_2)
+>= 0
+
+c_l_storSegSoCLower(1_19_3)_:
++1 storSegSoC(1_19_3)
+>= 0
+
+c_l_storSegSoCLower(1_20_1)_:
++1 storSegSoC(1_20_1)
+>= 0
+
+c_l_storSegSoCLower(1_20_2)_:
++1 storSegSoC(1_20_2)
+>= 0
+
+c_l_storSegSoCLower(1_20_3)_:
++1 storSegSoC(1_20_3)
+>= 0
+
+c_l_storSegSoCLower(1_21_1)_:
++1 storSegSoC(1_21_1)
+>= 0
+
+c_l_storSegSoCLower(1_21_2)_:
++1 storSegSoC(1_21_2)
+>= 0
+
+c_l_storSegSoCLower(1_21_3)_:
++1 storSegSoC(1_21_3)
+>= 0
+
+c_l_storSegSoCLower(1_22_1)_:
++1 storSegSoC(1_22_1)
+>= 0
+
+c_l_storSegSoCLower(1_22_2)_:
++1 storSegSoC(1_22_2)
+>= 0
+
+c_l_storSegSoCLower(1_22_3)_:
++1 storSegSoC(1_22_3)
+>= 0
+
+c_l_storSegSoCLower(1_23_1)_:
++1 storSegSoC(1_23_1)
+>= 0
+
+c_l_storSegSoCLower(1_23_2)_:
++1 storSegSoC(1_23_2)
+>= 0
+
+c_l_storSegSoCLower(1_23_3)_:
++1 storSegSoC(1_23_3)
+>= 0
+
+c_l_storSegSoCLower(1_24_1)_:
++1 storSegSoC(1_24_1)
+>= 0
+
+c_l_storSegSoCLower(1_24_2)_:
++1 storSegSoC(1_24_2)
+>= 0
+
+c_l_storSegSoCLower(1_24_3)_:
++1 storSegSoC(1_24_3)
+>= 0
+
+c_l_storSegSoCLower(2_1_1)_:
++1 storSegSoC(2_1_1)
+>= 0
+
+c_l_storSegSoCLower(2_1_2)_:
++1 storSegSoC(2_1_2)
+>= 0
+
+c_l_storSegSoCLower(2_1_3)_:
++1 storSegSoC(2_1_3)
+>= 0
+
+c_l_storSegSoCLower(2_2_1)_:
++1 storSegSoC(2_2_1)
+>= 0
+
+c_l_storSegSoCLower(2_2_2)_:
++1 storSegSoC(2_2_2)
+>= 0
+
+c_l_storSegSoCLower(2_2_3)_:
++1 storSegSoC(2_2_3)
+>= 0
+
+c_l_storSegSoCLower(2_3_1)_:
++1 storSegSoC(2_3_1)
+>= 0
+
+c_l_storSegSoCLower(2_3_2)_:
++1 storSegSoC(2_3_2)
+>= 0
+
+c_l_storSegSoCLower(2_3_3)_:
++1 storSegSoC(2_3_3)
+>= 0
+
+c_l_storSegSoCLower(2_4_1)_:
++1 storSegSoC(2_4_1)
+>= 0
+
+c_l_storSegSoCLower(2_4_2)_:
++1 storSegSoC(2_4_2)
+>= 0
+
+c_l_storSegSoCLower(2_4_3)_:
++1 storSegSoC(2_4_3)
+>= 0
+
+c_l_storSegSoCLower(2_5_1)_:
++1 storSegSoC(2_5_1)
+>= 0
+
+c_l_storSegSoCLower(2_5_2)_:
++1 storSegSoC(2_5_2)
+>= 0
+
+c_l_storSegSoCLower(2_5_3)_:
++1 storSegSoC(2_5_3)
+>= 0
+
+c_l_storSegSoCLower(2_6_1)_:
++1 storSegSoC(2_6_1)
+>= 0
+
+c_l_storSegSoCLower(2_6_2)_:
++1 storSegSoC(2_6_2)
+>= 0
+
+c_l_storSegSoCLower(2_6_3)_:
++1 storSegSoC(2_6_3)
+>= 0
+
+c_l_storSegSoCLower(2_7_1)_:
++1 storSegSoC(2_7_1)
+>= 0
+
+c_l_storSegSoCLower(2_7_2)_:
++1 storSegSoC(2_7_2)
+>= 0
+
+c_l_storSegSoCLower(2_7_3)_:
++1 storSegSoC(2_7_3)
+>= 0
+
+c_l_storSegSoCLower(2_8_1)_:
++1 storSegSoC(2_8_1)
+>= 0
+
+c_l_storSegSoCLower(2_8_2)_:
++1 storSegSoC(2_8_2)
+>= 0
+
+c_l_storSegSoCLower(2_8_3)_:
++1 storSegSoC(2_8_3)
+>= 0
+
+c_l_storSegSoCLower(2_9_1)_:
++1 storSegSoC(2_9_1)
+>= 0
+
+c_l_storSegSoCLower(2_9_2)_:
++1 storSegSoC(2_9_2)
+>= 0
+
+c_l_storSegSoCLower(2_9_3)_:
++1 storSegSoC(2_9_3)
+>= 0
+
+c_l_storSegSoCLower(2_10_1)_:
++1 storSegSoC(2_10_1)
+>= 0
+
+c_l_storSegSoCLower(2_10_2)_:
++1 storSegSoC(2_10_2)
+>= 0
+
+c_l_storSegSoCLower(2_10_3)_:
++1 storSegSoC(2_10_3)
+>= 0
+
+c_l_storSegSoCLower(2_11_1)_:
++1 storSegSoC(2_11_1)
+>= 0
+
+c_l_storSegSoCLower(2_11_2)_:
++1 storSegSoC(2_11_2)
+>= 0
+
+c_l_storSegSoCLower(2_11_3)_:
++1 storSegSoC(2_11_3)
+>= 0
+
+c_l_storSegSoCLower(2_12_1)_:
++1 storSegSoC(2_12_1)
+>= 0
+
+c_l_storSegSoCLower(2_12_2)_:
++1 storSegSoC(2_12_2)
+>= 0
+
+c_l_storSegSoCLower(2_12_3)_:
++1 storSegSoC(2_12_3)
+>= 0
+
+c_l_storSegSoCLower(2_13_1)_:
++1 storSegSoC(2_13_1)
+>= 0
+
+c_l_storSegSoCLower(2_13_2)_:
++1 storSegSoC(2_13_2)
+>= 0
+
+c_l_storSegSoCLower(2_13_3)_:
++1 storSegSoC(2_13_3)
+>= 0
+
+c_l_storSegSoCLower(2_14_1)_:
++1 storSegSoC(2_14_1)
+>= 0
+
+c_l_storSegSoCLower(2_14_2)_:
++1 storSegSoC(2_14_2)
+>= 0
+
+c_l_storSegSoCLower(2_14_3)_:
++1 storSegSoC(2_14_3)
+>= 0
+
+c_l_storSegSoCLower(2_15_1)_:
++1 storSegSoC(2_15_1)
+>= 0
+
+c_l_storSegSoCLower(2_15_2)_:
++1 storSegSoC(2_15_2)
+>= 0
+
+c_l_storSegSoCLower(2_15_3)_:
++1 storSegSoC(2_15_3)
+>= 0
+
+c_l_storSegSoCLower(2_16_1)_:
++1 storSegSoC(2_16_1)
+>= 0
+
+c_l_storSegSoCLower(2_16_2)_:
++1 storSegSoC(2_16_2)
+>= 0
+
+c_l_storSegSoCLower(2_16_3)_:
++1 storSegSoC(2_16_3)
+>= 0
+
+c_l_storSegSoCLower(2_17_1)_:
++1 storSegSoC(2_17_1)
+>= 0
+
+c_l_storSegSoCLower(2_17_2)_:
++1 storSegSoC(2_17_2)
+>= 0
+
+c_l_storSegSoCLower(2_17_3)_:
++1 storSegSoC(2_17_3)
+>= 0
+
+c_l_storSegSoCLower(2_18_1)_:
++1 storSegSoC(2_18_1)
+>= 0
+
+c_l_storSegSoCLower(2_18_2)_:
++1 storSegSoC(2_18_2)
+>= 0
+
+c_l_storSegSoCLower(2_18_3)_:
++1 storSegSoC(2_18_3)
+>= 0
+
+c_l_storSegSoCLower(2_19_1)_:
++1 storSegSoC(2_19_1)
+>= 0
+
+c_l_storSegSoCLower(2_19_2)_:
++1 storSegSoC(2_19_2)
+>= 0
+
+c_l_storSegSoCLower(2_19_3)_:
++1 storSegSoC(2_19_3)
+>= 0
+
+c_l_storSegSoCLower(2_20_1)_:
++1 storSegSoC(2_20_1)
+>= 0
+
+c_l_storSegSoCLower(2_20_2)_:
++1 storSegSoC(2_20_2)
+>= 0
+
+c_l_storSegSoCLower(2_20_3)_:
++1 storSegSoC(2_20_3)
+>= 0
+
+c_l_storSegSoCLower(2_21_1)_:
++1 storSegSoC(2_21_1)
+>= 0
+
+c_l_storSegSoCLower(2_21_2)_:
++1 storSegSoC(2_21_2)
+>= 0
+
+c_l_storSegSoCLower(2_21_3)_:
++1 storSegSoC(2_21_3)
+>= 0
+
+c_l_storSegSoCLower(2_22_1)_:
++1 storSegSoC(2_22_1)
+>= 0
+
+c_l_storSegSoCLower(2_22_2)_:
++1 storSegSoC(2_22_2)
+>= 0
+
+c_l_storSegSoCLower(2_22_3)_:
++1 storSegSoC(2_22_3)
+>= 0
+
+c_l_storSegSoCLower(2_23_1)_:
++1 storSegSoC(2_23_1)
+>= 0
+
+c_l_storSegSoCLower(2_23_2)_:
++1 storSegSoC(2_23_2)
+>= 0
+
+c_l_storSegSoCLower(2_23_3)_:
++1 storSegSoC(2_23_3)
+>= 0
+
+c_l_storSegSoCLower(2_24_1)_:
++1 storSegSoC(2_24_1)
+>= 0
+
+c_l_storSegSoCLower(2_24_2)_:
++1 storSegSoC(2_24_2)
+>= 0
+
+c_l_storSegSoCLower(2_24_3)_:
++1 storSegSoC(2_24_3)
+>= 0
+
+c_l_storSegSoCLower(3_1_1)_:
++1 storSegSoC(3_1_1)
+>= 0
+
+c_l_storSegSoCLower(3_1_2)_:
++1 storSegSoC(3_1_2)
+>= 0
+
+c_l_storSegSoCLower(3_1_3)_:
++1 storSegSoC(3_1_3)
+>= 0
+
+c_l_storSegSoCLower(3_2_1)_:
++1 storSegSoC(3_2_1)
+>= 0
+
+c_l_storSegSoCLower(3_2_2)_:
++1 storSegSoC(3_2_2)
+>= 0
+
+c_l_storSegSoCLower(3_2_3)_:
++1 storSegSoC(3_2_3)
+>= 0
+
+c_l_storSegSoCLower(3_3_1)_:
++1 storSegSoC(3_3_1)
+>= 0
+
+c_l_storSegSoCLower(3_3_2)_:
++1 storSegSoC(3_3_2)
+>= 0
+
+c_l_storSegSoCLower(3_3_3)_:
++1 storSegSoC(3_3_3)
+>= 0
+
+c_l_storSegSoCLower(3_4_1)_:
++1 storSegSoC(3_4_1)
+>= 0
+
+c_l_storSegSoCLower(3_4_2)_:
++1 storSegSoC(3_4_2)
+>= 0
+
+c_l_storSegSoCLower(3_4_3)_:
++1 storSegSoC(3_4_3)
+>= 0
+
+c_l_storSegSoCLower(3_5_1)_:
++1 storSegSoC(3_5_1)
+>= 0
+
+c_l_storSegSoCLower(3_5_2)_:
++1 storSegSoC(3_5_2)
+>= 0
+
+c_l_storSegSoCLower(3_5_3)_:
++1 storSegSoC(3_5_3)
+>= 0
+
+c_l_storSegSoCLower(3_6_1)_:
++1 storSegSoC(3_6_1)
+>= 0
+
+c_l_storSegSoCLower(3_6_2)_:
++1 storSegSoC(3_6_2)
+>= 0
+
+c_l_storSegSoCLower(3_6_3)_:
++1 storSegSoC(3_6_3)
+>= 0
+
+c_l_storSegSoCLower(3_7_1)_:
++1 storSegSoC(3_7_1)
+>= 0
+
+c_l_storSegSoCLower(3_7_2)_:
++1 storSegSoC(3_7_2)
+>= 0
+
+c_l_storSegSoCLower(3_7_3)_:
++1 storSegSoC(3_7_3)
+>= 0
+
+c_l_storSegSoCLower(3_8_1)_:
++1 storSegSoC(3_8_1)
+>= 0
+
+c_l_storSegSoCLower(3_8_2)_:
++1 storSegSoC(3_8_2)
+>= 0
+
+c_l_storSegSoCLower(3_8_3)_:
++1 storSegSoC(3_8_3)
+>= 0
+
+c_l_storSegSoCLower(3_9_1)_:
++1 storSegSoC(3_9_1)
+>= 0
+
+c_l_storSegSoCLower(3_9_2)_:
++1 storSegSoC(3_9_2)
+>= 0
+
+c_l_storSegSoCLower(3_9_3)_:
++1 storSegSoC(3_9_3)
+>= 0
+
+c_l_storSegSoCLower(3_10_1)_:
++1 storSegSoC(3_10_1)
+>= 0
+
+c_l_storSegSoCLower(3_10_2)_:
++1 storSegSoC(3_10_2)
+>= 0
+
+c_l_storSegSoCLower(3_10_3)_:
++1 storSegSoC(3_10_3)
+>= 0
+
+c_l_storSegSoCLower(3_11_1)_:
++1 storSegSoC(3_11_1)
+>= 0
+
+c_l_storSegSoCLower(3_11_2)_:
++1 storSegSoC(3_11_2)
+>= 0
+
+c_l_storSegSoCLower(3_11_3)_:
++1 storSegSoC(3_11_3)
+>= 0
+
+c_l_storSegSoCLower(3_12_1)_:
++1 storSegSoC(3_12_1)
+>= 0
+
+c_l_storSegSoCLower(3_12_2)_:
++1 storSegSoC(3_12_2)
+>= 0
+
+c_l_storSegSoCLower(3_12_3)_:
++1 storSegSoC(3_12_3)
+>= 0
+
+c_l_storSegSoCLower(3_13_1)_:
++1 storSegSoC(3_13_1)
+>= 0
+
+c_l_storSegSoCLower(3_13_2)_:
++1 storSegSoC(3_13_2)
+>= 0
+
+c_l_storSegSoCLower(3_13_3)_:
++1 storSegSoC(3_13_3)
+>= 0
+
+c_l_storSegSoCLower(3_14_1)_:
++1 storSegSoC(3_14_1)
+>= 0
+
+c_l_storSegSoCLower(3_14_2)_:
++1 storSegSoC(3_14_2)
+>= 0
+
+c_l_storSegSoCLower(3_14_3)_:
++1 storSegSoC(3_14_3)
+>= 0
+
+c_l_storSegSoCLower(3_15_1)_:
++1 storSegSoC(3_15_1)
+>= 0
+
+c_l_storSegSoCLower(3_15_2)_:
++1 storSegSoC(3_15_2)
+>= 0
+
+c_l_storSegSoCLower(3_15_3)_:
++1 storSegSoC(3_15_3)
+>= 0
+
+c_l_storSegSoCLower(3_16_1)_:
++1 storSegSoC(3_16_1)
+>= 0
+
+c_l_storSegSoCLower(3_16_2)_:
++1 storSegSoC(3_16_2)
+>= 0
+
+c_l_storSegSoCLower(3_16_3)_:
++1 storSegSoC(3_16_3)
+>= 0
+
+c_l_storSegSoCLower(3_17_1)_:
++1 storSegSoC(3_17_1)
+>= 0
+
+c_l_storSegSoCLower(3_17_2)_:
++1 storSegSoC(3_17_2)
+>= 0
+
+c_l_storSegSoCLower(3_17_3)_:
++1 storSegSoC(3_17_3)
+>= 0
+
+c_l_storSegSoCLower(3_18_1)_:
++1 storSegSoC(3_18_1)
+>= 0
+
+c_l_storSegSoCLower(3_18_2)_:
++1 storSegSoC(3_18_2)
+>= 0
+
+c_l_storSegSoCLower(3_18_3)_:
++1 storSegSoC(3_18_3)
+>= 0
+
+c_l_storSegSoCLower(3_19_1)_:
++1 storSegSoC(3_19_1)
+>= 0
+
+c_l_storSegSoCLower(3_19_2)_:
++1 storSegSoC(3_19_2)
+>= 0
+
+c_l_storSegSoCLower(3_19_3)_:
++1 storSegSoC(3_19_3)
+>= 0
+
+c_l_storSegSoCLower(3_20_1)_:
++1 storSegSoC(3_20_1)
+>= 0
+
+c_l_storSegSoCLower(3_20_2)_:
++1 storSegSoC(3_20_2)
+>= 0
+
+c_l_storSegSoCLower(3_20_3)_:
++1 storSegSoC(3_20_3)
+>= 0
+
+c_l_storSegSoCLower(3_21_1)_:
++1 storSegSoC(3_21_1)
+>= 0
+
+c_l_storSegSoCLower(3_21_2)_:
++1 storSegSoC(3_21_2)
+>= 0
+
+c_l_storSegSoCLower(3_21_3)_:
++1 storSegSoC(3_21_3)
+>= 0
+
+c_l_storSegSoCLower(3_22_1)_:
++1 storSegSoC(3_22_1)
+>= 0
+
+c_l_storSegSoCLower(3_22_2)_:
++1 storSegSoC(3_22_2)
+>= 0
+
+c_l_storSegSoCLower(3_22_3)_:
++1 storSegSoC(3_22_3)
+>= 0
+
+c_l_storSegSoCLower(3_23_1)_:
++1 storSegSoC(3_23_1)
+>= 0
+
+c_l_storSegSoCLower(3_23_2)_:
++1 storSegSoC(3_23_2)
+>= 0
+
+c_l_storSegSoCLower(3_23_3)_:
++1 storSegSoC(3_23_3)
+>= 0
+
+c_l_storSegSoCLower(3_24_1)_:
++1 storSegSoC(3_24_1)
+>= 0
+
+c_l_storSegSoCLower(3_24_2)_:
++1 storSegSoC(3_24_2)
+>= 0
+
+c_l_storSegSoCLower(3_24_3)_:
++1 storSegSoC(3_24_3)
+>= 0
+
+c_u_storSegSoCUpper(1_1_1)_:
++1 storSegSoC(1_1_1)
+-16.666666666666668 storSegXo(1_1_1)
+<= 0
+
+c_u_storSegSoCUpper(1_1_2)_:
++1 storSegSoC(1_1_2)
+-16.666666666666668 storSegXo(1_1_2)
+<= 0
+
+c_u_storSegSoCUpper(1_1_3)_:
++1 storSegSoC(1_1_3)
+-16.666666666666668 storSegXo(1_1_3)
+<= 0
+
+c_u_storSegSoCUpper(1_2_1)_:
++1 storSegSoC(1_2_1)
+-16.666666666666668 storSegXo(1_2_1)
+<= 0
+
+c_u_storSegSoCUpper(1_2_2)_:
++1 storSegSoC(1_2_2)
+-16.666666666666668 storSegXo(1_2_2)
+<= 0
+
+c_u_storSegSoCUpper(1_2_3)_:
++1 storSegSoC(1_2_3)
+-16.666666666666668 storSegXo(1_2_3)
+<= 0
+
+c_u_storSegSoCUpper(1_3_1)_:
++1 storSegSoC(1_3_1)
+-16.666666666666668 storSegXo(1_3_1)
+<= 0
+
+c_u_storSegSoCUpper(1_3_2)_:
++1 storSegSoC(1_3_2)
+-16.666666666666668 storSegXo(1_3_2)
+<= 0
+
+c_u_storSegSoCUpper(1_3_3)_:
++1 storSegSoC(1_3_3)
+-16.666666666666668 storSegXo(1_3_3)
+<= 0
+
+c_u_storSegSoCUpper(1_4_1)_:
++1 storSegSoC(1_4_1)
+-16.666666666666668 storSegXo(1_4_1)
+<= 0
+
+c_u_storSegSoCUpper(1_4_2)_:
++1 storSegSoC(1_4_2)
+-16.666666666666668 storSegXo(1_4_2)
+<= 0
+
+c_u_storSegSoCUpper(1_4_3)_:
++1 storSegSoC(1_4_3)
+-16.666666666666668 storSegXo(1_4_3)
+<= 0
+
+c_u_storSegSoCUpper(1_5_1)_:
++1 storSegSoC(1_5_1)
+-16.666666666666668 storSegXo(1_5_1)
+<= 0
+
+c_u_storSegSoCUpper(1_5_2)_:
++1 storSegSoC(1_5_2)
+-16.666666666666668 storSegXo(1_5_2)
+<= 0
+
+c_u_storSegSoCUpper(1_5_3)_:
++1 storSegSoC(1_5_3)
+-16.666666666666668 storSegXo(1_5_3)
+<= 0
+
+c_u_storSegSoCUpper(1_6_1)_:
++1 storSegSoC(1_6_1)
+-16.666666666666668 storSegXo(1_6_1)
+<= 0
+
+c_u_storSegSoCUpper(1_6_2)_:
++1 storSegSoC(1_6_2)
+-16.666666666666668 storSegXo(1_6_2)
+<= 0
+
+c_u_storSegSoCUpper(1_6_3)_:
++1 storSegSoC(1_6_3)
+-16.666666666666668 storSegXo(1_6_3)
+<= 0
+
+c_u_storSegSoCUpper(1_7_1)_:
++1 storSegSoC(1_7_1)
+-16.666666666666668 storSegXo(1_7_1)
+<= 0
+
+c_u_storSegSoCUpper(1_7_2)_:
++1 storSegSoC(1_7_2)
+-16.666666666666668 storSegXo(1_7_2)
+<= 0
+
+c_u_storSegSoCUpper(1_7_3)_:
++1 storSegSoC(1_7_3)
+-16.666666666666668 storSegXo(1_7_3)
+<= 0
+
+c_u_storSegSoCUpper(1_8_1)_:
++1 storSegSoC(1_8_1)
+-16.666666666666668 storSegXo(1_8_1)
+<= 0
+
+c_u_storSegSoCUpper(1_8_2)_:
++1 storSegSoC(1_8_2)
+-16.666666666666668 storSegXo(1_8_2)
+<= 0
+
+c_u_storSegSoCUpper(1_8_3)_:
++1 storSegSoC(1_8_3)
+-16.666666666666668 storSegXo(1_8_3)
+<= 0
+
+c_u_storSegSoCUpper(1_9_1)_:
++1 storSegSoC(1_9_1)
+-16.666666666666668 storSegXo(1_9_1)
+<= 0
+
+c_u_storSegSoCUpper(1_9_2)_:
++1 storSegSoC(1_9_2)
+-16.666666666666668 storSegXo(1_9_2)
+<= 0
+
+c_u_storSegSoCUpper(1_9_3)_:
++1 storSegSoC(1_9_3)
+-16.666666666666668 storSegXo(1_9_3)
+<= 0
+
+c_u_storSegSoCUpper(1_10_1)_:
++1 storSegSoC(1_10_1)
+-16.666666666666668 storSegXo(1_10_1)
+<= 0
+
+c_u_storSegSoCUpper(1_10_2)_:
++1 storSegSoC(1_10_2)
+-16.666666666666668 storSegXo(1_10_2)
+<= 0
+
+c_u_storSegSoCUpper(1_10_3)_:
++1 storSegSoC(1_10_3)
+-16.666666666666668 storSegXo(1_10_3)
+<= 0
+
+c_u_storSegSoCUpper(1_11_1)_:
++1 storSegSoC(1_11_1)
+-16.666666666666668 storSegXo(1_11_1)
+<= 0
+
+c_u_storSegSoCUpper(1_11_2)_:
++1 storSegSoC(1_11_2)
+-16.666666666666668 storSegXo(1_11_2)
+<= 0
+
+c_u_storSegSoCUpper(1_11_3)_:
++1 storSegSoC(1_11_3)
+-16.666666666666668 storSegXo(1_11_3)
+<= 0
+
+c_u_storSegSoCUpper(1_12_1)_:
++1 storSegSoC(1_12_1)
+-16.666666666666668 storSegXo(1_12_1)
+<= 0
+
+c_u_storSegSoCUpper(1_12_2)_:
++1 storSegSoC(1_12_2)
+-16.666666666666668 storSegXo(1_12_2)
+<= 0
+
+c_u_storSegSoCUpper(1_12_3)_:
++1 storSegSoC(1_12_3)
+-16.666666666666668 storSegXo(1_12_3)
+<= 0
+
+c_u_storSegSoCUpper(1_13_1)_:
++1 storSegSoC(1_13_1)
+-16.666666666666668 storSegXo(1_13_1)
+<= 0
+
+c_u_storSegSoCUpper(1_13_2)_:
++1 storSegSoC(1_13_2)
+-16.666666666666668 storSegXo(1_13_2)
+<= 0
+
+c_u_storSegSoCUpper(1_13_3)_:
++1 storSegSoC(1_13_3)
+-16.666666666666668 storSegXo(1_13_3)
+<= 0
+
+c_u_storSegSoCUpper(1_14_1)_:
++1 storSegSoC(1_14_1)
+-16.666666666666668 storSegXo(1_14_1)
+<= 0
+
+c_u_storSegSoCUpper(1_14_2)_:
++1 storSegSoC(1_14_2)
+-16.666666666666668 storSegXo(1_14_2)
+<= 0
+
+c_u_storSegSoCUpper(1_14_3)_:
++1 storSegSoC(1_14_3)
+-16.666666666666668 storSegXo(1_14_3)
+<= 0
+
+c_u_storSegSoCUpper(1_15_1)_:
++1 storSegSoC(1_15_1)
+-16.666666666666668 storSegXo(1_15_1)
+<= 0
+
+c_u_storSegSoCUpper(1_15_2)_:
++1 storSegSoC(1_15_2)
+-16.666666666666668 storSegXo(1_15_2)
+<= 0
+
+c_u_storSegSoCUpper(1_15_3)_:
++1 storSegSoC(1_15_3)
+-16.666666666666668 storSegXo(1_15_3)
+<= 0
+
+c_u_storSegSoCUpper(1_16_1)_:
++1 storSegSoC(1_16_1)
+-16.666666666666668 storSegXo(1_16_1)
+<= 0
+
+c_u_storSegSoCUpper(1_16_2)_:
++1 storSegSoC(1_16_2)
+-16.666666666666668 storSegXo(1_16_2)
+<= 0
+
+c_u_storSegSoCUpper(1_16_3)_:
++1 storSegSoC(1_16_3)
+-16.666666666666668 storSegXo(1_16_3)
+<= 0
+
+c_u_storSegSoCUpper(1_17_1)_:
++1 storSegSoC(1_17_1)
+-16.666666666666668 storSegXo(1_17_1)
+<= 0
+
+c_u_storSegSoCUpper(1_17_2)_:
++1 storSegSoC(1_17_2)
+-16.666666666666668 storSegXo(1_17_2)
+<= 0
+
+c_u_storSegSoCUpper(1_17_3)_:
++1 storSegSoC(1_17_3)
+-16.666666666666668 storSegXo(1_17_3)
+<= 0
+
+c_u_storSegSoCUpper(1_18_1)_:
++1 storSegSoC(1_18_1)
+-16.666666666666668 storSegXo(1_18_1)
+<= 0
+
+c_u_storSegSoCUpper(1_18_2)_:
++1 storSegSoC(1_18_2)
+-16.666666666666668 storSegXo(1_18_2)
+<= 0
+
+c_u_storSegSoCUpper(1_18_3)_:
++1 storSegSoC(1_18_3)
+-16.666666666666668 storSegXo(1_18_3)
+<= 0
+
+c_u_storSegSoCUpper(1_19_1)_:
++1 storSegSoC(1_19_1)
+-16.666666666666668 storSegXo(1_19_1)
+<= 0
+
+c_u_storSegSoCUpper(1_19_2)_:
++1 storSegSoC(1_19_2)
+-16.666666666666668 storSegXo(1_19_2)
+<= 0
+
+c_u_storSegSoCUpper(1_19_3)_:
++1 storSegSoC(1_19_3)
+-16.666666666666668 storSegXo(1_19_3)
+<= 0
+
+c_u_storSegSoCUpper(1_20_1)_:
++1 storSegSoC(1_20_1)
+-16.666666666666668 storSegXo(1_20_1)
+<= 0
+
+c_u_storSegSoCUpper(1_20_2)_:
++1 storSegSoC(1_20_2)
+-16.666666666666668 storSegXo(1_20_2)
+<= 0
+
+c_u_storSegSoCUpper(1_20_3)_:
++1 storSegSoC(1_20_3)
+-16.666666666666668 storSegXo(1_20_3)
+<= 0
+
+c_u_storSegSoCUpper(1_21_1)_:
++1 storSegSoC(1_21_1)
+-16.666666666666668 storSegXo(1_21_1)
+<= 0
+
+c_u_storSegSoCUpper(1_21_2)_:
++1 storSegSoC(1_21_2)
+-16.666666666666668 storSegXo(1_21_2)
+<= 0
+
+c_u_storSegSoCUpper(1_21_3)_:
++1 storSegSoC(1_21_3)
+-16.666666666666668 storSegXo(1_21_3)
+<= 0
+
+c_u_storSegSoCUpper(1_22_1)_:
++1 storSegSoC(1_22_1)
+-16.666666666666668 storSegXo(1_22_1)
+<= 0
+
+c_u_storSegSoCUpper(1_22_2)_:
++1 storSegSoC(1_22_2)
+-16.666666666666668 storSegXo(1_22_2)
+<= 0
+
+c_u_storSegSoCUpper(1_22_3)_:
++1 storSegSoC(1_22_3)
+-16.666666666666668 storSegXo(1_22_3)
+<= 0
+
+c_u_storSegSoCUpper(1_23_1)_:
++1 storSegSoC(1_23_1)
+-16.666666666666668 storSegXo(1_23_1)
+<= 0
+
+c_u_storSegSoCUpper(1_23_2)_:
++1 storSegSoC(1_23_2)
+-16.666666666666668 storSegXo(1_23_2)
+<= 0
+
+c_u_storSegSoCUpper(1_23_3)_:
++1 storSegSoC(1_23_3)
+-16.666666666666668 storSegXo(1_23_3)
+<= 0
+
+c_u_storSegSoCUpper(1_24_1)_:
++1 storSegSoC(1_24_1)
+-16.666666666666668 storSegXo(1_24_1)
+<= 0
+
+c_u_storSegSoCUpper(1_24_2)_:
++1 storSegSoC(1_24_2)
+-16.666666666666668 storSegXo(1_24_2)
+<= 0
+
+c_u_storSegSoCUpper(1_24_3)_:
++1 storSegSoC(1_24_3)
+-16.666666666666668 storSegXo(1_24_3)
+<= 0
+
+c_u_storSegSoCUpper(2_1_1)_:
++1 storSegSoC(2_1_1)
+-33.333333333333336 storSegXo(2_1_1)
+<= 0
+
+c_u_storSegSoCUpper(2_1_2)_:
++1 storSegSoC(2_1_2)
+-33.333333333333336 storSegXo(2_1_2)
+<= 0
+
+c_u_storSegSoCUpper(2_1_3)_:
++1 storSegSoC(2_1_3)
+-33.333333333333336 storSegXo(2_1_3)
+<= 0
+
+c_u_storSegSoCUpper(2_2_1)_:
++1 storSegSoC(2_2_1)
+-33.333333333333336 storSegXo(2_2_1)
+<= 0
+
+c_u_storSegSoCUpper(2_2_2)_:
++1 storSegSoC(2_2_2)
+-33.333333333333336 storSegXo(2_2_2)
+<= 0
+
+c_u_storSegSoCUpper(2_2_3)_:
++1 storSegSoC(2_2_3)
+-33.333333333333336 storSegXo(2_2_3)
+<= 0
+
+c_u_storSegSoCUpper(2_3_1)_:
++1 storSegSoC(2_3_1)
+-33.333333333333336 storSegXo(2_3_1)
+<= 0
+
+c_u_storSegSoCUpper(2_3_2)_:
++1 storSegSoC(2_3_2)
+-33.333333333333336 storSegXo(2_3_2)
+<= 0
+
+c_u_storSegSoCUpper(2_3_3)_:
++1 storSegSoC(2_3_3)
+-33.333333333333336 storSegXo(2_3_3)
+<= 0
+
+c_u_storSegSoCUpper(2_4_1)_:
++1 storSegSoC(2_4_1)
+-33.333333333333336 storSegXo(2_4_1)
+<= 0
+
+c_u_storSegSoCUpper(2_4_2)_:
++1 storSegSoC(2_4_2)
+-33.333333333333336 storSegXo(2_4_2)
+<= 0
+
+c_u_storSegSoCUpper(2_4_3)_:
++1 storSegSoC(2_4_3)
+-33.333333333333336 storSegXo(2_4_3)
+<= 0
+
+c_u_storSegSoCUpper(2_5_1)_:
++1 storSegSoC(2_5_1)
+-33.333333333333336 storSegXo(2_5_1)
+<= 0
+
+c_u_storSegSoCUpper(2_5_2)_:
++1 storSegSoC(2_5_2)
+-33.333333333333336 storSegXo(2_5_2)
+<= 0
+
+c_u_storSegSoCUpper(2_5_3)_:
++1 storSegSoC(2_5_3)
+-33.333333333333336 storSegXo(2_5_3)
+<= 0
+
+c_u_storSegSoCUpper(2_6_1)_:
++1 storSegSoC(2_6_1)
+-33.333333333333336 storSegXo(2_6_1)
+<= 0
+
+c_u_storSegSoCUpper(2_6_2)_:
++1 storSegSoC(2_6_2)
+-33.333333333333336 storSegXo(2_6_2)
+<= 0
+
+c_u_storSegSoCUpper(2_6_3)_:
++1 storSegSoC(2_6_3)
+-33.333333333333336 storSegXo(2_6_3)
+<= 0
+
+c_u_storSegSoCUpper(2_7_1)_:
++1 storSegSoC(2_7_1)
+-33.333333333333336 storSegXo(2_7_1)
+<= 0
+
+c_u_storSegSoCUpper(2_7_2)_:
++1 storSegSoC(2_7_2)
+-33.333333333333336 storSegXo(2_7_2)
+<= 0
+
+c_u_storSegSoCUpper(2_7_3)_:
++1 storSegSoC(2_7_3)
+-33.333333333333336 storSegXo(2_7_3)
+<= 0
+
+c_u_storSegSoCUpper(2_8_1)_:
++1 storSegSoC(2_8_1)
+-33.333333333333336 storSegXo(2_8_1)
+<= 0
+
+c_u_storSegSoCUpper(2_8_2)_:
++1 storSegSoC(2_8_2)
+-33.333333333333336 storSegXo(2_8_2)
+<= 0
+
+c_u_storSegSoCUpper(2_8_3)_:
++1 storSegSoC(2_8_3)
+-33.333333333333336 storSegXo(2_8_3)
+<= 0
+
+c_u_storSegSoCUpper(2_9_1)_:
++1 storSegSoC(2_9_1)
+-33.333333333333336 storSegXo(2_9_1)
+<= 0
+
+c_u_storSegSoCUpper(2_9_2)_:
++1 storSegSoC(2_9_2)
+-33.333333333333336 storSegXo(2_9_2)
+<= 0
+
+c_u_storSegSoCUpper(2_9_3)_:
++1 storSegSoC(2_9_3)
+-33.333333333333336 storSegXo(2_9_3)
+<= 0
+
+c_u_storSegSoCUpper(2_10_1)_:
++1 storSegSoC(2_10_1)
+-33.333333333333336 storSegXo(2_10_1)
+<= 0
+
+c_u_storSegSoCUpper(2_10_2)_:
++1 storSegSoC(2_10_2)
+-33.333333333333336 storSegXo(2_10_2)
+<= 0
+
+c_u_storSegSoCUpper(2_10_3)_:
++1 storSegSoC(2_10_3)
+-33.333333333333336 storSegXo(2_10_3)
+<= 0
+
+c_u_storSegSoCUpper(2_11_1)_:
++1 storSegSoC(2_11_1)
+-33.333333333333336 storSegXo(2_11_1)
+<= 0
+
+c_u_storSegSoCUpper(2_11_2)_:
++1 storSegSoC(2_11_2)
+-33.333333333333336 storSegXo(2_11_2)
+<= 0
+
+c_u_storSegSoCUpper(2_11_3)_:
++1 storSegSoC(2_11_3)
+-33.333333333333336 storSegXo(2_11_3)
+<= 0
+
+c_u_storSegSoCUpper(2_12_1)_:
++1 storSegSoC(2_12_1)
+-33.333333333333336 storSegXo(2_12_1)
+<= 0
+
+c_u_storSegSoCUpper(2_12_2)_:
++1 storSegSoC(2_12_2)
+-33.333333333333336 storSegXo(2_12_2)
+<= 0
+
+c_u_storSegSoCUpper(2_12_3)_:
++1 storSegSoC(2_12_3)
+-33.333333333333336 storSegXo(2_12_3)
+<= 0
+
+c_u_storSegSoCUpper(2_13_1)_:
++1 storSegSoC(2_13_1)
+-33.333333333333336 storSegXo(2_13_1)
+<= 0
+
+c_u_storSegSoCUpper(2_13_2)_:
++1 storSegSoC(2_13_2)
+-33.333333333333336 storSegXo(2_13_2)
+<= 0
+
+c_u_storSegSoCUpper(2_13_3)_:
++1 storSegSoC(2_13_3)
+-33.333333333333336 storSegXo(2_13_3)
+<= 0
+
+c_u_storSegSoCUpper(2_14_1)_:
++1 storSegSoC(2_14_1)
+-33.333333333333336 storSegXo(2_14_1)
+<= 0
+
+c_u_storSegSoCUpper(2_14_2)_:
++1 storSegSoC(2_14_2)
+-33.333333333333336 storSegXo(2_14_2)
+<= 0
+
+c_u_storSegSoCUpper(2_14_3)_:
++1 storSegSoC(2_14_3)
+-33.333333333333336 storSegXo(2_14_3)
+<= 0
+
+c_u_storSegSoCUpper(2_15_1)_:
++1 storSegSoC(2_15_1)
+-33.333333333333336 storSegXo(2_15_1)
+<= 0
+
+c_u_storSegSoCUpper(2_15_2)_:
++1 storSegSoC(2_15_2)
+-33.333333333333336 storSegXo(2_15_2)
+<= 0
+
+c_u_storSegSoCUpper(2_15_3)_:
++1 storSegSoC(2_15_3)
+-33.333333333333336 storSegXo(2_15_3)
+<= 0
+
+c_u_storSegSoCUpper(2_16_1)_:
++1 storSegSoC(2_16_1)
+-33.333333333333336 storSegXo(2_16_1)
+<= 0
+
+c_u_storSegSoCUpper(2_16_2)_:
++1 storSegSoC(2_16_2)
+-33.333333333333336 storSegXo(2_16_2)
+<= 0
+
+c_u_storSegSoCUpper(2_16_3)_:
++1 storSegSoC(2_16_3)
+-33.333333333333336 storSegXo(2_16_3)
+<= 0
+
+c_u_storSegSoCUpper(2_17_1)_:
++1 storSegSoC(2_17_1)
+-33.333333333333336 storSegXo(2_17_1)
+<= 0
+
+c_u_storSegSoCUpper(2_17_2)_:
++1 storSegSoC(2_17_2)
+-33.333333333333336 storSegXo(2_17_2)
+<= 0
+
+c_u_storSegSoCUpper(2_17_3)_:
++1 storSegSoC(2_17_3)
+-33.333333333333336 storSegXo(2_17_3)
+<= 0
+
+c_u_storSegSoCUpper(2_18_1)_:
++1 storSegSoC(2_18_1)
+-33.333333333333336 storSegXo(2_18_1)
+<= 0
+
+c_u_storSegSoCUpper(2_18_2)_:
++1 storSegSoC(2_18_2)
+-33.333333333333336 storSegXo(2_18_2)
+<= 0
+
+c_u_storSegSoCUpper(2_18_3)_:
++1 storSegSoC(2_18_3)
+-33.333333333333336 storSegXo(2_18_3)
+<= 0
+
+c_u_storSegSoCUpper(2_19_1)_:
++1 storSegSoC(2_19_1)
+-33.333333333333336 storSegXo(2_19_1)
+<= 0
+
+c_u_storSegSoCUpper(2_19_2)_:
++1 storSegSoC(2_19_2)
+-33.333333333333336 storSegXo(2_19_2)
+<= 0
+
+c_u_storSegSoCUpper(2_19_3)_:
++1 storSegSoC(2_19_3)
+-33.333333333333336 storSegXo(2_19_3)
+<= 0
+
+c_u_storSegSoCUpper(2_20_1)_:
++1 storSegSoC(2_20_1)
+-33.333333333333336 storSegXo(2_20_1)
+<= 0
+
+c_u_storSegSoCUpper(2_20_2)_:
++1 storSegSoC(2_20_2)
+-33.333333333333336 storSegXo(2_20_2)
+<= 0
+
+c_u_storSegSoCUpper(2_20_3)_:
++1 storSegSoC(2_20_3)
+-33.333333333333336 storSegXo(2_20_3)
+<= 0
+
+c_u_storSegSoCUpper(2_21_1)_:
++1 storSegSoC(2_21_1)
+-33.333333333333336 storSegXo(2_21_1)
+<= 0
+
+c_u_storSegSoCUpper(2_21_2)_:
++1 storSegSoC(2_21_2)
+-33.333333333333336 storSegXo(2_21_2)
+<= 0
+
+c_u_storSegSoCUpper(2_21_3)_:
++1 storSegSoC(2_21_3)
+-33.333333333333336 storSegXo(2_21_3)
+<= 0
+
+c_u_storSegSoCUpper(2_22_1)_:
++1 storSegSoC(2_22_1)
+-33.333333333333336 storSegXo(2_22_1)
+<= 0
+
+c_u_storSegSoCUpper(2_22_2)_:
++1 storSegSoC(2_22_2)
+-33.333333333333336 storSegXo(2_22_2)
+<= 0
+
+c_u_storSegSoCUpper(2_22_3)_:
++1 storSegSoC(2_22_3)
+-33.333333333333336 storSegXo(2_22_3)
+<= 0
+
+c_u_storSegSoCUpper(2_23_1)_:
++1 storSegSoC(2_23_1)
+-33.333333333333336 storSegXo(2_23_1)
+<= 0
+
+c_u_storSegSoCUpper(2_23_2)_:
++1 storSegSoC(2_23_2)
+-33.333333333333336 storSegXo(2_23_2)
+<= 0
+
+c_u_storSegSoCUpper(2_23_3)_:
++1 storSegSoC(2_23_3)
+-33.333333333333336 storSegXo(2_23_3)
+<= 0
+
+c_u_storSegSoCUpper(2_24_1)_:
++1 storSegSoC(2_24_1)
+-33.333333333333336 storSegXo(2_24_1)
+<= 0
+
+c_u_storSegSoCUpper(2_24_2)_:
++1 storSegSoC(2_24_2)
+-33.333333333333336 storSegXo(2_24_2)
+<= 0
+
+c_u_storSegSoCUpper(2_24_3)_:
++1 storSegSoC(2_24_3)
+-33.333333333333336 storSegXo(2_24_3)
+<= 0
+
+c_u_storSegSoCUpper(3_1_1)_:
++1 storSegSoC(3_1_1)
+-5 storSegXo(3_1_1)
+<= 0
+
+c_u_storSegSoCUpper(3_1_2)_:
++1 storSegSoC(3_1_2)
+-5 storSegXo(3_1_2)
+<= 0
+
+c_u_storSegSoCUpper(3_1_3)_:
++1 storSegSoC(3_1_3)
+-5 storSegXo(3_1_3)
+<= 0
+
+c_u_storSegSoCUpper(3_2_1)_:
++1 storSegSoC(3_2_1)
+-5 storSegXo(3_2_1)
+<= 0
+
+c_u_storSegSoCUpper(3_2_2)_:
++1 storSegSoC(3_2_2)
+-5 storSegXo(3_2_2)
+<= 0
+
+c_u_storSegSoCUpper(3_2_3)_:
++1 storSegSoC(3_2_3)
+-5 storSegXo(3_2_3)
+<= 0
+
+c_u_storSegSoCUpper(3_3_1)_:
++1 storSegSoC(3_3_1)
+-5 storSegXo(3_3_1)
+<= 0
+
+c_u_storSegSoCUpper(3_3_2)_:
++1 storSegSoC(3_3_2)
+-5 storSegXo(3_3_2)
+<= 0
+
+c_u_storSegSoCUpper(3_3_3)_:
++1 storSegSoC(3_3_3)
+-5 storSegXo(3_3_3)
+<= 0
+
+c_u_storSegSoCUpper(3_4_1)_:
++1 storSegSoC(3_4_1)
+-5 storSegXo(3_4_1)
+<= 0
+
+c_u_storSegSoCUpper(3_4_2)_:
++1 storSegSoC(3_4_2)
+-5 storSegXo(3_4_2)
+<= 0
+
+c_u_storSegSoCUpper(3_4_3)_:
++1 storSegSoC(3_4_3)
+-5 storSegXo(3_4_3)
+<= 0
+
+c_u_storSegSoCUpper(3_5_1)_:
++1 storSegSoC(3_5_1)
+-5 storSegXo(3_5_1)
+<= 0
+
+c_u_storSegSoCUpper(3_5_2)_:
++1 storSegSoC(3_5_2)
+-5 storSegXo(3_5_2)
+<= 0
+
+c_u_storSegSoCUpper(3_5_3)_:
++1 storSegSoC(3_5_3)
+-5 storSegXo(3_5_3)
+<= 0
+
+c_u_storSegSoCUpper(3_6_1)_:
++1 storSegSoC(3_6_1)
+-5 storSegXo(3_6_1)
+<= 0
+
+c_u_storSegSoCUpper(3_6_2)_:
++1 storSegSoC(3_6_2)
+-5 storSegXo(3_6_2)
+<= 0
+
+c_u_storSegSoCUpper(3_6_3)_:
++1 storSegSoC(3_6_3)
+-5 storSegXo(3_6_3)
+<= 0
+
+c_u_storSegSoCUpper(3_7_1)_:
++1 storSegSoC(3_7_1)
+-5 storSegXo(3_7_1)
+<= 0
+
+c_u_storSegSoCUpper(3_7_2)_:
++1 storSegSoC(3_7_2)
+-5 storSegXo(3_7_2)
+<= 0
+
+c_u_storSegSoCUpper(3_7_3)_:
++1 storSegSoC(3_7_3)
+-5 storSegXo(3_7_3)
+<= 0
+
+c_u_storSegSoCUpper(3_8_1)_:
++1 storSegSoC(3_8_1)
+-5 storSegXo(3_8_1)
+<= 0
+
+c_u_storSegSoCUpper(3_8_2)_:
++1 storSegSoC(3_8_2)
+-5 storSegXo(3_8_2)
+<= 0
+
+c_u_storSegSoCUpper(3_8_3)_:
++1 storSegSoC(3_8_3)
+-5 storSegXo(3_8_3)
+<= 0
+
+c_u_storSegSoCUpper(3_9_1)_:
++1 storSegSoC(3_9_1)
+-5 storSegXo(3_9_1)
+<= 0
+
+c_u_storSegSoCUpper(3_9_2)_:
++1 storSegSoC(3_9_2)
+-5 storSegXo(3_9_2)
+<= 0
+
+c_u_storSegSoCUpper(3_9_3)_:
++1 storSegSoC(3_9_3)
+-5 storSegXo(3_9_3)
+<= 0
+
+c_u_storSegSoCUpper(3_10_1)_:
++1 storSegSoC(3_10_1)
+-5 storSegXo(3_10_1)
+<= 0
+
+c_u_storSegSoCUpper(3_10_2)_:
++1 storSegSoC(3_10_2)
+-5 storSegXo(3_10_2)
+<= 0
+
+c_u_storSegSoCUpper(3_10_3)_:
++1 storSegSoC(3_10_3)
+-5 storSegXo(3_10_3)
+<= 0
+
+c_u_storSegSoCUpper(3_11_1)_:
++1 storSegSoC(3_11_1)
+-5 storSegXo(3_11_1)
+<= 0
+
+c_u_storSegSoCUpper(3_11_2)_:
++1 storSegSoC(3_11_2)
+-5 storSegXo(3_11_2)
+<= 0
+
+c_u_storSegSoCUpper(3_11_3)_:
++1 storSegSoC(3_11_3)
+-5 storSegXo(3_11_3)
+<= 0
+
+c_u_storSegSoCUpper(3_12_1)_:
++1 storSegSoC(3_12_1)
+-5 storSegXo(3_12_1)
+<= 0
+
+c_u_storSegSoCUpper(3_12_2)_:
++1 storSegSoC(3_12_2)
+-5 storSegXo(3_12_2)
+<= 0
+
+c_u_storSegSoCUpper(3_12_3)_:
++1 storSegSoC(3_12_3)
+-5 storSegXo(3_12_3)
+<= 0
+
+c_u_storSegSoCUpper(3_13_1)_:
++1 storSegSoC(3_13_1)
+-5 storSegXo(3_13_1)
+<= 0
+
+c_u_storSegSoCUpper(3_13_2)_:
++1 storSegSoC(3_13_2)
+-5 storSegXo(3_13_2)
+<= 0
+
+c_u_storSegSoCUpper(3_13_3)_:
++1 storSegSoC(3_13_3)
+-5 storSegXo(3_13_3)
+<= 0
+
+c_u_storSegSoCUpper(3_14_1)_:
++1 storSegSoC(3_14_1)
+-5 storSegXo(3_14_1)
+<= 0
+
+c_u_storSegSoCUpper(3_14_2)_:
++1 storSegSoC(3_14_2)
+-5 storSegXo(3_14_2)
+<= 0
+
+c_u_storSegSoCUpper(3_14_3)_:
++1 storSegSoC(3_14_3)
+-5 storSegXo(3_14_3)
+<= 0
+
+c_u_storSegSoCUpper(3_15_1)_:
++1 storSegSoC(3_15_1)
+-5 storSegXo(3_15_1)
+<= 0
+
+c_u_storSegSoCUpper(3_15_2)_:
++1 storSegSoC(3_15_2)
+-5 storSegXo(3_15_2)
+<= 0
+
+c_u_storSegSoCUpper(3_15_3)_:
++1 storSegSoC(3_15_3)
+-5 storSegXo(3_15_3)
+<= 0
+
+c_u_storSegSoCUpper(3_16_1)_:
++1 storSegSoC(3_16_1)
+-5 storSegXo(3_16_1)
+<= 0
+
+c_u_storSegSoCUpper(3_16_2)_:
++1 storSegSoC(3_16_2)
+-5 storSegXo(3_16_2)
+<= 0
+
+c_u_storSegSoCUpper(3_16_3)_:
++1 storSegSoC(3_16_3)
+-5 storSegXo(3_16_3)
+<= 0
+
+c_u_storSegSoCUpper(3_17_1)_:
++1 storSegSoC(3_17_1)
+-5 storSegXo(3_17_1)
+<= 0
+
+c_u_storSegSoCUpper(3_17_2)_:
++1 storSegSoC(3_17_2)
+-5 storSegXo(3_17_2)
+<= 0
+
+c_u_storSegSoCUpper(3_17_3)_:
++1 storSegSoC(3_17_3)
+-5 storSegXo(3_17_3)
+<= 0
+
+c_u_storSegSoCUpper(3_18_1)_:
++1 storSegSoC(3_18_1)
+-5 storSegXo(3_18_1)
+<= 0
+
+c_u_storSegSoCUpper(3_18_2)_:
++1 storSegSoC(3_18_2)
+-5 storSegXo(3_18_2)
+<= 0
+
+c_u_storSegSoCUpper(3_18_3)_:
++1 storSegSoC(3_18_3)
+-5 storSegXo(3_18_3)
+<= 0
+
+c_u_storSegSoCUpper(3_19_1)_:
++1 storSegSoC(3_19_1)
+-5 storSegXo(3_19_1)
+<= 0
+
+c_u_storSegSoCUpper(3_19_2)_:
++1 storSegSoC(3_19_2)
+-5 storSegXo(3_19_2)
+<= 0
+
+c_u_storSegSoCUpper(3_19_3)_:
++1 storSegSoC(3_19_3)
+-5 storSegXo(3_19_3)
+<= 0
+
+c_u_storSegSoCUpper(3_20_1)_:
++1 storSegSoC(3_20_1)
+-5 storSegXo(3_20_1)
+<= 0
+
+c_u_storSegSoCUpper(3_20_2)_:
++1 storSegSoC(3_20_2)
+-5 storSegXo(3_20_2)
+<= 0
+
+c_u_storSegSoCUpper(3_20_3)_:
++1 storSegSoC(3_20_3)
+-5 storSegXo(3_20_3)
+<= 0
+
+c_u_storSegSoCUpper(3_21_1)_:
++1 storSegSoC(3_21_1)
+-5 storSegXo(3_21_1)
+<= 0
+
+c_u_storSegSoCUpper(3_21_2)_:
++1 storSegSoC(3_21_2)
+-5 storSegXo(3_21_2)
+<= 0
+
+c_u_storSegSoCUpper(3_21_3)_:
++1 storSegSoC(3_21_3)
+-5 storSegXo(3_21_3)
+<= 0
+
+c_u_storSegSoCUpper(3_22_1)_:
++1 storSegSoC(3_22_1)
+-5 storSegXo(3_22_1)
+<= 0
+
+c_u_storSegSoCUpper(3_22_2)_:
++1 storSegSoC(3_22_2)
+-5 storSegXo(3_22_2)
+<= 0
+
+c_u_storSegSoCUpper(3_22_3)_:
++1 storSegSoC(3_22_3)
+-5 storSegXo(3_22_3)
+<= 0
+
+c_u_storSegSoCUpper(3_23_1)_:
++1 storSegSoC(3_23_1)
+-5 storSegXo(3_23_1)
+<= 0
+
+c_u_storSegSoCUpper(3_23_2)_:
++1 storSegSoC(3_23_2)
+-5 storSegXo(3_23_2)
+<= 0
+
+c_u_storSegSoCUpper(3_23_3)_:
++1 storSegSoC(3_23_3)
+-5 storSegXo(3_23_3)
+<= 0
+
+c_u_storSegSoCUpper(3_24_1)_:
++1 storSegSoC(3_24_1)
+-5 storSegXo(3_24_1)
+<= 0
+
+c_u_storSegSoCUpper(3_24_2)_:
++1 storSegSoC(3_24_2)
+-5 storSegXo(3_24_2)
+<= 0
+
+c_u_storSegSoCUpper(3_24_3)_:
++1 storSegSoC(3_24_3)
+-5 storSegXo(3_24_3)
+<= 0
 
 c_u_v2gDchRateIneq(1_1)_:
 +1 v2gDchActPower(1_1)
@@ -14088,126 +17142,126 @@ bounds
    0 <= v2gChActPower(5_22) <= +inf
    0 <= v2gChActPower(5_23) <= +inf
    0 <= v2gChActPower(5_24) <= +inf
-   0 <= v2gEnerState(1_1) <= +inf
-   0 <= v2gEnerState(1_2) <= +inf
-   0 <= v2gEnerState(1_3) <= +inf
-   0 <= v2gEnerState(1_4) <= +inf
-   0 <= v2gEnerState(1_5) <= +inf
-   0 <= v2gEnerState(1_6) <= +inf
-   0 <= v2gEnerState(1_7) <= +inf
-   0 <= v2gEnerState(1_8) <= +inf
-   0 <= v2gEnerState(1_9) <= +inf
-   0 <= v2gEnerState(1_10) <= +inf
-   0 <= v2gEnerState(1_11) <= +inf
-   0 <= v2gEnerState(1_12) <= +inf
-   0 <= v2gEnerState(1_13) <= +inf
-   0 <= v2gEnerState(1_14) <= +inf
-   0 <= v2gEnerState(1_15) <= +inf
-   0 <= v2gEnerState(1_16) <= +inf
-   0 <= v2gEnerState(1_17) <= +inf
-   0 <= v2gEnerState(1_18) <= +inf
-   0 <= v2gEnerState(1_19) <= +inf
-   0 <= v2gEnerState(1_20) <= +inf
-   0 <= v2gEnerState(1_21) <= +inf
-   0 <= v2gEnerState(1_22) <= +inf
-   0 <= v2gEnerState(1_23) <= +inf
-   0 <= v2gEnerState(1_24) <= +inf
-   0 <= v2gEnerState(2_1) <= +inf
-   0 <= v2gEnerState(2_2) <= +inf
-   0 <= v2gEnerState(2_3) <= +inf
-   0 <= v2gEnerState(2_4) <= +inf
-   0 <= v2gEnerState(2_5) <= +inf
-   0 <= v2gEnerState(2_6) <= +inf
-   0 <= v2gEnerState(2_7) <= +inf
-   0 <= v2gEnerState(2_8) <= +inf
-   0 <= v2gEnerState(2_9) <= +inf
-   0 <= v2gEnerState(2_10) <= +inf
-   0 <= v2gEnerState(2_11) <= +inf
-   0 <= v2gEnerState(2_12) <= +inf
-   0 <= v2gEnerState(2_13) <= +inf
-   0 <= v2gEnerState(2_14) <= +inf
-   0 <= v2gEnerState(2_15) <= +inf
-   0 <= v2gEnerState(2_16) <= +inf
-   0 <= v2gEnerState(2_17) <= +inf
-   0 <= v2gEnerState(2_18) <= +inf
-   0 <= v2gEnerState(2_19) <= +inf
-   0 <= v2gEnerState(2_20) <= +inf
-   0 <= v2gEnerState(2_21) <= +inf
-   0 <= v2gEnerState(2_22) <= +inf
-   0 <= v2gEnerState(2_23) <= +inf
-   0 <= v2gEnerState(2_24) <= +inf
-   0 <= v2gEnerState(3_1) <= +inf
-   0 <= v2gEnerState(3_2) <= +inf
-   0 <= v2gEnerState(3_3) <= +inf
-   0 <= v2gEnerState(3_4) <= +inf
-   0 <= v2gEnerState(3_5) <= +inf
-   0 <= v2gEnerState(3_6) <= +inf
-   0 <= v2gEnerState(3_7) <= +inf
-   0 <= v2gEnerState(3_8) <= +inf
-   0 <= v2gEnerState(3_9) <= +inf
-   0 <= v2gEnerState(3_10) <= +inf
-   0 <= v2gEnerState(3_11) <= +inf
-   0 <= v2gEnerState(3_12) <= +inf
-   0 <= v2gEnerState(3_13) <= +inf
-   0 <= v2gEnerState(3_14) <= +inf
-   0 <= v2gEnerState(3_15) <= +inf
-   0 <= v2gEnerState(3_16) <= +inf
-   0 <= v2gEnerState(3_17) <= +inf
-   0 <= v2gEnerState(3_18) <= +inf
-   0 <= v2gEnerState(3_19) <= +inf
-   0 <= v2gEnerState(3_20) <= +inf
-   0 <= v2gEnerState(3_21) <= +inf
-   0 <= v2gEnerState(3_22) <= +inf
-   0 <= v2gEnerState(3_23) <= +inf
-   0 <= v2gEnerState(3_24) <= +inf
-   0 <= v2gEnerState(4_1) <= +inf
-   0 <= v2gEnerState(4_2) <= +inf
-   0 <= v2gEnerState(4_3) <= +inf
-   0 <= v2gEnerState(4_4) <= +inf
-   0 <= v2gEnerState(4_5) <= +inf
-   0 <= v2gEnerState(4_6) <= +inf
-   0 <= v2gEnerState(4_7) <= +inf
-   0 <= v2gEnerState(4_8) <= +inf
-   0 <= v2gEnerState(4_9) <= +inf
-   0 <= v2gEnerState(4_10) <= +inf
-   0 <= v2gEnerState(4_11) <= +inf
-   0 <= v2gEnerState(4_12) <= +inf
-   0 <= v2gEnerState(4_13) <= +inf
-   0 <= v2gEnerState(4_14) <= +inf
-   0 <= v2gEnerState(4_15) <= +inf
-   0 <= v2gEnerState(4_16) <= +inf
-   0 <= v2gEnerState(4_17) <= +inf
-   0 <= v2gEnerState(4_18) <= +inf
-   0 <= v2gEnerState(4_19) <= +inf
-   0 <= v2gEnerState(4_20) <= +inf
-   0 <= v2gEnerState(4_21) <= +inf
-   0 <= v2gEnerState(4_22) <= +inf
-   0 <= v2gEnerState(4_23) <= +inf
-   0 <= v2gEnerState(4_24) <= +inf
-   0 <= v2gEnerState(5_1) <= +inf
-   0 <= v2gEnerState(5_2) <= +inf
-   0 <= v2gEnerState(5_3) <= +inf
-   0 <= v2gEnerState(5_4) <= +inf
-   0 <= v2gEnerState(5_5) <= +inf
-   0 <= v2gEnerState(5_6) <= +inf
-   0 <= v2gEnerState(5_7) <= +inf
-   0 <= v2gEnerState(5_8) <= +inf
-   0 <= v2gEnerState(5_9) <= +inf
-   0 <= v2gEnerState(5_10) <= +inf
-   0 <= v2gEnerState(5_11) <= +inf
-   0 <= v2gEnerState(5_12) <= +inf
-   0 <= v2gEnerState(5_13) <= +inf
-   0 <= v2gEnerState(5_14) <= +inf
-   0 <= v2gEnerState(5_15) <= +inf
-   0 <= v2gEnerState(5_16) <= +inf
-   0 <= v2gEnerState(5_17) <= +inf
-   0 <= v2gEnerState(5_18) <= +inf
-   0 <= v2gEnerState(5_19) <= +inf
-   0 <= v2gEnerState(5_20) <= +inf
-   0 <= v2gEnerState(5_21) <= +inf
-   0 <= v2gEnerState(5_22) <= +inf
-   0 <= v2gEnerState(5_23) <= +inf
-   0 <= v2gEnerState(5_24) <= +inf
+    -inf <= v2gEnerState(1_1) <= +inf
+    -inf <= v2gEnerState(1_2) <= +inf
+    -inf <= v2gEnerState(1_3) <= +inf
+    -inf <= v2gEnerState(1_4) <= +inf
+    -inf <= v2gEnerState(1_5) <= +inf
+    -inf <= v2gEnerState(1_6) <= +inf
+    -inf <= v2gEnerState(1_7) <= +inf
+    -inf <= v2gEnerState(1_8) <= +inf
+    -inf <= v2gEnerState(1_9) <= +inf
+    -inf <= v2gEnerState(1_10) <= +inf
+    -inf <= v2gEnerState(1_11) <= +inf
+    -inf <= v2gEnerState(1_12) <= +inf
+    -inf <= v2gEnerState(1_13) <= +inf
+    -inf <= v2gEnerState(1_14) <= +inf
+    -inf <= v2gEnerState(1_15) <= +inf
+    -inf <= v2gEnerState(1_16) <= +inf
+    -inf <= v2gEnerState(1_17) <= +inf
+    -inf <= v2gEnerState(1_18) <= +inf
+    -inf <= v2gEnerState(1_19) <= +inf
+    -inf <= v2gEnerState(1_20) <= +inf
+    -inf <= v2gEnerState(1_21) <= +inf
+    -inf <= v2gEnerState(1_22) <= +inf
+    -inf <= v2gEnerState(1_23) <= +inf
+    -inf <= v2gEnerState(1_24) <= +inf
+    -inf <= v2gEnerState(2_1) <= +inf
+    -inf <= v2gEnerState(2_2) <= +inf
+    -inf <= v2gEnerState(2_3) <= +inf
+    -inf <= v2gEnerState(2_4) <= +inf
+    -inf <= v2gEnerState(2_5) <= +inf
+    -inf <= v2gEnerState(2_6) <= +inf
+    -inf <= v2gEnerState(2_7) <= +inf
+    -inf <= v2gEnerState(2_8) <= +inf
+    -inf <= v2gEnerState(2_9) <= +inf
+    -inf <= v2gEnerState(2_10) <= +inf
+    -inf <= v2gEnerState(2_11) <= +inf
+    -inf <= v2gEnerState(2_12) <= +inf
+    -inf <= v2gEnerState(2_13) <= +inf
+    -inf <= v2gEnerState(2_14) <= +inf
+    -inf <= v2gEnerState(2_15) <= +inf
+    -inf <= v2gEnerState(2_16) <= +inf
+    -inf <= v2gEnerState(2_17) <= +inf
+    -inf <= v2gEnerState(2_18) <= +inf
+    -inf <= v2gEnerState(2_19) <= +inf
+    -inf <= v2gEnerState(2_20) <= +inf
+    -inf <= v2gEnerState(2_21) <= +inf
+    -inf <= v2gEnerState(2_22) <= +inf
+    -inf <= v2gEnerState(2_23) <= +inf
+    -inf <= v2gEnerState(2_24) <= +inf
+    -inf <= v2gEnerState(3_1) <= +inf
+    -inf <= v2gEnerState(3_2) <= +inf
+    -inf <= v2gEnerState(3_3) <= +inf
+    -inf <= v2gEnerState(3_4) <= +inf
+    -inf <= v2gEnerState(3_5) <= +inf
+    -inf <= v2gEnerState(3_6) <= +inf
+    -inf <= v2gEnerState(3_7) <= +inf
+    -inf <= v2gEnerState(3_8) <= +inf
+    -inf <= v2gEnerState(3_9) <= +inf
+    -inf <= v2gEnerState(3_10) <= +inf
+    -inf <= v2gEnerState(3_11) <= +inf
+    -inf <= v2gEnerState(3_12) <= +inf
+    -inf <= v2gEnerState(3_13) <= +inf
+    -inf <= v2gEnerState(3_14) <= +inf
+    -inf <= v2gEnerState(3_15) <= +inf
+    -inf <= v2gEnerState(3_16) <= +inf
+    -inf <= v2gEnerState(3_17) <= +inf
+    -inf <= v2gEnerState(3_18) <= +inf
+    -inf <= v2gEnerState(3_19) <= +inf
+    -inf <= v2gEnerState(3_20) <= +inf
+    -inf <= v2gEnerState(3_21) <= +inf
+    -inf <= v2gEnerState(3_22) <= +inf
+    -inf <= v2gEnerState(3_23) <= +inf
+    -inf <= v2gEnerState(3_24) <= +inf
+    -inf <= v2gEnerState(4_1) <= +inf
+    -inf <= v2gEnerState(4_2) <= +inf
+    -inf <= v2gEnerState(4_3) <= +inf
+    -inf <= v2gEnerState(4_4) <= +inf
+    -inf <= v2gEnerState(4_5) <= +inf
+    -inf <= v2gEnerState(4_6) <= +inf
+    -inf <= v2gEnerState(4_7) <= +inf
+    -inf <= v2gEnerState(4_8) <= +inf
+    -inf <= v2gEnerState(4_9) <= +inf
+    -inf <= v2gEnerState(4_10) <= +inf
+    -inf <= v2gEnerState(4_11) <= +inf
+    -inf <= v2gEnerState(4_12) <= +inf
+    -inf <= v2gEnerState(4_13) <= +inf
+    -inf <= v2gEnerState(4_14) <= +inf
+    -inf <= v2gEnerState(4_15) <= +inf
+    -inf <= v2gEnerState(4_16) <= +inf
+    -inf <= v2gEnerState(4_17) <= +inf
+    -inf <= v2gEnerState(4_18) <= +inf
+    -inf <= v2gEnerState(4_19) <= +inf
+    -inf <= v2gEnerState(4_20) <= +inf
+    -inf <= v2gEnerState(4_21) <= +inf
+    -inf <= v2gEnerState(4_22) <= +inf
+    -inf <= v2gEnerState(4_23) <= +inf
+    -inf <= v2gEnerState(4_24) <= +inf
+    -inf <= v2gEnerState(5_1) <= +inf
+    -inf <= v2gEnerState(5_2) <= +inf
+    -inf <= v2gEnerState(5_3) <= +inf
+    -inf <= v2gEnerState(5_4) <= +inf
+    -inf <= v2gEnerState(5_5) <= +inf
+    -inf <= v2gEnerState(5_6) <= +inf
+    -inf <= v2gEnerState(5_7) <= +inf
+    -inf <= v2gEnerState(5_8) <= +inf
+    -inf <= v2gEnerState(5_9) <= +inf
+    -inf <= v2gEnerState(5_10) <= +inf
+    -inf <= v2gEnerState(5_11) <= +inf
+    -inf <= v2gEnerState(5_12) <= +inf
+    -inf <= v2gEnerState(5_13) <= +inf
+    -inf <= v2gEnerState(5_14) <= +inf
+    -inf <= v2gEnerState(5_15) <= +inf
+    -inf <= v2gEnerState(5_16) <= +inf
+    -inf <= v2gEnerState(5_17) <= +inf
+    -inf <= v2gEnerState(5_18) <= +inf
+    -inf <= v2gEnerState(5_19) <= +inf
+    -inf <= v2gEnerState(5_20) <= +inf
+    -inf <= v2gEnerState(5_21) <= +inf
+    -inf <= v2gEnerState(5_22) <= +inf
+    -inf <= v2gEnerState(5_23) <= +inf
+    -inf <= v2gEnerState(5_24) <= +inf
    0 <= EminRelaxEv(1_1) <= +inf
    0 <= EminRelaxEv(1_2) <= +inf
    0 <= EminRelaxEv(1_3) <= +inf
@@ -15000,6 +18054,438 @@ bounds
    0 <= storDchXo(3_22) <= 1
    0 <= storDchXo(3_23) <= 1
    0 <= storDchXo(3_24) <= 1
+   0 <= storSegXo(1_1_1) <= 1
+   0 <= storSegXo(1_1_2) <= 1
+   0 <= storSegXo(1_1_3) <= 1
+   0 <= storSegXo(1_2_1) <= 1
+   0 <= storSegXo(1_2_2) <= 1
+   0 <= storSegXo(1_2_3) <= 1
+   0 <= storSegXo(1_3_1) <= 1
+   0 <= storSegXo(1_3_2) <= 1
+   0 <= storSegXo(1_3_3) <= 1
+   0 <= storSegXo(1_4_1) <= 1
+   0 <= storSegXo(1_4_2) <= 1
+   0 <= storSegXo(1_4_3) <= 1
+   0 <= storSegXo(1_5_1) <= 1
+   0 <= storSegXo(1_5_2) <= 1
+   0 <= storSegXo(1_5_3) <= 1
+   0 <= storSegXo(1_6_1) <= 1
+   0 <= storSegXo(1_6_2) <= 1
+   0 <= storSegXo(1_6_3) <= 1
+   0 <= storSegXo(1_7_1) <= 1
+   0 <= storSegXo(1_7_2) <= 1
+   0 <= storSegXo(1_7_3) <= 1
+   0 <= storSegXo(1_8_1) <= 1
+   0 <= storSegXo(1_8_2) <= 1
+   0 <= storSegXo(1_8_3) <= 1
+   0 <= storSegXo(1_9_1) <= 1
+   0 <= storSegXo(1_9_2) <= 1
+   0 <= storSegXo(1_9_3) <= 1
+   0 <= storSegXo(1_10_1) <= 1
+   0 <= storSegXo(1_10_2) <= 1
+   0 <= storSegXo(1_10_3) <= 1
+   0 <= storSegXo(1_11_1) <= 1
+   0 <= storSegXo(1_11_2) <= 1
+   0 <= storSegXo(1_11_3) <= 1
+   0 <= storSegXo(1_12_1) <= 1
+   0 <= storSegXo(1_12_2) <= 1
+   0 <= storSegXo(1_12_3) <= 1
+   0 <= storSegXo(1_13_1) <= 1
+   0 <= storSegXo(1_13_2) <= 1
+   0 <= storSegXo(1_13_3) <= 1
+   0 <= storSegXo(1_14_1) <= 1
+   0 <= storSegXo(1_14_2) <= 1
+   0 <= storSegXo(1_14_3) <= 1
+   0 <= storSegXo(1_15_1) <= 1
+   0 <= storSegXo(1_15_2) <= 1
+   0 <= storSegXo(1_15_3) <= 1
+   0 <= storSegXo(1_16_1) <= 1
+   0 <= storSegXo(1_16_2) <= 1
+   0 <= storSegXo(1_16_3) <= 1
+   0 <= storSegXo(1_17_1) <= 1
+   0 <= storSegXo(1_17_2) <= 1
+   0 <= storSegXo(1_17_3) <= 1
+   0 <= storSegXo(1_18_1) <= 1
+   0 <= storSegXo(1_18_2) <= 1
+   0 <= storSegXo(1_18_3) <= 1
+   0 <= storSegXo(1_19_1) <= 1
+   0 <= storSegXo(1_19_2) <= 1
+   0 <= storSegXo(1_19_3) <= 1
+   0 <= storSegXo(1_20_1) <= 1
+   0 <= storSegXo(1_20_2) <= 1
+   0 <= storSegXo(1_20_3) <= 1
+   0 <= storSegXo(1_21_1) <= 1
+   0 <= storSegXo(1_21_2) <= 1
+   0 <= storSegXo(1_21_3) <= 1
+   0 <= storSegXo(1_22_1) <= 1
+   0 <= storSegXo(1_22_2) <= 1
+   0 <= storSegXo(1_22_3) <= 1
+   0 <= storSegXo(1_23_1) <= 1
+   0 <= storSegXo(1_23_2) <= 1
+   0 <= storSegXo(1_23_3) <= 1
+   0 <= storSegXo(1_24_1) <= 1
+   0 <= storSegXo(1_24_2) <= 1
+   0 <= storSegXo(1_24_3) <= 1
+   0 <= storSegXo(2_1_1) <= 1
+   0 <= storSegXo(2_1_2) <= 1
+   0 <= storSegXo(2_1_3) <= 1
+   0 <= storSegXo(2_2_1) <= 1
+   0 <= storSegXo(2_2_2) <= 1
+   0 <= storSegXo(2_2_3) <= 1
+   0 <= storSegXo(2_3_1) <= 1
+   0 <= storSegXo(2_3_2) <= 1
+   0 <= storSegXo(2_3_3) <= 1
+   0 <= storSegXo(2_4_1) <= 1
+   0 <= storSegXo(2_4_2) <= 1
+   0 <= storSegXo(2_4_3) <= 1
+   0 <= storSegXo(2_5_1) <= 1
+   0 <= storSegXo(2_5_2) <= 1
+   0 <= storSegXo(2_5_3) <= 1
+   0 <= storSegXo(2_6_1) <= 1
+   0 <= storSegXo(2_6_2) <= 1
+   0 <= storSegXo(2_6_3) <= 1
+   0 <= storSegXo(2_7_1) <= 1
+   0 <= storSegXo(2_7_2) <= 1
+   0 <= storSegXo(2_7_3) <= 1
+   0 <= storSegXo(2_8_1) <= 1
+   0 <= storSegXo(2_8_2) <= 1
+   0 <= storSegXo(2_8_3) <= 1
+   0 <= storSegXo(2_9_1) <= 1
+   0 <= storSegXo(2_9_2) <= 1
+   0 <= storSegXo(2_9_3) <= 1
+   0 <= storSegXo(2_10_1) <= 1
+   0 <= storSegXo(2_10_2) <= 1
+   0 <= storSegXo(2_10_3) <= 1
+   0 <= storSegXo(2_11_1) <= 1
+   0 <= storSegXo(2_11_2) <= 1
+   0 <= storSegXo(2_11_3) <= 1
+   0 <= storSegXo(2_12_1) <= 1
+   0 <= storSegXo(2_12_2) <= 1
+   0 <= storSegXo(2_12_3) <= 1
+   0 <= storSegXo(2_13_1) <= 1
+   0 <= storSegXo(2_13_2) <= 1
+   0 <= storSegXo(2_13_3) <= 1
+   0 <= storSegXo(2_14_1) <= 1
+   0 <= storSegXo(2_14_2) <= 1
+   0 <= storSegXo(2_14_3) <= 1
+   0 <= storSegXo(2_15_1) <= 1
+   0 <= storSegXo(2_15_2) <= 1
+   0 <= storSegXo(2_15_3) <= 1
+   0 <= storSegXo(2_16_1) <= 1
+   0 <= storSegXo(2_16_2) <= 1
+   0 <= storSegXo(2_16_3) <= 1
+   0 <= storSegXo(2_17_1) <= 1
+   0 <= storSegXo(2_17_2) <= 1
+   0 <= storSegXo(2_17_3) <= 1
+   0 <= storSegXo(2_18_1) <= 1
+   0 <= storSegXo(2_18_2) <= 1
+   0 <= storSegXo(2_18_3) <= 1
+   0 <= storSegXo(2_19_1) <= 1
+   0 <= storSegXo(2_19_2) <= 1
+   0 <= storSegXo(2_19_3) <= 1
+   0 <= storSegXo(2_20_1) <= 1
+   0 <= storSegXo(2_20_2) <= 1
+   0 <= storSegXo(2_20_3) <= 1
+   0 <= storSegXo(2_21_1) <= 1
+   0 <= storSegXo(2_21_2) <= 1
+   0 <= storSegXo(2_21_3) <= 1
+   0 <= storSegXo(2_22_1) <= 1
+   0 <= storSegXo(2_22_2) <= 1
+   0 <= storSegXo(2_22_3) <= 1
+   0 <= storSegXo(2_23_1) <= 1
+   0 <= storSegXo(2_23_2) <= 1
+   0 <= storSegXo(2_23_3) <= 1
+   0 <= storSegXo(2_24_1) <= 1
+   0 <= storSegXo(2_24_2) <= 1
+   0 <= storSegXo(2_24_3) <= 1
+   0 <= storSegXo(3_1_1) <= 1
+   0 <= storSegXo(3_1_2) <= 1
+   0 <= storSegXo(3_1_3) <= 1
+   0 <= storSegXo(3_2_1) <= 1
+   0 <= storSegXo(3_2_2) <= 1
+   0 <= storSegXo(3_2_3) <= 1
+   0 <= storSegXo(3_3_1) <= 1
+   0 <= storSegXo(3_3_2) <= 1
+   0 <= storSegXo(3_3_3) <= 1
+   0 <= storSegXo(3_4_1) <= 1
+   0 <= storSegXo(3_4_2) <= 1
+   0 <= storSegXo(3_4_3) <= 1
+   0 <= storSegXo(3_5_1) <= 1
+   0 <= storSegXo(3_5_2) <= 1
+   0 <= storSegXo(3_5_3) <= 1
+   0 <= storSegXo(3_6_1) <= 1
+   0 <= storSegXo(3_6_2) <= 1
+   0 <= storSegXo(3_6_3) <= 1
+   0 <= storSegXo(3_7_1) <= 1
+   0 <= storSegXo(3_7_2) <= 1
+   0 <= storSegXo(3_7_3) <= 1
+   0 <= storSegXo(3_8_1) <= 1
+   0 <= storSegXo(3_8_2) <= 1
+   0 <= storSegXo(3_8_3) <= 1
+   0 <= storSegXo(3_9_1) <= 1
+   0 <= storSegXo(3_9_2) <= 1
+   0 <= storSegXo(3_9_3) <= 1
+   0 <= storSegXo(3_10_1) <= 1
+   0 <= storSegXo(3_10_2) <= 1
+   0 <= storSegXo(3_10_3) <= 1
+   0 <= storSegXo(3_11_1) <= 1
+   0 <= storSegXo(3_11_2) <= 1
+   0 <= storSegXo(3_11_3) <= 1
+   0 <= storSegXo(3_12_1) <= 1
+   0 <= storSegXo(3_12_2) <= 1
+   0 <= storSegXo(3_12_3) <= 1
+   0 <= storSegXo(3_13_1) <= 1
+   0 <= storSegXo(3_13_2) <= 1
+   0 <= storSegXo(3_13_3) <= 1
+   0 <= storSegXo(3_14_1) <= 1
+   0 <= storSegXo(3_14_2) <= 1
+   0 <= storSegXo(3_14_3) <= 1
+   0 <= storSegXo(3_15_1) <= 1
+   0 <= storSegXo(3_15_2) <= 1
+   0 <= storSegXo(3_15_3) <= 1
+   0 <= storSegXo(3_16_1) <= 1
+   0 <= storSegXo(3_16_2) <= 1
+   0 <= storSegXo(3_16_3) <= 1
+   0 <= storSegXo(3_17_1) <= 1
+   0 <= storSegXo(3_17_2) <= 1
+   0 <= storSegXo(3_17_3) <= 1
+   0 <= storSegXo(3_18_1) <= 1
+   0 <= storSegXo(3_18_2) <= 1
+   0 <= storSegXo(3_18_3) <= 1
+   0 <= storSegXo(3_19_1) <= 1
+   0 <= storSegXo(3_19_2) <= 1
+   0 <= storSegXo(3_19_3) <= 1
+   0 <= storSegXo(3_20_1) <= 1
+   0 <= storSegXo(3_20_2) <= 1
+   0 <= storSegXo(3_20_3) <= 1
+   0 <= storSegXo(3_21_1) <= 1
+   0 <= storSegXo(3_21_2) <= 1
+   0 <= storSegXo(3_21_3) <= 1
+   0 <= storSegXo(3_22_1) <= 1
+   0 <= storSegXo(3_22_2) <= 1
+   0 <= storSegXo(3_22_3) <= 1
+   0 <= storSegXo(3_23_1) <= 1
+   0 <= storSegXo(3_23_2) <= 1
+   0 <= storSegXo(3_23_3) <= 1
+   0 <= storSegXo(3_24_1) <= 1
+   0 <= storSegXo(3_24_2) <= 1
+   0 <= storSegXo(3_24_3) <= 1
+   0 <= storSegSoC(1_1_1) <= +inf
+   0 <= storSegSoC(1_1_2) <= +inf
+   0 <= storSegSoC(1_1_3) <= +inf
+   0 <= storSegSoC(1_2_1) <= +inf
+   0 <= storSegSoC(1_2_2) <= +inf
+   0 <= storSegSoC(1_2_3) <= +inf
+   0 <= storSegSoC(1_3_1) <= +inf
+   0 <= storSegSoC(1_3_2) <= +inf
+   0 <= storSegSoC(1_3_3) <= +inf
+   0 <= storSegSoC(1_4_1) <= +inf
+   0 <= storSegSoC(1_4_2) <= +inf
+   0 <= storSegSoC(1_4_3) <= +inf
+   0 <= storSegSoC(1_5_1) <= +inf
+   0 <= storSegSoC(1_5_2) <= +inf
+   0 <= storSegSoC(1_5_3) <= +inf
+   0 <= storSegSoC(1_6_1) <= +inf
+   0 <= storSegSoC(1_6_2) <= +inf
+   0 <= storSegSoC(1_6_3) <= +inf
+   0 <= storSegSoC(1_7_1) <= +inf
+   0 <= storSegSoC(1_7_2) <= +inf
+   0 <= storSegSoC(1_7_3) <= +inf
+   0 <= storSegSoC(1_8_1) <= +inf
+   0 <= storSegSoC(1_8_2) <= +inf
+   0 <= storSegSoC(1_8_3) <= +inf
+   0 <= storSegSoC(1_9_1) <= +inf
+   0 <= storSegSoC(1_9_2) <= +inf
+   0 <= storSegSoC(1_9_3) <= +inf
+   0 <= storSegSoC(1_10_1) <= +inf
+   0 <= storSegSoC(1_10_2) <= +inf
+   0 <= storSegSoC(1_10_3) <= +inf
+   0 <= storSegSoC(1_11_1) <= +inf
+   0 <= storSegSoC(1_11_2) <= +inf
+   0 <= storSegSoC(1_11_3) <= +inf
+   0 <= storSegSoC(1_12_1) <= +inf
+   0 <= storSegSoC(1_12_2) <= +inf
+   0 <= storSegSoC(1_12_3) <= +inf
+   0 <= storSegSoC(1_13_1) <= +inf
+   0 <= storSegSoC(1_13_2) <= +inf
+   0 <= storSegSoC(1_13_3) <= +inf
+   0 <= storSegSoC(1_14_1) <= +inf
+   0 <= storSegSoC(1_14_2) <= +inf
+   0 <= storSegSoC(1_14_3) <= +inf
+   0 <= storSegSoC(1_15_1) <= +inf
+   0 <= storSegSoC(1_15_2) <= +inf
+   0 <= storSegSoC(1_15_3) <= +inf
+   0 <= storSegSoC(1_16_1) <= +inf
+   0 <= storSegSoC(1_16_2) <= +inf
+   0 <= storSegSoC(1_16_3) <= +inf
+   0 <= storSegSoC(1_17_1) <= +inf
+   0 <= storSegSoC(1_17_2) <= +inf
+   0 <= storSegSoC(1_17_3) <= +inf
+   0 <= storSegSoC(1_18_1) <= +inf
+   0 <= storSegSoC(1_18_2) <= +inf
+   0 <= storSegSoC(1_18_3) <= +inf
+   0 <= storSegSoC(1_19_1) <= +inf
+   0 <= storSegSoC(1_19_2) <= +inf
+   0 <= storSegSoC(1_19_3) <= +inf
+   0 <= storSegSoC(1_20_1) <= +inf
+   0 <= storSegSoC(1_20_2) <= +inf
+   0 <= storSegSoC(1_20_3) <= +inf
+   0 <= storSegSoC(1_21_1) <= +inf
+   0 <= storSegSoC(1_21_2) <= +inf
+   0 <= storSegSoC(1_21_3) <= +inf
+   0 <= storSegSoC(1_22_1) <= +inf
+   0 <= storSegSoC(1_22_2) <= +inf
+   0 <= storSegSoC(1_22_3) <= +inf
+   0 <= storSegSoC(1_23_1) <= +inf
+   0 <= storSegSoC(1_23_2) <= +inf
+   0 <= storSegSoC(1_23_3) <= +inf
+   0 <= storSegSoC(1_24_1) <= +inf
+   0 <= storSegSoC(1_24_2) <= +inf
+   0 <= storSegSoC(1_24_3) <= +inf
+   0 <= storSegSoC(2_1_1) <= +inf
+   0 <= storSegSoC(2_1_2) <= +inf
+   0 <= storSegSoC(2_1_3) <= +inf
+   0 <= storSegSoC(2_2_1) <= +inf
+   0 <= storSegSoC(2_2_2) <= +inf
+   0 <= storSegSoC(2_2_3) <= +inf
+   0 <= storSegSoC(2_3_1) <= +inf
+   0 <= storSegSoC(2_3_2) <= +inf
+   0 <= storSegSoC(2_3_3) <= +inf
+   0 <= storSegSoC(2_4_1) <= +inf
+   0 <= storSegSoC(2_4_2) <= +inf
+   0 <= storSegSoC(2_4_3) <= +inf
+   0 <= storSegSoC(2_5_1) <= +inf
+   0 <= storSegSoC(2_5_2) <= +inf
+   0 <= storSegSoC(2_5_3) <= +inf
+   0 <= storSegSoC(2_6_1) <= +inf
+   0 <= storSegSoC(2_6_2) <= +inf
+   0 <= storSegSoC(2_6_3) <= +inf
+   0 <= storSegSoC(2_7_1) <= +inf
+   0 <= storSegSoC(2_7_2) <= +inf
+   0 <= storSegSoC(2_7_3) <= +inf
+   0 <= storSegSoC(2_8_1) <= +inf
+   0 <= storSegSoC(2_8_2) <= +inf
+   0 <= storSegSoC(2_8_3) <= +inf
+   0 <= storSegSoC(2_9_1) <= +inf
+   0 <= storSegSoC(2_9_2) <= +inf
+   0 <= storSegSoC(2_9_3) <= +inf
+   0 <= storSegSoC(2_10_1) <= +inf
+   0 <= storSegSoC(2_10_2) <= +inf
+   0 <= storSegSoC(2_10_3) <= +inf
+   0 <= storSegSoC(2_11_1) <= +inf
+   0 <= storSegSoC(2_11_2) <= +inf
+   0 <= storSegSoC(2_11_3) <= +inf
+   0 <= storSegSoC(2_12_1) <= +inf
+   0 <= storSegSoC(2_12_2) <= +inf
+   0 <= storSegSoC(2_12_3) <= +inf
+   0 <= storSegSoC(2_13_1) <= +inf
+   0 <= storSegSoC(2_13_2) <= +inf
+   0 <= storSegSoC(2_13_3) <= +inf
+   0 <= storSegSoC(2_14_1) <= +inf
+   0 <= storSegSoC(2_14_2) <= +inf
+   0 <= storSegSoC(2_14_3) <= +inf
+   0 <= storSegSoC(2_15_1) <= +inf
+   0 <= storSegSoC(2_15_2) <= +inf
+   0 <= storSegSoC(2_15_3) <= +inf
+   0 <= storSegSoC(2_16_1) <= +inf
+   0 <= storSegSoC(2_16_2) <= +inf
+   0 <= storSegSoC(2_16_3) <= +inf
+   0 <= storSegSoC(2_17_1) <= +inf
+   0 <= storSegSoC(2_17_2) <= +inf
+   0 <= storSegSoC(2_17_3) <= +inf
+   0 <= storSegSoC(2_18_1) <= +inf
+   0 <= storSegSoC(2_18_2) <= +inf
+   0 <= storSegSoC(2_18_3) <= +inf
+   0 <= storSegSoC(2_19_1) <= +inf
+   0 <= storSegSoC(2_19_2) <= +inf
+   0 <= storSegSoC(2_19_3) <= +inf
+   0 <= storSegSoC(2_20_1) <= +inf
+   0 <= storSegSoC(2_20_2) <= +inf
+   0 <= storSegSoC(2_20_3) <= +inf
+   0 <= storSegSoC(2_21_1) <= +inf
+   0 <= storSegSoC(2_21_2) <= +inf
+   0 <= storSegSoC(2_21_3) <= +inf
+   0 <= storSegSoC(2_22_1) <= +inf
+   0 <= storSegSoC(2_22_2) <= +inf
+   0 <= storSegSoC(2_22_3) <= +inf
+   0 <= storSegSoC(2_23_1) <= +inf
+   0 <= storSegSoC(2_23_2) <= +inf
+   0 <= storSegSoC(2_23_3) <= +inf
+   0 <= storSegSoC(2_24_1) <= +inf
+   0 <= storSegSoC(2_24_2) <= +inf
+   0 <= storSegSoC(2_24_3) <= +inf
+   0 <= storSegSoC(3_1_1) <= +inf
+   0 <= storSegSoC(3_1_2) <= +inf
+   0 <= storSegSoC(3_1_3) <= +inf
+   0 <= storSegSoC(3_2_1) <= +inf
+   0 <= storSegSoC(3_2_2) <= +inf
+   0 <= storSegSoC(3_2_3) <= +inf
+   0 <= storSegSoC(3_3_1) <= +inf
+   0 <= storSegSoC(3_3_2) <= +inf
+   0 <= storSegSoC(3_3_3) <= +inf
+   0 <= storSegSoC(3_4_1) <= +inf
+   0 <= storSegSoC(3_4_2) <= +inf
+   0 <= storSegSoC(3_4_3) <= +inf
+   0 <= storSegSoC(3_5_1) <= +inf
+   0 <= storSegSoC(3_5_2) <= +inf
+   0 <= storSegSoC(3_5_3) <= +inf
+   0 <= storSegSoC(3_6_1) <= +inf
+   0 <= storSegSoC(3_6_2) <= +inf
+   0 <= storSegSoC(3_6_3) <= +inf
+   0 <= storSegSoC(3_7_1) <= +inf
+   0 <= storSegSoC(3_7_2) <= +inf
+   0 <= storSegSoC(3_7_3) <= +inf
+   0 <= storSegSoC(3_8_1) <= +inf
+   0 <= storSegSoC(3_8_2) <= +inf
+   0 <= storSegSoC(3_8_3) <= +inf
+   0 <= storSegSoC(3_9_1) <= +inf
+   0 <= storSegSoC(3_9_2) <= +inf
+   0 <= storSegSoC(3_9_3) <= +inf
+   0 <= storSegSoC(3_10_1) <= +inf
+   0 <= storSegSoC(3_10_2) <= +inf
+   0 <= storSegSoC(3_10_3) <= +inf
+   0 <= storSegSoC(3_11_1) <= +inf
+   0 <= storSegSoC(3_11_2) <= +inf
+   0 <= storSegSoC(3_11_3) <= +inf
+   0 <= storSegSoC(3_12_1) <= +inf
+   0 <= storSegSoC(3_12_2) <= +inf
+   0 <= storSegSoC(3_12_3) <= +inf
+   0 <= storSegSoC(3_13_1) <= +inf
+   0 <= storSegSoC(3_13_2) <= +inf
+   0 <= storSegSoC(3_13_3) <= +inf
+   0 <= storSegSoC(3_14_1) <= +inf
+   0 <= storSegSoC(3_14_2) <= +inf
+   0 <= storSegSoC(3_14_3) <= +inf
+   0 <= storSegSoC(3_15_1) <= +inf
+   0 <= storSegSoC(3_15_2) <= +inf
+   0 <= storSegSoC(3_15_3) <= +inf
+   0 <= storSegSoC(3_16_1) <= +inf
+   0 <= storSegSoC(3_16_2) <= +inf
+   0 <= storSegSoC(3_16_3) <= +inf
+   0 <= storSegSoC(3_17_1) <= +inf
+   0 <= storSegSoC(3_17_2) <= +inf
+   0 <= storSegSoC(3_17_3) <= +inf
+   0 <= storSegSoC(3_18_1) <= +inf
+   0 <= storSegSoC(3_18_2) <= +inf
+   0 <= storSegSoC(3_18_3) <= +inf
+   0 <= storSegSoC(3_19_1) <= +inf
+   0 <= storSegSoC(3_19_2) <= +inf
+   0 <= storSegSoC(3_19_3) <= +inf
+   0 <= storSegSoC(3_20_1) <= +inf
+   0 <= storSegSoC(3_20_2) <= +inf
+   0 <= storSegSoC(3_20_3) <= +inf
+   0 <= storSegSoC(3_21_1) <= +inf
+   0 <= storSegSoC(3_21_2) <= +inf
+   0 <= storSegSoC(3_21_3) <= +inf
+   0 <= storSegSoC(3_22_1) <= +inf
+   0 <= storSegSoC(3_22_2) <= +inf
+   0 <= storSegSoC(3_22_3) <= +inf
+   0 <= storSegSoC(3_23_1) <= +inf
+   0 <= storSegSoC(3_23_2) <= +inf
+   0 <= storSegSoC(3_23_3) <= +inf
+   0 <= storSegSoC(3_24_1) <= +inf
+   0 <= storSegSoC(3_24_2) <= +inf
+   0 <= storSegSoC(3_24_3) <= +inf
 binary
   loadXo(1_1)
   loadXo(1_2)
@@ -15529,4 +19015,220 @@ binary
   storDchXo(3_22)
   storDchXo(3_23)
   storDchXo(3_24)
+  storSegXo(1_1_1)
+  storSegXo(1_1_2)
+  storSegXo(1_1_3)
+  storSegXo(1_2_1)
+  storSegXo(1_2_2)
+  storSegXo(1_2_3)
+  storSegXo(1_3_1)
+  storSegXo(1_3_2)
+  storSegXo(1_3_3)
+  storSegXo(1_4_1)
+  storSegXo(1_4_2)
+  storSegXo(1_4_3)
+  storSegXo(1_5_1)
+  storSegXo(1_5_2)
+  storSegXo(1_5_3)
+  storSegXo(1_6_1)
+  storSegXo(1_6_2)
+  storSegXo(1_6_3)
+  storSegXo(1_7_1)
+  storSegXo(1_7_2)
+  storSegXo(1_7_3)
+  storSegXo(1_8_1)
+  storSegXo(1_8_2)
+  storSegXo(1_8_3)
+  storSegXo(1_9_1)
+  storSegXo(1_9_2)
+  storSegXo(1_9_3)
+  storSegXo(1_10_1)
+  storSegXo(1_10_2)
+  storSegXo(1_10_3)
+  storSegXo(1_11_1)
+  storSegXo(1_11_2)
+  storSegXo(1_11_3)
+  storSegXo(1_12_1)
+  storSegXo(1_12_2)
+  storSegXo(1_12_3)
+  storSegXo(1_13_1)
+  storSegXo(1_13_2)
+  storSegXo(1_13_3)
+  storSegXo(1_14_1)
+  storSegXo(1_14_2)
+  storSegXo(1_14_3)
+  storSegXo(1_15_1)
+  storSegXo(1_15_2)
+  storSegXo(1_15_3)
+  storSegXo(1_16_1)
+  storSegXo(1_16_2)
+  storSegXo(1_16_3)
+  storSegXo(1_17_1)
+  storSegXo(1_17_2)
+  storSegXo(1_17_3)
+  storSegXo(1_18_1)
+  storSegXo(1_18_2)
+  storSegXo(1_18_3)
+  storSegXo(1_19_1)
+  storSegXo(1_19_2)
+  storSegXo(1_19_3)
+  storSegXo(1_20_1)
+  storSegXo(1_20_2)
+  storSegXo(1_20_3)
+  storSegXo(1_21_1)
+  storSegXo(1_21_2)
+  storSegXo(1_21_3)
+  storSegXo(1_22_1)
+  storSegXo(1_22_2)
+  storSegXo(1_22_3)
+  storSegXo(1_23_1)
+  storSegXo(1_23_2)
+  storSegXo(1_23_3)
+  storSegXo(1_24_1)
+  storSegXo(1_24_2)
+  storSegXo(1_24_3)
+  storSegXo(2_1_1)
+  storSegXo(2_1_2)
+  storSegXo(2_1_3)
+  storSegXo(2_2_1)
+  storSegXo(2_2_2)
+  storSegXo(2_2_3)
+  storSegXo(2_3_1)
+  storSegXo(2_3_2)
+  storSegXo(2_3_3)
+  storSegXo(2_4_1)
+  storSegXo(2_4_2)
+  storSegXo(2_4_3)
+  storSegXo(2_5_1)
+  storSegXo(2_5_2)
+  storSegXo(2_5_3)
+  storSegXo(2_6_1)
+  storSegXo(2_6_2)
+  storSegXo(2_6_3)
+  storSegXo(2_7_1)
+  storSegXo(2_7_2)
+  storSegXo(2_7_3)
+  storSegXo(2_8_1)
+  storSegXo(2_8_2)
+  storSegXo(2_8_3)
+  storSegXo(2_9_1)
+  storSegXo(2_9_2)
+  storSegXo(2_9_3)
+  storSegXo(2_10_1)
+  storSegXo(2_10_2)
+  storSegXo(2_10_3)
+  storSegXo(2_11_1)
+  storSegXo(2_11_2)
+  storSegXo(2_11_3)
+  storSegXo(2_12_1)
+  storSegXo(2_12_2)
+  storSegXo(2_12_3)
+  storSegXo(2_13_1)
+  storSegXo(2_13_2)
+  storSegXo(2_13_3)
+  storSegXo(2_14_1)
+  storSegXo(2_14_2)
+  storSegXo(2_14_3)
+  storSegXo(2_15_1)
+  storSegXo(2_15_2)
+  storSegXo(2_15_3)
+  storSegXo(2_16_1)
+  storSegXo(2_16_2)
+  storSegXo(2_16_3)
+  storSegXo(2_17_1)
+  storSegXo(2_17_2)
+  storSegXo(2_17_3)
+  storSegXo(2_18_1)
+  storSegXo(2_18_2)
+  storSegXo(2_18_3)
+  storSegXo(2_19_1)
+  storSegXo(2_19_2)
+  storSegXo(2_19_3)
+  storSegXo(2_20_1)
+  storSegXo(2_20_2)
+  storSegXo(2_20_3)
+  storSegXo(2_21_1)
+  storSegXo(2_21_2)
+  storSegXo(2_21_3)
+  storSegXo(2_22_1)
+  storSegXo(2_22_2)
+  storSegXo(2_22_3)
+  storSegXo(2_23_1)
+  storSegXo(2_23_2)
+  storSegXo(2_23_3)
+  storSegXo(2_24_1)
+  storSegXo(2_24_2)
+  storSegXo(2_24_3)
+  storSegXo(3_1_1)
+  storSegXo(3_1_2)
+  storSegXo(3_1_3)
+  storSegXo(3_2_1)
+  storSegXo(3_2_2)
+  storSegXo(3_2_3)
+  storSegXo(3_3_1)
+  storSegXo(3_3_2)
+  storSegXo(3_3_3)
+  storSegXo(3_4_1)
+  storSegXo(3_4_2)
+  storSegXo(3_4_3)
+  storSegXo(3_5_1)
+  storSegXo(3_5_2)
+  storSegXo(3_5_3)
+  storSegXo(3_6_1)
+  storSegXo(3_6_2)
+  storSegXo(3_6_3)
+  storSegXo(3_7_1)
+  storSegXo(3_7_2)
+  storSegXo(3_7_3)
+  storSegXo(3_8_1)
+  storSegXo(3_8_2)
+  storSegXo(3_8_3)
+  storSegXo(3_9_1)
+  storSegXo(3_9_2)
+  storSegXo(3_9_3)
+  storSegXo(3_10_1)
+  storSegXo(3_10_2)
+  storSegXo(3_10_3)
+  storSegXo(3_11_1)
+  storSegXo(3_11_2)
+  storSegXo(3_11_3)
+  storSegXo(3_12_1)
+  storSegXo(3_12_2)
+  storSegXo(3_12_3)
+  storSegXo(3_13_1)
+  storSegXo(3_13_2)
+  storSegXo(3_13_3)
+  storSegXo(3_14_1)
+  storSegXo(3_14_2)
+  storSegXo(3_14_3)
+  storSegXo(3_15_1)
+  storSegXo(3_15_2)
+  storSegXo(3_15_3)
+  storSegXo(3_16_1)
+  storSegXo(3_16_2)
+  storSegXo(3_16_3)
+  storSegXo(3_17_1)
+  storSegXo(3_17_2)
+  storSegXo(3_17_3)
+  storSegXo(3_18_1)
+  storSegXo(3_18_2)
+  storSegXo(3_18_3)
+  storSegXo(3_19_1)
+  storSegXo(3_19_2)
+  storSegXo(3_19_3)
+  storSegXo(3_20_1)
+  storSegXo(3_20_2)
+  storSegXo(3_20_3)
+  storSegXo(3_21_1)
+  storSegXo(3_21_2)
+  storSegXo(3_21_3)
+  storSegXo(3_22_1)
+  storSegXo(3_22_2)
+  storSegXo(3_22_3)
+  storSegXo(3_23_1)
+  storSegXo(3_23_2)
+  storSegXo(3_23_3)
+  storSegXo(3_24_1)
+  storSegXo(3_24_2)
+  storSegXo(3_24_3)
 end
