@@ -1159,6 +1159,56 @@ ObjFun:
 +0.059999999999999998 v2gDchActPower(5_21)
 +0.059999999999999998 v2gDchActPower(5_22)
 +0.059999999999999998 v2gDchActPower(5_9)
+-0.022499999999999999 v2gSegSoC(1_1_1)
++0.01125 v2gSegSoC(1_1_2)
++0.003749999999999999 v2gSegSoC(1_1_3)
++0.022499999999999999 v2gSegSoC(1_24_1)
+-0.01125 v2gSegSoC(1_24_2)
+-0.003749999999999999 v2gSegSoC(1_24_3)
+-0.014999999999999999 v2gSegSoC(2_1_1)
++0.0074999999999999997 v2gSegSoC(2_1_2)
++0.0024999999999999996 v2gSegSoC(2_1_3)
++0.014999999999999999 v2gSegSoC(2_24_1)
+-0.0074999999999999997 v2gSegSoC(2_24_2)
+-0.0024999999999999996 v2gSegSoC(2_24_3)
+-0.022499999999999999 v2gSegSoC(3_1_1)
++0.01125 v2gSegSoC(3_1_2)
++0.003749999999999999 v2gSegSoC(3_1_3)
++0.022499999999999999 v2gSegSoC(3_24_1)
+-0.01125 v2gSegSoC(3_24_2)
+-0.003749999999999999 v2gSegSoC(3_24_3)
+-0.022499999999999999 v2gSegSoC(4_1_1)
++0.01125 v2gSegSoC(4_1_2)
++0.003749999999999999 v2gSegSoC(4_1_3)
++0.022499999999999999 v2gSegSoC(4_24_1)
+-0.01125 v2gSegSoC(4_24_2)
+-0.003749999999999999 v2gSegSoC(4_24_3)
+-0.014999999999999999 v2gSegSoC(5_1_1)
++0.0074999999999999997 v2gSegSoC(5_1_2)
++0.0024999999999999996 v2gSegSoC(5_1_3)
++0.014999999999999999 v2gSegSoC(5_24_1)
+-0.0074999999999999997 v2gSegSoC(5_24_2)
+-0.0024999999999999996 v2gSegSoC(5_24_3)
+-0.29999999999999999 v2gSegXo(1_1_2)
+-0.14999999999999999 v2gSegXo(1_1_3)
++0.29999999999999999 v2gSegXo(1_24_2)
++0.14999999999999999 v2gSegXo(1_24_3)
+-0.29999999999999999 v2gSegXo(2_1_2)
+-0.14999999999999999 v2gSegXo(2_1_3)
++0.29999999999999999 v2gSegXo(2_24_2)
++0.14999999999999999 v2gSegXo(2_24_3)
+-0.29999999999999999 v2gSegXo(3_1_2)
+-0.14999999999999999 v2gSegXo(3_1_3)
++0.29999999999999999 v2gSegXo(3_24_2)
++0.14999999999999999 v2gSegXo(3_24_3)
+-0.29999999999999999 v2gSegXo(4_1_2)
+-0.14999999999999999 v2gSegXo(4_1_3)
++0.29999999999999999 v2gSegXo(4_24_2)
++0.14999999999999999 v2gSegXo(4_24_3)
+-0.29999999999999999 v2gSegXo(5_1_2)
+-0.14999999999999999 v2gSegXo(5_1_3)
++0.29999999999999999 v2gSegXo(5_24_2)
++0.14999999999999999 v2gSegXo(5_24_3)
 
 s.t.
 
@@ -13110,6 +13160,5046 @@ c_u_v2gBin(5_24)_:
 +1 v2gDchXo(5_24)
 <= 1
 
+c_e_v2gSegCap(1_1)_:
++1 v2gSegXo(1_1_1)
++1 v2gSegXo(1_1_2)
++1 v2gSegXo(1_1_3)
+= 1
+
+c_e_v2gSegCap(1_2)_:
++1 v2gSegXo(1_2_1)
++1 v2gSegXo(1_2_2)
++1 v2gSegXo(1_2_3)
+= 1
+
+c_e_v2gSegCap(1_3)_:
++1 v2gSegXo(1_3_1)
++1 v2gSegXo(1_3_2)
++1 v2gSegXo(1_3_3)
+= 1
+
+c_e_v2gSegCap(1_4)_:
++1 v2gSegXo(1_4_1)
++1 v2gSegXo(1_4_2)
++1 v2gSegXo(1_4_3)
+= 1
+
+c_e_v2gSegCap(1_5)_:
++1 v2gSegXo(1_5_1)
++1 v2gSegXo(1_5_2)
++1 v2gSegXo(1_5_3)
+= 1
+
+c_e_v2gSegCap(1_6)_:
++1 v2gSegXo(1_6_1)
++1 v2gSegXo(1_6_2)
++1 v2gSegXo(1_6_3)
+= 1
+
+c_e_v2gSegCap(1_7)_:
++1 v2gSegXo(1_7_1)
++1 v2gSegXo(1_7_2)
++1 v2gSegXo(1_7_3)
+= 1
+
+c_e_v2gSegCap(1_8)_:
++1 v2gSegXo(1_8_1)
++1 v2gSegXo(1_8_2)
++1 v2gSegXo(1_8_3)
+= 1
+
+c_e_v2gSegCap(1_9)_:
++1 v2gSegXo(1_9_1)
++1 v2gSegXo(1_9_2)
++1 v2gSegXo(1_9_3)
+= 1
+
+c_e_v2gSegCap(1_10)_:
++1 v2gSegXo(1_10_1)
++1 v2gSegXo(1_10_2)
++1 v2gSegXo(1_10_3)
+= 1
+
+c_e_v2gSegCap(1_11)_:
++1 v2gSegXo(1_11_1)
++1 v2gSegXo(1_11_2)
++1 v2gSegXo(1_11_3)
+= 1
+
+c_e_v2gSegCap(1_12)_:
++1 v2gSegXo(1_12_1)
++1 v2gSegXo(1_12_2)
++1 v2gSegXo(1_12_3)
+= 1
+
+c_e_v2gSegCap(1_13)_:
++1 v2gSegXo(1_13_1)
++1 v2gSegXo(1_13_2)
++1 v2gSegXo(1_13_3)
+= 1
+
+c_e_v2gSegCap(1_14)_:
++1 v2gSegXo(1_14_1)
++1 v2gSegXo(1_14_2)
++1 v2gSegXo(1_14_3)
+= 1
+
+c_e_v2gSegCap(1_15)_:
++1 v2gSegXo(1_15_1)
++1 v2gSegXo(1_15_2)
++1 v2gSegXo(1_15_3)
+= 1
+
+c_e_v2gSegCap(1_16)_:
++1 v2gSegXo(1_16_1)
++1 v2gSegXo(1_16_2)
++1 v2gSegXo(1_16_3)
+= 1
+
+c_e_v2gSegCap(1_17)_:
++1 v2gSegXo(1_17_1)
++1 v2gSegXo(1_17_2)
++1 v2gSegXo(1_17_3)
+= 1
+
+c_e_v2gSegCap(1_18)_:
++1 v2gSegXo(1_18_1)
++1 v2gSegXo(1_18_2)
++1 v2gSegXo(1_18_3)
+= 1
+
+c_e_v2gSegCap(1_19)_:
++1 v2gSegXo(1_19_1)
++1 v2gSegXo(1_19_2)
++1 v2gSegXo(1_19_3)
+= 1
+
+c_e_v2gSegCap(1_20)_:
++1 v2gSegXo(1_20_1)
++1 v2gSegXo(1_20_2)
++1 v2gSegXo(1_20_3)
+= 1
+
+c_e_v2gSegCap(1_21)_:
++1 v2gSegXo(1_21_1)
++1 v2gSegXo(1_21_2)
++1 v2gSegXo(1_21_3)
+= 1
+
+c_e_v2gSegCap(1_22)_:
++1 v2gSegXo(1_22_1)
++1 v2gSegXo(1_22_2)
++1 v2gSegXo(1_22_3)
+= 1
+
+c_e_v2gSegCap(1_23)_:
++1 v2gSegXo(1_23_1)
++1 v2gSegXo(1_23_2)
++1 v2gSegXo(1_23_3)
+= 1
+
+c_e_v2gSegCap(1_24)_:
++1 v2gSegXo(1_24_1)
++1 v2gSegXo(1_24_2)
++1 v2gSegXo(1_24_3)
+= 1
+
+c_e_v2gSegCap(2_1)_:
++1 v2gSegXo(2_1_1)
++1 v2gSegXo(2_1_2)
++1 v2gSegXo(2_1_3)
+= 1
+
+c_e_v2gSegCap(2_2)_:
++1 v2gSegXo(2_2_1)
++1 v2gSegXo(2_2_2)
++1 v2gSegXo(2_2_3)
+= 1
+
+c_e_v2gSegCap(2_3)_:
++1 v2gSegXo(2_3_1)
++1 v2gSegXo(2_3_2)
++1 v2gSegXo(2_3_3)
+= 1
+
+c_e_v2gSegCap(2_4)_:
++1 v2gSegXo(2_4_1)
++1 v2gSegXo(2_4_2)
++1 v2gSegXo(2_4_3)
+= 1
+
+c_e_v2gSegCap(2_5)_:
++1 v2gSegXo(2_5_1)
++1 v2gSegXo(2_5_2)
++1 v2gSegXo(2_5_3)
+= 1
+
+c_e_v2gSegCap(2_6)_:
++1 v2gSegXo(2_6_1)
++1 v2gSegXo(2_6_2)
++1 v2gSegXo(2_6_3)
+= 1
+
+c_e_v2gSegCap(2_7)_:
++1 v2gSegXo(2_7_1)
++1 v2gSegXo(2_7_2)
++1 v2gSegXo(2_7_3)
+= 1
+
+c_e_v2gSegCap(2_8)_:
++1 v2gSegXo(2_8_1)
++1 v2gSegXo(2_8_2)
++1 v2gSegXo(2_8_3)
+= 1
+
+c_e_v2gSegCap(2_9)_:
++1 v2gSegXo(2_9_1)
++1 v2gSegXo(2_9_2)
++1 v2gSegXo(2_9_3)
+= 1
+
+c_e_v2gSegCap(2_10)_:
++1 v2gSegXo(2_10_1)
++1 v2gSegXo(2_10_2)
++1 v2gSegXo(2_10_3)
+= 1
+
+c_e_v2gSegCap(2_11)_:
++1 v2gSegXo(2_11_1)
++1 v2gSegXo(2_11_2)
++1 v2gSegXo(2_11_3)
+= 1
+
+c_e_v2gSegCap(2_12)_:
++1 v2gSegXo(2_12_1)
++1 v2gSegXo(2_12_2)
++1 v2gSegXo(2_12_3)
+= 1
+
+c_e_v2gSegCap(2_13)_:
++1 v2gSegXo(2_13_1)
++1 v2gSegXo(2_13_2)
++1 v2gSegXo(2_13_3)
+= 1
+
+c_e_v2gSegCap(2_14)_:
++1 v2gSegXo(2_14_1)
++1 v2gSegXo(2_14_2)
++1 v2gSegXo(2_14_3)
+= 1
+
+c_e_v2gSegCap(2_15)_:
++1 v2gSegXo(2_15_1)
++1 v2gSegXo(2_15_2)
++1 v2gSegXo(2_15_3)
+= 1
+
+c_e_v2gSegCap(2_16)_:
++1 v2gSegXo(2_16_1)
++1 v2gSegXo(2_16_2)
++1 v2gSegXo(2_16_3)
+= 1
+
+c_e_v2gSegCap(2_17)_:
++1 v2gSegXo(2_17_1)
++1 v2gSegXo(2_17_2)
++1 v2gSegXo(2_17_3)
+= 1
+
+c_e_v2gSegCap(2_18)_:
++1 v2gSegXo(2_18_1)
++1 v2gSegXo(2_18_2)
++1 v2gSegXo(2_18_3)
+= 1
+
+c_e_v2gSegCap(2_19)_:
++1 v2gSegXo(2_19_1)
++1 v2gSegXo(2_19_2)
++1 v2gSegXo(2_19_3)
+= 1
+
+c_e_v2gSegCap(2_20)_:
++1 v2gSegXo(2_20_1)
++1 v2gSegXo(2_20_2)
++1 v2gSegXo(2_20_3)
+= 1
+
+c_e_v2gSegCap(2_21)_:
++1 v2gSegXo(2_21_1)
++1 v2gSegXo(2_21_2)
++1 v2gSegXo(2_21_3)
+= 1
+
+c_e_v2gSegCap(2_22)_:
++1 v2gSegXo(2_22_1)
++1 v2gSegXo(2_22_2)
++1 v2gSegXo(2_22_3)
+= 1
+
+c_e_v2gSegCap(2_23)_:
++1 v2gSegXo(2_23_1)
++1 v2gSegXo(2_23_2)
++1 v2gSegXo(2_23_3)
+= 1
+
+c_e_v2gSegCap(2_24)_:
++1 v2gSegXo(2_24_1)
++1 v2gSegXo(2_24_2)
++1 v2gSegXo(2_24_3)
+= 1
+
+c_e_v2gSegCap(3_1)_:
++1 v2gSegXo(3_1_1)
++1 v2gSegXo(3_1_2)
++1 v2gSegXo(3_1_3)
+= 1
+
+c_e_v2gSegCap(3_2)_:
++1 v2gSegXo(3_2_1)
++1 v2gSegXo(3_2_2)
++1 v2gSegXo(3_2_3)
+= 1
+
+c_e_v2gSegCap(3_3)_:
++1 v2gSegXo(3_3_1)
++1 v2gSegXo(3_3_2)
++1 v2gSegXo(3_3_3)
+= 1
+
+c_e_v2gSegCap(3_4)_:
++1 v2gSegXo(3_4_1)
++1 v2gSegXo(3_4_2)
++1 v2gSegXo(3_4_3)
+= 1
+
+c_e_v2gSegCap(3_5)_:
++1 v2gSegXo(3_5_1)
++1 v2gSegXo(3_5_2)
++1 v2gSegXo(3_5_3)
+= 1
+
+c_e_v2gSegCap(3_6)_:
++1 v2gSegXo(3_6_1)
++1 v2gSegXo(3_6_2)
++1 v2gSegXo(3_6_3)
+= 1
+
+c_e_v2gSegCap(3_7)_:
++1 v2gSegXo(3_7_1)
++1 v2gSegXo(3_7_2)
++1 v2gSegXo(3_7_3)
+= 1
+
+c_e_v2gSegCap(3_8)_:
++1 v2gSegXo(3_8_1)
++1 v2gSegXo(3_8_2)
++1 v2gSegXo(3_8_3)
+= 1
+
+c_e_v2gSegCap(3_9)_:
++1 v2gSegXo(3_9_1)
++1 v2gSegXo(3_9_2)
++1 v2gSegXo(3_9_3)
+= 1
+
+c_e_v2gSegCap(3_10)_:
++1 v2gSegXo(3_10_1)
++1 v2gSegXo(3_10_2)
++1 v2gSegXo(3_10_3)
+= 1
+
+c_e_v2gSegCap(3_11)_:
++1 v2gSegXo(3_11_1)
++1 v2gSegXo(3_11_2)
++1 v2gSegXo(3_11_3)
+= 1
+
+c_e_v2gSegCap(3_12)_:
++1 v2gSegXo(3_12_1)
++1 v2gSegXo(3_12_2)
++1 v2gSegXo(3_12_3)
+= 1
+
+c_e_v2gSegCap(3_13)_:
++1 v2gSegXo(3_13_1)
++1 v2gSegXo(3_13_2)
++1 v2gSegXo(3_13_3)
+= 1
+
+c_e_v2gSegCap(3_14)_:
++1 v2gSegXo(3_14_1)
++1 v2gSegXo(3_14_2)
++1 v2gSegXo(3_14_3)
+= 1
+
+c_e_v2gSegCap(3_15)_:
++1 v2gSegXo(3_15_1)
++1 v2gSegXo(3_15_2)
++1 v2gSegXo(3_15_3)
+= 1
+
+c_e_v2gSegCap(3_16)_:
++1 v2gSegXo(3_16_1)
++1 v2gSegXo(3_16_2)
++1 v2gSegXo(3_16_3)
+= 1
+
+c_e_v2gSegCap(3_17)_:
++1 v2gSegXo(3_17_1)
++1 v2gSegXo(3_17_2)
++1 v2gSegXo(3_17_3)
+= 1
+
+c_e_v2gSegCap(3_18)_:
++1 v2gSegXo(3_18_1)
++1 v2gSegXo(3_18_2)
++1 v2gSegXo(3_18_3)
+= 1
+
+c_e_v2gSegCap(3_19)_:
++1 v2gSegXo(3_19_1)
++1 v2gSegXo(3_19_2)
++1 v2gSegXo(3_19_3)
+= 1
+
+c_e_v2gSegCap(3_20)_:
++1 v2gSegXo(3_20_1)
++1 v2gSegXo(3_20_2)
++1 v2gSegXo(3_20_3)
+= 1
+
+c_e_v2gSegCap(3_21)_:
++1 v2gSegXo(3_21_1)
++1 v2gSegXo(3_21_2)
++1 v2gSegXo(3_21_3)
+= 1
+
+c_e_v2gSegCap(3_22)_:
++1 v2gSegXo(3_22_1)
++1 v2gSegXo(3_22_2)
++1 v2gSegXo(3_22_3)
+= 1
+
+c_e_v2gSegCap(3_23)_:
++1 v2gSegXo(3_23_1)
++1 v2gSegXo(3_23_2)
++1 v2gSegXo(3_23_3)
+= 1
+
+c_e_v2gSegCap(3_24)_:
++1 v2gSegXo(3_24_1)
++1 v2gSegXo(3_24_2)
++1 v2gSegXo(3_24_3)
+= 1
+
+c_e_v2gSegCap(4_1)_:
++1 v2gSegXo(4_1_1)
++1 v2gSegXo(4_1_2)
++1 v2gSegXo(4_1_3)
+= 1
+
+c_e_v2gSegCap(4_2)_:
++1 v2gSegXo(4_2_1)
++1 v2gSegXo(4_2_2)
++1 v2gSegXo(4_2_3)
+= 1
+
+c_e_v2gSegCap(4_3)_:
++1 v2gSegXo(4_3_1)
++1 v2gSegXo(4_3_2)
++1 v2gSegXo(4_3_3)
+= 1
+
+c_e_v2gSegCap(4_4)_:
++1 v2gSegXo(4_4_1)
++1 v2gSegXo(4_4_2)
++1 v2gSegXo(4_4_3)
+= 1
+
+c_e_v2gSegCap(4_5)_:
++1 v2gSegXo(4_5_1)
++1 v2gSegXo(4_5_2)
++1 v2gSegXo(4_5_3)
+= 1
+
+c_e_v2gSegCap(4_6)_:
++1 v2gSegXo(4_6_1)
++1 v2gSegXo(4_6_2)
++1 v2gSegXo(4_6_3)
+= 1
+
+c_e_v2gSegCap(4_7)_:
++1 v2gSegXo(4_7_1)
++1 v2gSegXo(4_7_2)
++1 v2gSegXo(4_7_3)
+= 1
+
+c_e_v2gSegCap(4_8)_:
++1 v2gSegXo(4_8_1)
++1 v2gSegXo(4_8_2)
++1 v2gSegXo(4_8_3)
+= 1
+
+c_e_v2gSegCap(4_9)_:
++1 v2gSegXo(4_9_1)
++1 v2gSegXo(4_9_2)
++1 v2gSegXo(4_9_3)
+= 1
+
+c_e_v2gSegCap(4_10)_:
++1 v2gSegXo(4_10_1)
++1 v2gSegXo(4_10_2)
++1 v2gSegXo(4_10_3)
+= 1
+
+c_e_v2gSegCap(4_11)_:
++1 v2gSegXo(4_11_1)
++1 v2gSegXo(4_11_2)
++1 v2gSegXo(4_11_3)
+= 1
+
+c_e_v2gSegCap(4_12)_:
++1 v2gSegXo(4_12_1)
++1 v2gSegXo(4_12_2)
++1 v2gSegXo(4_12_3)
+= 1
+
+c_e_v2gSegCap(4_13)_:
++1 v2gSegXo(4_13_1)
++1 v2gSegXo(4_13_2)
++1 v2gSegXo(4_13_3)
+= 1
+
+c_e_v2gSegCap(4_14)_:
++1 v2gSegXo(4_14_1)
++1 v2gSegXo(4_14_2)
++1 v2gSegXo(4_14_3)
+= 1
+
+c_e_v2gSegCap(4_15)_:
++1 v2gSegXo(4_15_1)
++1 v2gSegXo(4_15_2)
++1 v2gSegXo(4_15_3)
+= 1
+
+c_e_v2gSegCap(4_16)_:
++1 v2gSegXo(4_16_1)
++1 v2gSegXo(4_16_2)
++1 v2gSegXo(4_16_3)
+= 1
+
+c_e_v2gSegCap(4_17)_:
++1 v2gSegXo(4_17_1)
++1 v2gSegXo(4_17_2)
++1 v2gSegXo(4_17_3)
+= 1
+
+c_e_v2gSegCap(4_18)_:
++1 v2gSegXo(4_18_1)
++1 v2gSegXo(4_18_2)
++1 v2gSegXo(4_18_3)
+= 1
+
+c_e_v2gSegCap(4_19)_:
++1 v2gSegXo(4_19_1)
++1 v2gSegXo(4_19_2)
++1 v2gSegXo(4_19_3)
+= 1
+
+c_e_v2gSegCap(4_20)_:
++1 v2gSegXo(4_20_1)
++1 v2gSegXo(4_20_2)
++1 v2gSegXo(4_20_3)
+= 1
+
+c_e_v2gSegCap(4_21)_:
++1 v2gSegXo(4_21_1)
++1 v2gSegXo(4_21_2)
++1 v2gSegXo(4_21_3)
+= 1
+
+c_e_v2gSegCap(4_22)_:
++1 v2gSegXo(4_22_1)
++1 v2gSegXo(4_22_2)
++1 v2gSegXo(4_22_3)
+= 1
+
+c_e_v2gSegCap(4_23)_:
++1 v2gSegXo(4_23_1)
++1 v2gSegXo(4_23_2)
++1 v2gSegXo(4_23_3)
+= 1
+
+c_e_v2gSegCap(4_24)_:
++1 v2gSegXo(4_24_1)
++1 v2gSegXo(4_24_2)
++1 v2gSegXo(4_24_3)
+= 1
+
+c_e_v2gSegCap(5_1)_:
++1 v2gSegXo(5_1_1)
++1 v2gSegXo(5_1_2)
++1 v2gSegXo(5_1_3)
+= 1
+
+c_e_v2gSegCap(5_2)_:
++1 v2gSegXo(5_2_1)
++1 v2gSegXo(5_2_2)
++1 v2gSegXo(5_2_3)
+= 1
+
+c_e_v2gSegCap(5_3)_:
++1 v2gSegXo(5_3_1)
++1 v2gSegXo(5_3_2)
++1 v2gSegXo(5_3_3)
+= 1
+
+c_e_v2gSegCap(5_4)_:
++1 v2gSegXo(5_4_1)
++1 v2gSegXo(5_4_2)
++1 v2gSegXo(5_4_3)
+= 1
+
+c_e_v2gSegCap(5_5)_:
++1 v2gSegXo(5_5_1)
++1 v2gSegXo(5_5_2)
++1 v2gSegXo(5_5_3)
+= 1
+
+c_e_v2gSegCap(5_6)_:
++1 v2gSegXo(5_6_1)
++1 v2gSegXo(5_6_2)
++1 v2gSegXo(5_6_3)
+= 1
+
+c_e_v2gSegCap(5_7)_:
++1 v2gSegXo(5_7_1)
++1 v2gSegXo(5_7_2)
++1 v2gSegXo(5_7_3)
+= 1
+
+c_e_v2gSegCap(5_8)_:
++1 v2gSegXo(5_8_1)
++1 v2gSegXo(5_8_2)
++1 v2gSegXo(5_8_3)
+= 1
+
+c_e_v2gSegCap(5_9)_:
++1 v2gSegXo(5_9_1)
++1 v2gSegXo(5_9_2)
++1 v2gSegXo(5_9_3)
+= 1
+
+c_e_v2gSegCap(5_10)_:
++1 v2gSegXo(5_10_1)
++1 v2gSegXo(5_10_2)
++1 v2gSegXo(5_10_3)
+= 1
+
+c_e_v2gSegCap(5_11)_:
++1 v2gSegXo(5_11_1)
++1 v2gSegXo(5_11_2)
++1 v2gSegXo(5_11_3)
+= 1
+
+c_e_v2gSegCap(5_12)_:
++1 v2gSegXo(5_12_1)
++1 v2gSegXo(5_12_2)
++1 v2gSegXo(5_12_3)
+= 1
+
+c_e_v2gSegCap(5_13)_:
++1 v2gSegXo(5_13_1)
++1 v2gSegXo(5_13_2)
++1 v2gSegXo(5_13_3)
+= 1
+
+c_e_v2gSegCap(5_14)_:
++1 v2gSegXo(5_14_1)
++1 v2gSegXo(5_14_2)
++1 v2gSegXo(5_14_3)
+= 1
+
+c_e_v2gSegCap(5_15)_:
++1 v2gSegXo(5_15_1)
++1 v2gSegXo(5_15_2)
++1 v2gSegXo(5_15_3)
+= 1
+
+c_e_v2gSegCap(5_16)_:
++1 v2gSegXo(5_16_1)
++1 v2gSegXo(5_16_2)
++1 v2gSegXo(5_16_3)
+= 1
+
+c_e_v2gSegCap(5_17)_:
++1 v2gSegXo(5_17_1)
++1 v2gSegXo(5_17_2)
++1 v2gSegXo(5_17_3)
+= 1
+
+c_e_v2gSegCap(5_18)_:
++1 v2gSegXo(5_18_1)
++1 v2gSegXo(5_18_2)
++1 v2gSegXo(5_18_3)
+= 1
+
+c_e_v2gSegCap(5_19)_:
++1 v2gSegXo(5_19_1)
++1 v2gSegXo(5_19_2)
++1 v2gSegXo(5_19_3)
+= 1
+
+c_e_v2gSegCap(5_20)_:
++1 v2gSegXo(5_20_1)
++1 v2gSegXo(5_20_2)
++1 v2gSegXo(5_20_3)
+= 1
+
+c_e_v2gSegCap(5_21)_:
++1 v2gSegXo(5_21_1)
++1 v2gSegXo(5_21_2)
++1 v2gSegXo(5_21_3)
+= 1
+
+c_e_v2gSegCap(5_22)_:
++1 v2gSegXo(5_22_1)
++1 v2gSegXo(5_22_2)
++1 v2gSegXo(5_22_3)
+= 1
+
+c_e_v2gSegCap(5_23)_:
++1 v2gSegXo(5_23_1)
++1 v2gSegXo(5_23_2)
++1 v2gSegXo(5_23_3)
+= 1
+
+c_e_v2gSegCap(5_24)_:
++1 v2gSegXo(5_24_1)
++1 v2gSegXo(5_24_2)
++1 v2gSegXo(5_24_3)
+= 1
+
+c_e_v2gSegSoCEq(1_1)_:
+-1 v2gEnerState(1_1)
++1 v2gSegSoC(1_1_1)
++1 v2gSegSoC(1_1_2)
++1 v2gSegSoC(1_1_3)
++13.333333333333334 v2gSegXo(1_1_2)
++26.666666666666668 v2gSegXo(1_1_3)
+= 0
+
+c_e_v2gSegSoCEq(1_2)_:
+-1 v2gEnerState(1_2)
++1 v2gSegSoC(1_2_1)
++1 v2gSegSoC(1_2_2)
++1 v2gSegSoC(1_2_3)
++13.333333333333334 v2gSegXo(1_2_2)
++26.666666666666668 v2gSegXo(1_2_3)
+= 0
+
+c_e_v2gSegSoCEq(1_3)_:
+-1 v2gEnerState(1_3)
++1 v2gSegSoC(1_3_1)
++1 v2gSegSoC(1_3_2)
++1 v2gSegSoC(1_3_3)
++13.333333333333334 v2gSegXo(1_3_2)
++26.666666666666668 v2gSegXo(1_3_3)
+= 0
+
+c_e_v2gSegSoCEq(1_4)_:
+-1 v2gEnerState(1_4)
++1 v2gSegSoC(1_4_1)
++1 v2gSegSoC(1_4_2)
++1 v2gSegSoC(1_4_3)
++13.333333333333334 v2gSegXo(1_4_2)
++26.666666666666668 v2gSegXo(1_4_3)
+= 0
+
+c_e_v2gSegSoCEq(1_5)_:
+-1 v2gEnerState(1_5)
++1 v2gSegSoC(1_5_1)
++1 v2gSegSoC(1_5_2)
++1 v2gSegSoC(1_5_3)
++13.333333333333334 v2gSegXo(1_5_2)
++26.666666666666668 v2gSegXo(1_5_3)
+= 0
+
+c_e_v2gSegSoCEq(1_6)_:
+-1 v2gEnerState(1_6)
++1 v2gSegSoC(1_6_1)
++1 v2gSegSoC(1_6_2)
++1 v2gSegSoC(1_6_3)
++13.333333333333334 v2gSegXo(1_6_2)
++26.666666666666668 v2gSegXo(1_6_3)
+= 0
+
+c_e_v2gSegSoCEq(1_7)_:
+-1 v2gEnerState(1_7)
++1 v2gSegSoC(1_7_1)
++1 v2gSegSoC(1_7_2)
++1 v2gSegSoC(1_7_3)
++13.333333333333334 v2gSegXo(1_7_2)
++26.666666666666668 v2gSegXo(1_7_3)
+= 0
+
+c_e_v2gSegSoCEq(1_8)_:
+-1 v2gEnerState(1_8)
++1 v2gSegSoC(1_8_1)
++1 v2gSegSoC(1_8_2)
++1 v2gSegSoC(1_8_3)
++13.333333333333334 v2gSegXo(1_8_2)
++26.666666666666668 v2gSegXo(1_8_3)
+= 0
+
+c_e_v2gSegSoCEq(1_9)_:
+-1 v2gEnerState(1_9)
++1 v2gSegSoC(1_9_1)
++1 v2gSegSoC(1_9_2)
++1 v2gSegSoC(1_9_3)
++13.333333333333334 v2gSegXo(1_9_2)
++26.666666666666668 v2gSegXo(1_9_3)
+= 0
+
+c_e_v2gSegSoCEq(1_10)_:
+-1 v2gEnerState(1_10)
++1 v2gSegSoC(1_10_1)
++1 v2gSegSoC(1_10_2)
++1 v2gSegSoC(1_10_3)
++13.333333333333334 v2gSegXo(1_10_2)
++26.666666666666668 v2gSegXo(1_10_3)
+= 0
+
+c_e_v2gSegSoCEq(1_11)_:
+-1 v2gEnerState(1_11)
++1 v2gSegSoC(1_11_1)
++1 v2gSegSoC(1_11_2)
++1 v2gSegSoC(1_11_3)
++13.333333333333334 v2gSegXo(1_11_2)
++26.666666666666668 v2gSegXo(1_11_3)
+= 0
+
+c_e_v2gSegSoCEq(1_12)_:
+-1 v2gEnerState(1_12)
++1 v2gSegSoC(1_12_1)
++1 v2gSegSoC(1_12_2)
++1 v2gSegSoC(1_12_3)
++13.333333333333334 v2gSegXo(1_12_2)
++26.666666666666668 v2gSegXo(1_12_3)
+= 0
+
+c_e_v2gSegSoCEq(1_13)_:
+-1 v2gEnerState(1_13)
++1 v2gSegSoC(1_13_1)
++1 v2gSegSoC(1_13_2)
++1 v2gSegSoC(1_13_3)
++13.333333333333334 v2gSegXo(1_13_2)
++26.666666666666668 v2gSegXo(1_13_3)
+= 0
+
+c_e_v2gSegSoCEq(1_14)_:
+-1 v2gEnerState(1_14)
++1 v2gSegSoC(1_14_1)
++1 v2gSegSoC(1_14_2)
++1 v2gSegSoC(1_14_3)
++13.333333333333334 v2gSegXo(1_14_2)
++26.666666666666668 v2gSegXo(1_14_3)
+= 0
+
+c_e_v2gSegSoCEq(1_15)_:
+-1 v2gEnerState(1_15)
++1 v2gSegSoC(1_15_1)
++1 v2gSegSoC(1_15_2)
++1 v2gSegSoC(1_15_3)
++13.333333333333334 v2gSegXo(1_15_2)
++26.666666666666668 v2gSegXo(1_15_3)
+= 0
+
+c_e_v2gSegSoCEq(1_16)_:
+-1 v2gEnerState(1_16)
++1 v2gSegSoC(1_16_1)
++1 v2gSegSoC(1_16_2)
++1 v2gSegSoC(1_16_3)
++13.333333333333334 v2gSegXo(1_16_2)
++26.666666666666668 v2gSegXo(1_16_3)
+= 0
+
+c_e_v2gSegSoCEq(1_17)_:
+-1 v2gEnerState(1_17)
++1 v2gSegSoC(1_17_1)
++1 v2gSegSoC(1_17_2)
++1 v2gSegSoC(1_17_3)
++13.333333333333334 v2gSegXo(1_17_2)
++26.666666666666668 v2gSegXo(1_17_3)
+= 0
+
+c_e_v2gSegSoCEq(1_18)_:
+-1 v2gEnerState(1_18)
++1 v2gSegSoC(1_18_1)
++1 v2gSegSoC(1_18_2)
++1 v2gSegSoC(1_18_3)
++13.333333333333334 v2gSegXo(1_18_2)
++26.666666666666668 v2gSegXo(1_18_3)
+= 0
+
+c_e_v2gSegSoCEq(1_19)_:
+-1 v2gEnerState(1_19)
++1 v2gSegSoC(1_19_1)
++1 v2gSegSoC(1_19_2)
++1 v2gSegSoC(1_19_3)
++13.333333333333334 v2gSegXo(1_19_2)
++26.666666666666668 v2gSegXo(1_19_3)
+= 0
+
+c_e_v2gSegSoCEq(1_20)_:
+-1 v2gEnerState(1_20)
++1 v2gSegSoC(1_20_1)
++1 v2gSegSoC(1_20_2)
++1 v2gSegSoC(1_20_3)
++13.333333333333334 v2gSegXo(1_20_2)
++26.666666666666668 v2gSegXo(1_20_3)
+= 0
+
+c_e_v2gSegSoCEq(1_21)_:
+-1 v2gEnerState(1_21)
++1 v2gSegSoC(1_21_1)
++1 v2gSegSoC(1_21_2)
++1 v2gSegSoC(1_21_3)
++13.333333333333334 v2gSegXo(1_21_2)
++26.666666666666668 v2gSegXo(1_21_3)
+= 0
+
+c_e_v2gSegSoCEq(1_22)_:
+-1 v2gEnerState(1_22)
++1 v2gSegSoC(1_22_1)
++1 v2gSegSoC(1_22_2)
++1 v2gSegSoC(1_22_3)
++13.333333333333334 v2gSegXo(1_22_2)
++26.666666666666668 v2gSegXo(1_22_3)
+= 0
+
+c_e_v2gSegSoCEq(1_23)_:
+-1 v2gEnerState(1_23)
++1 v2gSegSoC(1_23_1)
++1 v2gSegSoC(1_23_2)
++1 v2gSegSoC(1_23_3)
++13.333333333333334 v2gSegXo(1_23_2)
++26.666666666666668 v2gSegXo(1_23_3)
+= 0
+
+c_e_v2gSegSoCEq(1_24)_:
+-1 v2gEnerState(1_24)
++1 v2gSegSoC(1_24_1)
++1 v2gSegSoC(1_24_2)
++1 v2gSegSoC(1_24_3)
++13.333333333333334 v2gSegXo(1_24_2)
++26.666666666666668 v2gSegXo(1_24_3)
+= 0
+
+c_e_v2gSegSoCEq(2_1)_:
+-1 v2gEnerState(2_1)
++1 v2gSegSoC(2_1_1)
++1 v2gSegSoC(2_1_2)
++1 v2gSegSoC(2_1_3)
++20 v2gSegXo(2_1_2)
++40 v2gSegXo(2_1_3)
+= 0
+
+c_e_v2gSegSoCEq(2_2)_:
+-1 v2gEnerState(2_2)
++1 v2gSegSoC(2_2_1)
++1 v2gSegSoC(2_2_2)
++1 v2gSegSoC(2_2_3)
++20 v2gSegXo(2_2_2)
++40 v2gSegXo(2_2_3)
+= 0
+
+c_e_v2gSegSoCEq(2_3)_:
+-1 v2gEnerState(2_3)
++1 v2gSegSoC(2_3_1)
++1 v2gSegSoC(2_3_2)
++1 v2gSegSoC(2_3_3)
++20 v2gSegXo(2_3_2)
++40 v2gSegXo(2_3_3)
+= 0
+
+c_e_v2gSegSoCEq(2_4)_:
+-1 v2gEnerState(2_4)
++1 v2gSegSoC(2_4_1)
++1 v2gSegSoC(2_4_2)
++1 v2gSegSoC(2_4_3)
++20 v2gSegXo(2_4_2)
++40 v2gSegXo(2_4_3)
+= 0
+
+c_e_v2gSegSoCEq(2_5)_:
+-1 v2gEnerState(2_5)
++1 v2gSegSoC(2_5_1)
++1 v2gSegSoC(2_5_2)
++1 v2gSegSoC(2_5_3)
++20 v2gSegXo(2_5_2)
++40 v2gSegXo(2_5_3)
+= 0
+
+c_e_v2gSegSoCEq(2_6)_:
+-1 v2gEnerState(2_6)
++1 v2gSegSoC(2_6_1)
++1 v2gSegSoC(2_6_2)
++1 v2gSegSoC(2_6_3)
++20 v2gSegXo(2_6_2)
++40 v2gSegXo(2_6_3)
+= 0
+
+c_e_v2gSegSoCEq(2_7)_:
+-1 v2gEnerState(2_7)
++1 v2gSegSoC(2_7_1)
++1 v2gSegSoC(2_7_2)
++1 v2gSegSoC(2_7_3)
++20 v2gSegXo(2_7_2)
++40 v2gSegXo(2_7_3)
+= 0
+
+c_e_v2gSegSoCEq(2_8)_:
+-1 v2gEnerState(2_8)
++1 v2gSegSoC(2_8_1)
++1 v2gSegSoC(2_8_2)
++1 v2gSegSoC(2_8_3)
++20 v2gSegXo(2_8_2)
++40 v2gSegXo(2_8_3)
+= 0
+
+c_e_v2gSegSoCEq(2_9)_:
+-1 v2gEnerState(2_9)
++1 v2gSegSoC(2_9_1)
++1 v2gSegSoC(2_9_2)
++1 v2gSegSoC(2_9_3)
++20 v2gSegXo(2_9_2)
++40 v2gSegXo(2_9_3)
+= 0
+
+c_e_v2gSegSoCEq(2_10)_:
+-1 v2gEnerState(2_10)
++1 v2gSegSoC(2_10_1)
++1 v2gSegSoC(2_10_2)
++1 v2gSegSoC(2_10_3)
++20 v2gSegXo(2_10_2)
++40 v2gSegXo(2_10_3)
+= 0
+
+c_e_v2gSegSoCEq(2_11)_:
+-1 v2gEnerState(2_11)
++1 v2gSegSoC(2_11_1)
++1 v2gSegSoC(2_11_2)
++1 v2gSegSoC(2_11_3)
++20 v2gSegXo(2_11_2)
++40 v2gSegXo(2_11_3)
+= 0
+
+c_e_v2gSegSoCEq(2_12)_:
+-1 v2gEnerState(2_12)
++1 v2gSegSoC(2_12_1)
++1 v2gSegSoC(2_12_2)
++1 v2gSegSoC(2_12_3)
++20 v2gSegXo(2_12_2)
++40 v2gSegXo(2_12_3)
+= 0
+
+c_e_v2gSegSoCEq(2_13)_:
+-1 v2gEnerState(2_13)
++1 v2gSegSoC(2_13_1)
++1 v2gSegSoC(2_13_2)
++1 v2gSegSoC(2_13_3)
++20 v2gSegXo(2_13_2)
++40 v2gSegXo(2_13_3)
+= 0
+
+c_e_v2gSegSoCEq(2_14)_:
+-1 v2gEnerState(2_14)
++1 v2gSegSoC(2_14_1)
++1 v2gSegSoC(2_14_2)
++1 v2gSegSoC(2_14_3)
++20 v2gSegXo(2_14_2)
++40 v2gSegXo(2_14_3)
+= 0
+
+c_e_v2gSegSoCEq(2_15)_:
+-1 v2gEnerState(2_15)
++1 v2gSegSoC(2_15_1)
++1 v2gSegSoC(2_15_2)
++1 v2gSegSoC(2_15_3)
++20 v2gSegXo(2_15_2)
++40 v2gSegXo(2_15_3)
+= 0
+
+c_e_v2gSegSoCEq(2_16)_:
+-1 v2gEnerState(2_16)
++1 v2gSegSoC(2_16_1)
++1 v2gSegSoC(2_16_2)
++1 v2gSegSoC(2_16_3)
++20 v2gSegXo(2_16_2)
++40 v2gSegXo(2_16_3)
+= 0
+
+c_e_v2gSegSoCEq(2_17)_:
+-1 v2gEnerState(2_17)
++1 v2gSegSoC(2_17_1)
++1 v2gSegSoC(2_17_2)
++1 v2gSegSoC(2_17_3)
++20 v2gSegXo(2_17_2)
++40 v2gSegXo(2_17_3)
+= 0
+
+c_e_v2gSegSoCEq(2_18)_:
+-1 v2gEnerState(2_18)
++1 v2gSegSoC(2_18_1)
++1 v2gSegSoC(2_18_2)
++1 v2gSegSoC(2_18_3)
++20 v2gSegXo(2_18_2)
++40 v2gSegXo(2_18_3)
+= 0
+
+c_e_v2gSegSoCEq(2_19)_:
+-1 v2gEnerState(2_19)
++1 v2gSegSoC(2_19_1)
++1 v2gSegSoC(2_19_2)
++1 v2gSegSoC(2_19_3)
++20 v2gSegXo(2_19_2)
++40 v2gSegXo(2_19_3)
+= 0
+
+c_e_v2gSegSoCEq(2_20)_:
+-1 v2gEnerState(2_20)
++1 v2gSegSoC(2_20_1)
++1 v2gSegSoC(2_20_2)
++1 v2gSegSoC(2_20_3)
++20 v2gSegXo(2_20_2)
++40 v2gSegXo(2_20_3)
+= 0
+
+c_e_v2gSegSoCEq(2_21)_:
+-1 v2gEnerState(2_21)
++1 v2gSegSoC(2_21_1)
++1 v2gSegSoC(2_21_2)
++1 v2gSegSoC(2_21_3)
++20 v2gSegXo(2_21_2)
++40 v2gSegXo(2_21_3)
+= 0
+
+c_e_v2gSegSoCEq(2_22)_:
+-1 v2gEnerState(2_22)
++1 v2gSegSoC(2_22_1)
++1 v2gSegSoC(2_22_2)
++1 v2gSegSoC(2_22_3)
++20 v2gSegXo(2_22_2)
++40 v2gSegXo(2_22_3)
+= 0
+
+c_e_v2gSegSoCEq(2_23)_:
+-1 v2gEnerState(2_23)
++1 v2gSegSoC(2_23_1)
++1 v2gSegSoC(2_23_2)
++1 v2gSegSoC(2_23_3)
++20 v2gSegXo(2_23_2)
++40 v2gSegXo(2_23_3)
+= 0
+
+c_e_v2gSegSoCEq(2_24)_:
+-1 v2gEnerState(2_24)
++1 v2gSegSoC(2_24_1)
++1 v2gSegSoC(2_24_2)
++1 v2gSegSoC(2_24_3)
++20 v2gSegXo(2_24_2)
++40 v2gSegXo(2_24_3)
+= 0
+
+c_e_v2gSegSoCEq(3_1)_:
+-1 v2gEnerState(3_1)
++1 v2gSegSoC(3_1_1)
++1 v2gSegSoC(3_1_2)
++1 v2gSegSoC(3_1_3)
++13.333333333333334 v2gSegXo(3_1_2)
++26.666666666666668 v2gSegXo(3_1_3)
+= 0
+
+c_e_v2gSegSoCEq(3_2)_:
+-1 v2gEnerState(3_2)
++1 v2gSegSoC(3_2_1)
++1 v2gSegSoC(3_2_2)
++1 v2gSegSoC(3_2_3)
++13.333333333333334 v2gSegXo(3_2_2)
++26.666666666666668 v2gSegXo(3_2_3)
+= 0
+
+c_e_v2gSegSoCEq(3_3)_:
+-1 v2gEnerState(3_3)
++1 v2gSegSoC(3_3_1)
++1 v2gSegSoC(3_3_2)
++1 v2gSegSoC(3_3_3)
++13.333333333333334 v2gSegXo(3_3_2)
++26.666666666666668 v2gSegXo(3_3_3)
+= 0
+
+c_e_v2gSegSoCEq(3_4)_:
+-1 v2gEnerState(3_4)
++1 v2gSegSoC(3_4_1)
++1 v2gSegSoC(3_4_2)
++1 v2gSegSoC(3_4_3)
++13.333333333333334 v2gSegXo(3_4_2)
++26.666666666666668 v2gSegXo(3_4_3)
+= 0
+
+c_e_v2gSegSoCEq(3_5)_:
+-1 v2gEnerState(3_5)
++1 v2gSegSoC(3_5_1)
++1 v2gSegSoC(3_5_2)
++1 v2gSegSoC(3_5_3)
++13.333333333333334 v2gSegXo(3_5_2)
++26.666666666666668 v2gSegXo(3_5_3)
+= 0
+
+c_e_v2gSegSoCEq(3_6)_:
+-1 v2gEnerState(3_6)
++1 v2gSegSoC(3_6_1)
++1 v2gSegSoC(3_6_2)
++1 v2gSegSoC(3_6_3)
++13.333333333333334 v2gSegXo(3_6_2)
++26.666666666666668 v2gSegXo(3_6_3)
+= 0
+
+c_e_v2gSegSoCEq(3_7)_:
+-1 v2gEnerState(3_7)
++1 v2gSegSoC(3_7_1)
++1 v2gSegSoC(3_7_2)
++1 v2gSegSoC(3_7_3)
++13.333333333333334 v2gSegXo(3_7_2)
++26.666666666666668 v2gSegXo(3_7_3)
+= 0
+
+c_e_v2gSegSoCEq(3_8)_:
+-1 v2gEnerState(3_8)
++1 v2gSegSoC(3_8_1)
++1 v2gSegSoC(3_8_2)
++1 v2gSegSoC(3_8_3)
++13.333333333333334 v2gSegXo(3_8_2)
++26.666666666666668 v2gSegXo(3_8_3)
+= 0
+
+c_e_v2gSegSoCEq(3_9)_:
+-1 v2gEnerState(3_9)
++1 v2gSegSoC(3_9_1)
++1 v2gSegSoC(3_9_2)
++1 v2gSegSoC(3_9_3)
++13.333333333333334 v2gSegXo(3_9_2)
++26.666666666666668 v2gSegXo(3_9_3)
+= 0
+
+c_e_v2gSegSoCEq(3_10)_:
+-1 v2gEnerState(3_10)
++1 v2gSegSoC(3_10_1)
++1 v2gSegSoC(3_10_2)
++1 v2gSegSoC(3_10_3)
++13.333333333333334 v2gSegXo(3_10_2)
++26.666666666666668 v2gSegXo(3_10_3)
+= 0
+
+c_e_v2gSegSoCEq(3_11)_:
+-1 v2gEnerState(3_11)
++1 v2gSegSoC(3_11_1)
++1 v2gSegSoC(3_11_2)
++1 v2gSegSoC(3_11_3)
++13.333333333333334 v2gSegXo(3_11_2)
++26.666666666666668 v2gSegXo(3_11_3)
+= 0
+
+c_e_v2gSegSoCEq(3_12)_:
+-1 v2gEnerState(3_12)
++1 v2gSegSoC(3_12_1)
++1 v2gSegSoC(3_12_2)
++1 v2gSegSoC(3_12_3)
++13.333333333333334 v2gSegXo(3_12_2)
++26.666666666666668 v2gSegXo(3_12_3)
+= 0
+
+c_e_v2gSegSoCEq(3_13)_:
+-1 v2gEnerState(3_13)
++1 v2gSegSoC(3_13_1)
++1 v2gSegSoC(3_13_2)
++1 v2gSegSoC(3_13_3)
++13.333333333333334 v2gSegXo(3_13_2)
++26.666666666666668 v2gSegXo(3_13_3)
+= 0
+
+c_e_v2gSegSoCEq(3_14)_:
+-1 v2gEnerState(3_14)
++1 v2gSegSoC(3_14_1)
++1 v2gSegSoC(3_14_2)
++1 v2gSegSoC(3_14_3)
++13.333333333333334 v2gSegXo(3_14_2)
++26.666666666666668 v2gSegXo(3_14_3)
+= 0
+
+c_e_v2gSegSoCEq(3_15)_:
+-1 v2gEnerState(3_15)
++1 v2gSegSoC(3_15_1)
++1 v2gSegSoC(3_15_2)
++1 v2gSegSoC(3_15_3)
++13.333333333333334 v2gSegXo(3_15_2)
++26.666666666666668 v2gSegXo(3_15_3)
+= 0
+
+c_e_v2gSegSoCEq(3_16)_:
+-1 v2gEnerState(3_16)
++1 v2gSegSoC(3_16_1)
++1 v2gSegSoC(3_16_2)
++1 v2gSegSoC(3_16_3)
++13.333333333333334 v2gSegXo(3_16_2)
++26.666666666666668 v2gSegXo(3_16_3)
+= 0
+
+c_e_v2gSegSoCEq(3_17)_:
+-1 v2gEnerState(3_17)
++1 v2gSegSoC(3_17_1)
++1 v2gSegSoC(3_17_2)
++1 v2gSegSoC(3_17_3)
++13.333333333333334 v2gSegXo(3_17_2)
++26.666666666666668 v2gSegXo(3_17_3)
+= 0
+
+c_e_v2gSegSoCEq(3_18)_:
+-1 v2gEnerState(3_18)
++1 v2gSegSoC(3_18_1)
++1 v2gSegSoC(3_18_2)
++1 v2gSegSoC(3_18_3)
++13.333333333333334 v2gSegXo(3_18_2)
++26.666666666666668 v2gSegXo(3_18_3)
+= 0
+
+c_e_v2gSegSoCEq(3_19)_:
+-1 v2gEnerState(3_19)
++1 v2gSegSoC(3_19_1)
++1 v2gSegSoC(3_19_2)
++1 v2gSegSoC(3_19_3)
++13.333333333333334 v2gSegXo(3_19_2)
++26.666666666666668 v2gSegXo(3_19_3)
+= 0
+
+c_e_v2gSegSoCEq(3_20)_:
+-1 v2gEnerState(3_20)
++1 v2gSegSoC(3_20_1)
++1 v2gSegSoC(3_20_2)
++1 v2gSegSoC(3_20_3)
++13.333333333333334 v2gSegXo(3_20_2)
++26.666666666666668 v2gSegXo(3_20_3)
+= 0
+
+c_e_v2gSegSoCEq(3_21)_:
+-1 v2gEnerState(3_21)
++1 v2gSegSoC(3_21_1)
++1 v2gSegSoC(3_21_2)
++1 v2gSegSoC(3_21_3)
++13.333333333333334 v2gSegXo(3_21_2)
++26.666666666666668 v2gSegXo(3_21_3)
+= 0
+
+c_e_v2gSegSoCEq(3_22)_:
+-1 v2gEnerState(3_22)
++1 v2gSegSoC(3_22_1)
++1 v2gSegSoC(3_22_2)
++1 v2gSegSoC(3_22_3)
++13.333333333333334 v2gSegXo(3_22_2)
++26.666666666666668 v2gSegXo(3_22_3)
+= 0
+
+c_e_v2gSegSoCEq(3_23)_:
+-1 v2gEnerState(3_23)
++1 v2gSegSoC(3_23_1)
++1 v2gSegSoC(3_23_2)
++1 v2gSegSoC(3_23_3)
++13.333333333333334 v2gSegXo(3_23_2)
++26.666666666666668 v2gSegXo(3_23_3)
+= 0
+
+c_e_v2gSegSoCEq(3_24)_:
+-1 v2gEnerState(3_24)
++1 v2gSegSoC(3_24_1)
++1 v2gSegSoC(3_24_2)
++1 v2gSegSoC(3_24_3)
++13.333333333333334 v2gSegXo(3_24_2)
++26.666666666666668 v2gSegXo(3_24_3)
+= 0
+
+c_e_v2gSegSoCEq(4_1)_:
+-1 v2gEnerState(4_1)
++1 v2gSegSoC(4_1_1)
++1 v2gSegSoC(4_1_2)
++1 v2gSegSoC(4_1_3)
++13.333333333333334 v2gSegXo(4_1_2)
++26.666666666666668 v2gSegXo(4_1_3)
+= 0
+
+c_e_v2gSegSoCEq(4_2)_:
+-1 v2gEnerState(4_2)
++1 v2gSegSoC(4_2_1)
++1 v2gSegSoC(4_2_2)
++1 v2gSegSoC(4_2_3)
++13.333333333333334 v2gSegXo(4_2_2)
++26.666666666666668 v2gSegXo(4_2_3)
+= 0
+
+c_e_v2gSegSoCEq(4_3)_:
+-1 v2gEnerState(4_3)
++1 v2gSegSoC(4_3_1)
++1 v2gSegSoC(4_3_2)
++1 v2gSegSoC(4_3_3)
++13.333333333333334 v2gSegXo(4_3_2)
++26.666666666666668 v2gSegXo(4_3_3)
+= 0
+
+c_e_v2gSegSoCEq(4_4)_:
+-1 v2gEnerState(4_4)
++1 v2gSegSoC(4_4_1)
++1 v2gSegSoC(4_4_2)
++1 v2gSegSoC(4_4_3)
++13.333333333333334 v2gSegXo(4_4_2)
++26.666666666666668 v2gSegXo(4_4_3)
+= 0
+
+c_e_v2gSegSoCEq(4_5)_:
+-1 v2gEnerState(4_5)
++1 v2gSegSoC(4_5_1)
++1 v2gSegSoC(4_5_2)
++1 v2gSegSoC(4_5_3)
++13.333333333333334 v2gSegXo(4_5_2)
++26.666666666666668 v2gSegXo(4_5_3)
+= 0
+
+c_e_v2gSegSoCEq(4_6)_:
+-1 v2gEnerState(4_6)
++1 v2gSegSoC(4_6_1)
++1 v2gSegSoC(4_6_2)
++1 v2gSegSoC(4_6_3)
++13.333333333333334 v2gSegXo(4_6_2)
++26.666666666666668 v2gSegXo(4_6_3)
+= 0
+
+c_e_v2gSegSoCEq(4_7)_:
+-1 v2gEnerState(4_7)
++1 v2gSegSoC(4_7_1)
++1 v2gSegSoC(4_7_2)
++1 v2gSegSoC(4_7_3)
++13.333333333333334 v2gSegXo(4_7_2)
++26.666666666666668 v2gSegXo(4_7_3)
+= 0
+
+c_e_v2gSegSoCEq(4_8)_:
+-1 v2gEnerState(4_8)
++1 v2gSegSoC(4_8_1)
++1 v2gSegSoC(4_8_2)
++1 v2gSegSoC(4_8_3)
++13.333333333333334 v2gSegXo(4_8_2)
++26.666666666666668 v2gSegXo(4_8_3)
+= 0
+
+c_e_v2gSegSoCEq(4_9)_:
+-1 v2gEnerState(4_9)
++1 v2gSegSoC(4_9_1)
++1 v2gSegSoC(4_9_2)
++1 v2gSegSoC(4_9_3)
++13.333333333333334 v2gSegXo(4_9_2)
++26.666666666666668 v2gSegXo(4_9_3)
+= 0
+
+c_e_v2gSegSoCEq(4_10)_:
+-1 v2gEnerState(4_10)
++1 v2gSegSoC(4_10_1)
++1 v2gSegSoC(4_10_2)
++1 v2gSegSoC(4_10_3)
++13.333333333333334 v2gSegXo(4_10_2)
++26.666666666666668 v2gSegXo(4_10_3)
+= 0
+
+c_e_v2gSegSoCEq(4_11)_:
+-1 v2gEnerState(4_11)
++1 v2gSegSoC(4_11_1)
++1 v2gSegSoC(4_11_2)
++1 v2gSegSoC(4_11_3)
++13.333333333333334 v2gSegXo(4_11_2)
++26.666666666666668 v2gSegXo(4_11_3)
+= 0
+
+c_e_v2gSegSoCEq(4_12)_:
+-1 v2gEnerState(4_12)
++1 v2gSegSoC(4_12_1)
++1 v2gSegSoC(4_12_2)
++1 v2gSegSoC(4_12_3)
++13.333333333333334 v2gSegXo(4_12_2)
++26.666666666666668 v2gSegXo(4_12_3)
+= 0
+
+c_e_v2gSegSoCEq(4_13)_:
+-1 v2gEnerState(4_13)
++1 v2gSegSoC(4_13_1)
++1 v2gSegSoC(4_13_2)
++1 v2gSegSoC(4_13_3)
++13.333333333333334 v2gSegXo(4_13_2)
++26.666666666666668 v2gSegXo(4_13_3)
+= 0
+
+c_e_v2gSegSoCEq(4_14)_:
+-1 v2gEnerState(4_14)
++1 v2gSegSoC(4_14_1)
++1 v2gSegSoC(4_14_2)
++1 v2gSegSoC(4_14_3)
++13.333333333333334 v2gSegXo(4_14_2)
++26.666666666666668 v2gSegXo(4_14_3)
+= 0
+
+c_e_v2gSegSoCEq(4_15)_:
+-1 v2gEnerState(4_15)
++1 v2gSegSoC(4_15_1)
++1 v2gSegSoC(4_15_2)
++1 v2gSegSoC(4_15_3)
++13.333333333333334 v2gSegXo(4_15_2)
++26.666666666666668 v2gSegXo(4_15_3)
+= 0
+
+c_e_v2gSegSoCEq(4_16)_:
+-1 v2gEnerState(4_16)
++1 v2gSegSoC(4_16_1)
++1 v2gSegSoC(4_16_2)
++1 v2gSegSoC(4_16_3)
++13.333333333333334 v2gSegXo(4_16_2)
++26.666666666666668 v2gSegXo(4_16_3)
+= 0
+
+c_e_v2gSegSoCEq(4_17)_:
+-1 v2gEnerState(4_17)
++1 v2gSegSoC(4_17_1)
++1 v2gSegSoC(4_17_2)
++1 v2gSegSoC(4_17_3)
++13.333333333333334 v2gSegXo(4_17_2)
++26.666666666666668 v2gSegXo(4_17_3)
+= 0
+
+c_e_v2gSegSoCEq(4_18)_:
+-1 v2gEnerState(4_18)
++1 v2gSegSoC(4_18_1)
++1 v2gSegSoC(4_18_2)
++1 v2gSegSoC(4_18_3)
++13.333333333333334 v2gSegXo(4_18_2)
++26.666666666666668 v2gSegXo(4_18_3)
+= 0
+
+c_e_v2gSegSoCEq(4_19)_:
+-1 v2gEnerState(4_19)
++1 v2gSegSoC(4_19_1)
++1 v2gSegSoC(4_19_2)
++1 v2gSegSoC(4_19_3)
++13.333333333333334 v2gSegXo(4_19_2)
++26.666666666666668 v2gSegXo(4_19_3)
+= 0
+
+c_e_v2gSegSoCEq(4_20)_:
+-1 v2gEnerState(4_20)
++1 v2gSegSoC(4_20_1)
++1 v2gSegSoC(4_20_2)
++1 v2gSegSoC(4_20_3)
++13.333333333333334 v2gSegXo(4_20_2)
++26.666666666666668 v2gSegXo(4_20_3)
+= 0
+
+c_e_v2gSegSoCEq(4_21)_:
+-1 v2gEnerState(4_21)
++1 v2gSegSoC(4_21_1)
++1 v2gSegSoC(4_21_2)
++1 v2gSegSoC(4_21_3)
++13.333333333333334 v2gSegXo(4_21_2)
++26.666666666666668 v2gSegXo(4_21_3)
+= 0
+
+c_e_v2gSegSoCEq(4_22)_:
+-1 v2gEnerState(4_22)
++1 v2gSegSoC(4_22_1)
++1 v2gSegSoC(4_22_2)
++1 v2gSegSoC(4_22_3)
++13.333333333333334 v2gSegXo(4_22_2)
++26.666666666666668 v2gSegXo(4_22_3)
+= 0
+
+c_e_v2gSegSoCEq(4_23)_:
+-1 v2gEnerState(4_23)
++1 v2gSegSoC(4_23_1)
++1 v2gSegSoC(4_23_2)
++1 v2gSegSoC(4_23_3)
++13.333333333333334 v2gSegXo(4_23_2)
++26.666666666666668 v2gSegXo(4_23_3)
+= 0
+
+c_e_v2gSegSoCEq(4_24)_:
+-1 v2gEnerState(4_24)
++1 v2gSegSoC(4_24_1)
++1 v2gSegSoC(4_24_2)
++1 v2gSegSoC(4_24_3)
++13.333333333333334 v2gSegXo(4_24_2)
++26.666666666666668 v2gSegXo(4_24_3)
+= 0
+
+c_e_v2gSegSoCEq(5_1)_:
+-1 v2gEnerState(5_1)
++1 v2gSegSoC(5_1_1)
++1 v2gSegSoC(5_1_2)
++1 v2gSegSoC(5_1_3)
++20 v2gSegXo(5_1_2)
++40 v2gSegXo(5_1_3)
+= 0
+
+c_e_v2gSegSoCEq(5_2)_:
+-1 v2gEnerState(5_2)
++1 v2gSegSoC(5_2_1)
++1 v2gSegSoC(5_2_2)
++1 v2gSegSoC(5_2_3)
++20 v2gSegXo(5_2_2)
++40 v2gSegXo(5_2_3)
+= 0
+
+c_e_v2gSegSoCEq(5_3)_:
+-1 v2gEnerState(5_3)
++1 v2gSegSoC(5_3_1)
++1 v2gSegSoC(5_3_2)
++1 v2gSegSoC(5_3_3)
++20 v2gSegXo(5_3_2)
++40 v2gSegXo(5_3_3)
+= 0
+
+c_e_v2gSegSoCEq(5_4)_:
+-1 v2gEnerState(5_4)
++1 v2gSegSoC(5_4_1)
++1 v2gSegSoC(5_4_2)
++1 v2gSegSoC(5_4_3)
++20 v2gSegXo(5_4_2)
++40 v2gSegXo(5_4_3)
+= 0
+
+c_e_v2gSegSoCEq(5_5)_:
+-1 v2gEnerState(5_5)
++1 v2gSegSoC(5_5_1)
++1 v2gSegSoC(5_5_2)
++1 v2gSegSoC(5_5_3)
++20 v2gSegXo(5_5_2)
++40 v2gSegXo(5_5_3)
+= 0
+
+c_e_v2gSegSoCEq(5_6)_:
+-1 v2gEnerState(5_6)
++1 v2gSegSoC(5_6_1)
++1 v2gSegSoC(5_6_2)
++1 v2gSegSoC(5_6_3)
++20 v2gSegXo(5_6_2)
++40 v2gSegXo(5_6_3)
+= 0
+
+c_e_v2gSegSoCEq(5_7)_:
+-1 v2gEnerState(5_7)
++1 v2gSegSoC(5_7_1)
++1 v2gSegSoC(5_7_2)
++1 v2gSegSoC(5_7_3)
++20 v2gSegXo(5_7_2)
++40 v2gSegXo(5_7_3)
+= 0
+
+c_e_v2gSegSoCEq(5_8)_:
+-1 v2gEnerState(5_8)
++1 v2gSegSoC(5_8_1)
++1 v2gSegSoC(5_8_2)
++1 v2gSegSoC(5_8_3)
++20 v2gSegXo(5_8_2)
++40 v2gSegXo(5_8_3)
+= 0
+
+c_e_v2gSegSoCEq(5_9)_:
+-1 v2gEnerState(5_9)
++1 v2gSegSoC(5_9_1)
++1 v2gSegSoC(5_9_2)
++1 v2gSegSoC(5_9_3)
++20 v2gSegXo(5_9_2)
++40 v2gSegXo(5_9_3)
+= 0
+
+c_e_v2gSegSoCEq(5_10)_:
+-1 v2gEnerState(5_10)
++1 v2gSegSoC(5_10_1)
++1 v2gSegSoC(5_10_2)
++1 v2gSegSoC(5_10_3)
++20 v2gSegXo(5_10_2)
++40 v2gSegXo(5_10_3)
+= 0
+
+c_e_v2gSegSoCEq(5_11)_:
+-1 v2gEnerState(5_11)
++1 v2gSegSoC(5_11_1)
++1 v2gSegSoC(5_11_2)
++1 v2gSegSoC(5_11_3)
++20 v2gSegXo(5_11_2)
++40 v2gSegXo(5_11_3)
+= 0
+
+c_e_v2gSegSoCEq(5_12)_:
+-1 v2gEnerState(5_12)
++1 v2gSegSoC(5_12_1)
++1 v2gSegSoC(5_12_2)
++1 v2gSegSoC(5_12_3)
++20 v2gSegXo(5_12_2)
++40 v2gSegXo(5_12_3)
+= 0
+
+c_e_v2gSegSoCEq(5_13)_:
+-1 v2gEnerState(5_13)
++1 v2gSegSoC(5_13_1)
++1 v2gSegSoC(5_13_2)
++1 v2gSegSoC(5_13_3)
++20 v2gSegXo(5_13_2)
++40 v2gSegXo(5_13_3)
+= 0
+
+c_e_v2gSegSoCEq(5_14)_:
+-1 v2gEnerState(5_14)
++1 v2gSegSoC(5_14_1)
++1 v2gSegSoC(5_14_2)
++1 v2gSegSoC(5_14_3)
++20 v2gSegXo(5_14_2)
++40 v2gSegXo(5_14_3)
+= 0
+
+c_e_v2gSegSoCEq(5_15)_:
+-1 v2gEnerState(5_15)
++1 v2gSegSoC(5_15_1)
++1 v2gSegSoC(5_15_2)
++1 v2gSegSoC(5_15_3)
++20 v2gSegXo(5_15_2)
++40 v2gSegXo(5_15_3)
+= 0
+
+c_e_v2gSegSoCEq(5_16)_:
+-1 v2gEnerState(5_16)
++1 v2gSegSoC(5_16_1)
++1 v2gSegSoC(5_16_2)
++1 v2gSegSoC(5_16_3)
++20 v2gSegXo(5_16_2)
++40 v2gSegXo(5_16_3)
+= 0
+
+c_e_v2gSegSoCEq(5_17)_:
+-1 v2gEnerState(5_17)
++1 v2gSegSoC(5_17_1)
++1 v2gSegSoC(5_17_2)
++1 v2gSegSoC(5_17_3)
++20 v2gSegXo(5_17_2)
++40 v2gSegXo(5_17_3)
+= 0
+
+c_e_v2gSegSoCEq(5_18)_:
+-1 v2gEnerState(5_18)
++1 v2gSegSoC(5_18_1)
++1 v2gSegSoC(5_18_2)
++1 v2gSegSoC(5_18_3)
++20 v2gSegXo(5_18_2)
++40 v2gSegXo(5_18_3)
+= 0
+
+c_e_v2gSegSoCEq(5_19)_:
+-1 v2gEnerState(5_19)
++1 v2gSegSoC(5_19_1)
++1 v2gSegSoC(5_19_2)
++1 v2gSegSoC(5_19_3)
++20 v2gSegXo(5_19_2)
++40 v2gSegXo(5_19_3)
+= 0
+
+c_e_v2gSegSoCEq(5_20)_:
+-1 v2gEnerState(5_20)
++1 v2gSegSoC(5_20_1)
++1 v2gSegSoC(5_20_2)
++1 v2gSegSoC(5_20_3)
++20 v2gSegXo(5_20_2)
++40 v2gSegXo(5_20_3)
+= 0
+
+c_e_v2gSegSoCEq(5_21)_:
+-1 v2gEnerState(5_21)
++1 v2gSegSoC(5_21_1)
++1 v2gSegSoC(5_21_2)
++1 v2gSegSoC(5_21_3)
++20 v2gSegXo(5_21_2)
++40 v2gSegXo(5_21_3)
+= 0
+
+c_e_v2gSegSoCEq(5_22)_:
+-1 v2gEnerState(5_22)
++1 v2gSegSoC(5_22_1)
++1 v2gSegSoC(5_22_2)
++1 v2gSegSoC(5_22_3)
++20 v2gSegXo(5_22_2)
++40 v2gSegXo(5_22_3)
+= 0
+
+c_e_v2gSegSoCEq(5_23)_:
+-1 v2gEnerState(5_23)
++1 v2gSegSoC(5_23_1)
++1 v2gSegSoC(5_23_2)
++1 v2gSegSoC(5_23_3)
++20 v2gSegXo(5_23_2)
++40 v2gSegXo(5_23_3)
+= 0
+
+c_e_v2gSegSoCEq(5_24)_:
+-1 v2gEnerState(5_24)
++1 v2gSegSoC(5_24_1)
++1 v2gSegSoC(5_24_2)
++1 v2gSegSoC(5_24_3)
++20 v2gSegXo(5_24_2)
++40 v2gSegXo(5_24_3)
+= 0
+
+c_l_v2gSegSoCLower(1_1_1)_:
++1 v2gSegSoC(1_1_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_1_2)_:
++1 v2gSegSoC(1_1_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_1_3)_:
++1 v2gSegSoC(1_1_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_2_1)_:
++1 v2gSegSoC(1_2_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_2_2)_:
++1 v2gSegSoC(1_2_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_2_3)_:
++1 v2gSegSoC(1_2_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_3_1)_:
++1 v2gSegSoC(1_3_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_3_2)_:
++1 v2gSegSoC(1_3_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_3_3)_:
++1 v2gSegSoC(1_3_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_4_1)_:
++1 v2gSegSoC(1_4_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_4_2)_:
++1 v2gSegSoC(1_4_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_4_3)_:
++1 v2gSegSoC(1_4_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_5_1)_:
++1 v2gSegSoC(1_5_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_5_2)_:
++1 v2gSegSoC(1_5_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_5_3)_:
++1 v2gSegSoC(1_5_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_6_1)_:
++1 v2gSegSoC(1_6_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_6_2)_:
++1 v2gSegSoC(1_6_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_6_3)_:
++1 v2gSegSoC(1_6_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_7_1)_:
++1 v2gSegSoC(1_7_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_7_2)_:
++1 v2gSegSoC(1_7_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_7_3)_:
++1 v2gSegSoC(1_7_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_8_1)_:
++1 v2gSegSoC(1_8_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_8_2)_:
++1 v2gSegSoC(1_8_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_8_3)_:
++1 v2gSegSoC(1_8_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_9_1)_:
++1 v2gSegSoC(1_9_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_9_2)_:
++1 v2gSegSoC(1_9_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_9_3)_:
++1 v2gSegSoC(1_9_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_10_1)_:
++1 v2gSegSoC(1_10_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_10_2)_:
++1 v2gSegSoC(1_10_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_10_3)_:
++1 v2gSegSoC(1_10_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_11_1)_:
++1 v2gSegSoC(1_11_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_11_2)_:
++1 v2gSegSoC(1_11_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_11_3)_:
++1 v2gSegSoC(1_11_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_12_1)_:
++1 v2gSegSoC(1_12_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_12_2)_:
++1 v2gSegSoC(1_12_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_12_3)_:
++1 v2gSegSoC(1_12_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_13_1)_:
++1 v2gSegSoC(1_13_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_13_2)_:
++1 v2gSegSoC(1_13_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_13_3)_:
++1 v2gSegSoC(1_13_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_14_1)_:
++1 v2gSegSoC(1_14_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_14_2)_:
++1 v2gSegSoC(1_14_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_14_3)_:
++1 v2gSegSoC(1_14_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_15_1)_:
++1 v2gSegSoC(1_15_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_15_2)_:
++1 v2gSegSoC(1_15_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_15_3)_:
++1 v2gSegSoC(1_15_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_16_1)_:
++1 v2gSegSoC(1_16_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_16_2)_:
++1 v2gSegSoC(1_16_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_16_3)_:
++1 v2gSegSoC(1_16_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_17_1)_:
++1 v2gSegSoC(1_17_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_17_2)_:
++1 v2gSegSoC(1_17_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_17_3)_:
++1 v2gSegSoC(1_17_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_18_1)_:
++1 v2gSegSoC(1_18_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_18_2)_:
++1 v2gSegSoC(1_18_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_18_3)_:
++1 v2gSegSoC(1_18_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_19_1)_:
++1 v2gSegSoC(1_19_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_19_2)_:
++1 v2gSegSoC(1_19_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_19_3)_:
++1 v2gSegSoC(1_19_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_20_1)_:
++1 v2gSegSoC(1_20_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_20_2)_:
++1 v2gSegSoC(1_20_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_20_3)_:
++1 v2gSegSoC(1_20_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_21_1)_:
++1 v2gSegSoC(1_21_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_21_2)_:
++1 v2gSegSoC(1_21_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_21_3)_:
++1 v2gSegSoC(1_21_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_22_1)_:
++1 v2gSegSoC(1_22_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_22_2)_:
++1 v2gSegSoC(1_22_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_22_3)_:
++1 v2gSegSoC(1_22_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_23_1)_:
++1 v2gSegSoC(1_23_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_23_2)_:
++1 v2gSegSoC(1_23_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_23_3)_:
++1 v2gSegSoC(1_23_3)
+>= 0
+
+c_l_v2gSegSoCLower(1_24_1)_:
++1 v2gSegSoC(1_24_1)
+>= 0
+
+c_l_v2gSegSoCLower(1_24_2)_:
++1 v2gSegSoC(1_24_2)
+>= 0
+
+c_l_v2gSegSoCLower(1_24_3)_:
++1 v2gSegSoC(1_24_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_1_1)_:
++1 v2gSegSoC(2_1_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_1_2)_:
++1 v2gSegSoC(2_1_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_1_3)_:
++1 v2gSegSoC(2_1_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_2_1)_:
++1 v2gSegSoC(2_2_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_2_2)_:
++1 v2gSegSoC(2_2_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_2_3)_:
++1 v2gSegSoC(2_2_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_3_1)_:
++1 v2gSegSoC(2_3_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_3_2)_:
++1 v2gSegSoC(2_3_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_3_3)_:
++1 v2gSegSoC(2_3_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_4_1)_:
++1 v2gSegSoC(2_4_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_4_2)_:
++1 v2gSegSoC(2_4_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_4_3)_:
++1 v2gSegSoC(2_4_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_5_1)_:
++1 v2gSegSoC(2_5_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_5_2)_:
++1 v2gSegSoC(2_5_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_5_3)_:
++1 v2gSegSoC(2_5_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_6_1)_:
++1 v2gSegSoC(2_6_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_6_2)_:
++1 v2gSegSoC(2_6_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_6_3)_:
++1 v2gSegSoC(2_6_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_7_1)_:
++1 v2gSegSoC(2_7_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_7_2)_:
++1 v2gSegSoC(2_7_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_7_3)_:
++1 v2gSegSoC(2_7_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_8_1)_:
++1 v2gSegSoC(2_8_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_8_2)_:
++1 v2gSegSoC(2_8_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_8_3)_:
++1 v2gSegSoC(2_8_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_9_1)_:
++1 v2gSegSoC(2_9_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_9_2)_:
++1 v2gSegSoC(2_9_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_9_3)_:
++1 v2gSegSoC(2_9_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_10_1)_:
++1 v2gSegSoC(2_10_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_10_2)_:
++1 v2gSegSoC(2_10_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_10_3)_:
++1 v2gSegSoC(2_10_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_11_1)_:
++1 v2gSegSoC(2_11_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_11_2)_:
++1 v2gSegSoC(2_11_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_11_3)_:
++1 v2gSegSoC(2_11_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_12_1)_:
++1 v2gSegSoC(2_12_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_12_2)_:
++1 v2gSegSoC(2_12_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_12_3)_:
++1 v2gSegSoC(2_12_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_13_1)_:
++1 v2gSegSoC(2_13_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_13_2)_:
++1 v2gSegSoC(2_13_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_13_3)_:
++1 v2gSegSoC(2_13_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_14_1)_:
++1 v2gSegSoC(2_14_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_14_2)_:
++1 v2gSegSoC(2_14_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_14_3)_:
++1 v2gSegSoC(2_14_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_15_1)_:
++1 v2gSegSoC(2_15_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_15_2)_:
++1 v2gSegSoC(2_15_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_15_3)_:
++1 v2gSegSoC(2_15_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_16_1)_:
++1 v2gSegSoC(2_16_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_16_2)_:
++1 v2gSegSoC(2_16_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_16_3)_:
++1 v2gSegSoC(2_16_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_17_1)_:
++1 v2gSegSoC(2_17_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_17_2)_:
++1 v2gSegSoC(2_17_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_17_3)_:
++1 v2gSegSoC(2_17_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_18_1)_:
++1 v2gSegSoC(2_18_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_18_2)_:
++1 v2gSegSoC(2_18_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_18_3)_:
++1 v2gSegSoC(2_18_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_19_1)_:
++1 v2gSegSoC(2_19_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_19_2)_:
++1 v2gSegSoC(2_19_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_19_3)_:
++1 v2gSegSoC(2_19_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_20_1)_:
++1 v2gSegSoC(2_20_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_20_2)_:
++1 v2gSegSoC(2_20_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_20_3)_:
++1 v2gSegSoC(2_20_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_21_1)_:
++1 v2gSegSoC(2_21_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_21_2)_:
++1 v2gSegSoC(2_21_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_21_3)_:
++1 v2gSegSoC(2_21_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_22_1)_:
++1 v2gSegSoC(2_22_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_22_2)_:
++1 v2gSegSoC(2_22_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_22_3)_:
++1 v2gSegSoC(2_22_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_23_1)_:
++1 v2gSegSoC(2_23_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_23_2)_:
++1 v2gSegSoC(2_23_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_23_3)_:
++1 v2gSegSoC(2_23_3)
+>= 0
+
+c_l_v2gSegSoCLower(2_24_1)_:
++1 v2gSegSoC(2_24_1)
+>= 0
+
+c_l_v2gSegSoCLower(2_24_2)_:
++1 v2gSegSoC(2_24_2)
+>= 0
+
+c_l_v2gSegSoCLower(2_24_3)_:
++1 v2gSegSoC(2_24_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_1_1)_:
++1 v2gSegSoC(3_1_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_1_2)_:
++1 v2gSegSoC(3_1_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_1_3)_:
++1 v2gSegSoC(3_1_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_2_1)_:
++1 v2gSegSoC(3_2_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_2_2)_:
++1 v2gSegSoC(3_2_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_2_3)_:
++1 v2gSegSoC(3_2_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_3_1)_:
++1 v2gSegSoC(3_3_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_3_2)_:
++1 v2gSegSoC(3_3_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_3_3)_:
++1 v2gSegSoC(3_3_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_4_1)_:
++1 v2gSegSoC(3_4_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_4_2)_:
++1 v2gSegSoC(3_4_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_4_3)_:
++1 v2gSegSoC(3_4_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_5_1)_:
++1 v2gSegSoC(3_5_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_5_2)_:
++1 v2gSegSoC(3_5_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_5_3)_:
++1 v2gSegSoC(3_5_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_6_1)_:
++1 v2gSegSoC(3_6_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_6_2)_:
++1 v2gSegSoC(3_6_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_6_3)_:
++1 v2gSegSoC(3_6_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_7_1)_:
++1 v2gSegSoC(3_7_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_7_2)_:
++1 v2gSegSoC(3_7_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_7_3)_:
++1 v2gSegSoC(3_7_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_8_1)_:
++1 v2gSegSoC(3_8_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_8_2)_:
++1 v2gSegSoC(3_8_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_8_3)_:
++1 v2gSegSoC(3_8_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_9_1)_:
++1 v2gSegSoC(3_9_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_9_2)_:
++1 v2gSegSoC(3_9_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_9_3)_:
++1 v2gSegSoC(3_9_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_10_1)_:
++1 v2gSegSoC(3_10_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_10_2)_:
++1 v2gSegSoC(3_10_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_10_3)_:
++1 v2gSegSoC(3_10_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_11_1)_:
++1 v2gSegSoC(3_11_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_11_2)_:
++1 v2gSegSoC(3_11_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_11_3)_:
++1 v2gSegSoC(3_11_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_12_1)_:
++1 v2gSegSoC(3_12_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_12_2)_:
++1 v2gSegSoC(3_12_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_12_3)_:
++1 v2gSegSoC(3_12_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_13_1)_:
++1 v2gSegSoC(3_13_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_13_2)_:
++1 v2gSegSoC(3_13_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_13_3)_:
++1 v2gSegSoC(3_13_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_14_1)_:
++1 v2gSegSoC(3_14_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_14_2)_:
++1 v2gSegSoC(3_14_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_14_3)_:
++1 v2gSegSoC(3_14_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_15_1)_:
++1 v2gSegSoC(3_15_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_15_2)_:
++1 v2gSegSoC(3_15_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_15_3)_:
++1 v2gSegSoC(3_15_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_16_1)_:
++1 v2gSegSoC(3_16_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_16_2)_:
++1 v2gSegSoC(3_16_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_16_3)_:
++1 v2gSegSoC(3_16_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_17_1)_:
++1 v2gSegSoC(3_17_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_17_2)_:
++1 v2gSegSoC(3_17_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_17_3)_:
++1 v2gSegSoC(3_17_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_18_1)_:
++1 v2gSegSoC(3_18_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_18_2)_:
++1 v2gSegSoC(3_18_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_18_3)_:
++1 v2gSegSoC(3_18_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_19_1)_:
++1 v2gSegSoC(3_19_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_19_2)_:
++1 v2gSegSoC(3_19_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_19_3)_:
++1 v2gSegSoC(3_19_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_20_1)_:
++1 v2gSegSoC(3_20_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_20_2)_:
++1 v2gSegSoC(3_20_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_20_3)_:
++1 v2gSegSoC(3_20_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_21_1)_:
++1 v2gSegSoC(3_21_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_21_2)_:
++1 v2gSegSoC(3_21_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_21_3)_:
++1 v2gSegSoC(3_21_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_22_1)_:
++1 v2gSegSoC(3_22_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_22_2)_:
++1 v2gSegSoC(3_22_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_22_3)_:
++1 v2gSegSoC(3_22_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_23_1)_:
++1 v2gSegSoC(3_23_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_23_2)_:
++1 v2gSegSoC(3_23_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_23_3)_:
++1 v2gSegSoC(3_23_3)
+>= 0
+
+c_l_v2gSegSoCLower(3_24_1)_:
++1 v2gSegSoC(3_24_1)
+>= 0
+
+c_l_v2gSegSoCLower(3_24_2)_:
++1 v2gSegSoC(3_24_2)
+>= 0
+
+c_l_v2gSegSoCLower(3_24_3)_:
++1 v2gSegSoC(3_24_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_1_1)_:
++1 v2gSegSoC(4_1_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_1_2)_:
++1 v2gSegSoC(4_1_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_1_3)_:
++1 v2gSegSoC(4_1_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_2_1)_:
++1 v2gSegSoC(4_2_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_2_2)_:
++1 v2gSegSoC(4_2_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_2_3)_:
++1 v2gSegSoC(4_2_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_3_1)_:
++1 v2gSegSoC(4_3_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_3_2)_:
++1 v2gSegSoC(4_3_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_3_3)_:
++1 v2gSegSoC(4_3_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_4_1)_:
++1 v2gSegSoC(4_4_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_4_2)_:
++1 v2gSegSoC(4_4_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_4_3)_:
++1 v2gSegSoC(4_4_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_5_1)_:
++1 v2gSegSoC(4_5_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_5_2)_:
++1 v2gSegSoC(4_5_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_5_3)_:
++1 v2gSegSoC(4_5_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_6_1)_:
++1 v2gSegSoC(4_6_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_6_2)_:
++1 v2gSegSoC(4_6_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_6_3)_:
++1 v2gSegSoC(4_6_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_7_1)_:
++1 v2gSegSoC(4_7_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_7_2)_:
++1 v2gSegSoC(4_7_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_7_3)_:
++1 v2gSegSoC(4_7_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_8_1)_:
++1 v2gSegSoC(4_8_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_8_2)_:
++1 v2gSegSoC(4_8_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_8_3)_:
++1 v2gSegSoC(4_8_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_9_1)_:
++1 v2gSegSoC(4_9_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_9_2)_:
++1 v2gSegSoC(4_9_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_9_3)_:
++1 v2gSegSoC(4_9_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_10_1)_:
++1 v2gSegSoC(4_10_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_10_2)_:
++1 v2gSegSoC(4_10_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_10_3)_:
++1 v2gSegSoC(4_10_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_11_1)_:
++1 v2gSegSoC(4_11_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_11_2)_:
++1 v2gSegSoC(4_11_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_11_3)_:
++1 v2gSegSoC(4_11_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_12_1)_:
++1 v2gSegSoC(4_12_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_12_2)_:
++1 v2gSegSoC(4_12_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_12_3)_:
++1 v2gSegSoC(4_12_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_13_1)_:
++1 v2gSegSoC(4_13_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_13_2)_:
++1 v2gSegSoC(4_13_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_13_3)_:
++1 v2gSegSoC(4_13_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_14_1)_:
++1 v2gSegSoC(4_14_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_14_2)_:
++1 v2gSegSoC(4_14_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_14_3)_:
++1 v2gSegSoC(4_14_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_15_1)_:
++1 v2gSegSoC(4_15_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_15_2)_:
++1 v2gSegSoC(4_15_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_15_3)_:
++1 v2gSegSoC(4_15_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_16_1)_:
++1 v2gSegSoC(4_16_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_16_2)_:
++1 v2gSegSoC(4_16_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_16_3)_:
++1 v2gSegSoC(4_16_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_17_1)_:
++1 v2gSegSoC(4_17_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_17_2)_:
++1 v2gSegSoC(4_17_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_17_3)_:
++1 v2gSegSoC(4_17_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_18_1)_:
++1 v2gSegSoC(4_18_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_18_2)_:
++1 v2gSegSoC(4_18_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_18_3)_:
++1 v2gSegSoC(4_18_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_19_1)_:
++1 v2gSegSoC(4_19_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_19_2)_:
++1 v2gSegSoC(4_19_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_19_3)_:
++1 v2gSegSoC(4_19_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_20_1)_:
++1 v2gSegSoC(4_20_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_20_2)_:
++1 v2gSegSoC(4_20_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_20_3)_:
++1 v2gSegSoC(4_20_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_21_1)_:
++1 v2gSegSoC(4_21_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_21_2)_:
++1 v2gSegSoC(4_21_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_21_3)_:
++1 v2gSegSoC(4_21_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_22_1)_:
++1 v2gSegSoC(4_22_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_22_2)_:
++1 v2gSegSoC(4_22_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_22_3)_:
++1 v2gSegSoC(4_22_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_23_1)_:
++1 v2gSegSoC(4_23_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_23_2)_:
++1 v2gSegSoC(4_23_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_23_3)_:
++1 v2gSegSoC(4_23_3)
+>= 0
+
+c_l_v2gSegSoCLower(4_24_1)_:
++1 v2gSegSoC(4_24_1)
+>= 0
+
+c_l_v2gSegSoCLower(4_24_2)_:
++1 v2gSegSoC(4_24_2)
+>= 0
+
+c_l_v2gSegSoCLower(4_24_3)_:
++1 v2gSegSoC(4_24_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_1_1)_:
++1 v2gSegSoC(5_1_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_1_2)_:
++1 v2gSegSoC(5_1_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_1_3)_:
++1 v2gSegSoC(5_1_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_2_1)_:
++1 v2gSegSoC(5_2_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_2_2)_:
++1 v2gSegSoC(5_2_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_2_3)_:
++1 v2gSegSoC(5_2_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_3_1)_:
++1 v2gSegSoC(5_3_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_3_2)_:
++1 v2gSegSoC(5_3_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_3_3)_:
++1 v2gSegSoC(5_3_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_4_1)_:
++1 v2gSegSoC(5_4_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_4_2)_:
++1 v2gSegSoC(5_4_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_4_3)_:
++1 v2gSegSoC(5_4_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_5_1)_:
++1 v2gSegSoC(5_5_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_5_2)_:
++1 v2gSegSoC(5_5_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_5_3)_:
++1 v2gSegSoC(5_5_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_6_1)_:
++1 v2gSegSoC(5_6_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_6_2)_:
++1 v2gSegSoC(5_6_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_6_3)_:
++1 v2gSegSoC(5_6_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_7_1)_:
++1 v2gSegSoC(5_7_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_7_2)_:
++1 v2gSegSoC(5_7_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_7_3)_:
++1 v2gSegSoC(5_7_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_8_1)_:
++1 v2gSegSoC(5_8_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_8_2)_:
++1 v2gSegSoC(5_8_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_8_3)_:
++1 v2gSegSoC(5_8_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_9_1)_:
++1 v2gSegSoC(5_9_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_9_2)_:
++1 v2gSegSoC(5_9_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_9_3)_:
++1 v2gSegSoC(5_9_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_10_1)_:
++1 v2gSegSoC(5_10_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_10_2)_:
++1 v2gSegSoC(5_10_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_10_3)_:
++1 v2gSegSoC(5_10_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_11_1)_:
++1 v2gSegSoC(5_11_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_11_2)_:
++1 v2gSegSoC(5_11_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_11_3)_:
++1 v2gSegSoC(5_11_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_12_1)_:
++1 v2gSegSoC(5_12_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_12_2)_:
++1 v2gSegSoC(5_12_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_12_3)_:
++1 v2gSegSoC(5_12_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_13_1)_:
++1 v2gSegSoC(5_13_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_13_2)_:
++1 v2gSegSoC(5_13_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_13_3)_:
++1 v2gSegSoC(5_13_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_14_1)_:
++1 v2gSegSoC(5_14_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_14_2)_:
++1 v2gSegSoC(5_14_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_14_3)_:
++1 v2gSegSoC(5_14_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_15_1)_:
++1 v2gSegSoC(5_15_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_15_2)_:
++1 v2gSegSoC(5_15_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_15_3)_:
++1 v2gSegSoC(5_15_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_16_1)_:
++1 v2gSegSoC(5_16_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_16_2)_:
++1 v2gSegSoC(5_16_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_16_3)_:
++1 v2gSegSoC(5_16_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_17_1)_:
++1 v2gSegSoC(5_17_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_17_2)_:
++1 v2gSegSoC(5_17_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_17_3)_:
++1 v2gSegSoC(5_17_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_18_1)_:
++1 v2gSegSoC(5_18_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_18_2)_:
++1 v2gSegSoC(5_18_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_18_3)_:
++1 v2gSegSoC(5_18_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_19_1)_:
++1 v2gSegSoC(5_19_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_19_2)_:
++1 v2gSegSoC(5_19_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_19_3)_:
++1 v2gSegSoC(5_19_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_20_1)_:
++1 v2gSegSoC(5_20_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_20_2)_:
++1 v2gSegSoC(5_20_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_20_3)_:
++1 v2gSegSoC(5_20_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_21_1)_:
++1 v2gSegSoC(5_21_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_21_2)_:
++1 v2gSegSoC(5_21_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_21_3)_:
++1 v2gSegSoC(5_21_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_22_1)_:
++1 v2gSegSoC(5_22_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_22_2)_:
++1 v2gSegSoC(5_22_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_22_3)_:
++1 v2gSegSoC(5_22_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_23_1)_:
++1 v2gSegSoC(5_23_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_23_2)_:
++1 v2gSegSoC(5_23_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_23_3)_:
++1 v2gSegSoC(5_23_3)
+>= 0
+
+c_l_v2gSegSoCLower(5_24_1)_:
++1 v2gSegSoC(5_24_1)
+>= 0
+
+c_l_v2gSegSoCLower(5_24_2)_:
++1 v2gSegSoC(5_24_2)
+>= 0
+
+c_l_v2gSegSoCLower(5_24_3)_:
++1 v2gSegSoC(5_24_3)
+>= 0
+
+c_u_v2gSegSoCUpper(1_1_1)_:
++1 v2gSegSoC(1_1_1)
+-13.333333333333334 v2gSegXo(1_1_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_1_2)_:
++1 v2gSegSoC(1_1_2)
+-13.333333333333334 v2gSegXo(1_1_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_1_3)_:
++1 v2gSegSoC(1_1_3)
+-13.333333333333334 v2gSegXo(1_1_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_2_1)_:
++1 v2gSegSoC(1_2_1)
+-13.333333333333334 v2gSegXo(1_2_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_2_2)_:
++1 v2gSegSoC(1_2_2)
+-13.333333333333334 v2gSegXo(1_2_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_2_3)_:
++1 v2gSegSoC(1_2_3)
+-13.333333333333334 v2gSegXo(1_2_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_3_1)_:
++1 v2gSegSoC(1_3_1)
+-13.333333333333334 v2gSegXo(1_3_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_3_2)_:
++1 v2gSegSoC(1_3_2)
+-13.333333333333334 v2gSegXo(1_3_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_3_3)_:
++1 v2gSegSoC(1_3_3)
+-13.333333333333334 v2gSegXo(1_3_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_4_1)_:
++1 v2gSegSoC(1_4_1)
+-13.333333333333334 v2gSegXo(1_4_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_4_2)_:
++1 v2gSegSoC(1_4_2)
+-13.333333333333334 v2gSegXo(1_4_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_4_3)_:
++1 v2gSegSoC(1_4_3)
+-13.333333333333334 v2gSegXo(1_4_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_5_1)_:
++1 v2gSegSoC(1_5_1)
+-13.333333333333334 v2gSegXo(1_5_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_5_2)_:
++1 v2gSegSoC(1_5_2)
+-13.333333333333334 v2gSegXo(1_5_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_5_3)_:
++1 v2gSegSoC(1_5_3)
+-13.333333333333334 v2gSegXo(1_5_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_6_1)_:
++1 v2gSegSoC(1_6_1)
+-13.333333333333334 v2gSegXo(1_6_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_6_2)_:
++1 v2gSegSoC(1_6_2)
+-13.333333333333334 v2gSegXo(1_6_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_6_3)_:
++1 v2gSegSoC(1_6_3)
+-13.333333333333334 v2gSegXo(1_6_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_7_1)_:
++1 v2gSegSoC(1_7_1)
+-13.333333333333334 v2gSegXo(1_7_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_7_2)_:
++1 v2gSegSoC(1_7_2)
+-13.333333333333334 v2gSegXo(1_7_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_7_3)_:
++1 v2gSegSoC(1_7_3)
+-13.333333333333334 v2gSegXo(1_7_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_8_1)_:
++1 v2gSegSoC(1_8_1)
+-13.333333333333334 v2gSegXo(1_8_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_8_2)_:
++1 v2gSegSoC(1_8_2)
+-13.333333333333334 v2gSegXo(1_8_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_8_3)_:
++1 v2gSegSoC(1_8_3)
+-13.333333333333334 v2gSegXo(1_8_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_9_1)_:
++1 v2gSegSoC(1_9_1)
+-13.333333333333334 v2gSegXo(1_9_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_9_2)_:
++1 v2gSegSoC(1_9_2)
+-13.333333333333334 v2gSegXo(1_9_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_9_3)_:
++1 v2gSegSoC(1_9_3)
+-13.333333333333334 v2gSegXo(1_9_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_10_1)_:
++1 v2gSegSoC(1_10_1)
+-13.333333333333334 v2gSegXo(1_10_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_10_2)_:
++1 v2gSegSoC(1_10_2)
+-13.333333333333334 v2gSegXo(1_10_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_10_3)_:
++1 v2gSegSoC(1_10_3)
+-13.333333333333334 v2gSegXo(1_10_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_11_1)_:
++1 v2gSegSoC(1_11_1)
+-13.333333333333334 v2gSegXo(1_11_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_11_2)_:
++1 v2gSegSoC(1_11_2)
+-13.333333333333334 v2gSegXo(1_11_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_11_3)_:
++1 v2gSegSoC(1_11_3)
+-13.333333333333334 v2gSegXo(1_11_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_12_1)_:
++1 v2gSegSoC(1_12_1)
+-13.333333333333334 v2gSegXo(1_12_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_12_2)_:
++1 v2gSegSoC(1_12_2)
+-13.333333333333334 v2gSegXo(1_12_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_12_3)_:
++1 v2gSegSoC(1_12_3)
+-13.333333333333334 v2gSegXo(1_12_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_13_1)_:
++1 v2gSegSoC(1_13_1)
+-13.333333333333334 v2gSegXo(1_13_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_13_2)_:
++1 v2gSegSoC(1_13_2)
+-13.333333333333334 v2gSegXo(1_13_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_13_3)_:
++1 v2gSegSoC(1_13_3)
+-13.333333333333334 v2gSegXo(1_13_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_14_1)_:
++1 v2gSegSoC(1_14_1)
+-13.333333333333334 v2gSegXo(1_14_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_14_2)_:
++1 v2gSegSoC(1_14_2)
+-13.333333333333334 v2gSegXo(1_14_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_14_3)_:
++1 v2gSegSoC(1_14_3)
+-13.333333333333334 v2gSegXo(1_14_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_15_1)_:
++1 v2gSegSoC(1_15_1)
+-13.333333333333334 v2gSegXo(1_15_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_15_2)_:
++1 v2gSegSoC(1_15_2)
+-13.333333333333334 v2gSegXo(1_15_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_15_3)_:
++1 v2gSegSoC(1_15_3)
+-13.333333333333334 v2gSegXo(1_15_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_16_1)_:
++1 v2gSegSoC(1_16_1)
+-13.333333333333334 v2gSegXo(1_16_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_16_2)_:
++1 v2gSegSoC(1_16_2)
+-13.333333333333334 v2gSegXo(1_16_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_16_3)_:
++1 v2gSegSoC(1_16_3)
+-13.333333333333334 v2gSegXo(1_16_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_17_1)_:
++1 v2gSegSoC(1_17_1)
+-13.333333333333334 v2gSegXo(1_17_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_17_2)_:
++1 v2gSegSoC(1_17_2)
+-13.333333333333334 v2gSegXo(1_17_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_17_3)_:
++1 v2gSegSoC(1_17_3)
+-13.333333333333334 v2gSegXo(1_17_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_18_1)_:
++1 v2gSegSoC(1_18_1)
+-13.333333333333334 v2gSegXo(1_18_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_18_2)_:
++1 v2gSegSoC(1_18_2)
+-13.333333333333334 v2gSegXo(1_18_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_18_3)_:
++1 v2gSegSoC(1_18_3)
+-13.333333333333334 v2gSegXo(1_18_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_19_1)_:
++1 v2gSegSoC(1_19_1)
+-13.333333333333334 v2gSegXo(1_19_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_19_2)_:
++1 v2gSegSoC(1_19_2)
+-13.333333333333334 v2gSegXo(1_19_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_19_3)_:
++1 v2gSegSoC(1_19_3)
+-13.333333333333334 v2gSegXo(1_19_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_20_1)_:
++1 v2gSegSoC(1_20_1)
+-13.333333333333334 v2gSegXo(1_20_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_20_2)_:
++1 v2gSegSoC(1_20_2)
+-13.333333333333334 v2gSegXo(1_20_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_20_3)_:
++1 v2gSegSoC(1_20_3)
+-13.333333333333334 v2gSegXo(1_20_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_21_1)_:
++1 v2gSegSoC(1_21_1)
+-13.333333333333334 v2gSegXo(1_21_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_21_2)_:
++1 v2gSegSoC(1_21_2)
+-13.333333333333334 v2gSegXo(1_21_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_21_3)_:
++1 v2gSegSoC(1_21_3)
+-13.333333333333334 v2gSegXo(1_21_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_22_1)_:
++1 v2gSegSoC(1_22_1)
+-13.333333333333334 v2gSegXo(1_22_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_22_2)_:
++1 v2gSegSoC(1_22_2)
+-13.333333333333334 v2gSegXo(1_22_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_22_3)_:
++1 v2gSegSoC(1_22_3)
+-13.333333333333334 v2gSegXo(1_22_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_23_1)_:
++1 v2gSegSoC(1_23_1)
+-13.333333333333334 v2gSegXo(1_23_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_23_2)_:
++1 v2gSegSoC(1_23_2)
+-13.333333333333334 v2gSegXo(1_23_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_23_3)_:
++1 v2gSegSoC(1_23_3)
+-13.333333333333334 v2gSegXo(1_23_3)
+<= 0
+
+c_u_v2gSegSoCUpper(1_24_1)_:
++1 v2gSegSoC(1_24_1)
+-13.333333333333334 v2gSegXo(1_24_1)
+<= 0
+
+c_u_v2gSegSoCUpper(1_24_2)_:
++1 v2gSegSoC(1_24_2)
+-13.333333333333334 v2gSegXo(1_24_2)
+<= 0
+
+c_u_v2gSegSoCUpper(1_24_3)_:
++1 v2gSegSoC(1_24_3)
+-13.333333333333334 v2gSegXo(1_24_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_1_1)_:
++1 v2gSegSoC(2_1_1)
+-20 v2gSegXo(2_1_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_1_2)_:
++1 v2gSegSoC(2_1_2)
+-20 v2gSegXo(2_1_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_1_3)_:
++1 v2gSegSoC(2_1_3)
+-20 v2gSegXo(2_1_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_2_1)_:
++1 v2gSegSoC(2_2_1)
+-20 v2gSegXo(2_2_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_2_2)_:
++1 v2gSegSoC(2_2_2)
+-20 v2gSegXo(2_2_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_2_3)_:
++1 v2gSegSoC(2_2_3)
+-20 v2gSegXo(2_2_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_3_1)_:
++1 v2gSegSoC(2_3_1)
+-20 v2gSegXo(2_3_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_3_2)_:
++1 v2gSegSoC(2_3_2)
+-20 v2gSegXo(2_3_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_3_3)_:
++1 v2gSegSoC(2_3_3)
+-20 v2gSegXo(2_3_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_4_1)_:
++1 v2gSegSoC(2_4_1)
+-20 v2gSegXo(2_4_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_4_2)_:
++1 v2gSegSoC(2_4_2)
+-20 v2gSegXo(2_4_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_4_3)_:
++1 v2gSegSoC(2_4_3)
+-20 v2gSegXo(2_4_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_5_1)_:
++1 v2gSegSoC(2_5_1)
+-20 v2gSegXo(2_5_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_5_2)_:
++1 v2gSegSoC(2_5_2)
+-20 v2gSegXo(2_5_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_5_3)_:
++1 v2gSegSoC(2_5_3)
+-20 v2gSegXo(2_5_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_6_1)_:
++1 v2gSegSoC(2_6_1)
+-20 v2gSegXo(2_6_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_6_2)_:
++1 v2gSegSoC(2_6_2)
+-20 v2gSegXo(2_6_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_6_3)_:
++1 v2gSegSoC(2_6_3)
+-20 v2gSegXo(2_6_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_7_1)_:
++1 v2gSegSoC(2_7_1)
+-20 v2gSegXo(2_7_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_7_2)_:
++1 v2gSegSoC(2_7_2)
+-20 v2gSegXo(2_7_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_7_3)_:
++1 v2gSegSoC(2_7_3)
+-20 v2gSegXo(2_7_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_8_1)_:
++1 v2gSegSoC(2_8_1)
+-20 v2gSegXo(2_8_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_8_2)_:
++1 v2gSegSoC(2_8_2)
+-20 v2gSegXo(2_8_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_8_3)_:
++1 v2gSegSoC(2_8_3)
+-20 v2gSegXo(2_8_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_9_1)_:
++1 v2gSegSoC(2_9_1)
+-20 v2gSegXo(2_9_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_9_2)_:
++1 v2gSegSoC(2_9_2)
+-20 v2gSegXo(2_9_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_9_3)_:
++1 v2gSegSoC(2_9_3)
+-20 v2gSegXo(2_9_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_10_1)_:
++1 v2gSegSoC(2_10_1)
+-20 v2gSegXo(2_10_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_10_2)_:
++1 v2gSegSoC(2_10_2)
+-20 v2gSegXo(2_10_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_10_3)_:
++1 v2gSegSoC(2_10_3)
+-20 v2gSegXo(2_10_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_11_1)_:
++1 v2gSegSoC(2_11_1)
+-20 v2gSegXo(2_11_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_11_2)_:
++1 v2gSegSoC(2_11_2)
+-20 v2gSegXo(2_11_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_11_3)_:
++1 v2gSegSoC(2_11_3)
+-20 v2gSegXo(2_11_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_12_1)_:
++1 v2gSegSoC(2_12_1)
+-20 v2gSegXo(2_12_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_12_2)_:
++1 v2gSegSoC(2_12_2)
+-20 v2gSegXo(2_12_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_12_3)_:
++1 v2gSegSoC(2_12_3)
+-20 v2gSegXo(2_12_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_13_1)_:
++1 v2gSegSoC(2_13_1)
+-20 v2gSegXo(2_13_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_13_2)_:
++1 v2gSegSoC(2_13_2)
+-20 v2gSegXo(2_13_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_13_3)_:
++1 v2gSegSoC(2_13_3)
+-20 v2gSegXo(2_13_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_14_1)_:
++1 v2gSegSoC(2_14_1)
+-20 v2gSegXo(2_14_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_14_2)_:
++1 v2gSegSoC(2_14_2)
+-20 v2gSegXo(2_14_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_14_3)_:
++1 v2gSegSoC(2_14_3)
+-20 v2gSegXo(2_14_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_15_1)_:
++1 v2gSegSoC(2_15_1)
+-20 v2gSegXo(2_15_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_15_2)_:
++1 v2gSegSoC(2_15_2)
+-20 v2gSegXo(2_15_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_15_3)_:
++1 v2gSegSoC(2_15_3)
+-20 v2gSegXo(2_15_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_16_1)_:
++1 v2gSegSoC(2_16_1)
+-20 v2gSegXo(2_16_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_16_2)_:
++1 v2gSegSoC(2_16_2)
+-20 v2gSegXo(2_16_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_16_3)_:
++1 v2gSegSoC(2_16_3)
+-20 v2gSegXo(2_16_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_17_1)_:
++1 v2gSegSoC(2_17_1)
+-20 v2gSegXo(2_17_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_17_2)_:
++1 v2gSegSoC(2_17_2)
+-20 v2gSegXo(2_17_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_17_3)_:
++1 v2gSegSoC(2_17_3)
+-20 v2gSegXo(2_17_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_18_1)_:
++1 v2gSegSoC(2_18_1)
+-20 v2gSegXo(2_18_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_18_2)_:
++1 v2gSegSoC(2_18_2)
+-20 v2gSegXo(2_18_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_18_3)_:
++1 v2gSegSoC(2_18_3)
+-20 v2gSegXo(2_18_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_19_1)_:
++1 v2gSegSoC(2_19_1)
+-20 v2gSegXo(2_19_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_19_2)_:
++1 v2gSegSoC(2_19_2)
+-20 v2gSegXo(2_19_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_19_3)_:
++1 v2gSegSoC(2_19_3)
+-20 v2gSegXo(2_19_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_20_1)_:
++1 v2gSegSoC(2_20_1)
+-20 v2gSegXo(2_20_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_20_2)_:
++1 v2gSegSoC(2_20_2)
+-20 v2gSegXo(2_20_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_20_3)_:
++1 v2gSegSoC(2_20_3)
+-20 v2gSegXo(2_20_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_21_1)_:
++1 v2gSegSoC(2_21_1)
+-20 v2gSegXo(2_21_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_21_2)_:
++1 v2gSegSoC(2_21_2)
+-20 v2gSegXo(2_21_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_21_3)_:
++1 v2gSegSoC(2_21_3)
+-20 v2gSegXo(2_21_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_22_1)_:
++1 v2gSegSoC(2_22_1)
+-20 v2gSegXo(2_22_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_22_2)_:
++1 v2gSegSoC(2_22_2)
+-20 v2gSegXo(2_22_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_22_3)_:
++1 v2gSegSoC(2_22_3)
+-20 v2gSegXo(2_22_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_23_1)_:
++1 v2gSegSoC(2_23_1)
+-20 v2gSegXo(2_23_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_23_2)_:
++1 v2gSegSoC(2_23_2)
+-20 v2gSegXo(2_23_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_23_3)_:
++1 v2gSegSoC(2_23_3)
+-20 v2gSegXo(2_23_3)
+<= 0
+
+c_u_v2gSegSoCUpper(2_24_1)_:
++1 v2gSegSoC(2_24_1)
+-20 v2gSegXo(2_24_1)
+<= 0
+
+c_u_v2gSegSoCUpper(2_24_2)_:
++1 v2gSegSoC(2_24_2)
+-20 v2gSegXo(2_24_2)
+<= 0
+
+c_u_v2gSegSoCUpper(2_24_3)_:
++1 v2gSegSoC(2_24_3)
+-20 v2gSegXo(2_24_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_1_1)_:
++1 v2gSegSoC(3_1_1)
+-13.333333333333334 v2gSegXo(3_1_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_1_2)_:
++1 v2gSegSoC(3_1_2)
+-13.333333333333334 v2gSegXo(3_1_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_1_3)_:
++1 v2gSegSoC(3_1_3)
+-13.333333333333334 v2gSegXo(3_1_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_2_1)_:
++1 v2gSegSoC(3_2_1)
+-13.333333333333334 v2gSegXo(3_2_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_2_2)_:
++1 v2gSegSoC(3_2_2)
+-13.333333333333334 v2gSegXo(3_2_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_2_3)_:
++1 v2gSegSoC(3_2_3)
+-13.333333333333334 v2gSegXo(3_2_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_3_1)_:
++1 v2gSegSoC(3_3_1)
+-13.333333333333334 v2gSegXo(3_3_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_3_2)_:
++1 v2gSegSoC(3_3_2)
+-13.333333333333334 v2gSegXo(3_3_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_3_3)_:
++1 v2gSegSoC(3_3_3)
+-13.333333333333334 v2gSegXo(3_3_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_4_1)_:
++1 v2gSegSoC(3_4_1)
+-13.333333333333334 v2gSegXo(3_4_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_4_2)_:
++1 v2gSegSoC(3_4_2)
+-13.333333333333334 v2gSegXo(3_4_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_4_3)_:
++1 v2gSegSoC(3_4_3)
+-13.333333333333334 v2gSegXo(3_4_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_5_1)_:
++1 v2gSegSoC(3_5_1)
+-13.333333333333334 v2gSegXo(3_5_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_5_2)_:
++1 v2gSegSoC(3_5_2)
+-13.333333333333334 v2gSegXo(3_5_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_5_3)_:
++1 v2gSegSoC(3_5_3)
+-13.333333333333334 v2gSegXo(3_5_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_6_1)_:
++1 v2gSegSoC(3_6_1)
+-13.333333333333334 v2gSegXo(3_6_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_6_2)_:
++1 v2gSegSoC(3_6_2)
+-13.333333333333334 v2gSegXo(3_6_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_6_3)_:
++1 v2gSegSoC(3_6_3)
+-13.333333333333334 v2gSegXo(3_6_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_7_1)_:
++1 v2gSegSoC(3_7_1)
+-13.333333333333334 v2gSegXo(3_7_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_7_2)_:
++1 v2gSegSoC(3_7_2)
+-13.333333333333334 v2gSegXo(3_7_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_7_3)_:
++1 v2gSegSoC(3_7_3)
+-13.333333333333334 v2gSegXo(3_7_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_8_1)_:
++1 v2gSegSoC(3_8_1)
+-13.333333333333334 v2gSegXo(3_8_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_8_2)_:
++1 v2gSegSoC(3_8_2)
+-13.333333333333334 v2gSegXo(3_8_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_8_3)_:
++1 v2gSegSoC(3_8_3)
+-13.333333333333334 v2gSegXo(3_8_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_9_1)_:
++1 v2gSegSoC(3_9_1)
+-13.333333333333334 v2gSegXo(3_9_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_9_2)_:
++1 v2gSegSoC(3_9_2)
+-13.333333333333334 v2gSegXo(3_9_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_9_3)_:
++1 v2gSegSoC(3_9_3)
+-13.333333333333334 v2gSegXo(3_9_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_10_1)_:
++1 v2gSegSoC(3_10_1)
+-13.333333333333334 v2gSegXo(3_10_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_10_2)_:
++1 v2gSegSoC(3_10_2)
+-13.333333333333334 v2gSegXo(3_10_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_10_3)_:
++1 v2gSegSoC(3_10_3)
+-13.333333333333334 v2gSegXo(3_10_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_11_1)_:
++1 v2gSegSoC(3_11_1)
+-13.333333333333334 v2gSegXo(3_11_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_11_2)_:
++1 v2gSegSoC(3_11_2)
+-13.333333333333334 v2gSegXo(3_11_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_11_3)_:
++1 v2gSegSoC(3_11_3)
+-13.333333333333334 v2gSegXo(3_11_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_12_1)_:
++1 v2gSegSoC(3_12_1)
+-13.333333333333334 v2gSegXo(3_12_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_12_2)_:
++1 v2gSegSoC(3_12_2)
+-13.333333333333334 v2gSegXo(3_12_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_12_3)_:
++1 v2gSegSoC(3_12_3)
+-13.333333333333334 v2gSegXo(3_12_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_13_1)_:
++1 v2gSegSoC(3_13_1)
+-13.333333333333334 v2gSegXo(3_13_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_13_2)_:
++1 v2gSegSoC(3_13_2)
+-13.333333333333334 v2gSegXo(3_13_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_13_3)_:
++1 v2gSegSoC(3_13_3)
+-13.333333333333334 v2gSegXo(3_13_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_14_1)_:
++1 v2gSegSoC(3_14_1)
+-13.333333333333334 v2gSegXo(3_14_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_14_2)_:
++1 v2gSegSoC(3_14_2)
+-13.333333333333334 v2gSegXo(3_14_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_14_3)_:
++1 v2gSegSoC(3_14_3)
+-13.333333333333334 v2gSegXo(3_14_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_15_1)_:
++1 v2gSegSoC(3_15_1)
+-13.333333333333334 v2gSegXo(3_15_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_15_2)_:
++1 v2gSegSoC(3_15_2)
+-13.333333333333334 v2gSegXo(3_15_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_15_3)_:
++1 v2gSegSoC(3_15_3)
+-13.333333333333334 v2gSegXo(3_15_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_16_1)_:
++1 v2gSegSoC(3_16_1)
+-13.333333333333334 v2gSegXo(3_16_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_16_2)_:
++1 v2gSegSoC(3_16_2)
+-13.333333333333334 v2gSegXo(3_16_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_16_3)_:
++1 v2gSegSoC(3_16_3)
+-13.333333333333334 v2gSegXo(3_16_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_17_1)_:
++1 v2gSegSoC(3_17_1)
+-13.333333333333334 v2gSegXo(3_17_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_17_2)_:
++1 v2gSegSoC(3_17_2)
+-13.333333333333334 v2gSegXo(3_17_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_17_3)_:
++1 v2gSegSoC(3_17_3)
+-13.333333333333334 v2gSegXo(3_17_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_18_1)_:
++1 v2gSegSoC(3_18_1)
+-13.333333333333334 v2gSegXo(3_18_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_18_2)_:
++1 v2gSegSoC(3_18_2)
+-13.333333333333334 v2gSegXo(3_18_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_18_3)_:
++1 v2gSegSoC(3_18_3)
+-13.333333333333334 v2gSegXo(3_18_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_19_1)_:
++1 v2gSegSoC(3_19_1)
+-13.333333333333334 v2gSegXo(3_19_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_19_2)_:
++1 v2gSegSoC(3_19_2)
+-13.333333333333334 v2gSegXo(3_19_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_19_3)_:
++1 v2gSegSoC(3_19_3)
+-13.333333333333334 v2gSegXo(3_19_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_20_1)_:
++1 v2gSegSoC(3_20_1)
+-13.333333333333334 v2gSegXo(3_20_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_20_2)_:
++1 v2gSegSoC(3_20_2)
+-13.333333333333334 v2gSegXo(3_20_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_20_3)_:
++1 v2gSegSoC(3_20_3)
+-13.333333333333334 v2gSegXo(3_20_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_21_1)_:
++1 v2gSegSoC(3_21_1)
+-13.333333333333334 v2gSegXo(3_21_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_21_2)_:
++1 v2gSegSoC(3_21_2)
+-13.333333333333334 v2gSegXo(3_21_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_21_3)_:
++1 v2gSegSoC(3_21_3)
+-13.333333333333334 v2gSegXo(3_21_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_22_1)_:
++1 v2gSegSoC(3_22_1)
+-13.333333333333334 v2gSegXo(3_22_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_22_2)_:
++1 v2gSegSoC(3_22_2)
+-13.333333333333334 v2gSegXo(3_22_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_22_3)_:
++1 v2gSegSoC(3_22_3)
+-13.333333333333334 v2gSegXo(3_22_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_23_1)_:
++1 v2gSegSoC(3_23_1)
+-13.333333333333334 v2gSegXo(3_23_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_23_2)_:
++1 v2gSegSoC(3_23_2)
+-13.333333333333334 v2gSegXo(3_23_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_23_3)_:
++1 v2gSegSoC(3_23_3)
+-13.333333333333334 v2gSegXo(3_23_3)
+<= 0
+
+c_u_v2gSegSoCUpper(3_24_1)_:
++1 v2gSegSoC(3_24_1)
+-13.333333333333334 v2gSegXo(3_24_1)
+<= 0
+
+c_u_v2gSegSoCUpper(3_24_2)_:
++1 v2gSegSoC(3_24_2)
+-13.333333333333334 v2gSegXo(3_24_2)
+<= 0
+
+c_u_v2gSegSoCUpper(3_24_3)_:
++1 v2gSegSoC(3_24_3)
+-13.333333333333334 v2gSegXo(3_24_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_1_1)_:
++1 v2gSegSoC(4_1_1)
+-13.333333333333334 v2gSegXo(4_1_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_1_2)_:
++1 v2gSegSoC(4_1_2)
+-13.333333333333334 v2gSegXo(4_1_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_1_3)_:
++1 v2gSegSoC(4_1_3)
+-13.333333333333334 v2gSegXo(4_1_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_2_1)_:
++1 v2gSegSoC(4_2_1)
+-13.333333333333334 v2gSegXo(4_2_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_2_2)_:
++1 v2gSegSoC(4_2_2)
+-13.333333333333334 v2gSegXo(4_2_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_2_3)_:
++1 v2gSegSoC(4_2_3)
+-13.333333333333334 v2gSegXo(4_2_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_3_1)_:
++1 v2gSegSoC(4_3_1)
+-13.333333333333334 v2gSegXo(4_3_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_3_2)_:
++1 v2gSegSoC(4_3_2)
+-13.333333333333334 v2gSegXo(4_3_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_3_3)_:
++1 v2gSegSoC(4_3_3)
+-13.333333333333334 v2gSegXo(4_3_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_4_1)_:
++1 v2gSegSoC(4_4_1)
+-13.333333333333334 v2gSegXo(4_4_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_4_2)_:
++1 v2gSegSoC(4_4_2)
+-13.333333333333334 v2gSegXo(4_4_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_4_3)_:
++1 v2gSegSoC(4_4_3)
+-13.333333333333334 v2gSegXo(4_4_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_5_1)_:
++1 v2gSegSoC(4_5_1)
+-13.333333333333334 v2gSegXo(4_5_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_5_2)_:
++1 v2gSegSoC(4_5_2)
+-13.333333333333334 v2gSegXo(4_5_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_5_3)_:
++1 v2gSegSoC(4_5_3)
+-13.333333333333334 v2gSegXo(4_5_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_6_1)_:
++1 v2gSegSoC(4_6_1)
+-13.333333333333334 v2gSegXo(4_6_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_6_2)_:
++1 v2gSegSoC(4_6_2)
+-13.333333333333334 v2gSegXo(4_6_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_6_3)_:
++1 v2gSegSoC(4_6_3)
+-13.333333333333334 v2gSegXo(4_6_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_7_1)_:
++1 v2gSegSoC(4_7_1)
+-13.333333333333334 v2gSegXo(4_7_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_7_2)_:
++1 v2gSegSoC(4_7_2)
+-13.333333333333334 v2gSegXo(4_7_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_7_3)_:
++1 v2gSegSoC(4_7_3)
+-13.333333333333334 v2gSegXo(4_7_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_8_1)_:
++1 v2gSegSoC(4_8_1)
+-13.333333333333334 v2gSegXo(4_8_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_8_2)_:
++1 v2gSegSoC(4_8_2)
+-13.333333333333334 v2gSegXo(4_8_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_8_3)_:
++1 v2gSegSoC(4_8_3)
+-13.333333333333334 v2gSegXo(4_8_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_9_1)_:
++1 v2gSegSoC(4_9_1)
+-13.333333333333334 v2gSegXo(4_9_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_9_2)_:
++1 v2gSegSoC(4_9_2)
+-13.333333333333334 v2gSegXo(4_9_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_9_3)_:
++1 v2gSegSoC(4_9_3)
+-13.333333333333334 v2gSegXo(4_9_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_10_1)_:
++1 v2gSegSoC(4_10_1)
+-13.333333333333334 v2gSegXo(4_10_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_10_2)_:
++1 v2gSegSoC(4_10_2)
+-13.333333333333334 v2gSegXo(4_10_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_10_3)_:
++1 v2gSegSoC(4_10_3)
+-13.333333333333334 v2gSegXo(4_10_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_11_1)_:
++1 v2gSegSoC(4_11_1)
+-13.333333333333334 v2gSegXo(4_11_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_11_2)_:
++1 v2gSegSoC(4_11_2)
+-13.333333333333334 v2gSegXo(4_11_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_11_3)_:
++1 v2gSegSoC(4_11_3)
+-13.333333333333334 v2gSegXo(4_11_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_12_1)_:
++1 v2gSegSoC(4_12_1)
+-13.333333333333334 v2gSegXo(4_12_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_12_2)_:
++1 v2gSegSoC(4_12_2)
+-13.333333333333334 v2gSegXo(4_12_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_12_3)_:
++1 v2gSegSoC(4_12_3)
+-13.333333333333334 v2gSegXo(4_12_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_13_1)_:
++1 v2gSegSoC(4_13_1)
+-13.333333333333334 v2gSegXo(4_13_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_13_2)_:
++1 v2gSegSoC(4_13_2)
+-13.333333333333334 v2gSegXo(4_13_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_13_3)_:
++1 v2gSegSoC(4_13_3)
+-13.333333333333334 v2gSegXo(4_13_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_14_1)_:
++1 v2gSegSoC(4_14_1)
+-13.333333333333334 v2gSegXo(4_14_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_14_2)_:
++1 v2gSegSoC(4_14_2)
+-13.333333333333334 v2gSegXo(4_14_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_14_3)_:
++1 v2gSegSoC(4_14_3)
+-13.333333333333334 v2gSegXo(4_14_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_15_1)_:
++1 v2gSegSoC(4_15_1)
+-13.333333333333334 v2gSegXo(4_15_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_15_2)_:
++1 v2gSegSoC(4_15_2)
+-13.333333333333334 v2gSegXo(4_15_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_15_3)_:
++1 v2gSegSoC(4_15_3)
+-13.333333333333334 v2gSegXo(4_15_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_16_1)_:
++1 v2gSegSoC(4_16_1)
+-13.333333333333334 v2gSegXo(4_16_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_16_2)_:
++1 v2gSegSoC(4_16_2)
+-13.333333333333334 v2gSegXo(4_16_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_16_3)_:
++1 v2gSegSoC(4_16_3)
+-13.333333333333334 v2gSegXo(4_16_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_17_1)_:
++1 v2gSegSoC(4_17_1)
+-13.333333333333334 v2gSegXo(4_17_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_17_2)_:
++1 v2gSegSoC(4_17_2)
+-13.333333333333334 v2gSegXo(4_17_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_17_3)_:
++1 v2gSegSoC(4_17_3)
+-13.333333333333334 v2gSegXo(4_17_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_18_1)_:
++1 v2gSegSoC(4_18_1)
+-13.333333333333334 v2gSegXo(4_18_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_18_2)_:
++1 v2gSegSoC(4_18_2)
+-13.333333333333334 v2gSegXo(4_18_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_18_3)_:
++1 v2gSegSoC(4_18_3)
+-13.333333333333334 v2gSegXo(4_18_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_19_1)_:
++1 v2gSegSoC(4_19_1)
+-13.333333333333334 v2gSegXo(4_19_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_19_2)_:
++1 v2gSegSoC(4_19_2)
+-13.333333333333334 v2gSegXo(4_19_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_19_3)_:
++1 v2gSegSoC(4_19_3)
+-13.333333333333334 v2gSegXo(4_19_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_20_1)_:
++1 v2gSegSoC(4_20_1)
+-13.333333333333334 v2gSegXo(4_20_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_20_2)_:
++1 v2gSegSoC(4_20_2)
+-13.333333333333334 v2gSegXo(4_20_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_20_3)_:
++1 v2gSegSoC(4_20_3)
+-13.333333333333334 v2gSegXo(4_20_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_21_1)_:
++1 v2gSegSoC(4_21_1)
+-13.333333333333334 v2gSegXo(4_21_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_21_2)_:
++1 v2gSegSoC(4_21_2)
+-13.333333333333334 v2gSegXo(4_21_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_21_3)_:
++1 v2gSegSoC(4_21_3)
+-13.333333333333334 v2gSegXo(4_21_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_22_1)_:
++1 v2gSegSoC(4_22_1)
+-13.333333333333334 v2gSegXo(4_22_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_22_2)_:
++1 v2gSegSoC(4_22_2)
+-13.333333333333334 v2gSegXo(4_22_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_22_3)_:
++1 v2gSegSoC(4_22_3)
+-13.333333333333334 v2gSegXo(4_22_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_23_1)_:
++1 v2gSegSoC(4_23_1)
+-13.333333333333334 v2gSegXo(4_23_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_23_2)_:
++1 v2gSegSoC(4_23_2)
+-13.333333333333334 v2gSegXo(4_23_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_23_3)_:
++1 v2gSegSoC(4_23_3)
+-13.333333333333334 v2gSegXo(4_23_3)
+<= 0
+
+c_u_v2gSegSoCUpper(4_24_1)_:
++1 v2gSegSoC(4_24_1)
+-13.333333333333334 v2gSegXo(4_24_1)
+<= 0
+
+c_u_v2gSegSoCUpper(4_24_2)_:
++1 v2gSegSoC(4_24_2)
+-13.333333333333334 v2gSegXo(4_24_2)
+<= 0
+
+c_u_v2gSegSoCUpper(4_24_3)_:
++1 v2gSegSoC(4_24_3)
+-13.333333333333334 v2gSegXo(4_24_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_1_1)_:
++1 v2gSegSoC(5_1_1)
+-20 v2gSegXo(5_1_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_1_2)_:
++1 v2gSegSoC(5_1_2)
+-20 v2gSegXo(5_1_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_1_3)_:
++1 v2gSegSoC(5_1_3)
+-20 v2gSegXo(5_1_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_2_1)_:
++1 v2gSegSoC(5_2_1)
+-20 v2gSegXo(5_2_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_2_2)_:
++1 v2gSegSoC(5_2_2)
+-20 v2gSegXo(5_2_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_2_3)_:
++1 v2gSegSoC(5_2_3)
+-20 v2gSegXo(5_2_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_3_1)_:
++1 v2gSegSoC(5_3_1)
+-20 v2gSegXo(5_3_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_3_2)_:
++1 v2gSegSoC(5_3_2)
+-20 v2gSegXo(5_3_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_3_3)_:
++1 v2gSegSoC(5_3_3)
+-20 v2gSegXo(5_3_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_4_1)_:
++1 v2gSegSoC(5_4_1)
+-20 v2gSegXo(5_4_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_4_2)_:
++1 v2gSegSoC(5_4_2)
+-20 v2gSegXo(5_4_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_4_3)_:
++1 v2gSegSoC(5_4_3)
+-20 v2gSegXo(5_4_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_5_1)_:
++1 v2gSegSoC(5_5_1)
+-20 v2gSegXo(5_5_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_5_2)_:
++1 v2gSegSoC(5_5_2)
+-20 v2gSegXo(5_5_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_5_3)_:
++1 v2gSegSoC(5_5_3)
+-20 v2gSegXo(5_5_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_6_1)_:
++1 v2gSegSoC(5_6_1)
+-20 v2gSegXo(5_6_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_6_2)_:
++1 v2gSegSoC(5_6_2)
+-20 v2gSegXo(5_6_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_6_3)_:
++1 v2gSegSoC(5_6_3)
+-20 v2gSegXo(5_6_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_7_1)_:
++1 v2gSegSoC(5_7_1)
+-20 v2gSegXo(5_7_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_7_2)_:
++1 v2gSegSoC(5_7_2)
+-20 v2gSegXo(5_7_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_7_3)_:
++1 v2gSegSoC(5_7_3)
+-20 v2gSegXo(5_7_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_8_1)_:
++1 v2gSegSoC(5_8_1)
+-20 v2gSegXo(5_8_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_8_2)_:
++1 v2gSegSoC(5_8_2)
+-20 v2gSegXo(5_8_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_8_3)_:
++1 v2gSegSoC(5_8_3)
+-20 v2gSegXo(5_8_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_9_1)_:
++1 v2gSegSoC(5_9_1)
+-20 v2gSegXo(5_9_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_9_2)_:
++1 v2gSegSoC(5_9_2)
+-20 v2gSegXo(5_9_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_9_3)_:
++1 v2gSegSoC(5_9_3)
+-20 v2gSegXo(5_9_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_10_1)_:
++1 v2gSegSoC(5_10_1)
+-20 v2gSegXo(5_10_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_10_2)_:
++1 v2gSegSoC(5_10_2)
+-20 v2gSegXo(5_10_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_10_3)_:
++1 v2gSegSoC(5_10_3)
+-20 v2gSegXo(5_10_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_11_1)_:
++1 v2gSegSoC(5_11_1)
+-20 v2gSegXo(5_11_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_11_2)_:
++1 v2gSegSoC(5_11_2)
+-20 v2gSegXo(5_11_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_11_3)_:
++1 v2gSegSoC(5_11_3)
+-20 v2gSegXo(5_11_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_12_1)_:
++1 v2gSegSoC(5_12_1)
+-20 v2gSegXo(5_12_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_12_2)_:
++1 v2gSegSoC(5_12_2)
+-20 v2gSegXo(5_12_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_12_3)_:
++1 v2gSegSoC(5_12_3)
+-20 v2gSegXo(5_12_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_13_1)_:
++1 v2gSegSoC(5_13_1)
+-20 v2gSegXo(5_13_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_13_2)_:
++1 v2gSegSoC(5_13_2)
+-20 v2gSegXo(5_13_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_13_3)_:
++1 v2gSegSoC(5_13_3)
+-20 v2gSegXo(5_13_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_14_1)_:
++1 v2gSegSoC(5_14_1)
+-20 v2gSegXo(5_14_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_14_2)_:
++1 v2gSegSoC(5_14_2)
+-20 v2gSegXo(5_14_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_14_3)_:
++1 v2gSegSoC(5_14_3)
+-20 v2gSegXo(5_14_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_15_1)_:
++1 v2gSegSoC(5_15_1)
+-20 v2gSegXo(5_15_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_15_2)_:
++1 v2gSegSoC(5_15_2)
+-20 v2gSegXo(5_15_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_15_3)_:
++1 v2gSegSoC(5_15_3)
+-20 v2gSegXo(5_15_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_16_1)_:
++1 v2gSegSoC(5_16_1)
+-20 v2gSegXo(5_16_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_16_2)_:
++1 v2gSegSoC(5_16_2)
+-20 v2gSegXo(5_16_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_16_3)_:
++1 v2gSegSoC(5_16_3)
+-20 v2gSegXo(5_16_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_17_1)_:
++1 v2gSegSoC(5_17_1)
+-20 v2gSegXo(5_17_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_17_2)_:
++1 v2gSegSoC(5_17_2)
+-20 v2gSegXo(5_17_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_17_3)_:
++1 v2gSegSoC(5_17_3)
+-20 v2gSegXo(5_17_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_18_1)_:
++1 v2gSegSoC(5_18_1)
+-20 v2gSegXo(5_18_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_18_2)_:
++1 v2gSegSoC(5_18_2)
+-20 v2gSegXo(5_18_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_18_3)_:
++1 v2gSegSoC(5_18_3)
+-20 v2gSegXo(5_18_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_19_1)_:
++1 v2gSegSoC(5_19_1)
+-20 v2gSegXo(5_19_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_19_2)_:
++1 v2gSegSoC(5_19_2)
+-20 v2gSegXo(5_19_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_19_3)_:
++1 v2gSegSoC(5_19_3)
+-20 v2gSegXo(5_19_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_20_1)_:
++1 v2gSegSoC(5_20_1)
+-20 v2gSegXo(5_20_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_20_2)_:
++1 v2gSegSoC(5_20_2)
+-20 v2gSegXo(5_20_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_20_3)_:
++1 v2gSegSoC(5_20_3)
+-20 v2gSegXo(5_20_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_21_1)_:
++1 v2gSegSoC(5_21_1)
+-20 v2gSegXo(5_21_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_21_2)_:
++1 v2gSegSoC(5_21_2)
+-20 v2gSegXo(5_21_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_21_3)_:
++1 v2gSegSoC(5_21_3)
+-20 v2gSegXo(5_21_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_22_1)_:
++1 v2gSegSoC(5_22_1)
+-20 v2gSegXo(5_22_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_22_2)_:
++1 v2gSegSoC(5_22_2)
+-20 v2gSegXo(5_22_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_22_3)_:
++1 v2gSegSoC(5_22_3)
+-20 v2gSegXo(5_22_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_23_1)_:
++1 v2gSegSoC(5_23_1)
+-20 v2gSegXo(5_23_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_23_2)_:
++1 v2gSegSoC(5_23_2)
+-20 v2gSegXo(5_23_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_23_3)_:
++1 v2gSegSoC(5_23_3)
+-20 v2gSegXo(5_23_3)
+<= 0
+
+c_u_v2gSegSoCUpper(5_24_1)_:
++1 v2gSegSoC(5_24_1)
+-20 v2gSegXo(5_24_1)
+<= 0
+
+c_u_v2gSegSoCUpper(5_24_2)_:
++1 v2gSegSoC(5_24_2)
+-20 v2gSegXo(5_24_2)
+<= 0
+
+c_u_v2gSegSoCUpper(5_24_3)_:
++1 v2gSegSoC(5_24_3)
+-20 v2gSegXo(5_24_3)
+<= 0
+
 c_u_csActMaxEq(1_1)_:
 +1 csActPower(1_1)
 <= 7.2000000000000002
@@ -18486,6 +23576,726 @@ bounds
    0 <= storSegSoC(3_24_1) <= +inf
    0 <= storSegSoC(3_24_2) <= +inf
    0 <= storSegSoC(3_24_3) <= +inf
+   0 <= v2gSegXo(1_1_1) <= 1
+   0 <= v2gSegXo(1_1_2) <= 1
+   0 <= v2gSegXo(1_1_3) <= 1
+   0 <= v2gSegXo(1_2_1) <= 1
+   0 <= v2gSegXo(1_2_2) <= 1
+   0 <= v2gSegXo(1_2_3) <= 1
+   0 <= v2gSegXo(1_3_1) <= 1
+   0 <= v2gSegXo(1_3_2) <= 1
+   0 <= v2gSegXo(1_3_3) <= 1
+   0 <= v2gSegXo(1_4_1) <= 1
+   0 <= v2gSegXo(1_4_2) <= 1
+   0 <= v2gSegXo(1_4_3) <= 1
+   0 <= v2gSegXo(1_5_1) <= 1
+   0 <= v2gSegXo(1_5_2) <= 1
+   0 <= v2gSegXo(1_5_3) <= 1
+   0 <= v2gSegXo(1_6_1) <= 1
+   0 <= v2gSegXo(1_6_2) <= 1
+   0 <= v2gSegXo(1_6_3) <= 1
+   0 <= v2gSegXo(1_7_1) <= 1
+   0 <= v2gSegXo(1_7_2) <= 1
+   0 <= v2gSegXo(1_7_3) <= 1
+   0 <= v2gSegXo(1_8_1) <= 1
+   0 <= v2gSegXo(1_8_2) <= 1
+   0 <= v2gSegXo(1_8_3) <= 1
+   0 <= v2gSegXo(1_9_1) <= 1
+   0 <= v2gSegXo(1_9_2) <= 1
+   0 <= v2gSegXo(1_9_3) <= 1
+   0 <= v2gSegXo(1_10_1) <= 1
+   0 <= v2gSegXo(1_10_2) <= 1
+   0 <= v2gSegXo(1_10_3) <= 1
+   0 <= v2gSegXo(1_11_1) <= 1
+   0 <= v2gSegXo(1_11_2) <= 1
+   0 <= v2gSegXo(1_11_3) <= 1
+   0 <= v2gSegXo(1_12_1) <= 1
+   0 <= v2gSegXo(1_12_2) <= 1
+   0 <= v2gSegXo(1_12_3) <= 1
+   0 <= v2gSegXo(1_13_1) <= 1
+   0 <= v2gSegXo(1_13_2) <= 1
+   0 <= v2gSegXo(1_13_3) <= 1
+   0 <= v2gSegXo(1_14_1) <= 1
+   0 <= v2gSegXo(1_14_2) <= 1
+   0 <= v2gSegXo(1_14_3) <= 1
+   0 <= v2gSegXo(1_15_1) <= 1
+   0 <= v2gSegXo(1_15_2) <= 1
+   0 <= v2gSegXo(1_15_3) <= 1
+   0 <= v2gSegXo(1_16_1) <= 1
+   0 <= v2gSegXo(1_16_2) <= 1
+   0 <= v2gSegXo(1_16_3) <= 1
+   0 <= v2gSegXo(1_17_1) <= 1
+   0 <= v2gSegXo(1_17_2) <= 1
+   0 <= v2gSegXo(1_17_3) <= 1
+   0 <= v2gSegXo(1_18_1) <= 1
+   0 <= v2gSegXo(1_18_2) <= 1
+   0 <= v2gSegXo(1_18_3) <= 1
+   0 <= v2gSegXo(1_19_1) <= 1
+   0 <= v2gSegXo(1_19_2) <= 1
+   0 <= v2gSegXo(1_19_3) <= 1
+   0 <= v2gSegXo(1_20_1) <= 1
+   0 <= v2gSegXo(1_20_2) <= 1
+   0 <= v2gSegXo(1_20_3) <= 1
+   0 <= v2gSegXo(1_21_1) <= 1
+   0 <= v2gSegXo(1_21_2) <= 1
+   0 <= v2gSegXo(1_21_3) <= 1
+   0 <= v2gSegXo(1_22_1) <= 1
+   0 <= v2gSegXo(1_22_2) <= 1
+   0 <= v2gSegXo(1_22_3) <= 1
+   0 <= v2gSegXo(1_23_1) <= 1
+   0 <= v2gSegXo(1_23_2) <= 1
+   0 <= v2gSegXo(1_23_3) <= 1
+   0 <= v2gSegXo(1_24_1) <= 1
+   0 <= v2gSegXo(1_24_2) <= 1
+   0 <= v2gSegXo(1_24_3) <= 1
+   0 <= v2gSegXo(2_1_1) <= 1
+   0 <= v2gSegXo(2_1_2) <= 1
+   0 <= v2gSegXo(2_1_3) <= 1
+   0 <= v2gSegXo(2_2_1) <= 1
+   0 <= v2gSegXo(2_2_2) <= 1
+   0 <= v2gSegXo(2_2_3) <= 1
+   0 <= v2gSegXo(2_3_1) <= 1
+   0 <= v2gSegXo(2_3_2) <= 1
+   0 <= v2gSegXo(2_3_3) <= 1
+   0 <= v2gSegXo(2_4_1) <= 1
+   0 <= v2gSegXo(2_4_2) <= 1
+   0 <= v2gSegXo(2_4_3) <= 1
+   0 <= v2gSegXo(2_5_1) <= 1
+   0 <= v2gSegXo(2_5_2) <= 1
+   0 <= v2gSegXo(2_5_3) <= 1
+   0 <= v2gSegXo(2_6_1) <= 1
+   0 <= v2gSegXo(2_6_2) <= 1
+   0 <= v2gSegXo(2_6_3) <= 1
+   0 <= v2gSegXo(2_7_1) <= 1
+   0 <= v2gSegXo(2_7_2) <= 1
+   0 <= v2gSegXo(2_7_3) <= 1
+   0 <= v2gSegXo(2_8_1) <= 1
+   0 <= v2gSegXo(2_8_2) <= 1
+   0 <= v2gSegXo(2_8_3) <= 1
+   0 <= v2gSegXo(2_9_1) <= 1
+   0 <= v2gSegXo(2_9_2) <= 1
+   0 <= v2gSegXo(2_9_3) <= 1
+   0 <= v2gSegXo(2_10_1) <= 1
+   0 <= v2gSegXo(2_10_2) <= 1
+   0 <= v2gSegXo(2_10_3) <= 1
+   0 <= v2gSegXo(2_11_1) <= 1
+   0 <= v2gSegXo(2_11_2) <= 1
+   0 <= v2gSegXo(2_11_3) <= 1
+   0 <= v2gSegXo(2_12_1) <= 1
+   0 <= v2gSegXo(2_12_2) <= 1
+   0 <= v2gSegXo(2_12_3) <= 1
+   0 <= v2gSegXo(2_13_1) <= 1
+   0 <= v2gSegXo(2_13_2) <= 1
+   0 <= v2gSegXo(2_13_3) <= 1
+   0 <= v2gSegXo(2_14_1) <= 1
+   0 <= v2gSegXo(2_14_2) <= 1
+   0 <= v2gSegXo(2_14_3) <= 1
+   0 <= v2gSegXo(2_15_1) <= 1
+   0 <= v2gSegXo(2_15_2) <= 1
+   0 <= v2gSegXo(2_15_3) <= 1
+   0 <= v2gSegXo(2_16_1) <= 1
+   0 <= v2gSegXo(2_16_2) <= 1
+   0 <= v2gSegXo(2_16_3) <= 1
+   0 <= v2gSegXo(2_17_1) <= 1
+   0 <= v2gSegXo(2_17_2) <= 1
+   0 <= v2gSegXo(2_17_3) <= 1
+   0 <= v2gSegXo(2_18_1) <= 1
+   0 <= v2gSegXo(2_18_2) <= 1
+   0 <= v2gSegXo(2_18_3) <= 1
+   0 <= v2gSegXo(2_19_1) <= 1
+   0 <= v2gSegXo(2_19_2) <= 1
+   0 <= v2gSegXo(2_19_3) <= 1
+   0 <= v2gSegXo(2_20_1) <= 1
+   0 <= v2gSegXo(2_20_2) <= 1
+   0 <= v2gSegXo(2_20_3) <= 1
+   0 <= v2gSegXo(2_21_1) <= 1
+   0 <= v2gSegXo(2_21_2) <= 1
+   0 <= v2gSegXo(2_21_3) <= 1
+   0 <= v2gSegXo(2_22_1) <= 1
+   0 <= v2gSegXo(2_22_2) <= 1
+   0 <= v2gSegXo(2_22_3) <= 1
+   0 <= v2gSegXo(2_23_1) <= 1
+   0 <= v2gSegXo(2_23_2) <= 1
+   0 <= v2gSegXo(2_23_3) <= 1
+   0 <= v2gSegXo(2_24_1) <= 1
+   0 <= v2gSegXo(2_24_2) <= 1
+   0 <= v2gSegXo(2_24_3) <= 1
+   0 <= v2gSegXo(3_1_1) <= 1
+   0 <= v2gSegXo(3_1_2) <= 1
+   0 <= v2gSegXo(3_1_3) <= 1
+   0 <= v2gSegXo(3_2_1) <= 1
+   0 <= v2gSegXo(3_2_2) <= 1
+   0 <= v2gSegXo(3_2_3) <= 1
+   0 <= v2gSegXo(3_3_1) <= 1
+   0 <= v2gSegXo(3_3_2) <= 1
+   0 <= v2gSegXo(3_3_3) <= 1
+   0 <= v2gSegXo(3_4_1) <= 1
+   0 <= v2gSegXo(3_4_2) <= 1
+   0 <= v2gSegXo(3_4_3) <= 1
+   0 <= v2gSegXo(3_5_1) <= 1
+   0 <= v2gSegXo(3_5_2) <= 1
+   0 <= v2gSegXo(3_5_3) <= 1
+   0 <= v2gSegXo(3_6_1) <= 1
+   0 <= v2gSegXo(3_6_2) <= 1
+   0 <= v2gSegXo(3_6_3) <= 1
+   0 <= v2gSegXo(3_7_1) <= 1
+   0 <= v2gSegXo(3_7_2) <= 1
+   0 <= v2gSegXo(3_7_3) <= 1
+   0 <= v2gSegXo(3_8_1) <= 1
+   0 <= v2gSegXo(3_8_2) <= 1
+   0 <= v2gSegXo(3_8_3) <= 1
+   0 <= v2gSegXo(3_9_1) <= 1
+   0 <= v2gSegXo(3_9_2) <= 1
+   0 <= v2gSegXo(3_9_3) <= 1
+   0 <= v2gSegXo(3_10_1) <= 1
+   0 <= v2gSegXo(3_10_2) <= 1
+   0 <= v2gSegXo(3_10_3) <= 1
+   0 <= v2gSegXo(3_11_1) <= 1
+   0 <= v2gSegXo(3_11_2) <= 1
+   0 <= v2gSegXo(3_11_3) <= 1
+   0 <= v2gSegXo(3_12_1) <= 1
+   0 <= v2gSegXo(3_12_2) <= 1
+   0 <= v2gSegXo(3_12_3) <= 1
+   0 <= v2gSegXo(3_13_1) <= 1
+   0 <= v2gSegXo(3_13_2) <= 1
+   0 <= v2gSegXo(3_13_3) <= 1
+   0 <= v2gSegXo(3_14_1) <= 1
+   0 <= v2gSegXo(3_14_2) <= 1
+   0 <= v2gSegXo(3_14_3) <= 1
+   0 <= v2gSegXo(3_15_1) <= 1
+   0 <= v2gSegXo(3_15_2) <= 1
+   0 <= v2gSegXo(3_15_3) <= 1
+   0 <= v2gSegXo(3_16_1) <= 1
+   0 <= v2gSegXo(3_16_2) <= 1
+   0 <= v2gSegXo(3_16_3) <= 1
+   0 <= v2gSegXo(3_17_1) <= 1
+   0 <= v2gSegXo(3_17_2) <= 1
+   0 <= v2gSegXo(3_17_3) <= 1
+   0 <= v2gSegXo(3_18_1) <= 1
+   0 <= v2gSegXo(3_18_2) <= 1
+   0 <= v2gSegXo(3_18_3) <= 1
+   0 <= v2gSegXo(3_19_1) <= 1
+   0 <= v2gSegXo(3_19_2) <= 1
+   0 <= v2gSegXo(3_19_3) <= 1
+   0 <= v2gSegXo(3_20_1) <= 1
+   0 <= v2gSegXo(3_20_2) <= 1
+   0 <= v2gSegXo(3_20_3) <= 1
+   0 <= v2gSegXo(3_21_1) <= 1
+   0 <= v2gSegXo(3_21_2) <= 1
+   0 <= v2gSegXo(3_21_3) <= 1
+   0 <= v2gSegXo(3_22_1) <= 1
+   0 <= v2gSegXo(3_22_2) <= 1
+   0 <= v2gSegXo(3_22_3) <= 1
+   0 <= v2gSegXo(3_23_1) <= 1
+   0 <= v2gSegXo(3_23_2) <= 1
+   0 <= v2gSegXo(3_23_3) <= 1
+   0 <= v2gSegXo(3_24_1) <= 1
+   0 <= v2gSegXo(3_24_2) <= 1
+   0 <= v2gSegXo(3_24_3) <= 1
+   0 <= v2gSegXo(4_1_1) <= 1
+   0 <= v2gSegXo(4_1_2) <= 1
+   0 <= v2gSegXo(4_1_3) <= 1
+   0 <= v2gSegXo(4_2_1) <= 1
+   0 <= v2gSegXo(4_2_2) <= 1
+   0 <= v2gSegXo(4_2_3) <= 1
+   0 <= v2gSegXo(4_3_1) <= 1
+   0 <= v2gSegXo(4_3_2) <= 1
+   0 <= v2gSegXo(4_3_3) <= 1
+   0 <= v2gSegXo(4_4_1) <= 1
+   0 <= v2gSegXo(4_4_2) <= 1
+   0 <= v2gSegXo(4_4_3) <= 1
+   0 <= v2gSegXo(4_5_1) <= 1
+   0 <= v2gSegXo(4_5_2) <= 1
+   0 <= v2gSegXo(4_5_3) <= 1
+   0 <= v2gSegXo(4_6_1) <= 1
+   0 <= v2gSegXo(4_6_2) <= 1
+   0 <= v2gSegXo(4_6_3) <= 1
+   0 <= v2gSegXo(4_7_1) <= 1
+   0 <= v2gSegXo(4_7_2) <= 1
+   0 <= v2gSegXo(4_7_3) <= 1
+   0 <= v2gSegXo(4_8_1) <= 1
+   0 <= v2gSegXo(4_8_2) <= 1
+   0 <= v2gSegXo(4_8_3) <= 1
+   0 <= v2gSegXo(4_9_1) <= 1
+   0 <= v2gSegXo(4_9_2) <= 1
+   0 <= v2gSegXo(4_9_3) <= 1
+   0 <= v2gSegXo(4_10_1) <= 1
+   0 <= v2gSegXo(4_10_2) <= 1
+   0 <= v2gSegXo(4_10_3) <= 1
+   0 <= v2gSegXo(4_11_1) <= 1
+   0 <= v2gSegXo(4_11_2) <= 1
+   0 <= v2gSegXo(4_11_3) <= 1
+   0 <= v2gSegXo(4_12_1) <= 1
+   0 <= v2gSegXo(4_12_2) <= 1
+   0 <= v2gSegXo(4_12_3) <= 1
+   0 <= v2gSegXo(4_13_1) <= 1
+   0 <= v2gSegXo(4_13_2) <= 1
+   0 <= v2gSegXo(4_13_3) <= 1
+   0 <= v2gSegXo(4_14_1) <= 1
+   0 <= v2gSegXo(4_14_2) <= 1
+   0 <= v2gSegXo(4_14_3) <= 1
+   0 <= v2gSegXo(4_15_1) <= 1
+   0 <= v2gSegXo(4_15_2) <= 1
+   0 <= v2gSegXo(4_15_3) <= 1
+   0 <= v2gSegXo(4_16_1) <= 1
+   0 <= v2gSegXo(4_16_2) <= 1
+   0 <= v2gSegXo(4_16_3) <= 1
+   0 <= v2gSegXo(4_17_1) <= 1
+   0 <= v2gSegXo(4_17_2) <= 1
+   0 <= v2gSegXo(4_17_3) <= 1
+   0 <= v2gSegXo(4_18_1) <= 1
+   0 <= v2gSegXo(4_18_2) <= 1
+   0 <= v2gSegXo(4_18_3) <= 1
+   0 <= v2gSegXo(4_19_1) <= 1
+   0 <= v2gSegXo(4_19_2) <= 1
+   0 <= v2gSegXo(4_19_3) <= 1
+   0 <= v2gSegXo(4_20_1) <= 1
+   0 <= v2gSegXo(4_20_2) <= 1
+   0 <= v2gSegXo(4_20_3) <= 1
+   0 <= v2gSegXo(4_21_1) <= 1
+   0 <= v2gSegXo(4_21_2) <= 1
+   0 <= v2gSegXo(4_21_3) <= 1
+   0 <= v2gSegXo(4_22_1) <= 1
+   0 <= v2gSegXo(4_22_2) <= 1
+   0 <= v2gSegXo(4_22_3) <= 1
+   0 <= v2gSegXo(4_23_1) <= 1
+   0 <= v2gSegXo(4_23_2) <= 1
+   0 <= v2gSegXo(4_23_3) <= 1
+   0 <= v2gSegXo(4_24_1) <= 1
+   0 <= v2gSegXo(4_24_2) <= 1
+   0 <= v2gSegXo(4_24_3) <= 1
+   0 <= v2gSegXo(5_1_1) <= 1
+   0 <= v2gSegXo(5_1_2) <= 1
+   0 <= v2gSegXo(5_1_3) <= 1
+   0 <= v2gSegXo(5_2_1) <= 1
+   0 <= v2gSegXo(5_2_2) <= 1
+   0 <= v2gSegXo(5_2_3) <= 1
+   0 <= v2gSegXo(5_3_1) <= 1
+   0 <= v2gSegXo(5_3_2) <= 1
+   0 <= v2gSegXo(5_3_3) <= 1
+   0 <= v2gSegXo(5_4_1) <= 1
+   0 <= v2gSegXo(5_4_2) <= 1
+   0 <= v2gSegXo(5_4_3) <= 1
+   0 <= v2gSegXo(5_5_1) <= 1
+   0 <= v2gSegXo(5_5_2) <= 1
+   0 <= v2gSegXo(5_5_3) <= 1
+   0 <= v2gSegXo(5_6_1) <= 1
+   0 <= v2gSegXo(5_6_2) <= 1
+   0 <= v2gSegXo(5_6_3) <= 1
+   0 <= v2gSegXo(5_7_1) <= 1
+   0 <= v2gSegXo(5_7_2) <= 1
+   0 <= v2gSegXo(5_7_3) <= 1
+   0 <= v2gSegXo(5_8_1) <= 1
+   0 <= v2gSegXo(5_8_2) <= 1
+   0 <= v2gSegXo(5_8_3) <= 1
+   0 <= v2gSegXo(5_9_1) <= 1
+   0 <= v2gSegXo(5_9_2) <= 1
+   0 <= v2gSegXo(5_9_3) <= 1
+   0 <= v2gSegXo(5_10_1) <= 1
+   0 <= v2gSegXo(5_10_2) <= 1
+   0 <= v2gSegXo(5_10_3) <= 1
+   0 <= v2gSegXo(5_11_1) <= 1
+   0 <= v2gSegXo(5_11_2) <= 1
+   0 <= v2gSegXo(5_11_3) <= 1
+   0 <= v2gSegXo(5_12_1) <= 1
+   0 <= v2gSegXo(5_12_2) <= 1
+   0 <= v2gSegXo(5_12_3) <= 1
+   0 <= v2gSegXo(5_13_1) <= 1
+   0 <= v2gSegXo(5_13_2) <= 1
+   0 <= v2gSegXo(5_13_3) <= 1
+   0 <= v2gSegXo(5_14_1) <= 1
+   0 <= v2gSegXo(5_14_2) <= 1
+   0 <= v2gSegXo(5_14_3) <= 1
+   0 <= v2gSegXo(5_15_1) <= 1
+   0 <= v2gSegXo(5_15_2) <= 1
+   0 <= v2gSegXo(5_15_3) <= 1
+   0 <= v2gSegXo(5_16_1) <= 1
+   0 <= v2gSegXo(5_16_2) <= 1
+   0 <= v2gSegXo(5_16_3) <= 1
+   0 <= v2gSegXo(5_17_1) <= 1
+   0 <= v2gSegXo(5_17_2) <= 1
+   0 <= v2gSegXo(5_17_3) <= 1
+   0 <= v2gSegXo(5_18_1) <= 1
+   0 <= v2gSegXo(5_18_2) <= 1
+   0 <= v2gSegXo(5_18_3) <= 1
+   0 <= v2gSegXo(5_19_1) <= 1
+   0 <= v2gSegXo(5_19_2) <= 1
+   0 <= v2gSegXo(5_19_3) <= 1
+   0 <= v2gSegXo(5_20_1) <= 1
+   0 <= v2gSegXo(5_20_2) <= 1
+   0 <= v2gSegXo(5_20_3) <= 1
+   0 <= v2gSegXo(5_21_1) <= 1
+   0 <= v2gSegXo(5_21_2) <= 1
+   0 <= v2gSegXo(5_21_3) <= 1
+   0 <= v2gSegXo(5_22_1) <= 1
+   0 <= v2gSegXo(5_22_2) <= 1
+   0 <= v2gSegXo(5_22_3) <= 1
+   0 <= v2gSegXo(5_23_1) <= 1
+   0 <= v2gSegXo(5_23_2) <= 1
+   0 <= v2gSegXo(5_23_3) <= 1
+   0 <= v2gSegXo(5_24_1) <= 1
+   0 <= v2gSegXo(5_24_2) <= 1
+   0 <= v2gSegXo(5_24_3) <= 1
+   0 <= v2gSegSoC(1_1_1) <= +inf
+   0 <= v2gSegSoC(1_1_2) <= +inf
+   0 <= v2gSegSoC(1_1_3) <= +inf
+   0 <= v2gSegSoC(1_2_1) <= +inf
+   0 <= v2gSegSoC(1_2_2) <= +inf
+   0 <= v2gSegSoC(1_2_3) <= +inf
+   0 <= v2gSegSoC(1_3_1) <= +inf
+   0 <= v2gSegSoC(1_3_2) <= +inf
+   0 <= v2gSegSoC(1_3_3) <= +inf
+   0 <= v2gSegSoC(1_4_1) <= +inf
+   0 <= v2gSegSoC(1_4_2) <= +inf
+   0 <= v2gSegSoC(1_4_3) <= +inf
+   0 <= v2gSegSoC(1_5_1) <= +inf
+   0 <= v2gSegSoC(1_5_2) <= +inf
+   0 <= v2gSegSoC(1_5_3) <= +inf
+   0 <= v2gSegSoC(1_6_1) <= +inf
+   0 <= v2gSegSoC(1_6_2) <= +inf
+   0 <= v2gSegSoC(1_6_3) <= +inf
+   0 <= v2gSegSoC(1_7_1) <= +inf
+   0 <= v2gSegSoC(1_7_2) <= +inf
+   0 <= v2gSegSoC(1_7_3) <= +inf
+   0 <= v2gSegSoC(1_8_1) <= +inf
+   0 <= v2gSegSoC(1_8_2) <= +inf
+   0 <= v2gSegSoC(1_8_3) <= +inf
+   0 <= v2gSegSoC(1_9_1) <= +inf
+   0 <= v2gSegSoC(1_9_2) <= +inf
+   0 <= v2gSegSoC(1_9_3) <= +inf
+   0 <= v2gSegSoC(1_10_1) <= +inf
+   0 <= v2gSegSoC(1_10_2) <= +inf
+   0 <= v2gSegSoC(1_10_3) <= +inf
+   0 <= v2gSegSoC(1_11_1) <= +inf
+   0 <= v2gSegSoC(1_11_2) <= +inf
+   0 <= v2gSegSoC(1_11_3) <= +inf
+   0 <= v2gSegSoC(1_12_1) <= +inf
+   0 <= v2gSegSoC(1_12_2) <= +inf
+   0 <= v2gSegSoC(1_12_3) <= +inf
+   0 <= v2gSegSoC(1_13_1) <= +inf
+   0 <= v2gSegSoC(1_13_2) <= +inf
+   0 <= v2gSegSoC(1_13_3) <= +inf
+   0 <= v2gSegSoC(1_14_1) <= +inf
+   0 <= v2gSegSoC(1_14_2) <= +inf
+   0 <= v2gSegSoC(1_14_3) <= +inf
+   0 <= v2gSegSoC(1_15_1) <= +inf
+   0 <= v2gSegSoC(1_15_2) <= +inf
+   0 <= v2gSegSoC(1_15_3) <= +inf
+   0 <= v2gSegSoC(1_16_1) <= +inf
+   0 <= v2gSegSoC(1_16_2) <= +inf
+   0 <= v2gSegSoC(1_16_3) <= +inf
+   0 <= v2gSegSoC(1_17_1) <= +inf
+   0 <= v2gSegSoC(1_17_2) <= +inf
+   0 <= v2gSegSoC(1_17_3) <= +inf
+   0 <= v2gSegSoC(1_18_1) <= +inf
+   0 <= v2gSegSoC(1_18_2) <= +inf
+   0 <= v2gSegSoC(1_18_3) <= +inf
+   0 <= v2gSegSoC(1_19_1) <= +inf
+   0 <= v2gSegSoC(1_19_2) <= +inf
+   0 <= v2gSegSoC(1_19_3) <= +inf
+   0 <= v2gSegSoC(1_20_1) <= +inf
+   0 <= v2gSegSoC(1_20_2) <= +inf
+   0 <= v2gSegSoC(1_20_3) <= +inf
+   0 <= v2gSegSoC(1_21_1) <= +inf
+   0 <= v2gSegSoC(1_21_2) <= +inf
+   0 <= v2gSegSoC(1_21_3) <= +inf
+   0 <= v2gSegSoC(1_22_1) <= +inf
+   0 <= v2gSegSoC(1_22_2) <= +inf
+   0 <= v2gSegSoC(1_22_3) <= +inf
+   0 <= v2gSegSoC(1_23_1) <= +inf
+   0 <= v2gSegSoC(1_23_2) <= +inf
+   0 <= v2gSegSoC(1_23_3) <= +inf
+   0 <= v2gSegSoC(1_24_1) <= +inf
+   0 <= v2gSegSoC(1_24_2) <= +inf
+   0 <= v2gSegSoC(1_24_3) <= +inf
+   0 <= v2gSegSoC(2_1_1) <= +inf
+   0 <= v2gSegSoC(2_1_2) <= +inf
+   0 <= v2gSegSoC(2_1_3) <= +inf
+   0 <= v2gSegSoC(2_2_1) <= +inf
+   0 <= v2gSegSoC(2_2_2) <= +inf
+   0 <= v2gSegSoC(2_2_3) <= +inf
+   0 <= v2gSegSoC(2_3_1) <= +inf
+   0 <= v2gSegSoC(2_3_2) <= +inf
+   0 <= v2gSegSoC(2_3_3) <= +inf
+   0 <= v2gSegSoC(2_4_1) <= +inf
+   0 <= v2gSegSoC(2_4_2) <= +inf
+   0 <= v2gSegSoC(2_4_3) <= +inf
+   0 <= v2gSegSoC(2_5_1) <= +inf
+   0 <= v2gSegSoC(2_5_2) <= +inf
+   0 <= v2gSegSoC(2_5_3) <= +inf
+   0 <= v2gSegSoC(2_6_1) <= +inf
+   0 <= v2gSegSoC(2_6_2) <= +inf
+   0 <= v2gSegSoC(2_6_3) <= +inf
+   0 <= v2gSegSoC(2_7_1) <= +inf
+   0 <= v2gSegSoC(2_7_2) <= +inf
+   0 <= v2gSegSoC(2_7_3) <= +inf
+   0 <= v2gSegSoC(2_8_1) <= +inf
+   0 <= v2gSegSoC(2_8_2) <= +inf
+   0 <= v2gSegSoC(2_8_3) <= +inf
+   0 <= v2gSegSoC(2_9_1) <= +inf
+   0 <= v2gSegSoC(2_9_2) <= +inf
+   0 <= v2gSegSoC(2_9_3) <= +inf
+   0 <= v2gSegSoC(2_10_1) <= +inf
+   0 <= v2gSegSoC(2_10_2) <= +inf
+   0 <= v2gSegSoC(2_10_3) <= +inf
+   0 <= v2gSegSoC(2_11_1) <= +inf
+   0 <= v2gSegSoC(2_11_2) <= +inf
+   0 <= v2gSegSoC(2_11_3) <= +inf
+   0 <= v2gSegSoC(2_12_1) <= +inf
+   0 <= v2gSegSoC(2_12_2) <= +inf
+   0 <= v2gSegSoC(2_12_3) <= +inf
+   0 <= v2gSegSoC(2_13_1) <= +inf
+   0 <= v2gSegSoC(2_13_2) <= +inf
+   0 <= v2gSegSoC(2_13_3) <= +inf
+   0 <= v2gSegSoC(2_14_1) <= +inf
+   0 <= v2gSegSoC(2_14_2) <= +inf
+   0 <= v2gSegSoC(2_14_3) <= +inf
+   0 <= v2gSegSoC(2_15_1) <= +inf
+   0 <= v2gSegSoC(2_15_2) <= +inf
+   0 <= v2gSegSoC(2_15_3) <= +inf
+   0 <= v2gSegSoC(2_16_1) <= +inf
+   0 <= v2gSegSoC(2_16_2) <= +inf
+   0 <= v2gSegSoC(2_16_3) <= +inf
+   0 <= v2gSegSoC(2_17_1) <= +inf
+   0 <= v2gSegSoC(2_17_2) <= +inf
+   0 <= v2gSegSoC(2_17_3) <= +inf
+   0 <= v2gSegSoC(2_18_1) <= +inf
+   0 <= v2gSegSoC(2_18_2) <= +inf
+   0 <= v2gSegSoC(2_18_3) <= +inf
+   0 <= v2gSegSoC(2_19_1) <= +inf
+   0 <= v2gSegSoC(2_19_2) <= +inf
+   0 <= v2gSegSoC(2_19_3) <= +inf
+   0 <= v2gSegSoC(2_20_1) <= +inf
+   0 <= v2gSegSoC(2_20_2) <= +inf
+   0 <= v2gSegSoC(2_20_3) <= +inf
+   0 <= v2gSegSoC(2_21_1) <= +inf
+   0 <= v2gSegSoC(2_21_2) <= +inf
+   0 <= v2gSegSoC(2_21_3) <= +inf
+   0 <= v2gSegSoC(2_22_1) <= +inf
+   0 <= v2gSegSoC(2_22_2) <= +inf
+   0 <= v2gSegSoC(2_22_3) <= +inf
+   0 <= v2gSegSoC(2_23_1) <= +inf
+   0 <= v2gSegSoC(2_23_2) <= +inf
+   0 <= v2gSegSoC(2_23_3) <= +inf
+   0 <= v2gSegSoC(2_24_1) <= +inf
+   0 <= v2gSegSoC(2_24_2) <= +inf
+   0 <= v2gSegSoC(2_24_3) <= +inf
+   0 <= v2gSegSoC(3_1_1) <= +inf
+   0 <= v2gSegSoC(3_1_2) <= +inf
+   0 <= v2gSegSoC(3_1_3) <= +inf
+   0 <= v2gSegSoC(3_2_1) <= +inf
+   0 <= v2gSegSoC(3_2_2) <= +inf
+   0 <= v2gSegSoC(3_2_3) <= +inf
+   0 <= v2gSegSoC(3_3_1) <= +inf
+   0 <= v2gSegSoC(3_3_2) <= +inf
+   0 <= v2gSegSoC(3_3_3) <= +inf
+   0 <= v2gSegSoC(3_4_1) <= +inf
+   0 <= v2gSegSoC(3_4_2) <= +inf
+   0 <= v2gSegSoC(3_4_3) <= +inf
+   0 <= v2gSegSoC(3_5_1) <= +inf
+   0 <= v2gSegSoC(3_5_2) <= +inf
+   0 <= v2gSegSoC(3_5_3) <= +inf
+   0 <= v2gSegSoC(3_6_1) <= +inf
+   0 <= v2gSegSoC(3_6_2) <= +inf
+   0 <= v2gSegSoC(3_6_3) <= +inf
+   0 <= v2gSegSoC(3_7_1) <= +inf
+   0 <= v2gSegSoC(3_7_2) <= +inf
+   0 <= v2gSegSoC(3_7_3) <= +inf
+   0 <= v2gSegSoC(3_8_1) <= +inf
+   0 <= v2gSegSoC(3_8_2) <= +inf
+   0 <= v2gSegSoC(3_8_3) <= +inf
+   0 <= v2gSegSoC(3_9_1) <= +inf
+   0 <= v2gSegSoC(3_9_2) <= +inf
+   0 <= v2gSegSoC(3_9_3) <= +inf
+   0 <= v2gSegSoC(3_10_1) <= +inf
+   0 <= v2gSegSoC(3_10_2) <= +inf
+   0 <= v2gSegSoC(3_10_3) <= +inf
+   0 <= v2gSegSoC(3_11_1) <= +inf
+   0 <= v2gSegSoC(3_11_2) <= +inf
+   0 <= v2gSegSoC(3_11_3) <= +inf
+   0 <= v2gSegSoC(3_12_1) <= +inf
+   0 <= v2gSegSoC(3_12_2) <= +inf
+   0 <= v2gSegSoC(3_12_3) <= +inf
+   0 <= v2gSegSoC(3_13_1) <= +inf
+   0 <= v2gSegSoC(3_13_2) <= +inf
+   0 <= v2gSegSoC(3_13_3) <= +inf
+   0 <= v2gSegSoC(3_14_1) <= +inf
+   0 <= v2gSegSoC(3_14_2) <= +inf
+   0 <= v2gSegSoC(3_14_3) <= +inf
+   0 <= v2gSegSoC(3_15_1) <= +inf
+   0 <= v2gSegSoC(3_15_2) <= +inf
+   0 <= v2gSegSoC(3_15_3) <= +inf
+   0 <= v2gSegSoC(3_16_1) <= +inf
+   0 <= v2gSegSoC(3_16_2) <= +inf
+   0 <= v2gSegSoC(3_16_3) <= +inf
+   0 <= v2gSegSoC(3_17_1) <= +inf
+   0 <= v2gSegSoC(3_17_2) <= +inf
+   0 <= v2gSegSoC(3_17_3) <= +inf
+   0 <= v2gSegSoC(3_18_1) <= +inf
+   0 <= v2gSegSoC(3_18_2) <= +inf
+   0 <= v2gSegSoC(3_18_3) <= +inf
+   0 <= v2gSegSoC(3_19_1) <= +inf
+   0 <= v2gSegSoC(3_19_2) <= +inf
+   0 <= v2gSegSoC(3_19_3) <= +inf
+   0 <= v2gSegSoC(3_20_1) <= +inf
+   0 <= v2gSegSoC(3_20_2) <= +inf
+   0 <= v2gSegSoC(3_20_3) <= +inf
+   0 <= v2gSegSoC(3_21_1) <= +inf
+   0 <= v2gSegSoC(3_21_2) <= +inf
+   0 <= v2gSegSoC(3_21_3) <= +inf
+   0 <= v2gSegSoC(3_22_1) <= +inf
+   0 <= v2gSegSoC(3_22_2) <= +inf
+   0 <= v2gSegSoC(3_22_3) <= +inf
+   0 <= v2gSegSoC(3_23_1) <= +inf
+   0 <= v2gSegSoC(3_23_2) <= +inf
+   0 <= v2gSegSoC(3_23_3) <= +inf
+   0 <= v2gSegSoC(3_24_1) <= +inf
+   0 <= v2gSegSoC(3_24_2) <= +inf
+   0 <= v2gSegSoC(3_24_3) <= +inf
+   0 <= v2gSegSoC(4_1_1) <= +inf
+   0 <= v2gSegSoC(4_1_2) <= +inf
+   0 <= v2gSegSoC(4_1_3) <= +inf
+   0 <= v2gSegSoC(4_2_1) <= +inf
+   0 <= v2gSegSoC(4_2_2) <= +inf
+   0 <= v2gSegSoC(4_2_3) <= +inf
+   0 <= v2gSegSoC(4_3_1) <= +inf
+   0 <= v2gSegSoC(4_3_2) <= +inf
+   0 <= v2gSegSoC(4_3_3) <= +inf
+   0 <= v2gSegSoC(4_4_1) <= +inf
+   0 <= v2gSegSoC(4_4_2) <= +inf
+   0 <= v2gSegSoC(4_4_3) <= +inf
+   0 <= v2gSegSoC(4_5_1) <= +inf
+   0 <= v2gSegSoC(4_5_2) <= +inf
+   0 <= v2gSegSoC(4_5_3) <= +inf
+   0 <= v2gSegSoC(4_6_1) <= +inf
+   0 <= v2gSegSoC(4_6_2) <= +inf
+   0 <= v2gSegSoC(4_6_3) <= +inf
+   0 <= v2gSegSoC(4_7_1) <= +inf
+   0 <= v2gSegSoC(4_7_2) <= +inf
+   0 <= v2gSegSoC(4_7_3) <= +inf
+   0 <= v2gSegSoC(4_8_1) <= +inf
+   0 <= v2gSegSoC(4_8_2) <= +inf
+   0 <= v2gSegSoC(4_8_3) <= +inf
+   0 <= v2gSegSoC(4_9_1) <= +inf
+   0 <= v2gSegSoC(4_9_2) <= +inf
+   0 <= v2gSegSoC(4_9_3) <= +inf
+   0 <= v2gSegSoC(4_10_1) <= +inf
+   0 <= v2gSegSoC(4_10_2) <= +inf
+   0 <= v2gSegSoC(4_10_3) <= +inf
+   0 <= v2gSegSoC(4_11_1) <= +inf
+   0 <= v2gSegSoC(4_11_2) <= +inf
+   0 <= v2gSegSoC(4_11_3) <= +inf
+   0 <= v2gSegSoC(4_12_1) <= +inf
+   0 <= v2gSegSoC(4_12_2) <= +inf
+   0 <= v2gSegSoC(4_12_3) <= +inf
+   0 <= v2gSegSoC(4_13_1) <= +inf
+   0 <= v2gSegSoC(4_13_2) <= +inf
+   0 <= v2gSegSoC(4_13_3) <= +inf
+   0 <= v2gSegSoC(4_14_1) <= +inf
+   0 <= v2gSegSoC(4_14_2) <= +inf
+   0 <= v2gSegSoC(4_14_3) <= +inf
+   0 <= v2gSegSoC(4_15_1) <= +inf
+   0 <= v2gSegSoC(4_15_2) <= +inf
+   0 <= v2gSegSoC(4_15_3) <= +inf
+   0 <= v2gSegSoC(4_16_1) <= +inf
+   0 <= v2gSegSoC(4_16_2) <= +inf
+   0 <= v2gSegSoC(4_16_3) <= +inf
+   0 <= v2gSegSoC(4_17_1) <= +inf
+   0 <= v2gSegSoC(4_17_2) <= +inf
+   0 <= v2gSegSoC(4_17_3) <= +inf
+   0 <= v2gSegSoC(4_18_1) <= +inf
+   0 <= v2gSegSoC(4_18_2) <= +inf
+   0 <= v2gSegSoC(4_18_3) <= +inf
+   0 <= v2gSegSoC(4_19_1) <= +inf
+   0 <= v2gSegSoC(4_19_2) <= +inf
+   0 <= v2gSegSoC(4_19_3) <= +inf
+   0 <= v2gSegSoC(4_20_1) <= +inf
+   0 <= v2gSegSoC(4_20_2) <= +inf
+   0 <= v2gSegSoC(4_20_3) <= +inf
+   0 <= v2gSegSoC(4_21_1) <= +inf
+   0 <= v2gSegSoC(4_21_2) <= +inf
+   0 <= v2gSegSoC(4_21_3) <= +inf
+   0 <= v2gSegSoC(4_22_1) <= +inf
+   0 <= v2gSegSoC(4_22_2) <= +inf
+   0 <= v2gSegSoC(4_22_3) <= +inf
+   0 <= v2gSegSoC(4_23_1) <= +inf
+   0 <= v2gSegSoC(4_23_2) <= +inf
+   0 <= v2gSegSoC(4_23_3) <= +inf
+   0 <= v2gSegSoC(4_24_1) <= +inf
+   0 <= v2gSegSoC(4_24_2) <= +inf
+   0 <= v2gSegSoC(4_24_3) <= +inf
+   0 <= v2gSegSoC(5_1_1) <= +inf
+   0 <= v2gSegSoC(5_1_2) <= +inf
+   0 <= v2gSegSoC(5_1_3) <= +inf
+   0 <= v2gSegSoC(5_2_1) <= +inf
+   0 <= v2gSegSoC(5_2_2) <= +inf
+   0 <= v2gSegSoC(5_2_3) <= +inf
+   0 <= v2gSegSoC(5_3_1) <= +inf
+   0 <= v2gSegSoC(5_3_2) <= +inf
+   0 <= v2gSegSoC(5_3_3) <= +inf
+   0 <= v2gSegSoC(5_4_1) <= +inf
+   0 <= v2gSegSoC(5_4_2) <= +inf
+   0 <= v2gSegSoC(5_4_3) <= +inf
+   0 <= v2gSegSoC(5_5_1) <= +inf
+   0 <= v2gSegSoC(5_5_2) <= +inf
+   0 <= v2gSegSoC(5_5_3) <= +inf
+   0 <= v2gSegSoC(5_6_1) <= +inf
+   0 <= v2gSegSoC(5_6_2) <= +inf
+   0 <= v2gSegSoC(5_6_3) <= +inf
+   0 <= v2gSegSoC(5_7_1) <= +inf
+   0 <= v2gSegSoC(5_7_2) <= +inf
+   0 <= v2gSegSoC(5_7_3) <= +inf
+   0 <= v2gSegSoC(5_8_1) <= +inf
+   0 <= v2gSegSoC(5_8_2) <= +inf
+   0 <= v2gSegSoC(5_8_3) <= +inf
+   0 <= v2gSegSoC(5_9_1) <= +inf
+   0 <= v2gSegSoC(5_9_2) <= +inf
+   0 <= v2gSegSoC(5_9_3) <= +inf
+   0 <= v2gSegSoC(5_10_1) <= +inf
+   0 <= v2gSegSoC(5_10_2) <= +inf
+   0 <= v2gSegSoC(5_10_3) <= +inf
+   0 <= v2gSegSoC(5_11_1) <= +inf
+   0 <= v2gSegSoC(5_11_2) <= +inf
+   0 <= v2gSegSoC(5_11_3) <= +inf
+   0 <= v2gSegSoC(5_12_1) <= +inf
+   0 <= v2gSegSoC(5_12_2) <= +inf
+   0 <= v2gSegSoC(5_12_3) <= +inf
+   0 <= v2gSegSoC(5_13_1) <= +inf
+   0 <= v2gSegSoC(5_13_2) <= +inf
+   0 <= v2gSegSoC(5_13_3) <= +inf
+   0 <= v2gSegSoC(5_14_1) <= +inf
+   0 <= v2gSegSoC(5_14_2) <= +inf
+   0 <= v2gSegSoC(5_14_3) <= +inf
+   0 <= v2gSegSoC(5_15_1) <= +inf
+   0 <= v2gSegSoC(5_15_2) <= +inf
+   0 <= v2gSegSoC(5_15_3) <= +inf
+   0 <= v2gSegSoC(5_16_1) <= +inf
+   0 <= v2gSegSoC(5_16_2) <= +inf
+   0 <= v2gSegSoC(5_16_3) <= +inf
+   0 <= v2gSegSoC(5_17_1) <= +inf
+   0 <= v2gSegSoC(5_17_2) <= +inf
+   0 <= v2gSegSoC(5_17_3) <= +inf
+   0 <= v2gSegSoC(5_18_1) <= +inf
+   0 <= v2gSegSoC(5_18_2) <= +inf
+   0 <= v2gSegSoC(5_18_3) <= +inf
+   0 <= v2gSegSoC(5_19_1) <= +inf
+   0 <= v2gSegSoC(5_19_2) <= +inf
+   0 <= v2gSegSoC(5_19_3) <= +inf
+   0 <= v2gSegSoC(5_20_1) <= +inf
+   0 <= v2gSegSoC(5_20_2) <= +inf
+   0 <= v2gSegSoC(5_20_3) <= +inf
+   0 <= v2gSegSoC(5_21_1) <= +inf
+   0 <= v2gSegSoC(5_21_2) <= +inf
+   0 <= v2gSegSoC(5_21_3) <= +inf
+   0 <= v2gSegSoC(5_22_1) <= +inf
+   0 <= v2gSegSoC(5_22_2) <= +inf
+   0 <= v2gSegSoC(5_22_3) <= +inf
+   0 <= v2gSegSoC(5_23_1) <= +inf
+   0 <= v2gSegSoC(5_23_2) <= +inf
+   0 <= v2gSegSoC(5_23_3) <= +inf
+   0 <= v2gSegSoC(5_24_1) <= +inf
+   0 <= v2gSegSoC(5_24_2) <= +inf
+   0 <= v2gSegSoC(5_24_3) <= +inf
 binary
   loadXo(1_1)
   loadXo(1_2)
@@ -19231,4 +25041,364 @@ binary
   storSegXo(3_24_1)
   storSegXo(3_24_2)
   storSegXo(3_24_3)
+  v2gSegXo(1_1_1)
+  v2gSegXo(1_1_2)
+  v2gSegXo(1_1_3)
+  v2gSegXo(1_2_1)
+  v2gSegXo(1_2_2)
+  v2gSegXo(1_2_3)
+  v2gSegXo(1_3_1)
+  v2gSegXo(1_3_2)
+  v2gSegXo(1_3_3)
+  v2gSegXo(1_4_1)
+  v2gSegXo(1_4_2)
+  v2gSegXo(1_4_3)
+  v2gSegXo(1_5_1)
+  v2gSegXo(1_5_2)
+  v2gSegXo(1_5_3)
+  v2gSegXo(1_6_1)
+  v2gSegXo(1_6_2)
+  v2gSegXo(1_6_3)
+  v2gSegXo(1_7_1)
+  v2gSegXo(1_7_2)
+  v2gSegXo(1_7_3)
+  v2gSegXo(1_8_1)
+  v2gSegXo(1_8_2)
+  v2gSegXo(1_8_3)
+  v2gSegXo(1_9_1)
+  v2gSegXo(1_9_2)
+  v2gSegXo(1_9_3)
+  v2gSegXo(1_10_1)
+  v2gSegXo(1_10_2)
+  v2gSegXo(1_10_3)
+  v2gSegXo(1_11_1)
+  v2gSegXo(1_11_2)
+  v2gSegXo(1_11_3)
+  v2gSegXo(1_12_1)
+  v2gSegXo(1_12_2)
+  v2gSegXo(1_12_3)
+  v2gSegXo(1_13_1)
+  v2gSegXo(1_13_2)
+  v2gSegXo(1_13_3)
+  v2gSegXo(1_14_1)
+  v2gSegXo(1_14_2)
+  v2gSegXo(1_14_3)
+  v2gSegXo(1_15_1)
+  v2gSegXo(1_15_2)
+  v2gSegXo(1_15_3)
+  v2gSegXo(1_16_1)
+  v2gSegXo(1_16_2)
+  v2gSegXo(1_16_3)
+  v2gSegXo(1_17_1)
+  v2gSegXo(1_17_2)
+  v2gSegXo(1_17_3)
+  v2gSegXo(1_18_1)
+  v2gSegXo(1_18_2)
+  v2gSegXo(1_18_3)
+  v2gSegXo(1_19_1)
+  v2gSegXo(1_19_2)
+  v2gSegXo(1_19_3)
+  v2gSegXo(1_20_1)
+  v2gSegXo(1_20_2)
+  v2gSegXo(1_20_3)
+  v2gSegXo(1_21_1)
+  v2gSegXo(1_21_2)
+  v2gSegXo(1_21_3)
+  v2gSegXo(1_22_1)
+  v2gSegXo(1_22_2)
+  v2gSegXo(1_22_3)
+  v2gSegXo(1_23_1)
+  v2gSegXo(1_23_2)
+  v2gSegXo(1_23_3)
+  v2gSegXo(1_24_1)
+  v2gSegXo(1_24_2)
+  v2gSegXo(1_24_3)
+  v2gSegXo(2_1_1)
+  v2gSegXo(2_1_2)
+  v2gSegXo(2_1_3)
+  v2gSegXo(2_2_1)
+  v2gSegXo(2_2_2)
+  v2gSegXo(2_2_3)
+  v2gSegXo(2_3_1)
+  v2gSegXo(2_3_2)
+  v2gSegXo(2_3_3)
+  v2gSegXo(2_4_1)
+  v2gSegXo(2_4_2)
+  v2gSegXo(2_4_3)
+  v2gSegXo(2_5_1)
+  v2gSegXo(2_5_2)
+  v2gSegXo(2_5_3)
+  v2gSegXo(2_6_1)
+  v2gSegXo(2_6_2)
+  v2gSegXo(2_6_3)
+  v2gSegXo(2_7_1)
+  v2gSegXo(2_7_2)
+  v2gSegXo(2_7_3)
+  v2gSegXo(2_8_1)
+  v2gSegXo(2_8_2)
+  v2gSegXo(2_8_3)
+  v2gSegXo(2_9_1)
+  v2gSegXo(2_9_2)
+  v2gSegXo(2_9_3)
+  v2gSegXo(2_10_1)
+  v2gSegXo(2_10_2)
+  v2gSegXo(2_10_3)
+  v2gSegXo(2_11_1)
+  v2gSegXo(2_11_2)
+  v2gSegXo(2_11_3)
+  v2gSegXo(2_12_1)
+  v2gSegXo(2_12_2)
+  v2gSegXo(2_12_3)
+  v2gSegXo(2_13_1)
+  v2gSegXo(2_13_2)
+  v2gSegXo(2_13_3)
+  v2gSegXo(2_14_1)
+  v2gSegXo(2_14_2)
+  v2gSegXo(2_14_3)
+  v2gSegXo(2_15_1)
+  v2gSegXo(2_15_2)
+  v2gSegXo(2_15_3)
+  v2gSegXo(2_16_1)
+  v2gSegXo(2_16_2)
+  v2gSegXo(2_16_3)
+  v2gSegXo(2_17_1)
+  v2gSegXo(2_17_2)
+  v2gSegXo(2_17_3)
+  v2gSegXo(2_18_1)
+  v2gSegXo(2_18_2)
+  v2gSegXo(2_18_3)
+  v2gSegXo(2_19_1)
+  v2gSegXo(2_19_2)
+  v2gSegXo(2_19_3)
+  v2gSegXo(2_20_1)
+  v2gSegXo(2_20_2)
+  v2gSegXo(2_20_3)
+  v2gSegXo(2_21_1)
+  v2gSegXo(2_21_2)
+  v2gSegXo(2_21_3)
+  v2gSegXo(2_22_1)
+  v2gSegXo(2_22_2)
+  v2gSegXo(2_22_3)
+  v2gSegXo(2_23_1)
+  v2gSegXo(2_23_2)
+  v2gSegXo(2_23_3)
+  v2gSegXo(2_24_1)
+  v2gSegXo(2_24_2)
+  v2gSegXo(2_24_3)
+  v2gSegXo(3_1_1)
+  v2gSegXo(3_1_2)
+  v2gSegXo(3_1_3)
+  v2gSegXo(3_2_1)
+  v2gSegXo(3_2_2)
+  v2gSegXo(3_2_3)
+  v2gSegXo(3_3_1)
+  v2gSegXo(3_3_2)
+  v2gSegXo(3_3_3)
+  v2gSegXo(3_4_1)
+  v2gSegXo(3_4_2)
+  v2gSegXo(3_4_3)
+  v2gSegXo(3_5_1)
+  v2gSegXo(3_5_2)
+  v2gSegXo(3_5_3)
+  v2gSegXo(3_6_1)
+  v2gSegXo(3_6_2)
+  v2gSegXo(3_6_3)
+  v2gSegXo(3_7_1)
+  v2gSegXo(3_7_2)
+  v2gSegXo(3_7_3)
+  v2gSegXo(3_8_1)
+  v2gSegXo(3_8_2)
+  v2gSegXo(3_8_3)
+  v2gSegXo(3_9_1)
+  v2gSegXo(3_9_2)
+  v2gSegXo(3_9_3)
+  v2gSegXo(3_10_1)
+  v2gSegXo(3_10_2)
+  v2gSegXo(3_10_3)
+  v2gSegXo(3_11_1)
+  v2gSegXo(3_11_2)
+  v2gSegXo(3_11_3)
+  v2gSegXo(3_12_1)
+  v2gSegXo(3_12_2)
+  v2gSegXo(3_12_3)
+  v2gSegXo(3_13_1)
+  v2gSegXo(3_13_2)
+  v2gSegXo(3_13_3)
+  v2gSegXo(3_14_1)
+  v2gSegXo(3_14_2)
+  v2gSegXo(3_14_3)
+  v2gSegXo(3_15_1)
+  v2gSegXo(3_15_2)
+  v2gSegXo(3_15_3)
+  v2gSegXo(3_16_1)
+  v2gSegXo(3_16_2)
+  v2gSegXo(3_16_3)
+  v2gSegXo(3_17_1)
+  v2gSegXo(3_17_2)
+  v2gSegXo(3_17_3)
+  v2gSegXo(3_18_1)
+  v2gSegXo(3_18_2)
+  v2gSegXo(3_18_3)
+  v2gSegXo(3_19_1)
+  v2gSegXo(3_19_2)
+  v2gSegXo(3_19_3)
+  v2gSegXo(3_20_1)
+  v2gSegXo(3_20_2)
+  v2gSegXo(3_20_3)
+  v2gSegXo(3_21_1)
+  v2gSegXo(3_21_2)
+  v2gSegXo(3_21_3)
+  v2gSegXo(3_22_1)
+  v2gSegXo(3_22_2)
+  v2gSegXo(3_22_3)
+  v2gSegXo(3_23_1)
+  v2gSegXo(3_23_2)
+  v2gSegXo(3_23_3)
+  v2gSegXo(3_24_1)
+  v2gSegXo(3_24_2)
+  v2gSegXo(3_24_3)
+  v2gSegXo(4_1_1)
+  v2gSegXo(4_1_2)
+  v2gSegXo(4_1_3)
+  v2gSegXo(4_2_1)
+  v2gSegXo(4_2_2)
+  v2gSegXo(4_2_3)
+  v2gSegXo(4_3_1)
+  v2gSegXo(4_3_2)
+  v2gSegXo(4_3_3)
+  v2gSegXo(4_4_1)
+  v2gSegXo(4_4_2)
+  v2gSegXo(4_4_3)
+  v2gSegXo(4_5_1)
+  v2gSegXo(4_5_2)
+  v2gSegXo(4_5_3)
+  v2gSegXo(4_6_1)
+  v2gSegXo(4_6_2)
+  v2gSegXo(4_6_3)
+  v2gSegXo(4_7_1)
+  v2gSegXo(4_7_2)
+  v2gSegXo(4_7_3)
+  v2gSegXo(4_8_1)
+  v2gSegXo(4_8_2)
+  v2gSegXo(4_8_3)
+  v2gSegXo(4_9_1)
+  v2gSegXo(4_9_2)
+  v2gSegXo(4_9_3)
+  v2gSegXo(4_10_1)
+  v2gSegXo(4_10_2)
+  v2gSegXo(4_10_3)
+  v2gSegXo(4_11_1)
+  v2gSegXo(4_11_2)
+  v2gSegXo(4_11_3)
+  v2gSegXo(4_12_1)
+  v2gSegXo(4_12_2)
+  v2gSegXo(4_12_3)
+  v2gSegXo(4_13_1)
+  v2gSegXo(4_13_2)
+  v2gSegXo(4_13_3)
+  v2gSegXo(4_14_1)
+  v2gSegXo(4_14_2)
+  v2gSegXo(4_14_3)
+  v2gSegXo(4_15_1)
+  v2gSegXo(4_15_2)
+  v2gSegXo(4_15_3)
+  v2gSegXo(4_16_1)
+  v2gSegXo(4_16_2)
+  v2gSegXo(4_16_3)
+  v2gSegXo(4_17_1)
+  v2gSegXo(4_17_2)
+  v2gSegXo(4_17_3)
+  v2gSegXo(4_18_1)
+  v2gSegXo(4_18_2)
+  v2gSegXo(4_18_3)
+  v2gSegXo(4_19_1)
+  v2gSegXo(4_19_2)
+  v2gSegXo(4_19_3)
+  v2gSegXo(4_20_1)
+  v2gSegXo(4_20_2)
+  v2gSegXo(4_20_3)
+  v2gSegXo(4_21_1)
+  v2gSegXo(4_21_2)
+  v2gSegXo(4_21_3)
+  v2gSegXo(4_22_1)
+  v2gSegXo(4_22_2)
+  v2gSegXo(4_22_3)
+  v2gSegXo(4_23_1)
+  v2gSegXo(4_23_2)
+  v2gSegXo(4_23_3)
+  v2gSegXo(4_24_1)
+  v2gSegXo(4_24_2)
+  v2gSegXo(4_24_3)
+  v2gSegXo(5_1_1)
+  v2gSegXo(5_1_2)
+  v2gSegXo(5_1_3)
+  v2gSegXo(5_2_1)
+  v2gSegXo(5_2_2)
+  v2gSegXo(5_2_3)
+  v2gSegXo(5_3_1)
+  v2gSegXo(5_3_2)
+  v2gSegXo(5_3_3)
+  v2gSegXo(5_4_1)
+  v2gSegXo(5_4_2)
+  v2gSegXo(5_4_3)
+  v2gSegXo(5_5_1)
+  v2gSegXo(5_5_2)
+  v2gSegXo(5_5_3)
+  v2gSegXo(5_6_1)
+  v2gSegXo(5_6_2)
+  v2gSegXo(5_6_3)
+  v2gSegXo(5_7_1)
+  v2gSegXo(5_7_2)
+  v2gSegXo(5_7_3)
+  v2gSegXo(5_8_1)
+  v2gSegXo(5_8_2)
+  v2gSegXo(5_8_3)
+  v2gSegXo(5_9_1)
+  v2gSegXo(5_9_2)
+  v2gSegXo(5_9_3)
+  v2gSegXo(5_10_1)
+  v2gSegXo(5_10_2)
+  v2gSegXo(5_10_3)
+  v2gSegXo(5_11_1)
+  v2gSegXo(5_11_2)
+  v2gSegXo(5_11_3)
+  v2gSegXo(5_12_1)
+  v2gSegXo(5_12_2)
+  v2gSegXo(5_12_3)
+  v2gSegXo(5_13_1)
+  v2gSegXo(5_13_2)
+  v2gSegXo(5_13_3)
+  v2gSegXo(5_14_1)
+  v2gSegXo(5_14_2)
+  v2gSegXo(5_14_3)
+  v2gSegXo(5_15_1)
+  v2gSegXo(5_15_2)
+  v2gSegXo(5_15_3)
+  v2gSegXo(5_16_1)
+  v2gSegXo(5_16_2)
+  v2gSegXo(5_16_3)
+  v2gSegXo(5_17_1)
+  v2gSegXo(5_17_2)
+  v2gSegXo(5_17_3)
+  v2gSegXo(5_18_1)
+  v2gSegXo(5_18_2)
+  v2gSegXo(5_18_3)
+  v2gSegXo(5_19_1)
+  v2gSegXo(5_19_2)
+  v2gSegXo(5_19_3)
+  v2gSegXo(5_20_1)
+  v2gSegXo(5_20_2)
+  v2gSegXo(5_20_3)
+  v2gSegXo(5_21_1)
+  v2gSegXo(5_21_2)
+  v2gSegXo(5_21_3)
+  v2gSegXo(5_22_1)
+  v2gSegXo(5_22_2)
+  v2gSegXo(5_22_3)
+  v2gSegXo(5_23_1)
+  v2gSegXo(5_23_2)
+  v2gSegXo(5_23_3)
+  v2gSegXo(5_24_1)
+  v2gSegXo(5_24_2)
+  v2gSegXo(5_24_3)
 end
